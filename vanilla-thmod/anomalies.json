@@ -1,0 +1,801 @@
+[
+  {
+    "key": "null_void_beam",
+    "name": "ลำแสงหักล้างโล่พลังงาน",
+    "description": "By harnessing the entropic nature of the Null Void, this beam can actually destroy energy.",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "อนุภาค",
+    "cost": 750,
+    "feature_unlocks": [
+      "<b>ชิ้นส่วน</b>: ลำแสงหักล้างโล่พลังงาน"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_akx_worm_1",
+    "name": "การเกิดซ้ำเอนโทรปิก",
+    "description": "The universe tends irresistibly onwards and downwards. That tendency cannot be reversed... but it can be subverted, for a price.",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 60.0,
+    "category": "การควบคุมสนามพลัง",
+    "cost": 4000,
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 3,
+    "prerequisites_names": [],
+    "weight_modifiers": [
+      "(×<b style='color:red'>0.0</b>) เสมอ"
+    ],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_akx_worm_2",
+    "name": "ทฤษฎี: ลูปแปลกๆ",
+    "description": "A set of social protocols based on paradoxical intuition, and on love. When we know the System of the Loop, we learn that we can influence by receiving instructions, as well as giving them.",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 60.0,
+    "category": "การปกครอง",
+    "cost": 4000,
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 3,
+    "prerequisites_names": [],
+    "weight_modifiers": [
+      "(×<b style='color:red'>0.0</b>) เสมอ"
+    ],
+    "potential": [],
+    "children": [
+      {
+        "key": "tech_akx_worm_3",
+        "name": "ทฤษฎีโอเมก้า",
+        "description": "When a temporal paradox becomes tangled, a kind of consciousness arises, with its own needs, its own desires. This is what has occurred with the consciousness that some call the Worm-in-Waiting. If we can align ourselves with that consciousness, we might just achieve a kind of immortality.",
+        "area": "physics",
+        "base_factor": 1.0,
+        "base_weight": 60.0,
+        "category": "อนุภาค",
+        "cost": 10000,
+        "feature_unlocks": [
+          "<b>สิ่งปลูกสร้าง</b>: วัตถุจัดตำแหน่งโอเมก้า"
+        ],
+        "is_dangerous": false,
+        "is_rare": true,
+        "is_start_tech": false,
+        "prerequisites": [
+          "tech_akx_worm_2",
+          "tech_akx_worm_1"
+        ],
+        "tier": 3,
+        "prerequisites_names": [
+          {
+            "name": "การเกิดซ้ำเอนโทรปิก",
+            "key": "tech_akx_worm_1"
+          },
+          {
+            "name": "ทฤษฎี: ลูปแปลกๆ",
+            "key": "tech_akx_worm_2"
+          }
+        ],
+        "weight_modifiers": [],
+        "potential": [],
+        "children": [],
+        "is_event": true,
+        "source": "vanilla"
+      }
+    ],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_akx_worm_3",
+    "name": "ทฤษฎีโอเมก้า",
+    "description": "When a temporal paradox becomes tangled, a kind of consciousness arises, with its own needs, its own desires. This is what has occurred with the consciousness that some call the Worm-in-Waiting. If we can align ourselves with that consciousness, we might just achieve a kind of immortality.",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 60.0,
+    "category": "อนุภาค",
+    "cost": 10000,
+    "feature_unlocks": [
+      "<b>สิ่งปลูกสร้าง</b>: วัตถุจัดตำแหน่งโอเมก้า"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [
+      "tech_akx_worm_2",
+      "tech_akx_worm_1"
+    ],
+    "tier": 3,
+    "prerequisites_names": [
+      {
+        "name": "การเกิดซ้ำเอนโทรปิก",
+        "key": "tech_akx_worm_1"
+      },
+      {
+        "name": "ทฤษฎี: ลูปแปลกๆ",
+        "key": "tech_akx_worm_2"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_amoeba_strike_craft_1",
+    "name": "โครงการเพาะพันธุ์อะมีบา",
+    "description": "By breeding Space Amoebas in captivity, we can program their symbiotic flagella to act as organic strike craft for our navy.",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "ชีววิทยา",
+    "cost": 2500,
+    "feature_unlocks": [
+      "<b>ชิ้นส่วน</b>: อะมีบาเคลื่อนที่"
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_crystal_armor_1",
+    "name": "ชุบด้วยคริสตัลแบบผสม",
+    "description": "By infusing armor plating with Crystalline matter we are able to further increase the durability of our ships' protective hulls.",
+    "area": "engineering",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "วัสดุ",
+    "cost": 2500,
+    "feature_unlocks": [
+      "<b>ชิ้นส่วน</b>: ชุบด้วยคริสตัลแบบผสม กลาง",
+      "<b>ชิ้นส่วน</b>: ชุบด้วยคริสตัลแบบผสม เล็ก",
+      "<b>ชิ้นส่วน</b>: ชุบด้วยคริสตัลแบบผสม ใหญ่"
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [
+      "(+) crystal_armor_1_weight (country flag)"
+    ],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_crystal_armor_2",
+    "name": "การชุบด้วยคริสตัลหลอม",
+    "description": "Introducing Crystalline matter into the forging process further improves the ultra-hard qualities of crystal-infused metals.",
+    "area": "engineering",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "วัสดุ",
+    "cost": 8000,
+    "feature_unlocks": [
+      "<b>ชิ้นส่วน</b>: ชุบด้วยคริสตัลหลอม กลาง",
+      "<b>ชิ้นส่วน</b>: ชุบด้วยคริสตัลหลอม เล็ก",
+      "<b>ชิ้นส่วน</b>: ชุบด้วยคริสตัลหลอม ใหญ่"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 4,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_dragon_armor",
+    "name": "เกล็ดมังกรประดิษฐ์",
+    "description": "The Ether Drake's scales are made up of multiple layers of unique mineral nanostructures. Unorthodox manufacturing techniques allow us to closely emulate these self-repairing structures.",
+    "area": "engineering",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "วัสดุ",
+    "cost": 50000,
+    "feature_unlocks": [
+      "<b>ชิ้นส่วน</b>: เกราะเกล็ดมังกร"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_dyson_sphere",
+    "name": "ทรงกลมไดสัน",
+    "description": "A ทรงกลมไดสัน fully envelops a given star, converting all solar output directly to £energy£ Energy Credits.",
+    "area": "physics",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "การควบคุมสนามพลัง",
+    "cost": 20000,
+    "feature_unlocks": [
+      "<b>สิ่งก่อสร้างขนาดใหญ่</b>: ทรงกลมไดสัน"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [
+      "tech_mega_engineering"
+    ],
+    "tier": 5,
+    "prerequisites_names": [
+      {
+        "name": "วิศวกรรมขนาดใหญ่",
+        "key": "tech_mega_engineering"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [
+      "มี DLC Utopia"
+    ],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_enigmatic_decoder",
+    "name": "ตัวถอดรหัสลึกลับซับซ้อน",
+    "description": "While producing average results in standard tests, the accuracy of Enigmatic Decoder's prediction algorithms seemingly increases as the target's flight path grows more erratic.",
+    "area": "physics",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "การคำนวณ",
+    "cost": 50000,
+    "feature_unlocks": [
+      "<b>ชิ้นส่วน</b>: ตัวถอดรหัสลึกลับซับซ้อน"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_enigmatic_encoder",
+    "name": "ตัวเข้ารหัสลึกลับซับซ้อน",
+    "description": "The Enigmatic Encoder scrambles flight path data according to some indeterminable design before feeding it back to fleet command.",
+    "area": "physics",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "การคำนวณ",
+    "cost": 50000,
+    "feature_unlocks": [
+      "<b>ชิ้นส่วน</b>: ตัวเข้ารหัสลึกลับซับซ้อน"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_extradimensional_weapon_1",
+    "name": "อาวุธต่างมิติ",
+    "description": "Applying 5th-dimensional energy manipulation principles on lower dimensional planes allows for the creation of powerful energy weapons.",
+    "area": "physics",
+    "base_factor": 10.0,
+    "base_weight": 0.0,
+    "category": "อนุภาค",
+    "cost": 20000,
+    "feature_unlocks": [
+      "<b>ชิ้นส่วน</b>: เครื่องสลายสสาร"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [
+      "(×<b style='color:red'>0.0</b>) ไม่ มีการปรับเปลี่ยน Covenant: End of the Cycle",
+      "(×<b style='color:lime'>1.5</b>) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
+      "(×<b style='color:lime'>2.0</b>) สหพันธ์ : <br/>    •   มี แรงบันดาลใจทางวิทยาศาสตร์<br/>    •   มีสมาชิกที่ มีเทคโนโลยี: อาวุธต่างมิติ"
+    ],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_gargantuan_evolution",
+    "name": "วิวัฒนาการอย่างมโหฬาร",
+    "description": "Voidspawn eggs have evolved to withstand the harsh conditions of space by absorbing and conserving energy from their nearest star.",
+    "area": "society",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "ชีววิทยา",
+    "cost": 4000,
+    "feature_unlocks": [
+      "£energy£ เครดิตพลังงานจาก £job£ งาน +5%"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 1,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_genetic_resequencing",
+    "name": "การเรียงลำดับทางพันธุกรรม",
+    "description": "No longer will we be limited by the basic biological structure of a species when striving to improve them. DNA is just another material to be shaped as the sculptor wills it.",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "ชีววิทยา",
+    "cost": 15000,
+    "feature_unlocks": [
+      "<b>ฟีเจอร์ : </b>การเรียงลำดับทางพันธุกรรม",
+      "<b>ฟีเจอร์ : </b>คุณลักษณะขั้นสูง"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_lgate_activation",
+    "name": "การเปิดใช้งาน L-Gate",
+    "description": "The L-Gates defy our current understanding of subspace mechanics. This must be remedied before they can be opened for travel.",
+    "area": "physics",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "อนุภาค",
+    "cost": 6000,
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 3,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "ไม่ เปิด L-Cluster (7 L-Gate) (global flag)"
+    ],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_matter_decompressor",
+    "name": "เครื่องขยายสสาร",
+    "description": "The เครื่องขยายสสาร lenses a black hole's gravity, forming a drill of gravitational forces to retrieve £minerals£ Minerals from the singularity.",
+    "area": "physics",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "การควบคุมสนามพลัง",
+    "cost": 20000,
+    "feature_unlocks": [
+      "<b>สิ่งก่อสร้างขนาดใหญ่</b>: เครื่องขยายสสาร",
+      "<b>สิ่งก่อสร้างขนาดใหญ่</b>: เครื่องขยายสสาร:"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [
+      "tech_mega_engineering"
+    ],
+    "tier": 5,
+    "prerequisites_names": [
+      {
+        "name": "วิศวกรรมขนาดใหญ่",
+        "key": "tech_mega_engineering"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [
+      "มี DLC Megacorp"
+    ],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_mining_drone_weapon_1",
+    "name": "เลเซอร์โดรนขุดแร่",
+    "description": "Using strong-focus lenses in combination with an oscillating firing frequence help create lasers strong enough to mine asteroids, or shoot down hostiles.",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "อนุภาค",
+    "cost": 2000,
+    "feature_unlocks": [
+      "<b>ชิ้นส่วน</b>: เลเซอร์ตัด"
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_nanite_repair_system",
+    "name": "ระบบการซ่อมด้วยนาโนไนต์",
+    "description": "A highly effective hull auto-repair system comprised of billions of microscopic nanomachines was found among the smoking remains of the Scavenger, and has been repurposed for our uses. Whether the Scavenger pilfered this system from an ancient derelict, or was originally constructed with it remains unknown.",
+    "area": "engineering",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "ยานอวกาศ",
+    "cost": 20000,
+    "feature_unlocks": [
+      "<b>ชิ้นส่วน</b>: ระบบการซ่อมด้วยนาโนไนต์"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_neuroregeneration",
+    "name": "วิศวกรรมเนื้อเยื่อประสาท",
+    "description": "When tailored to a species' genome, this form of tissue engineering has intensive neuroregenerative properties, significantly increasing the development of neurons, axons, and synapses in its recipient.",
+    "area": "society",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "ชีววิทยา",
+    "cost": 10000,
+    "feature_unlocks": [
+      "ผู้นำ(เผ่าพันธุ์/สายพันธุ์) ได้รับค่าประสบการณ์ +25%",
+      "เลเวลผู้นำสูงสุด +1"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 4,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_orbital_trash_dispersal",
+    "name": "การกระจายข้อมูลขยะที่วงโคจรดาว",
+    "description": "This orbital bombardment management system spams a planet with millions of minute, high-velocity projectiles, overwhelming planetside defensive grids with trash data. Ships equipped with this component will cause more damage during orbital bombardment.",
+    "area": "engineering",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "แรงขับดัน",
+    "cost": 4000,
+    "feature_unlocks": [
+      "<b>ชิ้นส่วน</b>: เครื่องกระจายข้อมูลขยะที่วงโคจรดาว"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 1,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_prescient_data_modeling",
+    "name": "การสร้างแบบจำลองข้อมูลเชิงตัวเลข",
+    "description": "Are the precognitive powers of Numa at work or is it a matter of skilled craftsmanship? Either way this galactic stock market prediction model will forecast fluctuations in the economy with divine accuracy.",
+    "area": "society",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "การปกครอง",
+    "cost": 4000,
+    "feature_unlocks": [
+      "£energy£ เครดิตพลังงานจาก £job£ งาน +5%"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 3,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_psionic_barrier",
+    "name": "บาเรียพลังจิต",
+    "description": "These barriers are generated out of pure psychic energy by a cadre of psionic specialists. They will be able to stop some incoming fire, like our Energy deflector systems, but without the prohibitive power consumption.",
+    "area": "society",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "พลังจิต",
+    "cost": 4000,
+    "feature_unlocks": [
+      "<b>ชิ้นส่วน</b>: บาเรียพลังจิต"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [
+      "tech_psionic_theory"
+    ],
+    "tier": 3,
+    "prerequisites_names": [
+      {
+        "name": "ทฤษฎีพลังจิต",
+        "key": "tech_psionic_theory"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_psionic_shield",
+    "name": "โล่พลังจิต",
+    "description": "These extremely powerful shields are generated out of pure psychic energy by a cadre of psionic specialists. Their powers are further augmented by large arrays of psi emitters.",
+    "area": "society",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "พลังจิต",
+    "cost": 20000,
+    "feature_unlocks": [
+      "<b>ชิ้นส่วน</b>: โล่พลังจิต"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [
+      "tech_psionic_theory"
+    ],
+    "tier": 5,
+    "prerequisites_names": [
+      {
+        "name": "ทฤษฎีพลังจิต",
+        "key": "tech_psionic_theory"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_regenerative_hull_tissue",
+    "name": "การซ่อมตัวยานอัตโนมัติ",
+    "description": "A genetically altered version of silicon-based bacteria could potentially be manipulated to regenerate non-organic materials.",
+    "area": "society",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "ชีววิทยา",
+    "cost": 5000,
+    "feature_unlocks": [
+      "<b>ชิ้นส่วน</b>: ซ่อมตัวยานใหม่อัตโนมัติ"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 3,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_ring_world",
+    "name": "โลกวงแหวน / พิภพวงแหวน",
+    "description": "A โลกวงแหวน / พิภพวงแหวน allows for multiple planet-like zones, cannibalizing all other planets in the system for materials.",
+    "area": "engineering",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "ยานอวกาศ",
+    "cost": 20000,
+    "feature_unlocks": [
+      "<b>สิ่งก่อสร้างขนาดใหญ่</b>: โลกวงแหวน"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [
+      "tech_mega_engineering"
+    ],
+    "tier": 5,
+    "prerequisites_names": [
+      {
+        "name": "วิศวกรรมขนาดใหญ่",
+        "key": "tech_mega_engineering"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [
+      "มี DLC Utopia"
+    ],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_scourge_missile_1",
+    "name": "มิสไซล์ Scourge",
+    "description": "By analyzing the biological weaponry employed by the Swarm we can create self-propelled projectiles weapons spreading the very same horrific destruction.",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "ชีววิทยา",
+    "cost": 20000,
+    "feature_unlocks": [
+      "<b>ชิ้นส่วน</b>: มิสไซล์ Scourge ขนาดใหญ่"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_space_cloud_weapon_1",
+    "name": "ท่อนำสายฟ้า",
+    "description": "Void Clouds use the electrical charges generated by the dense gases that make up most of their core to release bolts of burning plasma. Using the same gas composition together with a specialized conduit allows for powerful lightning weaponry.",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "อนุภาค",
+    "cost": 2500,
+    "feature_unlocks": [
+      "<b>ชิ้นส่วน</b>: สายฟ้า"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_space_whale_weapon_1",
+    "name": "การปรับความถี่",
+    "description": "Adapting the Tiyanki method of siphoning energy from gaseous matter, it is possible to construct weapons draining energy from enemy ships.",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "ชีววิทยา",
+    "cost": 1000,
+    "feature_unlocks": [
+      "<b>ชิ้นส่วน</b>: พลังไซฟอน"
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 1,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_swarm_strike_craft_1",
+    "name": "เครื่องวางไข่แบบกลุ่ม",
+    "description": "Collecting specimens from defeated Prethoryn enables us to clone and genetically program a war-brood of our own.",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "ชีววิทยา",
+    "cost": 20000,
+    "feature_unlocks": [
+      "<b>ชิ้นส่วน</b>: ฝูงจู่โจม"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  }
+]

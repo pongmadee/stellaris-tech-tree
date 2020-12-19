@@ -1,0 +1,3267 @@
+{
+  "base_factor": 1.0,
+  "base_weight": 0.0,
+  "feature_unlocks": [],
+  "is_dangerous": false,
+  "is_rare": false,
+  "is_start_tech": false,
+  "prerequisites": [],
+  "prerequisites_names": [],
+  "weight_modifiers": [],
+  "potential": [],
+  "children": [
+    {
+      "name": "physics",
+      "area": "physics",
+      "base_factor": 1.0,
+      "base_weight": 0.0,
+      "feature_unlocks": [],
+      "is_dangerous": false,
+      "is_rare": false,
+      "is_start_tech": false,
+      "prerequisites": [],
+      "tier": 0,
+      "prerequisites_names": [],
+      "weight_modifiers": [],
+      "potential": [],
+      "children": [
+        {
+          "key": "tech_power_plant_1",
+          "name": "ตัวเก็บประจุพลังงานสูง",
+          "description": "Capacitors capable of storing vast amounts of energy is one of the cornerstones for any modern civilization.",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 0.0,
+          "category": "การควบคุมสนามพลัง",
+          "cost": 0,
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": true,
+          "prerequisites": [],
+          "tier": 0,
+          "prerequisites_names": [],
+          "weight_modifiers": [],
+          "potential": [],
+          "children": [
+            {
+              "key": "tech_power_plant_2",
+              "name": "การปรับสนามพลัง",
+              "description": "Modulated fields allow for increased production and improved energy yield.",
+              "area": "physics",
+              "base_factor": 1.0,
+              "base_weight": 100.0,
+              "category": "การควบคุมสนามพลัง",
+              "cost": 500,
+              "feature_unlocks": [
+                "£energy£ เครดิตพลังงานจาก £job_technician£ ช่างเทคนิค +20%"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_power_plant_1"
+              ],
+              "tier": 1,
+              "prerequisites_names": [
+                {
+                  "name": "ตัวเก็บประจุพลังงานสูง",
+                  "key": "tech_power_plant_1"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) มี วัฒนธรรมความเจริญ ",
+                "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การควบคุมสนามพลัง"
+              ],
+              "potential": [],
+              "children": [
+                {
+                  "key": "tech_power_plant_3",
+                  "name": "สภาวะพลังงานควอนตัม",
+                  "description": "Basic entanglement principles applied to energy generation provide a substantial increase in energy output.",
+                  "area": "physics",
+                  "base_factor": 1.0,
+                  "base_weight": 85.0,
+                  "category": "การควบคุมสนามพลัง",
+                  "cost": 1500,
+                  "feature_unlocks": [
+                    "£energy£ เครดิตพลังงานจาก £job_technician£ ช่างเทคนิค +20%"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_power_plant_2"
+                  ],
+                  "tier": 2,
+                  "prerequisites_names": [
+                    {
+                      "name": "การปรับสนามพลัง",
+                      "key": "tech_power_plant_2"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>1.25</b>) มี วัฒนธรรมความเจริญ ",
+                    "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การควบคุมสนามพลัง"
+                  ],
+                  "potential": [],
+                  "children": [
+                    {
+                      "key": "tech_power_plant_4",
+                      "name": "การจัดการสนามควอนตัม",
+                      "description": "Quantum superposition of energy coils, simultaneously drained and charged.",
+                      "area": "physics",
+                      "base_factor": 1.0,
+                      "base_weight": 65.0,
+                      "category": "การควบคุมสนามพลัง",
+                      "cost": 4000,
+                      "feature_unlocks": [
+                        "£energy£ เครดิตพลังงานจาก £job_technician£ ช่างเทคนิค +20%"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_power_plant_3"
+                      ],
+                      "tier": 3,
+                      "prerequisites_names": [
+                        {
+                          "name": "สภาวะพลังงานควอนตัม",
+                          "key": "tech_power_plant_3"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:lime'>1.25</b>) มี วัฒนธรรมความเจริญ ",
+                        "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การควบคุมสนามพลัง"
+                      ],
+                      "potential": [],
+                      "children": [],
+                      "is_event": false,
+                      "source": "vanilla"
+                    },
+                    {
+                      "key": "tech_repeatable_improved_tile_energy_output",
+                      "name": "ประยุกต์ใช้การนำไฟฟ้ายิ่งยวด",
+                      "description": "Minor improvements to transmission efficiency adds up to a sizeable reduction in overall energy loss.",
+                      "area": "physics",
+                      "base_factor": 0.5,
+                      "base_weight": 12.5,
+                      "category": "การควบคุมสนามพลัง",
+                      "cost": 50000,
+                      "feature_unlocks": [
+                        "£energy£ เครดิตพลังงานจาก £job£ งาน +5%"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_power_plant_3"
+                      ],
+                      "tier": 5,
+                      "prerequisites_names": [
+                        {
+                          "name": "สภาวะพลังงานควอนตัม",
+                          "key": "tech_power_plant_3"
+                        }
+                      ],
+                      "weight_modifiers": [],
+                      "potential": [],
+                      "children": [],
+                      "is_event": false,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "source": "vanilla"
+            },
+            {
+              "key": "tech_power_hub_1",
+              "name": "การจัดการพลังงานทั่วโลก",
+              "description": "Load-balancing facilities can greatly improve the stability of local grids and feed excess power back into centralized capacitors.",
+              "area": "physics",
+              "base_factor": 2.0,
+              "base_weight": 180.0,
+              "category": "การควบคุมสนามพลัง",
+              "cost": 1000,
+              "feature_unlocks": [
+                "<b>ประกาศคำสั่ง</b>: สนับสนุนความจุไฟฟ้า",
+                "<b>สิ่งปลูกสร้าง</b>: เครือข่ายพลังงาน"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_power_plant_1"
+              ],
+              "tier": 1,
+              "prerequisites_names": [
+                {
+                  "name": "ตัวเก็บประจุพลังงานสูง",
+                  "key": "tech_power_plant_1"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) มี วัฒนธรรมความเจริญ ",
+                "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การควบคุมสนามพลัง"
+              ],
+              "potential": [],
+              "children": [
+                {
+                  "key": "tech_power_hub_2",
+                  "name": "เครือข่ายพลังงานของดาวเคราะห์",
+                  "description": "A re-engineered and unified grid further reduces energy losses over distance.",
+                  "area": "physics",
+                  "base_factor": 1.0,
+                  "base_weight": 70.0,
+                  "category": "การควบคุมสนามพลัง",
+                  "cost": 2500,
+                  "feature_unlocks": [
+                    "<b>สิ่งปลูกสร้าง</b>: จุดเชื่อมโยงพลังงาน"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_power_hub_1",
+                    "tech_colonial_centralization"
+                  ],
+                  "tier": 2,
+                  "prerequisites_names": [
+                    {
+                      "name": "การจัดการพลังงานทั่วโลก",
+                      "key": "tech_power_hub_1"
+                    },
+                    {
+                      "name": "การรวมศูนย์อำนาจอาณานิคม",
+                      "key": "tech_colonial_centralization"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:red'>0.0</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   มีเทคโนโลยี: การสกัดก๊าซแปลกประหลาด<br/>    •   มีเทคโนโลยี: การกลั่นก๊าซแปลกประหลาด<br/>    •   มีการเข้าถึงตลาดกาแลกติก (country flag)",
+                    "(×<b style='color:lime'>2.0</b>) มี วัฒนธรรมความเจริญ ",
+                    "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การควบคุมสนามพลัง"
+                  ],
+                  "potential": [],
+                  "children": [],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_shields_1",
+          "name": "เครื่องเบี่ยงเบนหักเห",
+          "description": "Energy deflector screens can stop a limited amount of incoming enemy fire before overloading. Their main drawback is that they consume large amounts of power.",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 0.0,
+          "category": "การควบคุมสนามพลัง",
+          "cost": 0,
+          "feature_unlocks": [
+            "<b>ชิ้นส่วน</b>: เครื่องเบี่ยงเบนหักเห"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": true,
+          "prerequisites": [],
+          "tier": 0,
+          "prerequisites_names": [],
+          "weight_modifiers": [],
+          "potential": [],
+          "children": [
+            {
+              "key": "tech_shields_2",
+              "name": "เครื่องเบี่ยงเบนหักเหแบบปรับปรุง",
+              "description": "These updated deflector screens are capable of soaking up even more punishment before they overload.",
+              "area": "physics",
+              "base_factor": 1.25,
+              "base_weight": 112.5,
+              "category": "การควบคุมสนามพลัง",
+              "cost": 1000,
+              "feature_unlocks": [
+                "<b>ชิ้นส่วน</b>: เครื่องเบี่ยงเบนหักเหแบบปรับปรุง"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_shields_1"
+              ],
+              "tier": 1,
+              "prerequisites_names": [
+                {
+                  "name": "เครื่องเบี่ยงเบนหักเห",
+                  "key": "tech_shields_1"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การควบคุมสนามพลัง"
+              ],
+              "potential": [],
+              "children": [
+                {
+                  "key": "tech_shields_3",
+                  "name": "โล่พลังงาน",
+                  "description": "These new shield generators represent the next generation of energy screens, replacing the older deflector technology. They offer significantly better protection.",
+                  "area": "physics",
+                  "base_factor": 1.25,
+                  "base_weight": 87.5,
+                  "category": "การควบคุมสนามพลัง",
+                  "cost": 2500,
+                  "feature_unlocks": [
+                    "<b>ชิ้นส่วน</b>: โล่พลังงาน"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_shields_2"
+                  ],
+                  "tier": 2,
+                  "prerequisites_names": [
+                    {
+                      "name": "เครื่องเบี่ยงเบนหักเหแบบปรับปรุง",
+                      "key": "tech_shields_2"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การควบคุมสนามพลัง"
+                  ],
+                  "potential": [],
+                  "children": [
+                    {
+                      "key": "tech_shields_4",
+                      "name": "โล่พลังงานขั้นสูง",
+                      "description": "An updated shield generator that produces an even stronger energy field. Only sustained enemy fire can penetrate this barrier.",
+                      "area": "physics",
+                      "base_factor": 1.25,
+                      "base_weight": 62.5,
+                      "category": "การควบคุมสนามพลัง",
+                      "cost": 6000,
+                      "feature_unlocks": [
+                        "<b>ชิ้นส่วน</b>: โล่พลังงานขั้นสูง"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_shields_3"
+                      ],
+                      "tier": 3,
+                      "prerequisites_names": [
+                        {
+                          "name": "โล่พลังงาน",
+                          "key": "tech_shields_3"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การควบคุมสนามพลัง"
+                      ],
+                      "potential": [],
+                      "children": [
+                        {
+                          "key": "tech_shields_5",
+                          "name": "โล่พลังงานสูงมาก",
+                          "description": "These reinforced and hardened energy shields are incredibly powerful. The protection they offer is second to none.",
+                          "area": "physics",
+                          "base_factor": 1.25,
+                          "base_weight": 43.75,
+                          "category": "การควบคุมสนามพลัง",
+                          "cost": 12000,
+                          "feature_unlocks": [
+                            "<b>ชิ้นส่วน</b>: โล่พลังงานสูงมาก"
+                          ],
+                          "is_dangerous": false,
+                          "is_rare": false,
+                          "is_start_tech": false,
+                          "prerequisites": [
+                            "tech_shields_4"
+                          ],
+                          "tier": 4,
+                          "prerequisites_names": [
+                            {
+                              "name": "โล่พลังงานขั้นสูง",
+                              "key": "tech_shields_4"
+                            }
+                          ],
+                          "weight_modifiers": [
+                            "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การควบคุมสนามพลัง"
+                          ],
+                          "potential": [],
+                          "children": [
+                            {
+                              "key": "tech_dark_matter_deflector",
+                              "name": "เครื่องเบี่ยงเบนหักเหแบบใช้สสารมืด",
+                              "description": "These deflectors utilize dark matter to deflect incoming projectiles in a way that seems to utterly defy the laws of nature.",
+                              "area": "physics",
+                              "base_factor": 1.0,
+                              "base_weight": 1.0,
+                              "category": "การควบคุมสนามพลัง",
+                              "cost": 50000,
+                              "feature_unlocks": [
+                                "<b>ชิ้นส่วน</b>: เครื่องเบี่ยงเบนหักเหแบบใช้สสารมืด กลาง",
+                                "<b>ชิ้นส่วน</b>: เครื่องเบี่ยงเบนหักเหแบบใช้สสารมืด เล็ก",
+                                "<b>ชิ้นส่วน</b>: เครื่องเบี่ยงเบนหักเหแบบใช้สสารมืด ใหญ่"
+                              ],
+                              "is_dangerous": false,
+                              "is_rare": true,
+                              "is_start_tech": false,
+                              "prerequisites": [
+                                "tech_shields_5"
+                              ],
+                              "tier": 5,
+                              "prerequisites_names": [
+                                {
+                                  "name": "โล่พลังงานสูงมาก",
+                                  "key": "tech_shields_5"
+                                }
+                              ],
+                              "weight_modifiers": [
+                                "(×<b style='color:red'>0.0</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   เป็นจักรวรรดิประเภท: จักรวรรดิเก่าแก่ทรงพลัง<br/>    •   เป็นจักรวรรดิประเภท: จักรวรรดิที่ตื่นขึ้นแล้ว"
+                              ],
+                              "potential": [],
+                              "children": [],
+                              "is_event": false,
+                              "source": "vanilla"
+                            }
+                          ],
+                          "is_event": false,
+                          "source": "vanilla"
+                        },
+                        {
+                          "key": "tech_repeatable_improved_shield_output",
+                          "name": "โล่พลังงานแบบประสาน",
+                          "description": "The basic mechanics of ship shields are complex, but they can be adjusted and improved in a multitude of ways.",
+                          "area": "physics",
+                          "base_factor": 0.5,
+                          "base_weight": 12.5,
+                          "category": "การควบคุมสนามพลัง",
+                          "cost": 50000,
+                          "feature_unlocks": [
+                            "HP โล่พลังงาน +5%"
+                          ],
+                          "is_dangerous": false,
+                          "is_rare": false,
+                          "is_start_tech": false,
+                          "prerequisites": [
+                            "tech_shields_4"
+                          ],
+                          "tier": 5,
+                          "prerequisites_names": [
+                            {
+                              "name": "โล่พลังงานขั้นสูง",
+                              "key": "tech_shields_4"
+                            }
+                          ],
+                          "weight_modifiers": [],
+                          "potential": [],
+                          "children": [],
+                          "is_event": false,
+                          "source": "vanilla"
+                        }
+                      ],
+                      "is_event": false,
+                      "source": "vanilla"
+                    },
+                    {
+                      "key": "tech_shield_rechargers_1",
+                      "name": "ตัวเก็บพลังงานสำหรับโล่",
+                      "description": "These capacitors store surplus energy which can quickly be transferred to reinforce a ship's shields.",
+                      "area": "physics",
+                      "base_factor": 1.0,
+                      "base_weight": 70.0,
+                      "category": "การควบคุมสนามพลัง",
+                      "cost": 2500,
+                      "feature_unlocks": [
+                        "<b>ชิ้นส่วน</b>: ตัวเก็บโล่พลังงาน"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_shields_3"
+                      ],
+                      "tier": 2,
+                      "prerequisites_names": [
+                        {
+                          "name": "โล่พลังงาน",
+                          "key": "tech_shields_3"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การควบคุมสนามพลัง"
+                      ],
+                      "potential": [],
+                      "children": [],
+                      "is_event": false,
+                      "source": "vanilla"
+                    },
+                    {
+                      "key": "tech_planetary_shield_generator",
+                      "name": "โล่ป้องกันดาวเคราะห์",
+                      "description": "Generating a strong energy shield within a planetary atmosphere is a greater challenge than in the vacuum of space, but it offers a potent defense against orbital bombardment.",
+                      "area": "physics",
+                      "base_factor": 0.5,
+                      "base_weight": 32.5,
+                      "category": "การควบคุมสนามพลัง",
+                      "cost": 4000,
+                      "feature_unlocks": [
+                        "<b>สิ่งปลูกสร้าง</b>: เครื่องกำเนิดโล่พลังงานของดาวเคราะห์"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": true,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_shields_3"
+                      ],
+                      "tier": 3,
+                      "prerequisites_names": [
+                        {
+                          "name": "โล่พลังงาน",
+                          "key": "tech_shields_3"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:red'>0.5</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   หัวหน้าการวิจัย (ฟิสิกส์): <br/>\t    •   เชี่ยวชาญ: การควบคุมสนามพลัง<br/>    •   หัวหน้าการวิจัย (ฟิสิกส์): <br/>\t    •   ผู้ดูแลพิพิธภัณฑ์<br/>    •   หัวหน้าการวิจัย (ฟิสิกส์): <br/>\t    •   ประกายแห่งความอัจฉริยะ",
+                        "(×<b style='color:lime'>1.5</b>) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
+                        "(×<b style='color:lime'>2.0</b>) สหพันธ์ : <br/>    •   มี แรงบันดาลใจทางวิทยาศาสตร์<br/>    •   มีสมาชิกที่ มีเทคโนโลยี: โล่ป้องกันดาวเคราะห์",
+                        "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การควบคุมสนามพลัง"
+                      ],
+                      "potential": [],
+                      "children": [],
+                      "is_event": false,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_lasers_1",
+          "name": "เลเซอร์แดง",
+          "description": "Laser weapons fire focused beams of light at targets, causing damage through the generation of intense heat.",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 0.0,
+          "category": "อนุภาค",
+          "cost": 0,
+          "feature_unlocks": [
+            "<b>ชิ้นส่วน</b>: เลเซอร์แดง"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": true,
+          "prerequisites": [],
+          "tier": 0,
+          "prerequisites_names": [],
+          "weight_modifiers": [],
+          "potential": [],
+          "children": [
+            {
+              "key": "tech_lasers_2",
+              "name": "เลเซอร์ฟ้า",
+              "description": "More powerful than red lasers, these blue variants emit electromagnetic radiation at a wavelength that appears blue or violet to most organics.",
+              "area": "physics",
+              "base_factor": 1.0,
+              "base_weight": 95.0,
+              "category": "อนุภาค",
+              "cost": 750,
+              "feature_unlocks": [
+                "<b>ชิ้นส่วน</b>: เลเซอร์ฟ้า"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_lasers_1"
+              ],
+              "tier": 1,
+              "prerequisites_names": [
+                {
+                  "name": "เลเซอร์แดง",
+                  "key": "tech_lasers_1"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) มีจริยธรรม ชอบสงคราม ",
+                "(×<b style='color:lime'>1.5</b>) มีจริยธรรม ชอบสงครามอย่างมาก ",
+                "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: อนุภาค"
+              ],
+              "potential": [],
+              "children": [
+                {
+                  "key": "tech_lasers_3",
+                  "name": "เลเซอร์ UV",
+                  "description": "Ultraviolet lasers are an updated and more powerful version of their blue predecessors. Accurate and destructive, these weapons are capable of inflicting great damage.",
+                  "area": "physics",
+                  "base_factor": 1.0,
+                  "base_weight": 85.0,
+                  "category": "อนุภาค",
+                  "cost": 1500,
+                  "feature_unlocks": [
+                    "<b>ชิ้นส่วน</b>: เลเซอร์ UV"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_lasers_2"
+                  ],
+                  "tier": 2,
+                  "prerequisites_names": [
+                    {
+                      "name": "เลเซอร์ฟ้า",
+                      "key": "tech_lasers_2"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>1.25</b>) มีจริยธรรม ชอบสงคราม ",
+                    "(×<b style='color:lime'>1.5</b>) มีจริยธรรม ชอบสงครามอย่างมาก ",
+                    "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: อนุภาค"
+                  ],
+                  "potential": [],
+                  "children": [
+                    {
+                      "key": "tech_lasers_4",
+                      "name": "เลเซอร์ X-Ray",
+                      "description": "These lasers have a shorter wavelength than UV-based laser weaponry, but are even more destructive.",
+                      "area": "physics",
+                      "base_factor": 1.0,
+                      "base_weight": 65.0,
+                      "category": "อนุภาค",
+                      "cost": 4000,
+                      "feature_unlocks": [
+                        "<b>ชิ้นส่วน</b>: เลเซอร์ X-Ray"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_lasers_3"
+                      ],
+                      "tier": 3,
+                      "prerequisites_names": [
+                        {
+                          "name": "เลเซอร์ UV",
+                          "key": "tech_lasers_3"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:lime'>1.25</b>) มีจริยธรรม ชอบสงคราม ",
+                        "(×<b style='color:lime'>1.5</b>) มีจริยธรรม ชอบสงครามอย่างมาก ",
+                        "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: อนุภาค"
+                      ],
+                      "potential": [],
+                      "children": [
+                        {
+                          "key": "tech_lasers_5",
+                          "name": "เลเซอร์แกมมา",
+                          "description": "The electromagnetic radiation emitted by gamma lasers is of an extremely high frequency. Their destructive potential is unmatched in the field of laser weapons.",
+                          "area": "physics",
+                          "base_factor": 1.0,
+                          "base_weight": 45.0,
+                          "category": "อนุภาค",
+                          "cost": 8000,
+                          "feature_unlocks": [
+                            "<b>ชิ้นส่วน</b>: เลเซอร์แกมมา"
+                          ],
+                          "is_dangerous": false,
+                          "is_rare": false,
+                          "is_start_tech": false,
+                          "prerequisites": [
+                            "tech_lasers_4"
+                          ],
+                          "tier": 4,
+                          "prerequisites_names": [
+                            {
+                              "name": "เลเซอร์ X-Ray",
+                              "key": "tech_lasers_4"
+                            }
+                          ],
+                          "weight_modifiers": [
+                            "(×<b style='color:lime'>1.25</b>) มีจริยธรรม ชอบสงคราม ",
+                            "(×<b style='color:lime'>1.5</b>) มีจริยธรรม ชอบสงครามอย่างมาก ",
+                            "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: อนุภาค"
+                          ],
+                          "potential": [],
+                          "children": [],
+                          "is_event": false,
+                          "source": "vanilla"
+                        },
+                        {
+                          "key": "tech_energy_lance_1",
+                          "name": "หอกอนุภาค",
+                          "description": "These heavy energy weapons fire focused particle beams that cause massive damage. The size of the emitter arrays limits their use to battleships and titans.",
+                          "area": "physics",
+                          "base_factor": 1.0,
+                          "base_weight": 40.0,
+                          "category": "อนุภาค",
+                          "cost": 10000,
+                          "feature_unlocks": [
+                            "<b>ชิ้นส่วน</b>: หอกอนุภาค"
+                          ],
+                          "is_dangerous": false,
+                          "is_rare": false,
+                          "is_start_tech": false,
+                          "prerequisites": [
+                            "tech_lasers_4",
+                            "tech_battleships"
+                          ],
+                          "tier": 4,
+                          "prerequisites_names": [
+                            {
+                              "name": "เลเซอร์ X-Ray",
+                              "key": "tech_lasers_4"
+                            },
+                            {
+                              "name": "ยานประจัญบาน",
+                              "key": "tech_battleships"
+                            }
+                          ],
+                          "weight_modifiers": [
+                            "(×<b style='color:lime'>1.25</b>) มีจริยธรรม ชอบสงคราม ",
+                            "(×<b style='color:lime'>1.5</b>) มีจริยธรรม ชอบสงครามอย่างมาก ",
+                            "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: อนุภาค"
+                          ],
+                          "potential": [],
+                          "children": [
+                            {
+                              "key": "tech_energy_lance_2",
+                              "name": "หอกอนุภาคแทคีออน",
+                              "description": "A more powerful version of the particle lance, this weapon fires a tachyon beam of immense power. Like its predecessor, its use is limited to battleships and titans.",
+                              "area": "physics",
+                              "base_factor": 1.0,
+                              "base_weight": 35.0,
+                              "category": "อนุภาค",
+                              "cost": 12000,
+                              "feature_unlocks": [
+                                "<b>ชิ้นส่วน</b>: หอกอนุภาคแทคีออน"
+                              ],
+                              "is_dangerous": false,
+                              "is_rare": false,
+                              "is_start_tech": false,
+                              "prerequisites": [
+                                "tech_energy_lance_1",
+                                "tech_lasers_5"
+                              ],
+                              "tier": 4,
+                              "prerequisites_names": [
+                                {
+                                  "name": "เลเซอร์แกมมา",
+                                  "key": "tech_lasers_5"
+                                },
+                                {
+                                  "name": "หอกอนุภาค",
+                                  "key": "tech_energy_lance_1"
+                                }
+                              ],
+                              "weight_modifiers": [
+                                "(×<b style='color:lime'>1.25</b>) มีจริยธรรม ชอบสงคราม ",
+                                "(×<b style='color:lime'>1.5</b>) มีจริยธรรม ชอบสงครามอย่างมาก ",
+                                "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: อนุภาค"
+                              ],
+                              "potential": [],
+                              "children": [],
+                              "is_event": false,
+                              "source": "vanilla"
+                            }
+                          ],
+                          "is_event": false,
+                          "source": "vanilla"
+                        },
+                        {
+                          "key": "tech_energy_torpedoes_1",
+                          "name": "เครื่องยิงโปรตอน",
+                          "description": "These energy projectiles consist of tightly concentrated protons capable of causing immense damage to the hull of enemy ships.",
+                          "area": "physics",
+                          "base_factor": 1.0,
+                          "base_weight": 50.0,
+                          "category": "อนุภาค",
+                          "cost": 6000,
+                          "feature_unlocks": [
+                            "<b>ชิ้นส่วน</b>: เครื่องยิงโปรตอน"
+                          ],
+                          "is_dangerous": false,
+                          "is_rare": false,
+                          "is_start_tech": false,
+                          "prerequisites": [
+                            "tech_lasers_4"
+                          ],
+                          "tier": 3,
+                          "prerequisites_names": [
+                            {
+                              "name": "เลเซอร์ X-Ray",
+                              "key": "tech_lasers_4"
+                            }
+                          ],
+                          "weight_modifiers": [
+                            "(×<b style='color:lime'>1.25</b>) มีจริยธรรม ชอบสงคราม ",
+                            "(×<b style='color:lime'>1.5</b>) มีจริยธรรม ชอบสงครามอย่างมาก ",
+                            "(×<b style='color:red'>0.5</b>) ไม่ มีเทคโนโลยี: เลเซอร์แดง",
+                            "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: อนุภาค"
+                          ],
+                          "potential": [],
+                          "children": [
+                            {
+                              "key": "tech_energy_torpedoes_2",
+                              "name": "เครื่องยิงนิวตรอน",
+                              "description": "Upgraded energy projectiles that rely on neutrons instead of protons for their destructive power.",
+                              "area": "physics",
+                              "base_factor": 1.0,
+                              "base_weight": 40.0,
+                              "category": "อนุภาค",
+                              "cost": 10000,
+                              "feature_unlocks": [
+                                "<b>ชิ้นส่วน</b>: เครื่องยิงนิวตรอน"
+                              ],
+                              "is_dangerous": false,
+                              "is_rare": false,
+                              "is_start_tech": false,
+                              "prerequisites": [
+                                "tech_energy_torpedoes_1"
+                              ],
+                              "tier": 4,
+                              "prerequisites_names": [
+                                {
+                                  "name": "เครื่องยิงโปรตอน",
+                                  "key": "tech_energy_torpedoes_1"
+                                }
+                              ],
+                              "weight_modifiers": [
+                                "(×<b style='color:lime'>1.25</b>) มีจริยธรรม ชอบสงคราม ",
+                                "(×<b style='color:lime'>1.5</b>) มีจริยธรรม ชอบสงครามอย่างมาก ",
+                                "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: อนุภาค"
+                              ],
+                              "potential": [],
+                              "children": [],
+                              "is_event": false,
+                              "source": "vanilla"
+                            }
+                          ],
+                          "is_event": false,
+                          "source": "vanilla"
+                        },
+                        {
+                          "key": "tech_repeatable_weapon_type_energy_damage",
+                          "name": "โฟกัสอาร์เรย์จำนวนมาก",
+                          "description": "Perfecting the firing cadence of laser weaponry is a task that could keep the engineering elite of any given planet busy for centuries.",
+                          "area": "physics",
+                          "base_factor": 0.5,
+                          "base_weight": 12.5,
+                          "category": "อนุภาค",
+                          "cost": 50000,
+                          "feature_unlocks": [
+                            "พลังโจมตีอาวุธพลังงาน +5%"
+                          ],
+                          "is_dangerous": false,
+                          "is_rare": false,
+                          "is_start_tech": false,
+                          "prerequisites": [
+                            "tech_lasers_4"
+                          ],
+                          "tier": 5,
+                          "prerequisites_names": [
+                            {
+                              "name": "เลเซอร์ X-Ray",
+                              "key": "tech_lasers_4"
+                            }
+                          ],
+                          "weight_modifiers": [],
+                          "potential": [],
+                          "children": [],
+                          "is_event": false,
+                          "source": "vanilla"
+                        }
+                      ],
+                      "is_event": false,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "source": "vanilla"
+                },
+                {
+                  "key": "tech_disruptors_1",
+                  "name": "เครื่องรบกวน",
+                  "description": "Disruptors fire high-energy bolts that weaken and destroy the molecular bonds that hold the target's constituent atoms together. They are capable of passing through shields and armor to wreak havoc directly on enemy hull and crew.",
+                  "area": "physics",
+                  "base_factor": 1.0,
+                  "base_weight": 75.0,
+                  "category": "อนุภาค",
+                  "cost": 2000,
+                  "feature_unlocks": [
+                    "<b>ชิ้นส่วน</b>: เครื่องรบกวน"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_lasers_2"
+                  ],
+                  "tier": 2,
+                  "prerequisites_names": [
+                    {
+                      "name": "เลเซอร์ฟ้า",
+                      "key": "tech_lasers_2"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>1.25</b>) มีจริยธรรม ชอบสงคราม ",
+                    "(×<b style='color:lime'>1.5</b>) มีจริยธรรม ชอบสงครามอย่างมาก ",
+                    "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: อนุภาค",
+                    "(×<b style='color:red'>0.5</b>) ไม่ มีเทคโนโลยี: เลเซอร์แดง"
+                  ],
+                  "potential": [],
+                  "children": [
+                    {
+                      "key": "tech_disruptors_2",
+                      "name": "เครื่องรบกวนไอออน",
+                      "description": "These upgraded disruptors fire bolts of more destructive ion particles at targets.",
+                      "area": "physics",
+                      "base_factor": 1.0,
+                      "base_weight": 65.0,
+                      "category": "อนุภาค",
+                      "cost": 4000,
+                      "feature_unlocks": [
+                        "<b>ชิ้นส่วน</b>: เครื่องรบกวนไอออน"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_disruptors_1"
+                      ],
+                      "tier": 3,
+                      "prerequisites_names": [
+                        {
+                          "name": "เครื่องรบกวน",
+                          "key": "tech_disruptors_1"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:lime'>1.25</b>) มีจริยธรรม ชอบสงคราม ",
+                        "(×<b style='color:lime'>1.5</b>) มีจริยธรรม ชอบสงครามอย่างมาก ",
+                        "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: อนุภาค"
+                      ],
+                      "potential": [],
+                      "children": [
+                        {
+                          "key": "tech_disruptors_3",
+                          "name": "เครื่องรบกวนควอนตัม",
+                          "description": "Extremely high-yield disruptors that fire quantum energy charges causing incredible damage to those unfortunate enough to get in their way.",
+                          "area": "physics",
+                          "base_factor": 1.0,
+                          "base_weight": 45.0,
+                          "category": "อนุภาค",
+                          "cost": 8000,
+                          "feature_unlocks": [
+                            "<b>ชิ้นส่วน</b>: เครื่องรบกวนควอนตัม"
+                          ],
+                          "is_dangerous": false,
+                          "is_rare": false,
+                          "is_start_tech": false,
+                          "prerequisites": [
+                            "tech_disruptors_2"
+                          ],
+                          "tier": 4,
+                          "prerequisites_names": [
+                            {
+                              "name": "เครื่องรบกวนไอออน",
+                              "key": "tech_disruptors_2"
+                            }
+                          ],
+                          "weight_modifiers": [
+                            "(×<b style='color:lime'>1.25</b>) มีจริยธรรม ชอบสงคราม ",
+                            "(×<b style='color:lime'>1.5</b>) มีจริยธรรม ชอบสงครามอย่างมาก ",
+                            "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: อนุภาค"
+                          ],
+                          "potential": [],
+                          "children": [
+                            {
+                              "key": "tech_arc_emitter_1",
+                              "name": "เครื่องปล่อยอาร์กไฟฟ้า",
+                              "description": "Powerful weapons that launch a lightning arc of chaotic energy at targets, which in part can ignore armor and shields.",
+                              "area": "physics",
+                              "base_factor": 1.0,
+                              "base_weight": 40.0,
+                              "category": "อนุภาค",
+                              "cost": 10000,
+                              "feature_unlocks": [
+                                "<b>ชิ้นส่วน</b>: เครื่องปล่อยอาร์กไฟฟ้า"
+                              ],
+                              "is_dangerous": false,
+                              "is_rare": false,
+                              "is_start_tech": false,
+                              "prerequisites": [
+                                "tech_disruptors_3",
+                                "tech_battleships"
+                              ],
+                              "tier": 4,
+                              "prerequisites_names": [
+                                {
+                                  "name": "เครื่องรบกวนควอนตัม",
+                                  "key": "tech_disruptors_3"
+                                },
+                                {
+                                  "name": "ยานประจัญบาน",
+                                  "key": "tech_battleships"
+                                }
+                              ],
+                              "weight_modifiers": [
+                                "(×<b style='color:lime'>1.25</b>) มีจริยธรรม ชอบสงคราม ",
+                                "(×<b style='color:lime'>1.5</b>) มีจริยธรรม ชอบสงครามอย่างมาก ",
+                                "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: อนุภาค"
+                              ],
+                              "potential": [],
+                              "children": [
+                                {
+                                  "key": "tech_arc_emitter_2",
+                                  "name": "เครื่องปล่อยอาร์กไฟฟ้าแบบโฟกัสเป้าหมาย",
+                                  "description": "These upgraded emitters are equipped with better focusing lenses, resulting in a more powerful energy discharge.",
+                                  "area": "physics",
+                                  "base_factor": 1.0,
+                                  "base_weight": 35.0,
+                                  "category": "อนุภาค",
+                                  "cost": 12000,
+                                  "feature_unlocks": [
+                                    "<b>ชิ้นส่วน</b>: เครื่องปล่อยอาร์กไฟฟ้าแบบโฟกัสเป้าหมาย"
+                                  ],
+                                  "is_dangerous": false,
+                                  "is_rare": false,
+                                  "is_start_tech": false,
+                                  "prerequisites": [
+                                    "tech_arc_emitter_1"
+                                  ],
+                                  "tier": 4,
+                                  "prerequisites_names": [
+                                    {
+                                      "name": "เครื่องปล่อยอาร์กไฟฟ้า",
+                                      "key": "tech_arc_emitter_1"
+                                    }
+                                  ],
+                                  "weight_modifiers": [
+                                    "(×<b style='color:lime'>1.25</b>) มีจริยธรรม ชอบสงคราม ",
+                                    "(×<b style='color:lime'>1.5</b>) มีจริยธรรม ชอบสงครามอย่างมาก ",
+                                    "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: อนุภาค"
+                                  ],
+                                  "potential": [],
+                                  "children": [],
+                                  "is_event": false,
+                                  "source": "vanilla"
+                                }
+                              ],
+                              "is_event": false,
+                              "source": "vanilla"
+                            }
+                          ],
+                          "is_event": false,
+                          "source": "vanilla"
+                        }
+                      ],
+                      "is_event": false,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "source": "vanilla"
+                },
+                {
+                  "key": "tech_plasma_1",
+                  "name": "เครื่องพ่นพลาสมา",
+                  "description": "Weapons that eject destructive balls of high-energy plasma at targets. These plasma projectiles are extremely effective at eating through ship armor.",
+                  "area": "physics",
+                  "base_factor": 1.0,
+                  "base_weight": 75.0,
+                  "category": "อนุภาค",
+                  "cost": 2000,
+                  "feature_unlocks": [
+                    "<b>ชิ้นส่วน</b>: เครื่องพ่นพลาสมา"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_lasers_2"
+                  ],
+                  "tier": 2,
+                  "prerequisites_names": [
+                    {
+                      "name": "เลเซอร์ฟ้า",
+                      "key": "tech_lasers_2"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>1.25</b>) มีจริยธรรม ชอบสงคราม ",
+                    "(×<b style='color:lime'>1.5</b>) มีจริยธรรม ชอบสงครามอย่างมาก ",
+                    "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: อนุภาค",
+                    "(×<b style='color:red'>0.5</b>) ไม่ มีเทคโนโลยี: เลเซอร์แดง"
+                  ],
+                  "potential": [],
+                  "children": [
+                    {
+                      "key": "tech_plasma_2",
+                      "name": "เครื่องเร่งพลาสมา",
+                      "description": "These new accelerators launch projectiles of high-energy plasma with improved containment fields. This results in less energy leakage as the projectile travels in space towards its target.",
+                      "area": "physics",
+                      "base_factor": 1.0,
+                      "base_weight": 65.0,
+                      "category": "อนุภาค",
+                      "cost": 4000,
+                      "feature_unlocks": [
+                        "<b>ชิ้นส่วน</b>: เครื่องเร่งพลาสมา"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_plasma_1"
+                      ],
+                      "tier": 3,
+                      "prerequisites_names": [
+                        {
+                          "name": "เครื่องพ่นพลาสมา",
+                          "key": "tech_plasma_1"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:lime'>1.25</b>) มีจริยธรรม ชอบสงคราม ",
+                        "(×<b style='color:lime'>1.5</b>) มีจริยธรรม ชอบสงครามอย่างมาก ",
+                        "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: อนุภาค"
+                      ],
+                      "potential": [],
+                      "children": [
+                        {
+                          "key": "tech_plasma_3",
+                          "name": "ปืนใหญ่พลาสมา",
+                          "description": "The latest in plasma weaponry, these cannons are fully militarized versions of the older, somewhat improvised plasma throwers. Their plasma projectiles are even deadlier.",
+                          "area": "physics",
+                          "base_factor": 1.0,
+                          "base_weight": 45.0,
+                          "category": "อนุภาค",
+                          "cost": 8000,
+                          "feature_unlocks": [
+                            "<b>ชิ้นส่วน</b>: ปืนใหญ่พลาสมา"
+                          ],
+                          "is_dangerous": false,
+                          "is_rare": false,
+                          "is_start_tech": false,
+                          "prerequisites": [
+                            "tech_plasma_2"
+                          ],
+                          "tier": 4,
+                          "prerequisites_names": [
+                            {
+                              "name": "เครื่องเร่งพลาสมา",
+                              "key": "tech_plasma_2"
+                            }
+                          ],
+                          "weight_modifiers": [
+                            "(×<b style='color:lime'>1.25</b>) มีจริยธรรม ชอบสงคราม ",
+                            "(×<b style='color:lime'>1.5</b>) มีจริยธรรม ชอบสงครามอย่างมาก ",
+                            "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: อนุภาค"
+                          ],
+                          "potential": [],
+                          "children": [],
+                          "is_event": false,
+                          "source": "vanilla"
+                        }
+                      ],
+                      "is_event": false,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "source": "vanilla"
+                },
+                {
+                  "key": "tech_repeatable_weapon_type_energy_fire_rate",
+                  "name": "เครื่องทำให้เย็นอย่างรวดเร็ว",
+                  "description": "New developments in tech cooling regularly surface, improving the stability and efficiency of our weapons systems, keeping them from blowing up the ships upon which they are mounted.",
+                  "area": "physics",
+                  "base_factor": 0.5,
+                  "base_weight": 12.5,
+                  "category": "อนุภาค",
+                  "cost": 50000,
+                  "feature_unlocks": [
+                    "ความเร็วในการโจมตีอาวุธพลังงาน +5%"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_lasers_2"
+                  ],
+                  "tier": 5,
+                  "prerequisites_names": [
+                    {
+                      "name": "เลเซอร์ฟ้า",
+                      "key": "tech_lasers_2"
+                    }
+                  ],
+                  "weight_modifiers": [],
+                  "potential": [],
+                  "children": [],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_fission_power",
+          "name": "พลังงานฟิชชัน",
+          "description": "This energy source generates power for ships through induced fission, but it also produces harmful nuclear waste.",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 0.0,
+          "category": "อนุภาค",
+          "cost": 0,
+          "feature_unlocks": [
+            "<b>ชิ้นส่วน</b>: เครื่องปฏิกรณ์ฟิชชัน"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": true,
+          "prerequisites": [],
+          "tier": 0,
+          "prerequisites_names": [],
+          "weight_modifiers": [],
+          "potential": [],
+          "children": [
+            {
+              "key": "tech_fusion_power",
+              "name": "พลังงานฟิวชัน",
+              "description": "Nuclear fusion processes generate a great amount of power for ships, but without many of the risks associated with fission power.",
+              "area": "physics",
+              "base_factor": 2.0,
+              "base_weight": 190.0,
+              "category": "อนุภาค",
+              "cost": 750,
+              "feature_unlocks": [
+                "<b>ชิ้นส่วน</b>: เครื่องปฏิกรณ์ฟิวชัน"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_fission_power"
+              ],
+              "tier": 1,
+              "prerequisites_names": [
+                {
+                  "name": "พลังงานฟิชชัน",
+                  "key": "tech_fission_power"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>2.0</b>) มีเทคโนโลยี: ยานพิฆาต",
+                "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: อนุภาค"
+              ],
+              "potential": [],
+              "children": [
+                {
+                  "key": "tech_cold_fusion_power",
+                  "name": "พลังงานฟิวชันแบบเย็น",
+                  "description": "The ability to sustain a fusion reaction at relatively low temperatures will result in a new generation of fusion reactors for our ships.",
+                  "area": "physics",
+                  "base_factor": 2.0,
+                  "base_weight": 150.0,
+                  "category": "อนุภาค",
+                  "cost": 2000,
+                  "feature_unlocks": [
+                    "<b>ชิ้นส่วน</b>: เครื่องปฏิกรณ์ฟิวชันแบบเย็น"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_fusion_power"
+                  ],
+                  "tier": 2,
+                  "prerequisites_names": [
+                    {
+                      "name": "พลังงานฟิวชัน",
+                      "key": "tech_fusion_power"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>2.0</b>) มีเทคโนโลยี: ยานลาดตระเวน",
+                    "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: อนุภาค"
+                  ],
+                  "potential": [],
+                  "children": [
+                    {
+                      "key": "tech_antimatter_power",
+                      "name": "พลังงานปฏิสสาร",
+                      "description": "By harnessing the energy produced by matter/antimatter annihilations, our efficiency at generating ship power will be orders of magnitude better than fusion.",
+                      "area": "physics",
+                      "base_factor": 2.0,
+                      "base_weight": 120.0,
+                      "category": "อนุภาค",
+                      "cost": 5000,
+                      "feature_unlocks": [
+                        "<b>ชิ้นส่วน</b>: เครื่องปฏิกรณ์ปฏิสสาร"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_cold_fusion_power"
+                      ],
+                      "tier": 3,
+                      "prerequisites_names": [
+                        {
+                          "name": "พลังงานฟิวชันแบบเย็น",
+                          "key": "tech_cold_fusion_power"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:lime'>2.0</b>) มีเทคโนโลยี: ยานประจัญบาน",
+                        "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: อนุภาค"
+                      ],
+                      "potential": [],
+                      "children": [
+                        {
+                          "key": "tech_zero_point_power",
+                          "name": "พลังงานที่จุดศูนย์ ",
+                          "description": "These generators extract vacuum energy, providing an almost limitless supply of ship power. There is no more efficient way to generate energy.",
+                          "area": "physics",
+                          "base_factor": 2.0,
+                          "base_weight": 80.0,
+                          "category": "อนุภาค",
+                          "cost": 10000,
+                          "feature_unlocks": [
+                            "<b>ชิ้นส่วน</b>: เครื่องปฏิกรณ์ที่จุดศูนย์"
+                          ],
+                          "is_dangerous": false,
+                          "is_rare": false,
+                          "is_start_tech": false,
+                          "prerequisites": [
+                            "tech_antimatter_power"
+                          ],
+                          "tier": 4,
+                          "prerequisites_names": [
+                            {
+                              "name": "พลังงานปฏิสสาร",
+                              "key": "tech_antimatter_power"
+                            }
+                          ],
+                          "weight_modifiers": [
+                            "(×<b style='color:lime'>2.0</b>) มีเทคโนโลยี: ยานประจัญบาน",
+                            "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: อนุภาค"
+                          ],
+                          "potential": [],
+                          "children": [
+                            {
+                              "key": "tech_jump_drive_1",
+                              "name": "การขับเคลื่อนแบบกระโดดข้าม (จั้มไดร์ฟ)",
+                              "description": "A groundbreaking technological marvel, the Jump Drive shreds the local space-time continuum and rearranges it on the quantum level to be identical to that of the target destination - and thus the ship appears to near-instantly \"jump\" from system to system.",
+                              "area": "physics",
+                              "base_factor": 0.1,
+                              "base_weight": 3.0,
+                              "category": "อนุภาค",
+                              "cost": 15000,
+                              "feature_unlocks": [
+                                "<b>ชิ้นส่วน</b>: ระบบขับเคลื่อนแบบกระโดดข้าม",
+                                "<b>ฟีเจอร์ : </b>การเดินทางแบบกระโดดข้าม (จั้มไดร์ฟ)"
+                              ],
+                              "is_dangerous": true,
+                              "is_rare": true,
+                              "is_start_tech": false,
+                              "prerequisites": [
+                                "tech_zero_point_power"
+                              ],
+                              "tier": 5,
+                              "prerequisites_names": [
+                                {
+                                  "name": "พลังงานที่จุดศูนย์ ",
+                                  "key": "tech_zero_point_power"
+                                }
+                              ],
+                              "weight_modifiers": [
+                                "(×<b style='color:red'>0.1</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   หัวหน้าการวิจัย (ฟิสิกส์): <br/>\t    •   เชี่ยวชาญ: อนุภาค<br/>    •   หัวหน้าการวิจัย (ฟิสิกส์): <br/>\t    •   ผู้ดูแลพิพิธภัณฑ์<br/>    •   หัวหน้าการวิจัย (ฟิสิกส์): <br/>\t    •   ประกายแห่งความอัจฉริยะ<br/>    •   หัวหน้าการวิจัย (ฟิสิกส์): <br/>\t    •   คลั่งไคล้หลงใหล",
+                                "(×<b style='color:lime'>1.5</b>) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
+                                "(×<b style='color:lime'>2.0</b>) สหพันธ์ : <br/>    •   มี แรงบันดาลใจทางวิทยาศาสตร์<br/>    •   มีสมาชิกที่ มีเทคโนโลยี: การขับเคลื่อนแบบกระโดดข้าม (จั้มไดร์ฟ)",
+                                "(×<b style='color:lime'>1.25</b>) มี วัฒนธรรมการค้นพบ "
+                              ],
+                              "potential": [],
+                              "children": [],
+                              "is_event": false,
+                              "source": "vanilla"
+                            },
+                            {
+                              "key": "tech_dark_matter_power_core",
+                              "name": "พลังงานสสารมืด",
+                              "description": "These generators appear to somehow draw energy directly from dark matter, providing more ship power than should be possible according to the laws of physics.",
+                              "area": "physics",
+                              "base_factor": 1.0,
+                              "base_weight": 1.0,
+                              "category": "อนุภาค",
+                              "cost": 50000,
+                              "feature_unlocks": [
+                                "<b>ชิ้นส่วน</b>: เครื่องปฏิกรณ์สสารมืด"
+                              ],
+                              "is_dangerous": false,
+                              "is_rare": true,
+                              "is_start_tech": false,
+                              "prerequisites": [
+                                "tech_zero_point_power"
+                              ],
+                              "tier": 5,
+                              "prerequisites_names": [
+                                {
+                                  "name": "พลังงานที่จุดศูนย์ ",
+                                  "key": "tech_zero_point_power"
+                                }
+                              ],
+                              "weight_modifiers": [
+                                "(×<b style='color:red'>0.0</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   เป็นจักรวรรดิประเภท: จักรวรรดิเก่าแก่ทรงพลัง<br/>    •   เป็นจักรวรรดิประเภท: จักรวรรดิที่ตื่นขึ้นแล้ว"
+                              ],
+                              "potential": [],
+                              "children": [],
+                              "is_event": false,
+                              "source": "vanilla"
+                            }
+                          ],
+                          "is_event": false,
+                          "source": "vanilla"
+                        }
+                      ],
+                      "is_event": false,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_reactor_boosters_1",
+          "name": "เครื่องเร่งปฏิกิริยา",
+          "description": "Additional power generation systems increase the ship's reactor output.",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 0.0,
+          "category": "อนุภาค",
+          "cost": 0,
+          "feature_unlocks": [
+            "<b>ชิ้นส่วน</b>: เครื่องเร่งปฏิกิริยา"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": true,
+          "prerequisites": [],
+          "tier": 0,
+          "prerequisites_names": [],
+          "weight_modifiers": [],
+          "potential": [],
+          "children": [
+            {
+              "key": "tech_reactor_boosters_2",
+              "name": "เครื่องเร่งปฏิกิริยาแบบปรับปรุง",
+              "description": "The discovery of fusion power allows for better reactor boosters to be fitted onto our ships.",
+              "area": "physics",
+              "base_factor": 1.5,
+              "base_weight": 135.0,
+              "category": "อนุภาค",
+              "cost": 1000,
+              "feature_unlocks": [
+                "<b>ชิ้นส่วน</b>: เครื่องเร่งปฏิกิริยาแบบปรับปรุง"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_reactor_boosters_1",
+                "tech_fusion_power"
+              ],
+              "tier": 1,
+              "prerequisites_names": [
+                {
+                  "name": "พลังงานฟิวชัน",
+                  "key": "tech_fusion_power"
+                },
+                {
+                  "name": "เครื่องเร่งปฏิกิริยา",
+                  "key": "tech_reactor_boosters_1"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: อนุภาค"
+              ],
+              "potential": [],
+              "children": [
+                {
+                  "key": "tech_reactor_boosters_3",
+                  "name": "เครื่องเร่งปฏิกิริยาขั้นสูง",
+                  "description": "The discovery of antimatter power allows for highly advanced reactor boosters that can greatly enhance ship reactors.",
+                  "area": "physics",
+                  "base_factor": 1.5,
+                  "base_weight": 75.0,
+                  "category": "อนุภาค",
+                  "cost": 6000,
+                  "feature_unlocks": [
+                    "<b>ชิ้นส่วน</b>: เครื่องเร่งปฏิกิริยาขั้นสูง"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_reactor_boosters_2",
+                    "tech_antimatter_power"
+                  ],
+                  "tier": 1,
+                  "prerequisites_names": [
+                    {
+                      "name": "พลังงานปฏิสสาร",
+                      "key": "tech_antimatter_power"
+                    },
+                    {
+                      "name": "เครื่องเร่งปฏิกิริยาแบบปรับปรุง",
+                      "key": "tech_reactor_boosters_2"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: อนุภาค"
+                  ],
+                  "potential": [],
+                  "children": [],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_hyper_drive_1",
+          "name": "การเดินทางแบบไฮเปอร์สเปซ",
+          "description": "Like the strands of a spider web, the extra-dimensional realm of hyperspace runs between the gravity wells of most stars. Faster than light travel is theoretically possible along these hyperlanes.",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 0.0,
+          "category": "อนุภาค",
+          "cost": 0,
+          "feature_unlocks": [
+            "<b>ชิ้นส่วน</b>: ระบบขับเคลื่อนไฮเปอร์ไดรฟ์ I"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": true,
+          "prerequisites": [],
+          "tier": 0,
+          "prerequisites_names": [],
+          "weight_modifiers": [],
+          "potential": [],
+          "children": [
+            {
+              "key": "tech_hyper_drive_2",
+              "name": "จุดเชื่อมไฮเปอร์เลน",
+              "description": "We have identified the existence of points in space where a ship expends less energy to \"breach\" their way into a hyperlane. This will lead to a new generation of hyper drives.",
+              "area": "physics",
+              "base_factor": 1.0,
+              "base_weight": 75.0,
+              "category": "อนุภาค",
+              "cost": 2000,
+              "feature_unlocks": [
+                "<b>ชิ้นส่วน</b>: ระบบขับเคลื่อนไฮเปอร์ไดรฟ์ II",
+                "<b>สิ่งก่อสร้างบนฐานอวกาศ</b>: ระบบนำทางไฮเปอร์เลน"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_hyper_drive_1"
+              ],
+              "tier": 2,
+              "prerequisites_names": [
+                {
+                  "name": "การเดินทางแบบไฮเปอร์สเปซ",
+                  "key": "tech_hyper_drive_1"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) มี วัฒนธรรมการค้นพบ ",
+                "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: อนุภาค"
+              ],
+              "potential": [],
+              "children": [
+                {
+                  "key": "tech_hyper_drive_3",
+                  "name": "ไฮเปอร์สเปซสลิปสตรีม",
+                  "description": "A new generation of hyper drives capable of accessing the subspace slipstreams that are present within hyperspace. This leads to dramatically improved drive performance.",
+                  "area": "physics",
+                  "base_factor": 1.0,
+                  "base_weight": 50.0,
+                  "category": "อนุภาค",
+                  "cost": 6000,
+                  "feature_unlocks": [
+                    "<b>ชิ้นส่วน</b>: ระบบขับเคลื่อนไฮเปอร์ไดรฟ์ III"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_hyper_drive_2"
+                  ],
+                  "tier": 3,
+                  "prerequisites_names": [
+                    {
+                      "name": "จุดเชื่อมไฮเปอร์เลน",
+                      "key": "tech_hyper_drive_2"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>1.25</b>) มี วัฒนธรรมการค้นพบ ",
+                    "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: อนุภาค"
+                  ],
+                  "potential": [],
+                  "children": [
+                    {
+                      "key": "tech_gateway_activation",
+                      "name": "การเปิดใช้งานเกตเวย์",
+                      "description": "The ability to reactivate the derelict Gateway stations that can be found scattered throughout the galaxy has the potential to dramatically shorten travel times.",
+                      "area": "physics",
+                      "base_factor": 0.5,
+                      "base_weight": 17.5,
+                      "category": "อนุภาค",
+                      "cost": 12000,
+                      "feature_unlocks": [
+                        "<b>ฟีเจอร์ : </b>การเดินทางโดยใช้เกตเวย์"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": true,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_hyper_drive_3"
+                      ],
+                      "tier": 4,
+                      "prerequisites_names": [
+                        {
+                          "name": "ไฮเปอร์สเปซสลิปสตรีม",
+                          "key": "tech_hyper_drive_3"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:red'>0.1</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   หัวหน้าการวิจัย (ฟิสิกส์): <br/>\t    •   เชี่ยวชาญ: อนุภาค<br/>    •   หัวหน้าการวิจัย (ฟิสิกส์): <br/>\t    •   ผู้ดูแลพิพิธภัณฑ์<br/>    •   หัวหน้าการวิจัย (ฟิสิกส์): <br/>\t    •   ประกายแห่งความอัจฉริยะ<br/>    •   หัวหน้าการวิจัย (ฟิสิกส์): <br/>\t    •   คลั่งไคล้หลงใหล",
+                        "(×<b style='color:lime'>1.25</b>) มี วัฒนธรรมการค้นพบ ",
+                        "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: อนุภาค",
+                        "(×<b style='color:lime'>1.5</b>) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
+                        "(×<b style='color:lime'>2.0</b>) สหพันธ์ : <br/>    •   มี แรงบันดาลใจทางวิทยาศาสตร์<br/>    •   มีสมาชิกที่ มีเทคโนโลยี: การเปิดใช้งานเกตเวย์",
+                        "(×<b style='color:red'>0.0</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   หนึ่งอย่างต้องเป็นจริง<br/>\t    •   ได้พบเจอกับ เกตเวย์<br/>\t    •   ได้พบเจอกับ L-Gate<br/>    •   มีความสัมพันธ์กับจักรวรรดิใดๆ<br/>\t    •   เป็นจักรวรรดิประเภท: default<br/>\t    •   มีการติดต่อสื่อสารกับจักรวรรดิเรา<br/>\t    •   มีเทคโนโลยี: การเปิดใช้งานเกตเวย์",
+                        "(×<b style='color:lime'>4.0</b>) หนึ่งอย่างต้องเป็นจริง<br/>    •   ควบคุมระบบที่มี เกตเวย์<br/>    •   ควบคุมระบบที่มี L-Gate"
+                      ],
+                      "potential": [],
+                      "children": [
+                        {
+                          "key": "tech_gateway_construction",
+                          "name": "การก่อสร้างเกตเวย์",
+                          "description": "The construction of new Gateway stations enables us to build a fast-travel network that could revolutionize interstellar travel.",
+                          "area": "physics",
+                          "base_factor": 0.5,
+                          "base_weight": 10.0,
+                          "category": "อนุภาค",
+                          "cost": 20000,
+                          "feature_unlocks": [
+                            "<b>ฟีเจอร์ : </b>การก่อสร้างเกตเวย์"
+                          ],
+                          "is_dangerous": false,
+                          "is_rare": true,
+                          "is_start_tech": false,
+                          "prerequisites": [
+                            "tech_gateway_activation",
+                            "tech_mega_engineering"
+                          ],
+                          "tier": 5,
+                          "prerequisites_names": [
+                            {
+                              "name": "การเปิดใช้งานเกตเวย์",
+                              "key": "tech_gateway_activation"
+                            },
+                            {
+                              "name": "วิศวกรรมขนาดใหญ่",
+                              "key": "tech_mega_engineering"
+                            }
+                          ],
+                          "weight_modifiers": [
+                            "(×<b style='color:red'>0.1</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   หัวหน้าการวิจัย (ฟิสิกส์): <br/>\t    •   เชี่ยวชาญ: อนุภาค<br/>    •   หัวหน้าการวิจัย (ฟิสิกส์): <br/>\t    •   ผู้ดูแลพิพิธภัณฑ์<br/>    •   หัวหน้าการวิจัย (ฟิสิกส์): <br/>\t    •   ประกายแห่งความอัจฉริยะ<br/>    •   หัวหน้าการวิจัย (ฟิสิกส์): <br/>\t    •   คลั่งไคล้หลงใหล",
+                            "(×<b style='color:lime'>1.25</b>) มี วัฒนธรรมการค้นพบ ",
+                            "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: อนุภาค",
+                            "(×<b style='color:lime'>1.5</b>) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
+                            "(×<b style='color:lime'>2.0</b>) สหพันธ์ : <br/>    •   มี แรงบันดาลใจทางวิทยาศาสตร์<br/>    •   มีสมาชิกที่ มีเทคโนโลยี: การก่อสร้างเกตเวย์",
+                            "(×<b style='color:lime'>4.0</b>) ควบคุมระบบที่มี เกตเวย์"
+                          ],
+                          "potential": [],
+                          "children": [],
+                          "is_event": false,
+                          "source": "vanilla"
+                        }
+                      ],
+                      "is_event": false,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "source": "vanilla"
+                },
+                {
+                  "key": "tech_wormhole_stabilization",
+                  "name": "การทำให้รูหนอนมีความเสถียร",
+                  "description": "A naturally occurring subspace wormhole is a fickle thing, and its fluctuating energy levels typically make it impossible to travel safely between its linked apertures. There are ways to temporarily stabilize its matrix, however.",
+                  "area": "physics",
+                  "base_factor": 0.5,
+                  "base_weight": 32.5,
+                  "category": "อนุภาค",
+                  "cost": 4000,
+                  "feature_unlocks": [
+                    "<b>ฟีเจอร์ : </b>การเดินทางโดยใช้รูหนอน"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": true,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_hyper_drive_2"
+                  ],
+                  "tier": 3,
+                  "prerequisites_names": [
+                    {
+                      "name": "จุดเชื่อมไฮเปอร์เลน",
+                      "key": "tech_hyper_drive_2"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:red'>0.5</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   หัวหน้าการวิจัย (ฟิสิกส์): <br/>\t    •   เชี่ยวชาญ: อนุภาค<br/>    •   หัวหน้าการวิจัย (ฟิสิกส์): <br/>\t    •   ผู้ดูแลพิพิธภัณฑ์<br/>    •   หัวหน้าการวิจัย (ฟิสิกส์): <br/>\t    •   ประกายแห่งความอัจฉริยะ<br/>    •   หัวหน้าการวิจัย (ฟิสิกส์): <br/>\t    •   คลั่งไคล้หลงใหล",
+                    "(×<b style='color:lime'>1.25</b>) มี วัฒนธรรมการค้นพบ ",
+                    "(×<b style='color:lime'>1.5</b>) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
+                    "(×<b style='color:lime'>2.0</b>) สหพันธ์ : <br/>    •   มี แรงบันดาลใจทางวิทยาศาสตร์<br/>    •   มีสมาชิกที่ มีเทคโนโลยี: การทำให้รูหนอนมีความเสถียร",
+                    "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: อนุภาค",
+                    "(×<b style='color:red'>0.0</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   ได้พบเจอกับ รูหนอนธรรมชาติ<br/>    •   มีความสัมพันธ์กับจักรวรรดิใดๆ<br/>\t    •   เป็นจักรวรรดิประเภท: default<br/>\t    •   มีการติดต่อสื่อสารกับจักรวรรดิเรา<br/>\t    •   มีเทคโนโลยี: การทำให้รูหนอนมีความเสถียร",
+                    "(×<b style='color:lime'>4.0</b>) ควบคุมระบบที่มี รูหนอนธรรมชาติ"
+                  ],
+                  "potential": [],
+                  "children": [],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "source": "vanilla"
+            },
+            {
+              "key": "tech_ftl_inhibitor",
+              "name": "การยับยั้งการเคลื่อนที่ที่เร็วกว่าแสง",
+              "description": "Gravity well projectors can be used to create localized pockets of space where safe entry into hyperspace is impossible. The immense power requirements and the size of the projectors prohibits their use on anything smaller than a starbase.",
+              "area": "physics",
+              "base_factor": 4.0,
+              "base_weight": 340.0,
+              "category": "อนุภาค",
+              "cost": 1500,
+              "feature_unlocks": [
+                "<b>ชิ้นส่วน</b>: ตัวยับยั้งการขับเคลื่อนที่เร็วกว่าแสง",
+                "<b>ฟีเจอร์ : </b>ตัวยับยั้ง FTL ดาวเคราะห์"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_hyper_drive_1"
+              ],
+              "tier": 2,
+              "prerequisites_names": [
+                {
+                  "name": "การเดินทางแบบไฮเปอร์สเปซ",
+                  "key": "tech_hyper_drive_1"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) มี วัฒนธรรมความยิ่งใหญ่ ",
+                "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: อนุภาค"
+              ],
+              "potential": [],
+              "children": [],
+              "is_event": false,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_pd_tracking_1",
+          "name": "การตอบโต้ว่องไว",
+          "description": "The best defense is a good offense.",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 0.0,
+          "category": "การคำนวณ",
+          "cost": 0,
+          "feature_unlocks": [
+            "<b>ชิ้นส่วน</b>: ระบบป้องกันเป็นจุด"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": true,
+          "prerequisites": [],
+          "tier": 0,
+          "prerequisites_names": [],
+          "weight_modifiers": [],
+          "potential": [],
+          "children": [
+            {
+              "key": "tech_pd_tracking_2",
+              "name": "ระบบรองรับการเชื่อมต่อ",
+              "description": "Arrays of defensive armaments prove much more effective than independent countermeasures.",
+              "area": "physics",
+              "base_factor": 1.0,
+              "base_weight": 70.0,
+              "category": "การคำนวณ",
+              "cost": 2500,
+              "feature_unlocks": [
+                "<b>ชิ้นส่วน</b>: ระบบป้องกันเป็นจุด"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_pd_tracking_1"
+              ],
+              "tier": 2,
+              "prerequisites_names": [
+                {
+                  "name": "การตอบโต้ว่องไว",
+                  "key": "tech_pd_tracking_1"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ"
+              ],
+              "potential": [],
+              "children": [
+                {
+                  "key": "tech_pd_tracking_3",
+                  "name": "อัลกอริทึมในการทำนายคาดการณ์",
+                  "description": "Advanced prediction greatly increases the accuracy of active countermeasure systems.",
+                  "area": "physics",
+                  "base_factor": 1.0,
+                  "base_weight": 45.0,
+                  "category": "การคำนวณ",
+                  "cost": 8000,
+                  "feature_unlocks": [
+                    "<b>ชิ้นส่วน</b>: ระบบป้องกันเป็นจุด"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_pd_tracking_2"
+                  ],
+                  "tier": 4,
+                  "prerequisites_names": [
+                    {
+                      "name": "ระบบรองรับการเชื่อมต่อ",
+                      "key": "tech_pd_tracking_2"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ"
+                  ],
+                  "potential": [],
+                  "children": [],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_basic_science_lab_1",
+          "name": "วิธีการทางวิทยาศาสตร์",
+          "description": "Testable predictions of observable phenomena.",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 0.0,
+          "category": "การคำนวณ",
+          "cost": 0,
+          "feature_unlocks": [
+            "<b>สิ่งปลูกสร้าง</b>: ห้องวิจัย"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": true,
+          "prerequisites": [],
+          "tier": 0,
+          "prerequisites_names": [],
+          "weight_modifiers": [],
+          "potential": [],
+          "children": [
+            {
+              "key": "tech_administrative_ai",
+              "name": "AI การบริหารจัดการ",
+              "description": "Organizational circuitry rerouting academic fervor.",
+              "area": "physics",
+              "base_factor": 1.0,
+              "base_weight": 100.0,
+              "category": "การคำนวณ",
+              "cost": 500,
+              "feature_unlocks": [
+                "ความเร็วในการวิจัย +5%"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_basic_science_lab_1"
+              ],
+              "tier": 1,
+              "prerequisites_names": [
+                {
+                  "name": "วิธีการทางวิทยาศาสตร์",
+                  "key": "tech_basic_science_lab_1"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ"
+              ],
+              "potential": [],
+              "children": [
+                {
+                  "key": "tech_combat_computers_1",
+                  "name": "คอมพิวเตอร์การรบเฉพาะทาง",
+                  "description": "Active matrices tuned for specific combat-centric tasks greatly improve engagement efficiency.",
+                  "area": "physics",
+                  "base_factor": 1.0,
+                  "base_weight": 90.0,
+                  "category": "การคำนวณ",
+                  "cost": 1000,
+                  "feature_unlocks": [
+                    "<b>ชิ้นส่วน</b>: คอมพิวเตอร์ต่อสู้",
+                    "<b>ชิ้นส่วน</b>: ระบบควบคุมการยิงฐานอวกาศ"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_administrative_ai"
+                  ],
+                  "tier": 1,
+                  "prerequisites_names": [
+                    {
+                      "name": "AI การบริหารจัดการ",
+                      "key": "tech_administrative_ai"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>2.0</b>) มีเทคโนโลยี: ยานพิฆาต",
+                    "(×<b style='color:lime'>2.0</b>) มีเทคโนโลยี: ยานลาดตระเวน",
+                    "(×<b style='color:lime'>2.0</b>) มีเทคโนโลยี: ยานประจัญบาน",
+                    "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ"
+                  ],
+                  "potential": [],
+                  "children": [
+                    {
+                      "key": "tech_auxiliary_fire_control",
+                      "name": "ระบบช่วยสนับสนุนควบคุมการยิง",
+                      "description": "By installing an auxiliary fire-control system our ships can afford to make more advanced calculations, increasing accuracy.",
+                      "area": "physics",
+                      "base_factor": 1.0,
+                      "base_weight": 90.0,
+                      "category": "การคำนวณ",
+                      "cost": 1000,
+                      "feature_unlocks": [
+                        "<b>ชิ้นส่วน</b>: ระบบช่วยสนับสนุนควบคุมการยิง"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_combat_computers_1"
+                      ],
+                      "tier": 1,
+                      "prerequisites_names": [
+                        {
+                          "name": "คอมพิวเตอร์การรบเฉพาะทาง",
+                          "key": "tech_combat_computers_1"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ"
+                      ],
+                      "potential": [],
+                      "children": [],
+                      "is_event": false,
+                      "source": "vanilla"
+                    },
+                    {
+                      "key": "tech_combat_computers_2",
+                      "name": "อัลกอริทึมการรบแบบขยาย",
+                      "description": "Further advances in predictive algorithms allow for augmented tactical decision-making in the field.",
+                      "area": "physics",
+                      "base_factor": 1.0,
+                      "base_weight": 65.0,
+                      "category": "การคำนวณ",
+                      "cost": 4000,
+                      "feature_unlocks": [
+                        "<b>ชิ้นส่วน</b>: คอมพิวเตอร์ต่อสู้ขั้นสูง",
+                        "<b>ชิ้นส่วน</b>: ระบบควบคุมการยิงฐานอวกาศ"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_combat_computers_1",
+                        "tech_self_aware_logic"
+                      ],
+                      "tier": 3,
+                      "prerequisites_names": [
+                        {
+                          "name": "คอมพิวเตอร์การรบเฉพาะทาง",
+                          "key": "tech_combat_computers_1"
+                        },
+                        {
+                          "name": "ตรรกะการพัฒนาตนเอง",
+                          "key": "tech_self_aware_logic"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ"
+                      ],
+                      "potential": [],
+                      "children": [
+                        {
+                          "key": "tech_combat_computers_3",
+                          "name": "การจำลองการรบแบบฉลาด",
+                          "description": "Running sapient AIs through high-intensity combat simulations yields valuable insight into potential optimizations for risk-evaluation techniques.",
+                          "area": "physics",
+                          "base_factor": 0.5,
+                          "base_weight": 20.0,
+                          "category": "การคำนวณ",
+                          "cost": 10000,
+                          "feature_unlocks": [
+                            "<b>ชิ้นส่วน</b>: คอมพิวเตอร์ต่อสู้ฉลาด"
+                          ],
+                          "is_dangerous": true,
+                          "is_rare": true,
+                          "is_start_tech": false,
+                          "prerequisites": [
+                            "tech_combat_computers_2",
+                            "tech_sapient_ai"
+                          ],
+                          "tier": 4,
+                          "prerequisites_names": [
+                            {
+                              "name": "อัลกอริทึมการรบแบบขยาย",
+                              "key": "tech_combat_computers_2"
+                            },
+                            {
+                              "name": "AI โพซิทรอนิกส์",
+                              "key": "tech_sapient_ai"
+                            }
+                          ],
+                          "weight_modifiers": [
+                            "(×<b style='color:red'>0.2</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   หัวหน้าการวิจัย (ฟิสิกส์): <br/>\t    •   เชี่ยวชาญ: การคำนวณ<br/>    •   หัวหน้าการวิจัย (ฟิสิกส์): <br/>\t    •   ผู้ดูแลพิพิธภัณฑ์<br/>    •   หัวหน้าการวิจัย (ฟิสิกส์): <br/>\t    •   คลั่งไคล้หลงใหล",
+                            "(×<b style='color:red'>0.0</b>) มีนโยบาย AI ผิดกฎหมาย",
+                            "(×<b style='color:lime'>1.5</b>) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
+                            "(×<b style='color:lime'>2.0</b>) สหพันธ์ : <br/>    •   มี แรงบันดาลใจทางวิทยาศาสตร์<br/>    •   มีสมาชิกที่ มีเทคโนโลยี: การจำลองการรบแบบฉลาด",
+                            "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ<br/>    •   สกิลเลเวล มากกว่า 2"
+                          ],
+                          "potential": [
+                            "ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน "
+                          ],
+                          "children": [],
+                          "is_event": false,
+                          "source": "vanilla"
+                        },
+                        {
+                          "key": "tech_combat_computers_autonomous",
+                          "name": "สติปัญญาของยานที่ควบคุมได้ด้วยตัวเอง",
+                          "description": "Granting our ships their own semi-autonomous intellect will greatly enhance their responsiveness in combat.",
+                          "area": "physics",
+                          "base_factor": 0.5,
+                          "base_weight": 20.0,
+                          "category": "การคำนวณ",
+                          "cost": 10000,
+                          "feature_unlocks": [
+                            "<b>ชิ้นส่วน</b>: สติปัญญายาอัตโนมัติ"
+                          ],
+                          "is_dangerous": false,
+                          "is_rare": true,
+                          "is_start_tech": false,
+                          "prerequisites": [
+                            "tech_combat_computers_2"
+                          ],
+                          "tier": 4,
+                          "prerequisites_names": [
+                            {
+                              "name": "อัลกอริทึมการรบแบบขยาย",
+                              "key": "tech_combat_computers_2"
+                            }
+                          ],
+                          "weight_modifiers": [
+                            "(×<b style='color:red'>0.2</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   หัวหน้าการวิจัย (ฟิสิกส์): <br/>\t    •   เชี่ยวชาญ: การคำนวณ<br/>    •   หัวหน้าการวิจัย (ฟิสิกส์): <br/>\t    •   ผู้ดูแลพิพิธภัณฑ์<br/>    •   หัวหน้าการวิจัย (ฟิสิกส์): <br/>\t    •   คลั่งไคล้หลงใหล",
+                            "(×<b style='color:lime'>1.5</b>) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
+                            "(×<b style='color:lime'>2.0</b>) สหพันธ์ : <br/>    •   มี แรงบันดาลใจทางวิทยาศาสตร์<br/>    •   มีสมาชิกที่ มีเทคโนโลยี: สติปัญญาของยานที่ควบคุมได้ด้วยตัวเอง",
+                            "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ<br/>    •   สกิลเลเวล มากกว่า 2"
+                          ],
+                          "potential": [
+                            "มีจริยธรรม เป็นหนึ่งเดียวกัน "
+                          ],
+                          "children": [],
+                          "is_event": false,
+                          "source": "vanilla"
+                        }
+                      ],
+                      "is_event": false,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "source": "vanilla"
+                },
+                {
+                  "key": "tech_cryostasis_1",
+                  "name": "ยานอาณานิคมที่ควบคุมด้วย AI",
+                  "description": "By giving control of the colony ship to an Artificial Intelligence, the crew and colonists can be suspended in a deep sleep.",
+                  "area": "physics",
+                  "base_factor": 1.0,
+                  "base_weight": 90.0,
+                  "category": "การคำนวณ",
+                  "cost": 1000,
+                  "feature_unlocks": [
+                    "ความเร็วในการพัฒนาอาณานิคม +50%"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_administrative_ai"
+                  ],
+                  "tier": 1,
+                  "prerequisites_names": [
+                    {
+                      "name": "AI การบริหารจัดการ",
+                      "key": "tech_administrative_ai"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ"
+                  ],
+                  "potential": [],
+                  "children": [
+                    {
+                      "key": "tech_cryostasis_2",
+                      "name": "ยานอาณานิคมที่สั่งการได้ด้วยตนเอง",
+                      "description": "Sufficiently advanced systems are capable of optimizing themselves if they are made acutely aware of the purpose for which they were made.",
+                      "area": "physics",
+                      "base_factor": 1.0,
+                      "base_weight": 70.0,
+                      "category": "การคำนวณ",
+                      "cost": 2500,
+                      "feature_unlocks": [
+                        "ความเร็วในการพัฒนาอาณานิคม +50%"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_cryostasis_1",
+                        "tech_self_aware_logic"
+                      ],
+                      "tier": 3,
+                      "prerequisites_names": [
+                        {
+                          "name": "ตรรกะการพัฒนาตนเอง",
+                          "key": "tech_self_aware_logic"
+                        },
+                        {
+                          "name": "ยานอาณานิคมที่ควบคุมด้วย AI",
+                          "key": "tech_cryostasis_1"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ"
+                      ],
+                      "potential": [],
+                      "children": [],
+                      "is_event": false,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "source": "vanilla"
+                },
+                {
+                  "key": "tech_self_aware_logic",
+                  "name": "ตรรกะการพัฒนาตนเอง",
+                  "description": "Introspective prioritization.",
+                  "area": "physics",
+                  "base_factor": 1.0,
+                  "base_weight": 75.0,
+                  "category": "การคำนวณ",
+                  "cost": 2000,
+                  "feature_unlocks": [
+                    "ทางเลือกในการวิจัย +1"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_administrative_ai"
+                  ],
+                  "tier": 2,
+                  "prerequisites_names": [
+                    {
+                      "name": "AI การบริหารจัดการ",
+                      "key": "tech_administrative_ai"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ"
+                  ],
+                  "potential": [],
+                  "children": [
+                    {
+                      "key": "tech_consumer_good_refinement_2",
+                      "name": "การพยากรณ์นิยมในการบริโภค",
+                      "description": "Using advanced AIs, we can reliably predict consumer demand before it exists.",
+                      "area": "physics",
+                      "base_factor": 2.0,
+                      "base_weight": 90.0,
+                      "category": "การคำนวณ",
+                      "cost": 4000,
+                      "feature_unlocks": [
+                        "£job_artisan£ ผลิตผล ช่างฝีมือ +10%"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_self_aware_logic",
+                        "tech_consumer_good_refinement_1",
+                        "tech_luxuries_2"
+                      ],
+                      "tier": 4,
+                      "prerequisites_names": [
+                        {
+                          "name": "คีออสก์จำลอง",
+                          "key": "tech_luxuries_2"
+                        },
+                        {
+                          "name": "อัลกอริทึมวิเคราะห์ตลาด",
+                          "key": "tech_consumer_good_refinement_1"
+                        },
+                        {
+                          "name": "ตรรกะการพัฒนาตนเอง",
+                          "key": "tech_self_aware_logic"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ"
+                      ],
+                      "potential": [
+                        "หนึ่งอย่างต้องเป็นจริง\n    •   ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน \n    •   มีรัฐบาลพลเมือง: เครื่องจักรรับใช้"
+                      ],
+                      "children": [],
+                      "is_event": false,
+                      "source": "vanilla"
+                    },
+                    {
+                      "key": "tech_positronic_implants",
+                      "name": "ฝังสมองโพซิทรอนิกส์ในร่างกาย",
+                      "description": "Expanding possibilities through the application of limited cybernetics.",
+                      "area": "physics",
+                      "base_factor": 1.0,
+                      "base_weight": 45.0,
+                      "category": "การคำนวณ",
+                      "cost": 8000,
+                      "feature_unlocks": [
+                        "ความเร็วในการวิจัย +5%"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_self_aware_logic"
+                      ],
+                      "tier": 4,
+                      "prerequisites_names": [
+                        {
+                          "name": "ตรรกะการพัฒนาตนเอง",
+                          "key": "tech_self_aware_logic"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ"
+                      ],
+                      "potential": [
+                        "มีจริยธรรม เป็นหนึ่งเดียวกัน "
+                      ],
+                      "children": [],
+                      "is_event": false,
+                      "source": "vanilla"
+                    },
+                    {
+                      "key": "tech_sapient_ai",
+                      "name": "AI โพซิทรอนิกส์",
+                      "description": "Evolving artificial intellects are opening the door to the possibility for true synthetic sapience.",
+                      "area": "physics",
+                      "base_factor": 1.0,
+                      "base_weight": 45.0,
+                      "category": "การคำนวณ",
+                      "cost": 8000,
+                      "feature_unlocks": [
+                        "ความเร็วในการวิจัย +5%"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_self_aware_logic"
+                      ],
+                      "tier": 4,
+                      "prerequisites_names": [
+                        {
+                          "name": "ตรรกะการพัฒนาตนเอง",
+                          "key": "tech_self_aware_logic"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ"
+                      ],
+                      "potential": [
+                        "ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน "
+                      ],
+                      "children": [],
+                      "is_event": false,
+                      "source": "vanilla"
+                    },
+                    {
+                      "key": "tech_synchronized_defences",
+                      "name": "การป้องกันแบบซิงโครไนซ์",
+                      "description": "Aligning defensive and offensive weapon execution paradigms allows for increased efficiency.",
+                      "area": "physics",
+                      "base_factor": 0.5,
+                      "base_weight": 20.0,
+                      "category": "การคำนวณ",
+                      "cost": 10000,
+                      "feature_unlocks": [
+                        "<b>สิ่งก่อสร้างบนฐานอวกาศ</b>: ซูเปอร์คอมพิวเตอร์กริดป้องกัน"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": true,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_self_aware_logic"
+                      ],
+                      "tier": 4,
+                      "prerequisites_names": [
+                        {
+                          "name": "ตรรกะการพัฒนาตนเอง",
+                          "key": "tech_self_aware_logic"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:red'>0.5</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   หัวหน้าการวิจัย (ฟิสิกส์): <br/>\t    •   เชี่ยวชาญ: การคำนวณ<br/>    •   หัวหน้าการวิจัย (ฟิสิกส์): <br/>\t    •   ผู้ดูแลพิพิธภัณฑ์",
+                        "(×<b style='color:red'>0.75</b>) มีจริยธรรม รักสงบ ",
+                        "(×<b style='color:red'>0.65</b>) มีจริยธรรม รักสงบอย่างมาก ",
+                        "(×<b style='color:lime'>1.1</b>) มีจริยธรรม ชอบสงคราม ",
+                        "(×<b style='color:lime'>1.2</b>) มีจริยธรรม ชอบสงครามอย่างมาก ",
+                        "(×<b style='color:lime'>1.5</b>) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
+                        "(×<b style='color:lime'>2.0</b>) สหพันธ์ : <br/>    •   มี แรงบันดาลใจทางวิทยาศาสตร์<br/>    •   มีสมาชิกที่ มีเทคโนโลยี: การป้องกันแบบซิงโครไนซ์"
+                      ],
+                      "potential": [],
+                      "children": [],
+                      "is_event": false,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "source": "vanilla"
+                },
+                {
+                  "key": "tech_consumer_good_refinement_1",
+                  "name": "อัลกอริทึมวิเคราะห์ตลาด",
+                  "description": "Basic administrative AIs can be used to streamline supply and demand lines, reducing waste.",
+                  "area": "physics",
+                  "base_factor": 2.0,
+                  "base_weight": 170.0,
+                  "category": "การคำนวณ",
+                  "cost": 4000,
+                  "feature_unlocks": [
+                    "£job_artisan£ ผลิตผล ช่างฝีมือ +10%"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_administrative_ai",
+                    "tech_luxuries_1"
+                  ],
+                  "tier": 2,
+                  "prerequisites_names": [
+                    {
+                      "name": "การประกอบวงจรนาโน",
+                      "key": "tech_luxuries_1"
+                    },
+                    {
+                      "name": "AI การบริหารจัดการ",
+                      "key": "tech_administrative_ai"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ"
+                  ],
+                  "potential": [
+                    "หนึ่งอย่างต้องเป็นจริง\n    •   ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน \n    •   มีรัฐบาลพลเมือง: เครื่องจักรรับใช้"
+                  ],
+                  "children": [],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "source": "vanilla"
+            },
+            {
+              "key": "tech_basic_science_lab_2",
+              "name": "ห้องวิจัยวัสดุแปลกใหม่",
+              "description": "As we explore the galaxy, we continually encounter new materials and substances that are unfamiliar to us. Cataloging and analyzing these discoveries will require new facilities.",
+              "area": "physics",
+              "base_factor": 1.0,
+              "base_weight": 90.0,
+              "category": "การคำนวณ",
+              "cost": 1000,
+              "feature_unlocks": [
+                "<b>สิ่งปลูกสร้าง</b>: ศูนย์วิจัยซับซ้อน"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_basic_science_lab_1"
+              ],
+              "tier": 1,
+              "prerequisites_names": [
+                {
+                  "name": "วิธีการทางวิทยาศาสตร์",
+                  "key": "tech_basic_science_lab_1"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:red'>0.0</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   มีเทคโนโลยี: การสกัดก๊าซแปลกประหลาด<br/>    •   มีเทคโนโลยี: การกลั่นก๊าซแปลกประหลาด<br/>    •   มีการเข้าถึงตลาดกาแลกติก (country flag)",
+                "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ"
+              ],
+              "potential": [],
+              "children": [
+                {
+                  "key": "tech_global_research_initiative",
+                  "name": "การริเริ่มการวิจัยระหว่างดาวเคราะห์",
+                  "description": "A bid for interplanetary resource pools and more flexible research grants.",
+                  "area": "physics",
+                  "base_factor": 1.5,
+                  "base_weight": 97.5,
+                  "category": "การคำนวณ",
+                  "cost": 4000,
+                  "feature_unlocks": [
+                    "<b>สิ่งปลูกสร้าง</b>: ซูเปอร์คอมพิวเตอร์ดาวเคราะห์",
+                    "<b>สิ่งปลูกสร้าง</b>: สถาบันวิจัย"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_basic_science_lab_2",
+                    "tech_colonial_centralization"
+                  ],
+                  "tier": 3,
+                  "prerequisites_names": [
+                    {
+                      "name": "ห้องวิจัยวัสดุแปลกใหม่",
+                      "key": "tech_basic_science_lab_2"
+                    },
+                    {
+                      "name": "การรวมศูนย์อำนาจอาณานิคม",
+                      "key": "tech_colonial_centralization"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:red'>0.25</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   หัวหน้าการวิจัย (ฟิสิกส์): <br/>\t    •   เชี่ยวชาญ: การคำนวณ<br/>    •   หัวหน้าการวิจัย (ฟิสิกส์): <br/>\t    •   ผู้ดูแลพิพิธภัณฑ์",
+                    "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ"
+                  ],
+                  "potential": [],
+                  "children": [],
+                  "is_event": false,
+                  "source": "vanilla"
+                },
+                {
+                  "key": "tech_basic_science_lab_3",
+                  "name": "การศึกษาหลายมิติ",
+                  "description": "To expand our knowledge base, we must consider all levels of existence. A new realm of science awaits us!",
+                  "area": "physics",
+                  "base_factor": 2.0,
+                  "base_weight": 130.0,
+                  "category": "การคำนวณ",
+                  "cost": 4000,
+                  "feature_unlocks": [
+                    "<b>สิ่งปลูกสร้าง</b>: ศูนย์วิจัยซับซ้อนขั้นสูง"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_basic_science_lab_2",
+                    "tech_colonial_centralization"
+                  ],
+                  "tier": 3,
+                  "prerequisites_names": [
+                    {
+                      "name": "ห้องวิจัยวัสดุแปลกใหม่",
+                      "key": "tech_basic_science_lab_2"
+                    },
+                    {
+                      "name": "การรวมศูนย์อำนาจอาณานิคม",
+                      "key": "tech_colonial_centralization"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ"
+                  ],
+                  "potential": [],
+                  "children": [],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_space_science_1",
+          "name": "ห้องทดลองในสภาพไร้น้ำหนัก",
+          "description": "A lot of critical research can only be done in a zero gravity environment, which these specialized laboratories are eminently designed for.",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 100.0,
+          "category": "การคำนวณ",
+          "cost": 500,
+          "feature_unlocks": [
+            "ผลผลิตของสถานีวิจัย +10%"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 1,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ"
+          ],
+          "potential": [],
+          "children": [
+            {
+              "key": "tech_space_science_2",
+              "name": "สนามพลังการกักเก็บสิ่งที่มีขนาดเล็กมาก",
+              "description": "Containment force fields are excellent for isolating and holding various substances or specimens so they can be analyzed in detail.",
+              "area": "physics",
+              "base_factor": 1.0,
+              "base_weight": 90.0,
+              "category": "การคำนวณ",
+              "cost": 1000,
+              "feature_unlocks": [
+                "ผลผลิตของสถานีวิจัย +10%"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_space_science_1"
+              ],
+              "tier": 1,
+              "prerequisites_names": [
+                {
+                  "name": "ห้องทดลองในสภาพไร้น้ำหนัก",
+                  "key": "tech_space_science_1"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ"
+              ],
+              "potential": [],
+              "children": [
+                {
+                  "key": "tech_space_science_3",
+                  "name": "เครื่องตรวจหาควอนตัม",
+                  "description": "Advanced probes that can thoroughly analyze subjects on a sub-atomic level, generating a wealth of valuable research data.",
+                  "area": "physics",
+                  "base_factor": 1.0,
+                  "base_weight": 85.0,
+                  "category": "การคำนวณ",
+                  "cost": 1500,
+                  "feature_unlocks": [
+                    "ผลผลิตของสถานีวิจัย +10%"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_space_science_2"
+                  ],
+                  "tier": 2,
+                  "prerequisites_names": [
+                    {
+                      "name": "สนามพลังการกักเก็บสิ่งที่มีขนาดเล็กมาก",
+                      "key": "tech_space_science_2"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ"
+                  ],
+                  "potential": [],
+                  "children": [
+                    {
+                      "key": "tech_space_science_4",
+                      "name": "ระเบียบการของสถานีแบบควบคุมอัตโนมัติ",
+                      "description": "Increased automation of station functions will free up more staff for research duties.",
+                      "area": "physics",
+                      "base_factor": 1.0,
+                      "base_weight": 70.0,
+                      "category": "การคำนวณ",
+                      "cost": 2500,
+                      "feature_unlocks": [
+                        "ผลผลิตของสถานีวิจัย +10%"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_space_science_3"
+                      ],
+                      "tier": 2,
+                      "prerequisites_names": [
+                        {
+                          "name": "เครื่องตรวจหาควอนตัม",
+                          "key": "tech_space_science_3"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ"
+                      ],
+                      "potential": [],
+                      "children": [
+                        {
+                          "key": "tech_space_science_5",
+                          "name": "การวิเคราะห์หลายมิติ",
+                          "description": "Studying something from the limited perspective of a single dimensional reality does not paint the whole picture. Every angle must be considered.",
+                          "area": "physics",
+                          "base_factor": 1.0,
+                          "base_weight": 65.0,
+                          "category": "การคำนวณ",
+                          "cost": 4000,
+                          "feature_unlocks": [
+                            "ผลผลิตของสถานีวิจัย +10%"
+                          ],
+                          "is_dangerous": false,
+                          "is_rare": false,
+                          "is_start_tech": false,
+                          "prerequisites": [
+                            "tech_space_science_4"
+                          ],
+                          "tier": 3,
+                          "prerequisites_names": [
+                            {
+                              "name": "ระเบียบการของสถานีแบบควบคุมอัตโนมัติ",
+                              "key": "tech_space_science_4"
+                            }
+                          ],
+                          "weight_modifiers": [
+                            "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ"
+                          ],
+                          "potential": [],
+                          "children": [],
+                          "is_event": false,
+                          "source": "vanilla"
+                        }
+                      ],
+                      "is_event": false,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_physics_1",
+          "name": "ทฤษฎีควอนตัม",
+          "description": "Exploring the mediation of fundamental forces through subatomic particles.",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 100.0,
+          "category": "การคำนวณ",
+          "cost": 500,
+          "feature_unlocks": [
+            "£physics£ การวิจัยฟิสิกส์จาก £job_researcher£ นักวิจัย +20%"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 1,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>5.0</b>) เป็น AI",
+            "(×<b style='color:lime'>2.0</b>) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 5",
+            "(×<b style='color:lime'>2.0</b>) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 10",
+            "(×<b style='color:lime'>2.0</b>) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 15",
+            "(×<b style='color:lime'>2.0</b>) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 20",
+            "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ"
+          ],
+          "potential": [],
+          "children": [
+            {
+              "key": "tech_physics_2",
+              "name": "ฟิสิกส์ควอนตัมประยุกต์",
+              "description": "The seemingly erratic behavior of tiny things can dramatically alter the way we think about bigger things.",
+              "area": "physics",
+              "base_factor": 1.0,
+              "base_weight": 70.0,
+              "category": "การคำนวณ",
+              "cost": 2500,
+              "feature_unlocks": [
+                "£physics£ การวิจัยฟิสิกส์จาก £job_researcher£ นักวิจัย +20%"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_physics_1"
+              ],
+              "tier": 2,
+              "prerequisites_names": [
+                {
+                  "name": "ทฤษฎีควอนตัม",
+                  "key": "tech_physics_1"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>2.0</b>) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 25",
+                "(×<b style='color:lime'>2.0</b>) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 30",
+                "(×<b style='color:lime'>2.0</b>) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 35",
+                "(×<b style='color:lime'>2.0</b>) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 40",
+                "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ"
+              ],
+              "potential": [],
+              "children": [
+                {
+                  "key": "tech_physics_3",
+                  "name": "ทฤษฎีปริภูมิ-เวลา",
+                  "description": "Three dimensions, inextricable from the fourth.",
+                  "area": "physics",
+                  "base_factor": 1.0,
+                  "base_weight": 40.0,
+                  "category": "การคำนวณ",
+                  "cost": 10000,
+                  "feature_unlocks": [
+                    "£physics£ การวิจัยฟิสิกส์จาก £job_researcher£ นักวิจัย +20%"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_physics_2"
+                  ],
+                  "tier": 4,
+                  "prerequisites_names": [
+                    {
+                      "name": "ฟิสิกส์ควอนตัมประยุกต์",
+                      "key": "tech_physics_2"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>2.0</b>) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 25",
+                    "(×<b style='color:lime'>2.0</b>) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 30",
+                    "(×<b style='color:lime'>2.0</b>) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 35",
+                    "(×<b style='color:lime'>2.0</b>) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 40",
+                    "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ"
+                  ],
+                  "potential": [],
+                  "children": [],
+                  "is_event": false,
+                  "source": "vanilla"
+                },
+                {
+                  "key": "tech_repeatable_reduced_building_cost",
+                  "name": "การวิเคราะห์ความโน้มถ่วง",
+                  "description": "Increasingly powerful computation paradigms allow us to adapt individual construction projects to planetary and ultra-local gravitational conditions.",
+                  "area": "physics",
+                  "base_factor": 0.5,
+                  "base_weight": 12.5,
+                  "category": "การคำนวณ",
+                  "cost": 50000,
+                  "feature_unlocks": [
+                    "ค่าสิ่งปลูกสร้าง -5%"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_physics_2"
+                  ],
+                  "tier": 5,
+                  "prerequisites_names": [
+                    {
+                      "name": "ฟิสิกส์ควอนตัมประยุกต์",
+                      "key": "tech_physics_2"
+                    }
+                  ],
+                  "weight_modifiers": [],
+                  "potential": [],
+                  "children": [],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_sensors_2",
+          "name": "เซ็นเซอร์ความโน้มถ่วง",
+          "description": "These sensors have been tuned to look for any gravitational changes in space, such as those produced by the presence of a starship.",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 85.0,
+          "category": "การคำนวณ",
+          "cost": 1500,
+          "feature_unlocks": [
+            "<b>ชิ้นส่วน</b>: เซ็นเซอร์ความโน้มถ่วง",
+            "<b>สิ่งก่อสร้างบนฐานอวกาศ</b>: เครื่องฟังคลื่นเสียงสะท้อน"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 2,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) มี วัฒนธรรมการค้นพบ ",
+            "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ"
+          ],
+          "potential": [],
+          "children": [
+            {
+              "key": "tech_experimental_subspace_navigation",
+              "name": "การทำลายไฮเปอร์เลนที่มีความเสี่ยง",
+              "description": "Solitary Science Ships can break out of the naturally-occurring hyperlanes and attempt to navigate to known but otherwise unreachable destinations.",
+              "area": "physics",
+              "base_factor": 0.5,
+              "base_weight": 37.5,
+              "category": "การควบคุมสนามพลัง",
+              "cost": 2500,
+              "feature_unlocks": [
+                "<b>ฟีเจอร์ : </b>นำทางด้วยการทดลองมิติย่อย"
+              ],
+              "is_dangerous": false,
+              "is_rare": true,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_sensors_2"
+              ],
+              "tier": 2,
+              "prerequisites_names": [
+                {
+                  "name": "เซ็นเซอร์ความโน้มถ่วง",
+                  "key": "tech_sensors_2"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.5</b>) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
+                "(×<b style='color:lime'>2.0</b>) สหพันธ์ : <br/>    •   มี แรงบันดาลใจทางวิทยาศาสตร์<br/>    •   มีสมาชิกที่ มีเทคโนโลยี: การทำลายไฮเปอร์เลนที่มีความเสี่ยง",
+                "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การควบคุมสนามพลัง"
+              ],
+              "potential": [],
+              "children": [],
+              "is_event": false,
+              "source": "vanilla"
+            },
+            {
+              "key": "tech_sensors_3",
+              "name": "เซนเซอร์ปริภูมิย่อย",
+              "description": "Sensors that detect the subspace fluctuations left in the wake of traveling starships. Their sensitivity and range is greater than that of a gravitic sensor array.",
+              "area": "physics",
+              "base_factor": 1.0,
+              "base_weight": 65.0,
+              "category": "การคำนวณ",
+              "cost": 4000,
+              "feature_unlocks": [
+                "<b>ชิ้นส่วน</b>: เซนเซอร์ปริภูมิย่อย",
+                "<b>สิ่งก่อสร้างบนฐานอวกาศ</b>: หอสังเกตการณ์หลุมดำ"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_sensors_2"
+              ],
+              "tier": 3,
+              "prerequisites_names": [
+                {
+                  "name": "เซ็นเซอร์ความโน้มถ่วง",
+                  "key": "tech_sensors_2"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) มี วัฒนธรรมการค้นพบ ",
+                "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ"
+              ],
+              "potential": [],
+              "children": [
+                {
+                  "key": "tech_sensors_4",
+                  "name": "เซนเซอร์อนุภาคแทคีออน",
+                  "description": "Advanced sensors that rely on rotating tachyon beams to detect ship movements even at extreme distances.",
+                  "area": "physics",
+                  "base_factor": 1.0,
+                  "base_weight": 45.0,
+                  "category": "การคำนวณ",
+                  "cost": 8000,
+                  "feature_unlocks": [
+                    "<b>ชิ้นส่วน</b>: เซนเซอร์อนุภาคแทคีออน"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_sensors_3"
+                  ],
+                  "tier": 4,
+                  "prerequisites_names": [
+                    {
+                      "name": "เซนเซอร์ปริภูมิย่อย",
+                      "key": "tech_sensors_3"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>1.25</b>) มี วัฒนธรรมการค้นพบ ",
+                    "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ"
+                  ],
+                  "potential": [],
+                  "children": [
+                    {
+                      "key": "tech_mine_dark_matter",
+                      "name": "แผนผังสสารมืด",
+                      "description": "This exotic substance has many properties that seemingly defy the laws of physics. Harvestable concentrations can only be found near Black Holes or in certain nebulas.",
+                      "area": "physics",
+                      "base_factor": 1.0,
+                      "base_weight": 50.0,
+                      "category": "การควบคุมสนามพลัง",
+                      "cost": 6000,
+                      "feature_unlocks": [
+                        "<b>เผยทรัพยากร</b>: สสารมืด"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_sensors_4"
+                      ],
+                      "tier": 3,
+                      "prerequisites_names": [
+                        {
+                          "name": "เซนเซอร์อนุภาคแทคีออน",
+                          "key": "tech_sensors_4"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:lime'>1.5</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การควบคุมสนามพลัง",
+                        "(×<b style='color:red'>0.0</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   ค้นพบสสารมืด (country flag)<br/>    •   มีระบบใดๆที่อยู่ภายในพรมแดน<br/>\t    •   มีดาวเคราะห์ใดๆ<br/>\t\t    •   มี £sr_dark_matter£ สสารมืด มากกว่า 0<br/>    •   มีความสัมพันธ์กับจักรวรรดิใดๆ<br/>\t    •   ทั้งหมดต้องเป็นจริง<br/>\t\t    •   เป็นจักรวรรดิประเภท: default<br/>\t\t    •   มีการติดต่อสื่อสารกับจักรวรรดิเรา<br/>\t\t    •   มีเทคโนโลยี: แผนผังสสารมืด"
+                      ],
+                      "potential": [],
+                      "children": [],
+                      "is_event": false,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_bio_reactor",
+          "name": "เครื่องกำเนิดพลังงานชีวภาพ",
+          "description": "A facility where organic matter is converted into energy at a highly efficient rate.",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 0.0,
+          "category": "อนุภาค",
+          "cost": 0,
+          "feature_unlocks": [
+            "<b>สิ่งปลูกสร้าง</b>: เครื่องกำเนิดพลังงานชีวภาพ"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": true,
+          "prerequisites": [],
+          "tier": 0,
+          "prerequisites_names": [],
+          "weight_modifiers": [],
+          "potential": [
+            "หนึ่งอย่างต้องเป็นจริง\n    •   มีระบอบการปกครอง สติปัญญาจักรกล \n    •   หนึ่งอย่างต้องเป็นจริง\n\t    •   เผ่าพันธุ์ผู้ก่อตั้ง :\n\t\t    •   เครื่องจักรกล\n\t    •   จักรวรรดิจักรกลสังเคราะห์ (country flag)\n    •   เป็นจักรวรรดิประเภทหิน"
+          ],
+          "children": [],
+          "is_event": false,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_mine_volatile_motes",
+          "name": "การปรับความเสถียรของผงธุลี",
+          "description": "Volatile Motes are fickle particles that are dangerous to work with. In order to safely harvest them without setting off a chain-reaction of explosions, energy fields must be used to stabilize the motes.",
+          "area": "physics",
+          "base_factor": 2.0,
+          "base_weight": 170.0,
+          "category": "อนุภาค",
+          "cost": 1500,
+          "feature_unlocks": [
+            "<b>สิ่งปลูกสร้าง</b>: ที่ดักการเก็บเศษผงธุลี",
+            "<b>เผยทรัพยากร</b>: ผงแร่ระเหย"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 2,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: อนุภาค",
+            "(×<b style='color:red'>0.0</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน<br/>\t    •   หนึ่งอย่างต้องเป็นจริง<br/>\t\t    •   มีการทับถมของ Dust Caverns<br/>\t\t    •   มีการทับถมของ Dust Desert<br/>\t\t    •   มีการทับถมของ Industrial Sector<br/>    •   มีดาวเคราะห์ใดๆที่อยู่ภายในพรมแดน<br/>\t    •   หนึ่งอย่างต้องเป็นจริง<br/>\t\t    •   มีการทับถมของ £volatile_motes£ +1<br/>\t\t    •   มีการทับถมของ £volatile_motes£ +2<br/>\t\t    •   มีการทับถมของ £volatile_motes£ +3<br/>\t\t    •   มีการทับถมของ £volatile_motes£ +4<br/>\t\t    •   มีการทับถมของ £volatile_motes£ +5"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_volatile_motes",
+          "name": "โรงงานวัสดุระเหย",
+          "description": "Aside from the obvious safety concerns, the artificial creation of Volatile Motes is an extremely delicate and complicated process that requires highly specialized equipment.",
+          "area": "physics",
+          "base_factor": 2.0,
+          "base_weight": 170.0,
+          "category": "อนุภาค",
+          "cost": 1500,
+          "feature_unlocks": [
+            "<b>สิ่งปลูกสร้าง</b>: โรงกลั่นเคมี"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 2,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:red'>0.5</b>) หนึ่งอย่างต้องเป็นจริง<br/>    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน<br/>\t    •   หนึ่งอย่างต้องเป็นจริง<br/>\t\t    •   มีการทับถมของ Dust Caverns<br/>\t\t    •   มีการทับถมของ Dust Desert<br/>\t\t    •   มีการทับถมของ Industrial Sector<br/>    •   มีดาวเคราะห์ใดๆที่อยู่ภายในพรมแดน<br/>\t    •   หนึ่งอย่างต้องเป็นจริง<br/>\t\t    •   มีการทับถมของ £volatile_motes£ +1<br/>\t\t    •   มีการทับถมของ £volatile_motes£ +2<br/>\t\t    •   มีการทับถมของ £volatile_motes£ +3<br/>\t\t    •   มีการทับถมของ £volatile_motes£ +4<br/>\t\t    •   มีการทับถมของ £volatile_motes£ +5",
+            "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: อนุภาค"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_automated_exploration",
+          "name": "การสำรวจอัตโนมัติ",
+          "description": "An advanced AI will aid science officers in their task to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no Blorg has gone before. The Science Ship will be able to explore the galaxy with help from an AI.",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 95.0,
+          "category": "การคำนวณ",
+          "cost": 750,
+          "feature_unlocks": [
+            "<b>ฟีเจอร์ : </b>การสำรวจอัตโนมัติ",
+            "ความเร็วในการสำรวจ +25%"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 1,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ",
+            "(×<b style='color:lime'>1.25</b>) มี วัฒนธรรมการค้นพบ ",
+            "(×<b style='color:red'>0.0</b>) จำนวนปีนับตั้งแต่เริ่มเกม น้อยกว่า 5",
+            "(×<b style='color:lime'>2.0</b>) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 10",
+            "(×<b style='color:lime'>2.0</b>) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 15",
+            "(×<b style='color:lime'>2.0</b>) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 20",
+            "(×<b style='color:lime'>2.0</b>) จำนวนดาวเคราะห์ที่เป็นเจ้าของ มากกว่า 5",
+            "(×<b style='color:lime'>2.0</b>) จำนวนดาวเคราะห์ที่เป็นเจ้าของ มากกว่า 10",
+            "(×<b style='color:lime'>2.0</b>) จำนวนดาวเคราะห์ที่เป็นเจ้าของ มากกว่า 15",
+            "(×<b style='color:lime'>2.0</b>) จำนวนดาวเคราะห์ที่เป็นเจ้าของ มากกว่า 20"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_archeology_lab_ancrel",
+          "name": "ห้องแล็บโบราณคดี",
+          "description": "A shipboard lab with advanced archaeological equipment, including a vast database supplied by the Curator Order where new discoveries can easily be cross-referenced.",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 85.0,
+          "category": "การคำนวณ",
+          "cost": 1500,
+          "feature_unlocks": [
+            "ทักษะโบราณคดี +2"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 2,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:red'>0.5</b>) มีการปรับเปลี่ยน ข้อมูลเชิงลึกผู้ดูแลพิพิธภัณฑ์",
+            "(×<b style='color:lime'>1.5</b>) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
+            "(×<b style='color:lime'>2.0</b>) สหพันธ์ : <br/>    •   มี แรงบันดาลใจทางวิทยาศาสตร์<br/>    •   มีสมาชิกที่ มีเทคโนโลยี: ห้องแล็บโบราณคดี",
+            "(×<b style='color:lime'>3.0</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   ผู้ดูแลพิพิธภัณฑ์",
+            "(×<b style='color:red'>0.0</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   หัวหน้าการวิจัย (ฟิสิกส์): <br/>\t    •   ผู้ดูแลพิพิธภัณฑ์<br/>    •   มีการปรับเปลี่ยน ข้อมูลเชิงลึกผู้ดูแลพิพิธภัณฑ์"
+          ],
+          "potential": [
+            "มี DLC Ancient Relics Story Pack"
+          ],
+          "children": [],
+          "is_event": false,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_archeology_lab",
+          "name": "ห้องแล็บโบราณคดี",
+          "description": "A shipboard lab with advanced archaeological equipment, including a vast database supplied by the Curator Order where new discoveries can easily be cross-referenced.",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 85.0,
+          "category": "การคำนวณ",
+          "cost": 1500,
+          "feature_unlocks": [
+            "ความเร็วในการวิจัยสิ่งผิดปกติ +25%",
+            "โอกาสในการค้นพบสิ่งผิดปกติ +10%"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 2,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:red'>0.5</b>) มีการปรับเปลี่ยน ข้อมูลเชิงลึกผู้ดูแลพิพิธภัณฑ์",
+            "(×<b style='color:lime'>3.0</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   ผู้ดูแลพิพิธภัณฑ์",
+            "(×<b style='color:red'>0.0</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   หัวหน้าการวิจัย (ฟิสิกส์): <br/>\t    •   ผู้ดูแลพิพิธภัณฑ์<br/>    •   มีการปรับเปลี่ยน ข้อมูลเชิงลึกผู้ดูแลพิพิธภัณฑ์"
+          ],
+          "potential": [
+            "ไม่ มี DLC Ancient Relics Story Pack"
+          ],
+          "children": [],
+          "is_event": false,
+          "source": "vanilla"
+        },
+        {
+          "key": "tech_curator_lab",
+          "name": "ห้องแล็บสำรวจ",
+          "description": "These shipboard lab facilities incorporate advanced technologies from the ancient Curator Order to further increase survey speeds.",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 85.0,
+          "category": "การคำนวณ",
+          "cost": 1500,
+          "feature_unlocks": [
+            "ความเร็วในการสำรวจ +33%"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 2,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:red'>0.5</b>) มีการปรับเปลี่ยน ข้อมูลเชิงลึกผู้ดูแลพิพิธภัณฑ์",
+            "(×<b style='color:lime'>3.0</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   ผู้ดูแลพิพิธภัณฑ์",
+            "(×<b style='color:lime'>1.5</b>) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
+            "(×<b style='color:lime'>2.0</b>) สหพันธ์ : <br/>    •   มี แรงบันดาลใจทางวิทยาศาสตร์<br/>    •   มีสมาชิกที่ มีเทคโนโลยี: ห้องแล็บสำรวจ",
+            "(×<b style='color:red'>0.0</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   หัวหน้าการวิจัย (ฟิสิกส์): <br/>\t    •   ผู้ดูแลพิพิธภัณฑ์<br/>    •   มีการปรับเปลี่ยน ข้อมูลเชิงลึกผู้ดูแลพิพิธภัณฑ์"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "vanilla"
+        }
+      ],
+      "is_event": false,
+      "source": "vanilla"
+    }
+  ],
+  "is_event": false,
+  "source": "vanilla"
+}
