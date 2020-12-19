@@ -377,8 +377,8 @@ div.fixed div {
     float: left;
     padding-top: 5px;
     padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right:20px;
+    padding-left: 10px;
+    padding-right:10px;
     border-radius: 15px 15px 0px 0px;
     margin-top: 10px;
     
@@ -416,8 +416,8 @@ div.fixed div {
     display: block;
     float: right;
     margin-top: 5px;
-    margin-left:10px; 
-    padding: 8px 12px;
+    margin-left:5px; 
+    padding: 8px 5px;
     vertical-align: middle;
     line-height: normal;
 
