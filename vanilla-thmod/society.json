@@ -428,7 +428,7 @@
                       "children": [
                         {
                           "key": "tech_nutrient_replication",
-                          "name": "การผลิตอาหาซ้ำๆ",
+                          "name": "การผลิตอาหารซ้ำๆ",
                           "description": "The process of synthetically replicating crops requires a lot of collected waste to create a small amount of produce, but nevertheless provides a significant boost to agricultural output.",
                           "area": "society",
                           "base_factor": 1.0,
@@ -456,7 +456,7 @@
                             "(×<b style='color:red'>0.5</b>) หนึ่งอย่างต้องเป็นจริง<br/>    •   มีระบอบการปกครอง สติปัญญาจักรกล <br/>    •   เป็นจักรวรรดิประเภทหิน",
                             "(×<b style='color:red'>0.5</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   หัวหน้าการวิจัย (สังคม): <br/>\t    •   เชี่ยวชาญ: ชีววิทยา<br/>    •   หัวหน้าการวิจัย (สังคม): <br/>\t    •   ผู้ดูแลพิพิธภัณฑ์",
                             "(×<b style='color:lime'>1.5</b>) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                            "(×<b style='color:lime'>2.0</b>) สหพันธ์ : <br/>    •   มี แรงบันดาลใจทางวิทยาศาสตร์<br/>    •   มีสมาชิกที่ มีเทคโนโลยี: การผลิตอาหาซ้ำๆ",
+                            "(×<b style='color:lime'>2.0</b>) สหพันธ์ : <br/>    •   มี แรงบันดาลใจทางวิทยาศาสตร์<br/>    •   มีสมาชิกที่ มีเทคโนโลยี: การผลิตอาหารซ้ำๆ",
                             "(×<b style='color:lime'>1.25</b>) มีจริยธรรม รักสงบ ",
                             "(×<b style='color:lime'>1.5</b>) มีจริยธรรม รักสงบอย่างมาก "
                           ],

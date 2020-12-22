@@ -355,6 +355,28 @@ div.fixed div {
     margin: 3px 3px 3px 4px !important;
 }
 
+/*********************************
+    Search
+**********************************/
+
+.search_result-container {
+	max-height: 300px;
+	overflow-y: auto;
+	background: #ffffff;
+}
+
+.search_result-item a{
+	display:block;
+	color: #333333;
+	text-decoration: none;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.search_result-item:hover a{
+	background: #eeeeee;
+	color: #0026FF;
+}
 
 /*********************************
     Floating Buttons

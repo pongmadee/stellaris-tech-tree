@@ -7,6 +7,8 @@ String.prototype.format = function () {
       return args[n];
     });
   };
+
+var selected_tab = "all";
 $(document).ready(function(){
 
     // Main function
@@ -23,6 +25,7 @@ $(document).ready(function(){
             $("#tech-tree-society").addClass("float-NoDisplay");
             $("#tech-tree-engineering").addClass("float-NoDisplay");
             $("#tech-tree-anomalies").addClass("float-NoDisplay");
+			selected_tab = "physics";
         }
         if($(this).parent().hasClass("float-Society"))
         {
@@ -30,6 +33,7 @@ $(document).ready(function(){
             $("#tech-tree-society").removeClass("float-NoDisplay");
             $("#tech-tree-engineering").addClass("float-NoDisplay");
             $("#tech-tree-anomalies").addClass("float-NoDisplay");
+			selected_tab = "society";
         }
         if($(this).parent().hasClass("float-Engineering"))
         {
@@ -37,6 +41,7 @@ $(document).ready(function(){
             $("#tech-tree-society").addClass("float-NoDisplay");
             $("#tech-tree-engineering").removeClass("float-NoDisplay");
             $("#tech-tree-anomalies").addClass("float-NoDisplay");
+			selected_tab = "engineering";
         }
         if($(this).parent().hasClass("float-All"))
         {
@@ -44,6 +49,7 @@ $(document).ready(function(){
             $("#tech-tree-society").removeClass("float-NoDisplay");
             $("#tech-tree-engineering").removeClass("float-NoDisplay");
             $("#tech-tree-anomalies").addClass("float-NoDisplay");
+			selected_tab = "all";
         }
         if($(this).parent().hasClass("float-Anomalies"))
         {
@@ -51,6 +57,7 @@ $(document).ready(function(){
             $("#tech-tree-society").addClass("float-NoDisplay");
             $("#tech-tree-engineering").addClass("float-NoDisplay");
             $("#tech-tree-anomalies").removeClass("float-NoDisplay");
+			selected_tab = "anomalies";
         }
     });
 
@@ -58,6 +65,19 @@ $(document).ready(function(){
 
     $("a[href='#top']").click(function() {
         window.scrollTo(0,0);
+    });
+
+    // Saving research
+
+    $("a[href='#toggle_save']").click(function() {
+		//console.log("toggle"); 
+		
+		if($("#save_research").hasClass("float-NoDisplay")){
+			$("#save_research").removeClass("float-NoDisplay");
+		} else {
+			$("#save_research").addClass("float-NoDisplay");
+		}
+		
     });
 
 

@@ -21,7 +21,7 @@
   <script src="../assets/vendor/jsrender.min.js"></script>
   <script src="../assets/js/tech-tree.js"></script>
   <script src="../assets/js/dynamic-drag.js"></script>
-  <script src="../assets/js/header.js"></script>  
+  <script src="../assets/js/header.js"></script>
 
   <script id="node-template" type="text/x-jsrender">
     <div class="icon lozad" data-background-image="../assets/img/{{:key}}.png"></div>
@@ -129,15 +129,16 @@
     </a>
   </li>
   <li class="float-RightElement float-RightBuffer">
-    <a href="../index.html" class="float-RightContents">
-      <h2><img src="../assets/icons/back_button.png" class="float-RightImage"> Back</h2>
-    </a>
-  </li>
-  <li class="float-RightElement">
     <a href="#top" class="float-RightContents">
       <h2><img src="../assets/icons/up_to_top.png" class="float-RightImage"> Top</h2>
     </a>
   </li>
+  <li class="float-RightElement research hide">
+    <a href="#toggle_save" class="float-RightContents">
+      <h2>Show/Hide Saving</h2>
+    </a>
+  </li>
+  <div id="save_research" class="float-NoDisplay">
   <li class="float-RightElement float-RightBuffer research hide">
     <a id="research_save" class="float-RightContents">
       <h2>Save</h2>
@@ -160,6 +161,13 @@
       <h2>Remove</h2>
     </a>
   </li>
+  </div>
+  <li class="float-RightElement research hide">
+	<span class="float-RightContents">Search:
+      <input type="text" id="search" placeholder="ใส่ชื่อการวิจัย">
+    </span>
+	<div id="match-list" class="search_result-container"></div>
+  </li>
 </ul>
 <div id="tech-tree" style="margin-top:50px">
   <div id="tech-tree-physics">
@@ -176,5 +184,7 @@
   </div>
   <div id="setup-tech" style="display:none"></div>
 </div>
+
+<script src="../assets/js/search.js"></script>
 </body>
 </html>

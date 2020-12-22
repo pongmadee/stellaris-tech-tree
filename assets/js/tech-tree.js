@@ -68,7 +68,8 @@ function init_tooltips() {
     });
 }
 
-function setup(tech) {
+var techList =[];
+function setup(tech , tab_type) {
     var techClass = (tech.is_dangerous ? ' dangerous' : '')
         + (!tech.is_dangerous && tech.is_rare ? ' rare' : '');
 
@@ -77,6 +78,16 @@ function setup(tech) {
 
     tech.HTMLid = tech.key;
     tech.HTMLclass = tech.area + techClass + (tech.is_start_tech ? ' active' : '');
+
+    if(typeof tech.key !== "undefined"){
+		var tech_item = {
+            "key": tech.key,
+            "name": tech.name,
+            "tab_type": tab_type
+        }
+
+	    techList.push(tech_item);
+	}
 
     var output = html;
     if(tech.is_start_tech) {
@@ -88,7 +99,7 @@ function setup(tech) {
     tech.innerHTML = output;
 
     $(tech.children).each(function(i, node){
-        setup(node);
+        setup(node, tech.area);
     });
 };
 
@@ -109,7 +120,7 @@ function load_tree() {
     research.forEach( area => {
         if('anomaly' !== area) {
             $.getJSON( area + '.json', function(jsonData) {
-                setup(jsonData);
+                setup(jsonData, area);
                 _load(jsonData, area);
             });
         }
@@ -117,7 +128,7 @@ function load_tree() {
     $.getJSON('anomalies.json', function(jsonData) {
         // Event techs don't really need a Tree
         $(jsonData).each(function(index, item) {
-            setup(item);
+            setup(item, "anomalies");
             var e = $("<div>").html(item.innerHTML);
             e.attr("id", item.key);
             e.attr("class",item.HTMLclass)
