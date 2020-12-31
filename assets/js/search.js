@@ -39,6 +39,9 @@ const outputHtml = matchs => {
 
         //console.log(html);
         matchList.innerHTML = html;
+    } else {
+        //not found
+        matchList.innerHTML = '';
     }
 }
 

@@ -79,7 +79,7 @@ function setup(tech , tab_type) {
     tech.HTMLid = tech.key;
     tech.HTMLclass = tech.area + techClass + (tech.is_start_tech ? ' active' : '');
 
-    if(typeof tech.key !== "undefined"){
+    if(tech.key !== undefined){
 		var tech_item = {
             "key": tech.key,
             "name": tech.name,
