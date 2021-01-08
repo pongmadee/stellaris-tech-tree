@@ -2261,7 +2261,7 @@
                   "children": [
                     {
                       "key": "tech_consumer_good_refinement_2",
-                      "name": "การพยากรณ์นิยมในการบริโภค",
+                      "name": "การพยากรณ์ความนิยมในการบริโภค",
                       "description": "Using advanced AIs, we can reliably predict consumer demand before it exists.",
                       "area": "physics",
                       "base_factor": 2.0,
