@@ -1326,7 +1326,7 @@
                             {
                               "key": "tech_science_nexus",
                               "name": "สถานีเชื่อมโยงวิทยาศาสตร์ขนาดใหญ่",
-                              "description": "The research labs and databanks of a สถานีเชื่อมโยงวิทยาศาสตร์ขนาดใหญ่ generate an immense flow of raw, undiluted science.",
+                              "description": "ห้องปฏิบัติการวิจัยและคลังฐานข้อมูลของ สถานีเชื่อมโยงวิทยาศาสตร์ขนาดใหญ่ สร้างความยิ่งใหญ่ทางวิทยาศาสตร์ที่ไร้สิ่งเจือปน",
                               "area": "physics",
                               "base_factor": 0.25,
                               "base_weight": 5.0,
@@ -1366,15 +1366,15 @@
                             },
                             {
                               "key": "tech_sentry_array",
-                              "name": "อาร์เรย์สังเกตุการณ์",
-                              "description": "The stages of the อาร์เรย์สังเกตุการณ์ gradually expand sensor range, eventually covering the entire galaxy.",
+                              "name": "อาร์เรย์สังเกตุการณ์กาแล็กซี",
+                              "description": "ขั้นของ อาร์เรย์สังเกตุการณ์กาแล็กซี จะค่อยๆขยายช่วงเซนเซอร์จนในที่สุดก็ครอบคลุมทั้งกาแล็กซี",
                               "area": "physics",
                               "base_factor": 0.25,
                               "base_weight": 5.0,
                               "category": "การคำนวณ",
                               "cost": 20000,
                               "feature_unlocks": [
-                                "<b>สิ่งก่อสร้างขนาดใหญ่</b>: อาร์เรย์สังเกตุการณ์"
+                                "<b>สิ่งก่อสร้างขนาดใหญ่</b>: อาร์เรย์สังเกตุการณ์กาแล็กซี"
                               ],
                               "is_dangerous": false,
                               "is_rare": true,
@@ -1396,7 +1396,7 @@
                                 "(×<b style='color:lime'>6.0</b>) มีการยกระดับ สถาปนิก (สกิลพิเศษ)",
                                 "(×<b style='color:lime'>6.0</b>) มีการยกระดับ วิศวกรรมพิศวง (สกิลพิเศษ)",
                                 "(×<b style='color:lime'>1.5</b>) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                                "(×<b style='color:lime'>2.0</b>) สหพันธ์ : <br/>    •   มี แรงบันดาลใจทางวิทยาศาสตร์<br/>    •   มีสมาชิกที่ มีเทคโนโลยี: อาร์เรย์สังเกตุการณ์"
+                                "(×<b style='color:lime'>2.0</b>) สหพันธ์ : <br/>    •   มี แรงบันดาลใจทางวิทยาศาสตร์<br/>    •   มีสมาชิกที่ มีเทคโนโลยี: อาร์เรย์สังเกตุการณ์กาแล็กซี"
                               ],
                               "potential": [
                                 "มี DLC Utopia"
