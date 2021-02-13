@@ -170,7 +170,7 @@
   },
   {
     "key": "tech_crystal_armor_1",
-    "name": "ชุบด้วยคริสตัลแบบผสม",
+    "name": "การชุบด้วยคริสตัลแบบผสม",
     "description": "By infusing armor plating with Crystalline matter we are able to further increase the durability of our ships' protective hulls.",
     "area": "engineering",
     "base_factor": 1.0,
