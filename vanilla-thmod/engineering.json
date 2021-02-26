@@ -2657,7 +2657,7 @@
                       "children": [
                         {
                           "key": "tech_missiles_5",
-                          "name": "มิสไซล์ติดตาม",
+                          "name": "มิสไซล์นักล่า",
                           "description": "These highly advanced missiles are equipped with limited onboard AI pilots that substantially improve their performance and ability to track targets.",
                           "area": "engineering",
                           "base_factor": 1.0,
@@ -2665,7 +2665,7 @@
                           "category": "แรงขับดัน",
                           "cost": 10000,
                           "feature_unlocks": [
-                            "<b>ชิ้นส่วน</b>: มิสไซล์ติดตาม"
+                            "<b>ชิ้นส่วน</b>: มิสไซล์นักล่า"
                           ],
                           "is_dangerous": false,
                           "is_rare": false,

@@ -379,11 +379,21 @@ div.fixed div {
 }
 
 /*********************************
+    Information
+**********************************/
+
+#info-container {
+    overflow: hidden;
+    width: auto;
+}
+
+/*********************************
     Description
 **********************************/
 
 .description-container {
-    margin-top: 60px;
+    float: left;
+    margin-top: 20px;
     margin-left: 15px;
     padding: 5px;
     -webkit-border-radius: 3px;
@@ -391,6 +401,24 @@ div.fixed div {
     border-radius: 3px;
     border: 2px solid #808080;
     width: 260px;
+    height: 63px;
+    font-family: 'Arimo', Verdana;
+    font-size: 14px;
+    line-height: 20px;
+    color: black;
+	background: #808080;
+}
+
+.description-container2 {
+    float: left;
+    margin-top: 20px;
+    margin-left: 15px;
+    padding: 5px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 2px solid #808080;
+    width: 400px;
     height: 63px;
     font-family: 'Arimo', Verdana;
     font-size: 14px;
