@@ -24,12 +24,28 @@ var config = {
             var area = tree.nodeHTMLclass.replace('tech', '').replace(' ', '');
             init_nodestatus(area);
 
-            /**
-             *  fix tooltips img css-class are missing : we need to loaded all tech areas before call init_tooltips() to add img class
-             *  assume: the last area is engineering
-             */
             if(area == 'engineering') {
+
+                /**
+                *  fix tooltips img css-class are missing : we need to loaded all tech areas before call init_tooltips() to add img class
+                *  assume: the last area is engineering
+                */
                 init_tooltips();
+
+
+                /**
+                 * add start tech connector
+                 */
+                let start_techs = techList.filter(tech => tech.is_start === true);
+                start_techs.forEach( tech => {
+                    let inode = getNodeDBNode(tech.tab_type, tech.key);
+                    //console.log(inode);
+                    if(inode != null) {
+                        for(const child of inode.children) {
+                            $(charts[tech.tab_type].tree.nodeDB.db[child].connector[0]).addClass(tech.tab_type);
+                        }
+                    }
+                });
             }
 
             const observer = lozad();
@@ -91,7 +107,8 @@ function setup(tech , tab_type) {
 		var tech_item = {
             "key": tech.key,
             "name": tech.name,
-            "tab_type": tab_type
+            "tab_type": tab_type,
+            "is_start": tech.is_start_tech
         }
 
 	    techList.push(tech_item);
