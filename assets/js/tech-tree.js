@@ -19,10 +19,18 @@ var config = {
     },
     callback: {
         onTreeLoaded: function(tree) {
-            init_tooltips();
+            //init_tooltips();
 
             var area = tree.nodeHTMLclass.replace('tech', '').replace(' ', '');
             init_nodestatus(area);
+
+            /**
+             *  fix tooltips img css-class are missing : we need to loaded all tech areas before call init_tooltips() to add img class
+             *  assume: the last area is engineering
+             */
+            if(area == 'engineering') {
+                init_tooltips();
+            }
 
             const observer = lozad();
             observer.observe();
@@ -135,7 +143,7 @@ function load_tree() {
             e.addClass("node").addClass("tech").addClass("anomaly");
             $('#tech-tree-anomalies').append(e);
         });
-        init_tooltips();
+        //init_tooltips();
         init_nodestatus('anomalies');
     });
     if(window.indexedDB) {
