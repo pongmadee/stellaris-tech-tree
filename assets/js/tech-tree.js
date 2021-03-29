@@ -38,11 +38,11 @@ var config = {
                  */
                 let start_techs = techList.filter(tech => tech.is_start === true);
                 start_techs.forEach( tech => {
-                    let inode = getNodeDBNode(tech.tab_type, tech.key);
+                    let inode = getNodeDBNode(tech.area, tech.key);
                     //console.log(inode);
                     if(inode != null) {
                         for(const child of inode.children) {
-                            $(charts[tech.tab_type].tree.nodeDB.db[child].connector[0]).addClass(tech.tab_type);
+                            $(charts[tech.area].tree.nodeDB.db[child].connector[0]).addClass(tech.area);
                         }
                     }
                 });
@@ -93,7 +93,7 @@ function init_tooltips() {
 }
 
 var techList =[];
-function setup(tech , tab_type) {
+function setup(tech, area) {
     var techClass = (tech.is_dangerous ? ' dangerous' : '')
         + (!tech.is_dangerous && tech.is_rare ? ' rare' : '');
 
@@ -107,7 +107,7 @@ function setup(tech , tab_type) {
 		var tech_item = {
             "key": tech.key,
             "name": tech.name,
-            "tab_type": tab_type,
+            "area": area,
             "is_start": tech.is_start_tech
         }
 

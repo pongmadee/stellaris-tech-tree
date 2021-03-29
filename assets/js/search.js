@@ -5,14 +5,14 @@ const searchTechs = async searchText => {
 
 	const techs = techList;
 
-    let matchs = techs.filter( t => {
+    let matchs = techs.filter( tech => {
 
         const regex = new RegExp(searchText, 'gi');
 		
 		if(selected_tab == "all") {
-			return t.name.match(regex) && (t.tab_type.match("physics") || t.tab_type.match("society") || t.tab_type.match("engineering")) ;
+			return tech.name.match(regex) && (tech.area.match("physics") || tech.area.match("society") || tech.area.match("engineering")) ;
 		} else {
-			return t.name.match(regex) && t.tab_type.match(selected_tab);
+			return tech.name.match(regex) && tech.area.match(selected_tab);
 		}
         
     });
