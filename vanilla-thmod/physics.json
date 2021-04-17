@@ -54,7 +54,8 @@
               "category": "การควบคุมสนามพลัง",
               "cost": 500,
               "feature_unlocks": [
-                "£energy£ เครดิตพลังงานจาก £job_technician£ ช่างเทคนิค +20%"
+                "£energy£ เครดิตพลังงานจาก £job_technician£ ช่างเทคนิค +20%",
+                "£energy£ พลังงานจากสิ่งปลูกสร้างในฐานอวกาศ +20%"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -85,7 +86,8 @@
                   "category": "การควบคุมสนามพลัง",
                   "cost": 1500,
                   "feature_unlocks": [
-                    "£energy£ เครดิตพลังงานจาก £job_technician£ ช่างเทคนิค +20%"
+                    "£energy£ เครดิตพลังงานจาก £job_technician£ ช่างเทคนิค +20%",
+                    "£energy£ พลังงานจากสิ่งปลูกสร้างในฐานอวกาศ +20%"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -116,7 +118,8 @@
                       "category": "การควบคุมสนามพลัง",
                       "cost": 4000,
                       "feature_unlocks": [
-                        "£energy£ เครดิตพลังงานจาก £job_technician£ ช่างเทคนิค +20%"
+                        "£energy£ เครดิตพลังงานจาก £job_technician£ ช่างเทคนิค +20%",
+                        "£energy£ พลังงานจากสิ่งปลูกสร้างในฐานอวกาศ +20%"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -1600,7 +1603,7 @@
               "cost": 2000,
               "feature_unlocks": [
                 "<b>ชิ้นส่วน</b>: ระบบขับเคลื่อนไฮเปอร์ไดรฟ์ II",
-                "<b>สิ่งก่อสร้างบนฐานอวกาศ</b>: ระบบนำทางไฮเปอร์เลน"
+                "<b>สิ่งก่อสร้างบนฐานอวกาศ</b>: ฮับการเดินทาง"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -2230,6 +2233,92 @@
                   "source": "vanilla"
                 },
                 {
+                  "key": "tech_consumer_good_refinement_1",
+                  "name": "อัลกอริทึมวิเคราะห์ตลาด",
+                  "description": "Basic administrative AIs can be used to streamline supply and demand lines, reducing waste.",
+                  "area": "physics",
+                  "base_factor": 2.0,
+                  "base_weight": 170.0,
+                  "category": "การคำนวณ",
+                  "cost": 1500,
+                  "feature_unlocks": [
+                    "£job_artisan£ ผลิตผล ช่างฝีมือ +10%"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_administrative_ai",
+                    "tech_luxuries_1"
+                  ],
+                  "tier": 2,
+                  "prerequisites_names": [
+                    {
+                      "name": "การประกอบวงจรนาโน",
+                      "key": "tech_luxuries_1"
+                    },
+                    {
+                      "name": "AI การบริหารจัดการ",
+                      "key": "tech_administrative_ai"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ"
+                  ],
+                  "potential": [
+                    "หนึ่งอย่างต้องเป็นจริง\n    •   ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน \n    •   มีรัฐบาลพลเมือง: เครื่องจักรรับใช้"
+                  ],
+                  "children": [
+                    {
+                      "key": "tech_consumer_good_refinement_2",
+                      "name": "การพยากรณ์ความนิยมในการบริโภค",
+                      "description": "Using advanced AIs, we can reliably predict consumer demand before it exists.",
+                      "area": "physics",
+                      "base_factor": 2.0,
+                      "base_weight": 90.0,
+                      "category": "การคำนวณ",
+                      "cost": 8000,
+                      "feature_unlocks": [
+                        "£job_artisan£ ผลิตผล ช่างฝีมือ +10%"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_consumer_good_refinement_1",
+                        "tech_self_aware_logic",
+                        "tech_luxuries_2"
+                      ],
+                      "tier": 4,
+                      "prerequisites_names": [
+                        {
+                          "name": "คีออสก์จำลอง",
+                          "key": "tech_luxuries_2"
+                        },
+                        {
+                          "name": "อัลกอริทึมวิเคราะห์ตลาด",
+                          "key": "tech_consumer_good_refinement_1"
+                        },
+                        {
+                          "name": "ตรรกะการพัฒนาตนเอง",
+                          "key": "tech_self_aware_logic"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ"
+                      ],
+                      "potential": [
+                        "หนึ่งอย่างต้องเป็นจริง\n    •   ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน \n    •   มีรัฐบาลพลเมือง: เครื่องจักรรับใช้"
+                      ],
+                      "children": [],
+                      "is_event": false,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "source": "vanilla"
+                },
+                {
                   "key": "tech_self_aware_logic",
                   "name": "ตรรกะการพัฒนาตนเอง",
                   "description": "Introspective prioritization.",
@@ -2260,51 +2349,6 @@
                   "potential": [],
                   "children": [
                     {
-                      "key": "tech_consumer_good_refinement_2",
-                      "name": "การพยากรณ์ความนิยมในการบริโภค",
-                      "description": "Using advanced AIs, we can reliably predict consumer demand before it exists.",
-                      "area": "physics",
-                      "base_factor": 2.0,
-                      "base_weight": 90.0,
-                      "category": "การคำนวณ",
-                      "cost": 4000,
-                      "feature_unlocks": [
-                        "£job_artisan£ ผลิตผล ช่างฝีมือ +10%"
-                      ],
-                      "is_dangerous": false,
-                      "is_rare": false,
-                      "is_start_tech": false,
-                      "prerequisites": [
-                        "tech_self_aware_logic",
-                        "tech_consumer_good_refinement_1",
-                        "tech_luxuries_2"
-                      ],
-                      "tier": 4,
-                      "prerequisites_names": [
-                        {
-                          "name": "คีออสก์จำลอง",
-                          "key": "tech_luxuries_2"
-                        },
-                        {
-                          "name": "อัลกอริทึมวิเคราะห์ตลาด",
-                          "key": "tech_consumer_good_refinement_1"
-                        },
-                        {
-                          "name": "ตรรกะการพัฒนาตนเอง",
-                          "key": "tech_self_aware_logic"
-                        }
-                      ],
-                      "weight_modifiers": [
-                        "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ"
-                      ],
-                      "potential": [
-                        "หนึ่งอย่างต้องเป็นจริง\n    •   ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน \n    •   มีรัฐบาลพลเมือง: เครื่องจักรรับใช้"
-                      ],
-                      "children": [],
-                      "is_event": false,
-                      "source": "vanilla"
-                    },
-                    {
                       "key": "tech_positronic_implants",
                       "name": "ฝังสมองโพซิทรอนิกส์ในร่างกาย",
                       "description": "Expanding possibilities through the application of limited cybernetics.",
@@ -2314,6 +2358,7 @@
                       "category": "การคำนวณ",
                       "cost": 8000,
                       "feature_unlocks": [
+                        "<b>ฟีเจอร์ : </b>เทคโนโลยีการวิจัยอัตโนมัติ",
                         "ความเร็วในการวิจัย +5%"
                       ],
                       "is_dangerous": false,
@@ -2349,6 +2394,7 @@
                       "category": "การคำนวณ",
                       "cost": 8000,
                       "feature_unlocks": [
+                        "<b>ฟีเจอร์ : </b>เทคโนโลยีการวิจัยอัตโนมัติ",
                         "ความเร็วในการวิจัย +5%"
                       ],
                       "is_dangerous": false,
@@ -2414,46 +2460,6 @@
                       "source": "vanilla"
                     }
                   ],
-                  "is_event": false,
-                  "source": "vanilla"
-                },
-                {
-                  "key": "tech_consumer_good_refinement_1",
-                  "name": "อัลกอริทึมวิเคราะห์ตลาด",
-                  "description": "Basic administrative AIs can be used to streamline supply and demand lines, reducing waste.",
-                  "area": "physics",
-                  "base_factor": 2.0,
-                  "base_weight": 170.0,
-                  "category": "การคำนวณ",
-                  "cost": 4000,
-                  "feature_unlocks": [
-                    "£job_artisan£ ผลิตผล ช่างฝีมือ +10%"
-                  ],
-                  "is_dangerous": false,
-                  "is_rare": false,
-                  "is_start_tech": false,
-                  "prerequisites": [
-                    "tech_administrative_ai",
-                    "tech_luxuries_1"
-                  ],
-                  "tier": 2,
-                  "prerequisites_names": [
-                    {
-                      "name": "การประกอบวงจรนาโน",
-                      "key": "tech_luxuries_1"
-                    },
-                    {
-                      "name": "AI การบริหารจัดการ",
-                      "key": "tech_administrative_ai"
-                    }
-                  ],
-                  "weight_modifiers": [
-                    "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ"
-                  ],
-                  "potential": [
-                    "หนึ่งอย่างต้องเป็นจริง\n    •   ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน \n    •   มีรัฐบาลพลเมือง: เครื่องจักรรับใช้"
-                  ],
-                  "children": [],
                   "is_event": false,
                   "source": "vanilla"
                 }
@@ -2641,7 +2647,7 @@
                   "category": "การคำนวณ",
                   "cost": 1500,
                   "feature_unlocks": [
-                    "ผลผลิตของสถานีวิจัย +10%"
+                    "ผลผลิตของสถานีวิจัย +15%"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -2671,7 +2677,7 @@
                       "category": "การคำนวณ",
                       "cost": 2500,
                       "feature_unlocks": [
-                        "ผลผลิตของสถานีวิจัย +10%"
+                        "ผลผลิตของสถานีวิจัย +15%"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -2701,7 +2707,7 @@
                           "category": "การคำนวณ",
                           "cost": 4000,
                           "feature_unlocks": [
-                            "ผลผลิตของสถานีวิจัย +10%"
+                            "ผลผลิตของสถานีวิจัย +30%"
                           ],
                           "is_dangerous": false,
                           "is_rare": false,
@@ -2768,6 +2774,247 @@
           ],
           "potential": [],
           "children": [
+            {
+              "key": "tech_encryption_1",
+              "name": "ไฟร์วอลล์ควอนตัม",
+              "description": "Advances in computing technology have given us new ways to protect our data from prying eyes.",
+              "area": "physics",
+              "base_factor": 1.0,
+              "base_weight": 90.0,
+              "category": "การคำนวณ",
+              "cost": 750,
+              "feature_unlocks": [
+                "การเข้ารหัส +2"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_physics_1",
+                "tech_colonial_bureaucracy"
+              ],
+              "tier": 1,
+              "prerequisites_names": [
+                {
+                  "name": "ทฤษฎีควอนตัม",
+                  "key": "tech_physics_1"
+                },
+                {
+                  "name": "ระบบราชการอาณานิคม",
+                  "key": "tech_colonial_bureaucracy"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ",
+                "(×<b style='color:red'>0.1</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   เป็น AI<br/>    •   เริ่มมีเครือข่ายสอดแนม (country flag)"
+              ],
+              "potential": [],
+              "children": [
+                {
+                  "key": "tech_encryption_2",
+                  "name": "ที่เก็บข้อมูลที่พังได้พร้อมๆกัน",
+                  "description": "Further advances in unstable entanglement have given us new ways to prevent unauthorized intrusions into our databases.",
+                  "area": "physics",
+                  "base_factor": 1.0,
+                  "base_weight": 70.0,
+                  "category": "การคำนวณ",
+                  "cost": 2000,
+                  "feature_unlocks": [
+                    "การเข้ารหัส +2"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_encryption_1",
+                    "tech_physics_2"
+                  ],
+                  "tier": 2,
+                  "prerequisites_names": [
+                    {
+                      "name": "ไฟร์วอลล์ควอนตัม",
+                      "key": "tech_encryption_1"
+                    },
+                    {
+                      "name": "ฟิสิกส์ควอนตัมประยุกต์",
+                      "key": "tech_physics_2"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ",
+                    "(×<b style='color:red'>0.1</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   เป็น AI<br/>    •   เริ่มมีเครือข่ายสอดแนม (country flag)"
+                  ],
+                  "potential": [],
+                  "children": [
+                    {
+                      "key": "tech_encryption_3",
+                      "name": "กุญแจแบบ Negative-Time",
+                      "description": "Our latest advances in encryption exploit recently discovered quirks of physics to require inputting a specialized key before it has been generated.",
+                      "area": "physics",
+                      "base_factor": 1.0,
+                      "base_weight": 50.0,
+                      "category": "การคำนวณ",
+                      "cost": 10000,
+                      "feature_unlocks": [
+                        "การเข้ารหัส +2"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_encryption_2",
+                        "tech_physics_3"
+                      ],
+                      "tier": 4,
+                      "prerequisites_names": [
+                        {
+                          "name": "ที่เก็บข้อมูลที่พังได้พร้อมๆกัน",
+                          "key": "tech_encryption_2"
+                        },
+                        {
+                          "name": "ทฤษฎีปริภูมิ-เวลา",
+                          "key": "tech_physics_3"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ",
+                        "(×<b style='color:red'>0.1</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   เป็น AI<br/>    •   เริ่มมีเครือข่ายสอดแนม (country flag)"
+                      ],
+                      "potential": [],
+                      "children": [],
+                      "is_event": false,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "source": "vanilla"
+            },
+            {
+              "key": "tech_decryption_1",
+              "name": "การแฮ็กควอนตัม",
+              "description": "Primitive encryption systems stand no chance against modern decryption tools.",
+              "area": "physics",
+              "base_factor": 1.0,
+              "base_weight": 90.0,
+              "category": "การคำนวณ",
+              "cost": 750,
+              "feature_unlocks": [
+                "<b>ประกาศคำสั่ง</b>: Bureau of Espionage",
+                "<b>ประกาศคำสั่ง</b>: Covert Analysis Algorithm",
+                "<b>ประกาศคำสั่ง</b>: Observation Instinct",
+                "การถอดรหัส +2"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_physics_1",
+                "tech_colonial_bureaucracy"
+              ],
+              "tier": 1,
+              "prerequisites_names": [
+                {
+                  "name": "ทฤษฎีควอนตัม",
+                  "key": "tech_physics_1"
+                },
+                {
+                  "name": "ระบบราชการอาณานิคม",
+                  "key": "tech_colonial_bureaucracy"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ",
+                "(×<b style='color:red'>0.1</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   เป็น AI<br/>    •   เริ่มมีเครือข่ายสอดแนม (country flag)"
+              ],
+              "potential": [],
+              "children": [
+                {
+                  "key": "tech_decryption_2",
+                  "name": "การจำลองวิศวกรรมสังคม",
+                  "description": "The weakest link in any security system are the individuals within it. By modeling their weaknesses in computer simulations we can find novel ways to bypass their security - or trick them into bypassing it for us.",
+                  "area": "physics",
+                  "base_factor": 1.0,
+                  "base_weight": 70.0,
+                  "category": "การคำนวณ",
+                  "cost": 2000,
+                  "feature_unlocks": [
+                    "การถอดรหัส +2"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_decryption_1",
+                    "tech_physics_2"
+                  ],
+                  "tier": 2,
+                  "prerequisites_names": [
+                    {
+                      "name": "การแฮ็กควอนตัม",
+                      "key": "tech_decryption_1"
+                    },
+                    {
+                      "name": "ฟิสิกส์ควอนตัมประยุกต์",
+                      "key": "tech_physics_2"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ",
+                    "(×<b style='color:red'>0.1</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   เป็น AI<br/>    •   เริ่มมีเครือข่ายสอดแนม (country flag)"
+                  ],
+                  "potential": [],
+                  "children": [
+                    {
+                      "key": "tech_decryption_3",
+                      "name": "การสะท้อนของมิติเสมือน",
+                      "description": "Our operatives can access data from adjacent realities without risking setting off alarms in this reality.",
+                      "area": "physics",
+                      "base_factor": 1.0,
+                      "base_weight": 50.0,
+                      "category": "การคำนวณ",
+                      "cost": 10000,
+                      "feature_unlocks": [
+                        "การถอดรหัส +2"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_decryption_2",
+                        "tech_physics_3"
+                      ],
+                      "tier": 4,
+                      "prerequisites_names": [
+                        {
+                          "name": "การจำลองวิศวกรรมสังคม",
+                          "key": "tech_decryption_2"
+                        },
+                        {
+                          "name": "ทฤษฎีปริภูมิ-เวลา",
+                          "key": "tech_physics_3"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: การคำนวณ",
+                        "(×<b style='color:red'>0.1</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   เป็น AI<br/>    •   เริ่มมีเครือข่ายสอดแนม (country flag)"
+                      ],
+                      "potential": [],
+                      "children": [],
+                      "is_event": false,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "source": "vanilla"
+            },
             {
               "key": "tech_physics_2",
               "name": "ฟิสิกส์ควอนตัมประยุกต์",
@@ -3138,7 +3385,7 @@
           "category": "การคำนวณ",
           "cost": 750,
           "feature_unlocks": [
-            "<b>ฟีเจอร์ : </b>การสำรวจอัตโนมัติ",
+            "<b>ฟีเจอร์ : </b>การสำรวจแบบอัตโนมัติ",
             "ความเร็วในการสำรวจ +25%"
           ],
           "is_dangerous": false,

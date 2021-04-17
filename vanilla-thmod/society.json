@@ -180,6 +180,49 @@
                   ],
                   "is_event": false,
                   "source": "vanilla"
+                },
+                {
+                  "key": "tech_thought_enforcement",
+                  "name": "การบังคับความคิด",
+                  "description": "Telepaths can monitor the citizenry for incorrect thoughts, but with some study they could also correct thought abberations that they find.",
+                  "area": "society",
+                  "base_factor": 0.5,
+                  "base_weight": 20.0,
+                  "category": "พลังจิต",
+                  "cost": 10000,
+                  "feature_unlocks": [
+                    "<b>ประกาศคำสั่ง</b>: การบังคับความคิด"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": true,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_telepathy"
+                  ],
+                  "tier": 4,
+                  "prerequisites_names": [
+                    {
+                      "name": "โทรจิต",
+                      "key": "tech_telepathy"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:red'>0.0</b>) มี DLC Utopia",
+                    "(×<b style='color:red'>0.5</b>) ไม่ หัวหน้าการวิจัย (สังคม): <br/>    •   เชี่ยวชาญ: พลังจิต",
+                    "(×<b style='color:lime'>1.5</b>) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
+                    "(×<b style='color:lime'>2.0</b>) สหพันธ์ : <br/>    •   มี แรงบันดาลใจทางวิทยาศาสตร์<br/>    •   มีสมาชิกที่ มีเทคโนโลยี: การบังคับความคิด",
+                    "(×<b style='color:lime'>2.0</b>) มีจริยธรรม อำนาจเผด็จการ ",
+                    "(×<b style='color:lime'>3.0</b>) มีจริยธรรม อำนาจเผด็จการสุดโต่ง ",
+                    "(×<b style='color:lime'>2.0</b>) มีรัฐบาลพลเมือง: รัฐตำรวจ",
+                    "(×<b style='color:lime'>2.0</b>) หัวหน้าการวิจัย (สังคม): <br/>    •   คลั่งไคล้หลงใหล",
+                    "(×<b style='color:lime'>4.0</b>) หัวหน้าการวิจัย (สังคม): <br/>    •   เชี่ยวชาญ: พลังจิต"
+                  ],
+                  "potential": [
+                    "ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน "
+                  ],
+                  "children": [],
+                  "is_event": false,
+                  "source": "vanilla"
                 }
               ],
               "is_event": false,
@@ -259,7 +302,8 @@
               "category": "ชีววิทยา",
               "cost": 500,
               "feature_unlocks": [
-                "£food£ อาหารจาก £job_farmer£ เกษตรกร +20%"
+                "£food£ อาหารจาก £job_farmer£ เกษตรกร +20%",
+                "£food£ อาหารจากสิ่งปลูกสร้างในฐานอวกาศ +20%"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -275,7 +319,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:red'>0.01</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   ไม่เป็นสายพันธุ์ย่อยของเผ่าพันธุ์หิน (Lithoid) (country flag)<br/>    •   มีรัฐบาลพลเมือง: เครื่องจักรรับใช้<br/>    •   มีรัฐบาลพลเมือง: เครื่องดูดกลืนสิ่งมีชีวิต<br/>    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน<br/>\t    •   หนึ่งอย่างต้องเป็นจริง<br/>\t\t    •   จำนวนของ เขตเกษตรกรรม คือ มากกว่า 0<br/>\t\t    •   จำนวนของ ส่วนการเกษตร คือ มากกว่า 0",
+                "(×<b style='color:red'>0.01</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   ไม่เป็นสายพันธุ์ย่อยของเผ่าพันธุ์หิน (Lithoid) (country flag)<br/>    •   มีรัฐบาลพลเมือง: เครื่องจักรรับใช้<br/>    •   มีรัฐบาลพลเมือง: เครื่องดูดกลืนสิ่งมีชีวิต<br/>    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน<br/>\t    •   หนึ่งอย่างต้องเป็นจริง<br/>\t\t    •   จำนวนของ เขตเกษตรกรรม มี มากกว่า 0<br/>\t\t    •   จำนวนของ ส่วนการเกษตร มี มากกว่า 0",
                 "(×<b style='color:red'>0.5</b>) หนึ่งอย่างต้องเป็นจริง<br/>    •   มีระบอบการปกครอง สติปัญญาจักรกล <br/>    •   เป็นจักรวรรดิประเภทหิน",
                 "(×<b style='color:lime'>1.25</b>) มีจริยธรรม รักสงบ ",
                 "(×<b style='color:lime'>1.5</b>) มีจริยธรรม รักสงบอย่างมาก ",
@@ -310,7 +354,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:red'>0.01</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   ไม่เป็นสายพันธุ์ย่อยของเผ่าพันธุ์หิน (Lithoid) (country flag)<br/>    •   มีรัฐบาลพลเมือง: เครื่องจักรรับใช้<br/>    •   มีรัฐบาลพลเมือง: เครื่องดูดกลืนสิ่งมีชีวิต<br/>    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน<br/>\t    •   หนึ่งอย่างต้องเป็นจริง<br/>\t\t    •   จำนวนของ เขตเกษตรกรรม คือ มากกว่า 0<br/>\t\t    •   จำนวนของ ส่วนการเกษตร คือ มากกว่า 0",
+                    "(×<b style='color:red'>0.01</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   ไม่เป็นสายพันธุ์ย่อยของเผ่าพันธุ์หิน (Lithoid) (country flag)<br/>    •   มีรัฐบาลพลเมือง: เครื่องจักรรับใช้<br/>    •   มีรัฐบาลพลเมือง: เครื่องดูดกลืนสิ่งมีชีวิต<br/>    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน<br/>\t    •   หนึ่งอย่างต้องเป็นจริง<br/>\t\t    •   จำนวนของ เขตเกษตรกรรม มี มากกว่า 0<br/>\t\t    •   จำนวนของ ส่วนการเกษตร มี มากกว่า 0",
                     "(×<b style='color:red'>0.5</b>) หนึ่งอย่างต้องเป็นจริง<br/>    •   มีระบอบการปกครอง สติปัญญาจักรกล <br/>    •   เป็นจักรวรรดิประเภทหิน",
                     "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (สังคม): <br/>    •   เชี่ยวชาญ: ชีววิทยา"
                   ],
@@ -342,7 +386,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:red'>0.01</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   ไม่เป็นสายพันธุ์ย่อยของเผ่าพันธุ์หิน (Lithoid) (country flag)<br/>    •   มีรัฐบาลพลเมือง: เครื่องจักรรับใช้<br/>    •   มีรัฐบาลพลเมือง: เครื่องดูดกลืนสิ่งมีชีวิต<br/>    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน<br/>\t    •   หนึ่งอย่างต้องเป็นจริง<br/>\t\t    •   จำนวนของ เขตเกษตรกรรม คือ มากกว่า 0<br/>\t\t    •   จำนวนของ ส่วนการเกษตร คือ มากกว่า 0",
+                        "(×<b style='color:red'>0.01</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   ไม่เป็นสายพันธุ์ย่อยของเผ่าพันธุ์หิน (Lithoid) (country flag)<br/>    •   มีรัฐบาลพลเมือง: เครื่องจักรรับใช้<br/>    •   มีรัฐบาลพลเมือง: เครื่องดูดกลืนสิ่งมีชีวิต<br/>    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน<br/>\t    •   หนึ่งอย่างต้องเป็นจริง<br/>\t\t    •   จำนวนของ เขตเกษตรกรรม มี มากกว่า 0<br/>\t\t    •   จำนวนของ ส่วนการเกษตร มี มากกว่า 0",
                         "(×<b style='color:red'>0.5</b>) หนึ่งอย่างต้องเป็นจริง<br/>    •   มีระบอบการปกครอง สติปัญญาจักรกล <br/>    •   เป็นจักรวรรดิประเภทหิน",
                         "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (สังคม): <br/>    •   เชี่ยวชาญ: ชีววิทยา",
                         "(×<b style='color:red'>0.0</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   มีเทคโนโลยี: การปรับความเสถียรของผงธุลี<br/>    •   มีเทคโนโลยี: โรงงานวัสดุระเหย<br/>    •   มีการเข้าถึงตลาดกาแลกติก (country flag)"
@@ -368,7 +412,8 @@
                   "feature_unlocks": [
                     "<b>ประกาศคำสั่ง</b>: ความอุดมสมบูรณ์ด้านอาหาร",
                     "<b>ประกาศคำสั่ง</b>: โครงการขยายพันธุ์",
-                    "£food£ อาหารจาก £job_farmer£ เกษตรกร +20%"
+                    "£food£ อาหารจาก £job_farmer£ เกษตรกร +20%",
+                    "£food£ อาหารจากสิ่งปลูกสร้างในฐานอวกาศ +20%"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -384,7 +429,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:red'>0.01</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   ไม่เป็นสายพันธุ์ย่อยของเผ่าพันธุ์หิน (Lithoid) (country flag)<br/>    •   มีรัฐบาลพลเมือง: เครื่องจักรรับใช้<br/>    •   มีรัฐบาลพลเมือง: เครื่องดูดกลืนสิ่งมีชีวิต<br/>    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน<br/>\t    •   หนึ่งอย่างต้องเป็นจริง<br/>\t\t    •   จำนวนของ เขตเกษตรกรรม คือ มากกว่า 0<br/>\t\t    •   จำนวนของ ส่วนการเกษตร คือ มากกว่า 0",
+                    "(×<b style='color:red'>0.01</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   ไม่เป็นสายพันธุ์ย่อยของเผ่าพันธุ์หิน (Lithoid) (country flag)<br/>    •   มีรัฐบาลพลเมือง: เครื่องจักรรับใช้<br/>    •   มีรัฐบาลพลเมือง: เครื่องดูดกลืนสิ่งมีชีวิต<br/>    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน<br/>\t    •   หนึ่งอย่างต้องเป็นจริง<br/>\t\t    •   จำนวนของ เขตเกษตรกรรม มี มากกว่า 0<br/>\t\t    •   จำนวนของ ส่วนการเกษตร มี มากกว่า 0",
                     "(×<b style='color:red'>0.5</b>) หนึ่งอย่างต้องเป็นจริง<br/>    •   มีระบอบการปกครอง สติปัญญาจักรกล <br/>    •   เป็นจักรวรรดิประเภทหิน",
                     "(×<b style='color:lime'>1.25</b>) มีจริยธรรม รักสงบ ",
                     "(×<b style='color:lime'>1.5</b>) มีจริยธรรม รักสงบอย่างมาก ",
@@ -402,7 +447,8 @@
                       "category": "ชีววิทยา",
                       "cost": 4000,
                       "feature_unlocks": [
-                        "£food£ อาหารจาก £job_farmer£ เกษตรกร +20%"
+                        "£food£ อาหารจาก £job_farmer£ เกษตรกร +20%",
+                        "£food£ อาหารจากสิ่งปลูกสร้างในฐานอวกาศ +20%"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -418,7 +464,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:red'>0.01</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   ไม่เป็นสายพันธุ์ย่อยของเผ่าพันธุ์หิน (Lithoid) (country flag)<br/>    •   มีรัฐบาลพลเมือง: เครื่องจักรรับใช้<br/>    •   มีรัฐบาลพลเมือง: เครื่องดูดกลืนสิ่งมีชีวิต<br/>    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน<br/>\t    •   หนึ่งอย่างต้องเป็นจริง<br/>\t\t    •   จำนวนของ เขตเกษตรกรรม คือ มากกว่า 0<br/>\t\t    •   จำนวนของ ส่วนการเกษตร คือ มากกว่า 0",
+                        "(×<b style='color:red'>0.01</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   ไม่เป็นสายพันธุ์ย่อยของเผ่าพันธุ์หิน (Lithoid) (country flag)<br/>    •   มีรัฐบาลพลเมือง: เครื่องจักรรับใช้<br/>    •   มีรัฐบาลพลเมือง: เครื่องดูดกลืนสิ่งมีชีวิต<br/>    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน<br/>\t    •   หนึ่งอย่างต้องเป็นจริง<br/>\t\t    •   จำนวนของ เขตเกษตรกรรม มี มากกว่า 0<br/>\t\t    •   จำนวนของ ส่วนการเกษตร มี มากกว่า 0",
                         "(×<b style='color:red'>0.5</b>) หนึ่งอย่างต้องเป็นจริง<br/>    •   มีระบอบการปกครอง สติปัญญาจักรกล <br/>    •   เป็นจักรวรรดิประเภทหิน",
                         "(×<b style='color:lime'>1.25</b>) มีจริยธรรม รักสงบ ",
                         "(×<b style='color:lime'>1.5</b>) มีจริยธรรม รักสงบอย่างมาก ",
@@ -436,7 +482,8 @@
                           "category": "ชีววิทยา",
                           "cost": 12000,
                           "feature_unlocks": [
-                            "£food£ อาหารจาก £job£ งาน +15%"
+                            "£food£ อาหารจาก £job£ งาน +15%",
+                            "£food£ อาหารจากสิ่งปลูกสร้างในฐานอวกาศ +20%"
                           ],
                           "is_dangerous": false,
                           "is_rare": true,
@@ -452,7 +499,7 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×<b style='color:red'>0.01</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   ไม่เป็นสายพันธุ์ย่อยของเผ่าพันธุ์หิน (Lithoid) (country flag)<br/>    •   มีรัฐบาลพลเมือง: เครื่องจักรรับใช้<br/>    •   มีรัฐบาลพลเมือง: เครื่องดูดกลืนสิ่งมีชีวิต<br/>    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน<br/>\t    •   หนึ่งอย่างต้องเป็นจริง<br/>\t\t    •   จำนวนของ เขตเกษตรกรรม คือ มากกว่า 0<br/>\t\t    •   จำนวนของ ส่วนการเกษตร คือ มากกว่า 0",
+                            "(×<b style='color:red'>0.01</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   ไม่เป็นสายพันธุ์ย่อยของเผ่าพันธุ์หิน (Lithoid) (country flag)<br/>    •   มีรัฐบาลพลเมือง: เครื่องจักรรับใช้<br/>    •   มีรัฐบาลพลเมือง: เครื่องดูดกลืนสิ่งมีชีวิต<br/>    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน<br/>\t    •   หนึ่งอย่างต้องเป็นจริง<br/>\t\t    •   จำนวนของ เขตเกษตรกรรม มี มากกว่า 0<br/>\t\t    •   จำนวนของ ส่วนการเกษตร มี มากกว่า 0",
                             "(×<b style='color:red'>0.5</b>) หนึ่งอย่างต้องเป็นจริง<br/>    •   มีระบอบการปกครอง สติปัญญาจักรกล <br/>    •   เป็นจักรวรรดิประเภทหิน",
                             "(×<b style='color:red'>0.5</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   หัวหน้าการวิจัย (สังคม): <br/>\t    •   เชี่ยวชาญ: ชีววิทยา<br/>    •   หัวหน้าการวิจัย (สังคม): <br/>\t    •   ผู้ดูแลพิพิธภัณฑ์",
                             "(×<b style='color:lime'>1.5</b>) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
@@ -537,7 +584,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:red'>0.01</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   ไม่เป็นสายพันธุ์ย่อยของเผ่าพันธุ์หิน (Lithoid) (country flag)<br/>    •   มีรัฐบาลพลเมือง: เครื่องจักรรับใช้<br/>    •   มีรัฐบาลพลเมือง: เครื่องดูดกลืนสิ่งมีชีวิต<br/>    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน<br/>\t    •   หนึ่งอย่างต้องเป็นจริง<br/>\t\t    •   จำนวนของ เขตเกษตรกรรม คือ มากกว่า 0<br/>\t\t    •   จำนวนของ ส่วนการเกษตร คือ มากกว่า 0",
+                "(×<b style='color:red'>0.01</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   ไม่เป็นสายพันธุ์ย่อยของเผ่าพันธุ์หิน (Lithoid) (country flag)<br/>    •   มีรัฐบาลพลเมือง: เครื่องจักรรับใช้<br/>    •   มีรัฐบาลพลเมือง: เครื่องดูดกลืนสิ่งมีชีวิต<br/>    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน<br/>\t    •   หนึ่งอย่างต้องเป็นจริง<br/>\t\t    •   จำนวนของ เขตเกษตรกรรม มี มากกว่า 0<br/>\t\t    •   จำนวนของ ส่วนการเกษตร มี มากกว่า 0",
                 "(×<b style='color:red'>0.5</b>) หนึ่งอย่างต้องเป็นจริง<br/>    •   มีระบอบการปกครอง สติปัญญาจักรกล <br/>    •   เป็นจักรวรรดิประเภทหิน",
                 "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (สังคม): <br/>    •   เชี่ยวชาญ: ชีววิทยา"
               ],
@@ -719,6 +766,87 @@
                     }
                   ],
                   "weight_modifiers": [],
+                  "potential": [],
+                  "children": [],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "source": "vanilla"
+            },
+            {
+              "key": "tech_subdermal_stimulation",
+              "name": "ระบบกระตุ้นใต้ผิวหนัง",
+              "description": "Deep-tissue implants are the latest innovation in the revolutionary overlapping of sensory engineering and entertainment experiences. \"Where we're going, we won't need skin to feel!\"",
+              "area": "society",
+              "base_factor": 0.5,
+              "base_weight": 37.5,
+              "category": "ชีววิทยา",
+              "cost": 2000,
+              "feature_unlocks": [
+                "<b>ฟีเจอร์ : </b>สารเคมีแห่งความสุข"
+              ],
+              "is_dangerous": false,
+              "is_rare": true,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_genome_mapping"
+              ],
+              "tier": 2,
+              "prerequisites_names": [
+                {
+                  "name": "การจัดทําแผนที่พันธุกรรม",
+                  "key": "tech_genome_mapping"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   มีจริยธรรม ความเสมอภาค <br/>    •   มีจริยธรรม ความเสมอภาคสุดโต่ง ",
+                "(×<b style='color:lime'>1.5</b>) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
+                "(×<b style='color:lime'>2.0</b>) สหพันธ์ : <br/>    •   มี แรงบันดาลใจทางวิทยาศาสตร์<br/>    •   มีสมาชิกที่ มีเทคโนโลยี: ระบบกระตุ้นใต้ผิวหนัง",
+                "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (สังคม): <br/>    •   เชี่ยวชาญ: ชีววิทยา"
+              ],
+              "potential": [
+                "ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน "
+              ],
+              "children": [
+                {
+                  "key": "tech_tracking_implants",
+                  "name": "การฝังระบบติดตาม",
+                  "description": "Further advancements in the field of subdermal implants can provide detailed information regarding the movements and actions of the implanted.",
+                  "area": "society",
+                  "base_factor": 0.5,
+                  "base_weight": 20.0,
+                  "category": "การปกครอง",
+                  "cost": 10000,
+                  "feature_unlocks": [
+                    "<b>ประกาศคำสั่ง</b>: การฝังระบบติดตาม"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": true,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_subdermal_stimulation",
+                    "tech_galactic_bureaucracy"
+                  ],
+                  "tier": 4,
+                  "prerequisites_names": [
+                    {
+                      "name": "ระบบกระตุ้นใต้ผิวหนัง",
+                      "key": "tech_subdermal_stimulation"
+                    },
+                    {
+                      "name": "ระบบราชการกาแลกติก",
+                      "key": "tech_galactic_bureaucracy"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:red'>0.2</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   มีการปรับเปลี่ยน ข้อมูลเชิงลึกผู้ดูแลพิพิธภัณฑ์<br/>    •   หัวหน้าการวิจัย (สังคม): <br/>\t    •   ผู้ดูแลพิพิธภัณฑ์<br/>    •   หัวหน้าการวิจัย (สังคม): <br/>\t    •   เชี่ยวชาญ: การปกครอง",
+                    "(×<b style='color:lime'>2.0</b>) หนึ่งอย่างต้องเป็นจริง<br/>    •   มีจริยธรรม อำนาจเผด็จการ <br/>    •   มีจริยธรรม อำนาจเผด็จการสุดโต่ง ",
+                    "(×<b style='color:lime'>1.5</b>) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
+                    "(×<b style='color:lime'>2.0</b>) สหพันธ์ : <br/>    •   มี แรงบันดาลใจทางวิทยาศาสตร์<br/>    •   มีสมาชิกที่ มีเทคโนโลยี: การฝังระบบติดตาม",
+                    "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (สังคม): <br/>    •   เชี่ยวชาญ: การปกครอง"
+                  ],
                   "potential": [],
                   "children": [],
                   "is_event": false,
@@ -921,7 +1049,7 @@
                 "(×<b style='color:lime'>1.25</b>) มีจริยธรรม ชอบต่างดาว ",
                 "(×<b style='color:lime'>1.5</b>) มีจริยธรรม ชอบต่างดาวอย่างมาก ",
                 "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (สังคม): <br/>    •   เชี่ยวชาญ: ชีววิทยา",
-                "(×<b style='color:red'>0.0</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   ได้คนพบสิ่งมีชีวิตก่อนมีสติปัญญา (Pre-sapient) (country flag)<br/>    •   มีดาวเคราะห์ใดๆที่อยู่ภายในพรมแดน<br/>\t    •   มีประชากรบางส่วน<br/>\t\t    •   ประชากรไม่เป็นสิ่งมีชีวิตมีสติปัญญา(เซเปียนส์)"
+                "(×<b style='color:red'>0.0</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   ได้คนพบสิ่งมีชีวิตก่อนมีสติปัญญา (Pre-sapient) (country flag)<br/>    •   มีดาวเคราะห์ใดๆที่อยู่ภายในพรมแดน<br/>\t    •   มีประชากรที่เป็นเจ้าของบางส่วน<br/>\t\t    •   ประชากรไม่เป็นสิ่งมีชีวิตมีสติปัญญา(เซเปียนส์)"
               ],
               "potential": [
                 "ไม่ มีรัฐบาลพลเมือง: ผู้ชำระล้างที่บ้าคลั่ง",
@@ -1052,44 +1180,6 @@
                   "source": "vanilla"
                 }
               ],
-              "is_event": false,
-              "source": "vanilla"
-            },
-            {
-              "key": "tech_subdermal_stimulation",
-              "name": "ระบบกระตุ้นใต้ผิวหนัง",
-              "description": "Deep-tissue implants are the latest innovation in the revolutionary overlapping of sensory engineering and entertainment experiences. \"Where we're going, we won't need skin to feel!\"",
-              "area": "society",
-              "base_factor": 0.5,
-              "base_weight": 37.5,
-              "category": "ชีววิทยา",
-              "cost": 2000,
-              "feature_unlocks": [
-                "<b>ฟีเจอร์ : </b>สารเคมีแห่งความสุข"
-              ],
-              "is_dangerous": false,
-              "is_rare": true,
-              "is_start_tech": false,
-              "prerequisites": [
-                "tech_genome_mapping"
-              ],
-              "tier": 2,
-              "prerequisites_names": [
-                {
-                  "name": "การจัดทําแผนที่พันธุกรรม",
-                  "key": "tech_genome_mapping"
-                }
-              ],
-              "weight_modifiers": [
-                "(×<b style='color:lime'>1.25</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   มีจริยธรรม ความเสมอภาค <br/>    •   มีจริยธรรม ความเสมอภาคสุดโต่ง ",
-                "(×<b style='color:lime'>1.5</b>) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                "(×<b style='color:lime'>2.0</b>) สหพันธ์ : <br/>    •   มี แรงบันดาลใจทางวิทยาศาสตร์<br/>    •   มีสมาชิกที่ มีเทคโนโลยี: ระบบกระตุ้นใต้ผิวหนัง",
-                "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (สังคม): <br/>    •   เชี่ยวชาญ: ชีววิทยา"
-              ],
-              "potential": [
-                "ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน "
-              ],
-              "children": [],
               "is_event": false,
               "source": "vanilla"
             }
@@ -1274,6 +1364,7 @@
               "category": "การปกครอง",
               "cost": 2000,
               "feature_unlocks": [
+                "<b>ประกาศคำสั่ง</b>: Synaptic Reinforcement",
                 "<b>สิ่งปลูกสร้าง</b>: คลัสเตอร์โครงข่ายประสาท"
               ],
               "is_dangerous": false,
@@ -1510,7 +1601,8 @@
                       "feature_unlocks": [
                         "<b>สิ่งปลูกสร้าง</b>: ชุมทางเครือข่าย",
                         "<b>สิ่งปลูกสร้าง</b>: แหล่งการปกครอง",
-                        "ความสามารถในการบริหาร +10"
+                        "ความสามารถในการบริหาร +10",
+                        "เลเวลพื้นฐานของข่าวกรอง +10"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -1546,7 +1638,8 @@
                           "feature_unlocks": [
                             "<b>สิ่งปลูกสร้าง</b>: ศูนย์อำนวยการปกครอง",
                             "<b>สิ่งปลูกสร้าง</b>: แหล่งรวมของระบบต่างๆ",
-                            "ความสามารถในการบริหาร +10"
+                            "ความสามารถในการบริหาร +10",
+                            "เลเวลพื้นฐานของข่าวกรอง +10"
                           ],
                           "is_dangerous": false,
                           "is_rare": false,
@@ -1651,6 +1744,120 @@
                   "source": "vanilla"
                 },
                 {
+                  "key": "tech_capital_productivity_1",
+                  "name": "ปรับปรุงการผลิต",
+                  "description": "As our planets become more developed, we can gain significant improvements to our throughput.",
+                  "area": "society",
+                  "base_factor": 1.0,
+                  "base_weight": 70.0,
+                  "category": "การปกครอง",
+                  "cost": 2500,
+                  "feature_unlocks": [
+                    "สิ่งปลูกสร้างที่เป็นเมืองหลวง:\n  ทรัพยากรจากงาน £job£: +10%\n  ค่าบำรุงรักษาจาก £job£ งาน: +10%"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_planetary_unification"
+                  ],
+                  "tier": 2,
+                  "prerequisites_names": [
+                    {
+                      "name": "การรวมตัวกันของประชากรบนดาวเคราะห์",
+                      "key": "tech_planetary_unification"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:red'>0.25</b>) ไม่ มี วัฒนธรรมความเจริญสำเร็จ ",
+                    "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (สังคม): <br/>    •   เชี่ยวชาญ: การปกครอง"
+                  ],
+                  "potential": [],
+                  "children": [
+                    {
+                      "key": "tech_capital_productivity_2",
+                      "name": "ประสิทธิภาพของการประมาณ",
+                      "description": "ประสิทธิภาพของการประมาณ",
+                      "area": "society",
+                      "base_factor": 1.0,
+                      "base_weight": 70.0,
+                      "category": "การปกครอง",
+                      "cost": 6000,
+                      "feature_unlocks": [
+                        "สิ่งปลูกสร้างที่เป็นเมืองหลวง(ที่อัปเกรดแล้ว):\n  ทรัพยากรจากงาน £job£: +20%\n  ค่าบำรุงรักษาจาก £job£ งาน: +20%"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_capital_productivity_1",
+                        "tech_colonial_centralization"
+                      ],
+                      "tier": 3,
+                      "prerequisites_names": [
+                        {
+                          "name": "การรวมศูนย์อำนาจอาณานิคม",
+                          "key": "tech_colonial_centralization"
+                        },
+                        {
+                          "name": "ปรับปรุงการผลิต",
+                          "key": "tech_capital_productivity_1"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:red'>0.25</b>) ไม่ มี วัฒนธรรมความเจริญสำเร็จ ",
+                        "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (สังคม): <br/>    •   เชี่ยวชาญ: การปกครอง"
+                      ],
+                      "potential": [],
+                      "children": [
+                        {
+                          "key": "tech_capital_productivity_3",
+                          "name": "เพิ่มผลผลิตสูงสุด",
+                          "description": "Continued advancements in technology allow our most developed planets to reach productivity levels unheard of in earlier times.",
+                          "area": "society",
+                          "base_factor": 1.0,
+                          "base_weight": 70.0,
+                          "category": "การปกครอง",
+                          "cost": 12000,
+                          "feature_unlocks": [
+                            "สิ่งปลูกสร้างที่เป็นเมืองหลวง(หลัก):\n  ทรัพยากรจากงาน £job£: +30%\n  ค่าบำรุงรักษาจาก £job£ งาน: +30%"
+                          ],
+                          "is_dangerous": false,
+                          "is_rare": false,
+                          "is_start_tech": false,
+                          "prerequisites": [
+                            "tech_capital_productivity_2",
+                            "tech_galactic_administration"
+                          ],
+                          "tier": 4,
+                          "prerequisites_names": [
+                            {
+                              "name": "การบริหารกาแลกติก",
+                              "key": "tech_galactic_administration"
+                            },
+                            {
+                              "name": "ประสิทธิภาพของการประมาณ",
+                              "key": "tech_capital_productivity_2"
+                            }
+                          ],
+                          "weight_modifiers": [
+                            "(×<b style='color:red'>0.25</b>) ไม่ มี วัฒนธรรมความเจริญสำเร็จ ",
+                            "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (สังคม): <br/>    •   เชี่ยวชาญ: การปกครอง"
+                          ],
+                          "potential": [],
+                          "children": [],
+                          "is_event": false,
+                          "source": "vanilla"
+                        }
+                      ],
+                      "is_event": false,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "source": "vanilla"
+                },
+                {
                   "key": "tech_colonial_centralization",
                   "name": "การรวมศูนย์อำนาจอาณานิคม",
                   "description": "Robust frameworks for local governance created on a per-case basis, to meet each colony's needs.",
@@ -1719,7 +1926,7 @@
                         "(×<b style='color:red'>0.01</b>) มีรัฐบาลพลเมือง: ความสมบูรณ์แบบภายใน"
                       ],
                       "potential": [
-                        "ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน "
+                        "null\n    •   หนึ่งอย่างต้องเป็นจริง\n\t    •   เป็นจักรวรรดิประเภท: default\n\t    •   เป็นจักรวรรดิประเภท: จักรวรรดิเก่าแก่ทรงพลัง\n\t    •   เป็นจักรวรรดิประเภท: จักรวรรดิที่ตื่นขึ้นแล้ว\n    •   ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน "
                       ],
                       "children": [
                         {
@@ -1761,8 +1968,90 @@
                             "(×<b style='color:red'>0.01</b>) มีรัฐบาลพลเมือง: ความสมบูรณ์แบบภายใน"
                           ],
                           "potential": [
-                            "ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน "
+                            "null\n    •   หนึ่งอย่างต้องเป็นจริง\n\t    •   เป็นจักรวรรดิประเภท: default\n\t    •   เป็นจักรวรรดิประเภท: จักรวรรดิเก่าแก่ทรงพลัง\n\t    •   เป็นจักรวรรดิประเภท: จักรวรรดิที่ตื่นขึ้นแล้ว\n    •   ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน "
                           ],
+                          "children": [],
+                          "is_event": false,
+                          "source": "vanilla"
+                        }
+                      ],
+                      "is_event": false,
+                      "source": "vanilla"
+                    },
+                    {
+                      "key": "tech_planetary_infrastructure_1",
+                      "name": "โครงสร้างพื้นฐานโลหะเซราโม",
+                      "description": "Stronger alloys allow us to create prefabricated buildings, providing our colonies with the improved infrastructure.",
+                      "area": "society",
+                      "base_factor": 4.0,
+                      "base_weight": 280.0,
+                      "category": "โลกใหม่",
+                      "cost": 2500,
+                      "feature_unlocks": [
+                        "ช่องก่อสร้าง +1"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_colonial_centralization",
+                        "tech_ship_armor_2"
+                      ],
+                      "tier": 2,
+                      "prerequisites_names": [
+                        {
+                          "name": "การรวมศูนย์อำนาจอาณานิคม",
+                          "key": "tech_colonial_centralization"
+                        },
+                        {
+                          "name": "วัสดุโลหะเซราโม",
+                          "key": "tech_ship_armor_2"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (สังคม): <br/>    •   เชี่ยวชาญ: โลกใหม่"
+                      ],
+                      "potential": [],
+                      "children": [
+                        {
+                          "key": "tech_planetary_infrastructure_2",
+                          "name": "โครงสร้างพื้นฐาน Durasteel",
+                          "description": "Advances in metallurgy permit us to build vastly larger and more durable structures, greatly improving the infrastructure of our colonies.",
+                          "area": "society",
+                          "base_factor": 4.0,
+                          "base_weight": 140.0,
+                          "category": "โลกใหม่",
+                          "cost": 12000,
+                          "feature_unlocks": [
+                            "ช่องก่อสร้าง +1"
+                          ],
+                          "is_dangerous": false,
+                          "is_rare": false,
+                          "is_start_tech": false,
+                          "prerequisites": [
+                            "tech_planetary_infrastructure_1",
+                            "tech_galactic_administration",
+                            "tech_ship_armor_4"
+                          ],
+                          "tier": 4,
+                          "prerequisites_names": [
+                            {
+                              "name": "การบริหารกาแลกติก",
+                              "key": "tech_galactic_administration"
+                            },
+                            {
+                              "name": "วัสดุ Durasteel",
+                              "key": "tech_ship_armor_4"
+                            },
+                            {
+                              "name": "โครงสร้างพื้นฐานโลหะเซราโม",
+                              "key": "tech_planetary_infrastructure_1"
+                            }
+                          ],
+                          "weight_modifiers": [
+                            "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (สังคม): <br/>    •   เชี่ยวชาญ: โลกใหม่"
+                          ],
+                          "potential": [],
                           "children": [],
                           "is_event": false,
                           "source": "vanilla"
@@ -1781,6 +2070,7 @@
                       "category": "การปกครอง",
                       "cost": 2500,
                       "feature_unlocks": [
+                        "ทูตที่มี +1",
                         "อิทธิพลรายเดือน +1"
                       ],
                       "is_dangerous": false,
@@ -1818,6 +2108,7 @@
                           "cost": 6000,
                           "feature_unlocks": [
                             "ค่าบำรุงรักษาผู้นำ -10%",
+                            "ทูตที่มี +1",
                             "เลเวลผู้นำสูงสุด +1"
                           ],
                           "is_dangerous": false,
@@ -1912,8 +2203,7 @@
                       "is_start_tech": false,
                       "prerequisites": [
                         "tech_colonial_centralization",
-                        "tech_alloys_1",
-                        "tech_luxuries_1"
+                        "tech_alloys_1"
                       ],
                       "tier": 3,
                       "prerequisites_names": [
@@ -1922,15 +2212,12 @@
                           "key": "tech_alloys_1"
                         },
                         {
-                          "name": "การประกอบวงจรนาโน",
-                          "key": "tech_luxuries_1"
-                        },
-                        {
                           "name": "การรวมศูนย์อำนาจอาณานิคม",
                           "key": "tech_colonial_centralization"
                         }
                       ],
                       "weight_modifiers": [
+                        "(×<b style='color:red'>0.0</b>) ทั้งหมดต้องเป็นเท็จ<br/>    •   มีเทคโนโลยี: การประกอบวงจรนาโน<br/>    •   country_uses_consumer_goods=no",
                         "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (สังคม): <br/>    •   เชี่ยวชาญ: การปกครอง"
                       ],
                       "potential": [],
@@ -2179,6 +2466,7 @@
                   "category": "การปกครอง",
                   "cost": 4000,
                   "feature_unlocks": [
+                    "<b>สิ่งก่อสร้างบนฐานอวกาศ</b>: ระบบนำทางไฮเปอร์เลน",
                     "<b>สิ่งปลูกสร้าง</b>: ศูนย์การพาณิชย์ขนาดใหญ่"
                   ],
                   "is_dangerous": false,
@@ -4482,7 +4770,7 @@
             "(×<b style='color:red'>0.0</b>) ไม่ มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน<br/>    •   มีการทับถมของ หุบเขาที่เป็นเอกเทศ"
           ],
           "potential": [
-            "ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน "
+            "null\n    •   หนึ่งอย่างต้องเป็นจริง\n\t    •   เป็นจักรวรรดิประเภท: default\n\t    •   เป็นจักรวรรดิประเภท: จักรวรรดิเก่าแก่ทรงพลัง\n\t    •   เป็นจักรวรรดิประเภท: จักรวรรดิที่ตื่นขึ้นแล้ว\n    •   ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน "
           ],
           "children": [],
           "is_event": false,
