@@ -458,16 +458,16 @@
   },
   {
     "key": "tech_matter_decompressor",
-    "name": "เครื่องขยายมวลสารจากหลุมดำ",
-    "description": "The เครื่องขยายมวลสารจากหลุมดำ lenses a black hole's gravity, forming a drill of gravitational forces to retrieve £minerals£ Minerals from the singularity.",
+    "name": "เครื่องดึงมวลสารจากหลุมดำ",
+    "description": "The เครื่องดึงมวลสารจากหลุมดำ lenses a black hole's gravity, forming a drill of gravitational forces to retrieve £minerals£ Minerals from the singularity.",
     "area": "physics",
     "base_factor": 0.0,
     "base_weight": 0.0,
     "category": "การควบคุมสนามพลัง",
     "cost": 20000,
     "feature_unlocks": [
-      "<b>สิ่งก่อสร้างขนาดใหญ่</b>: เครื่องขยายมวลสารจากหลุมดำ",
-      "<b>สิ่งก่อสร้างขนาดใหญ่</b>: เครื่องขยายมวลสารจากหลุมดำ:"
+      "<b>สิ่งก่อสร้างขนาดใหญ่</b>: เครื่องดึงมวลสารจากหลุมดำ",
+      "<b>สิ่งก่อสร้างขนาดใหญ่</b>: เครื่องดึงมวลสารจากหลุมดำ:"
     ],
     "is_dangerous": false,
     "is_rare": true,
