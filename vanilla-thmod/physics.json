@@ -55,7 +55,7 @@
               "cost": 500,
               "feature_unlocks": [
                 "£energy£ เครดิตพลังงานจาก £job_technician£ ช่างเทคนิค +20%",
-                "£energy£ พลังงานจากสิ่งปลูกสร้างในฐานอวกาศ +20%"
+                "£energy£ พลังงานจากสิ่งปลูกสร้างในฐานอวกาศ +10%"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -87,7 +87,7 @@
                   "cost": 1500,
                   "feature_unlocks": [
                     "£energy£ เครดิตพลังงานจาก £job_technician£ ช่างเทคนิค +20%",
-                    "£energy£ พลังงานจากสิ่งปลูกสร้างในฐานอวกาศ +20%"
+                    "£energy£ พลังงานจากสิ่งปลูกสร้างในฐานอวกาศ +10%"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -119,7 +119,7 @@
                       "cost": 4000,
                       "feature_unlocks": [
                         "£energy£ เครดิตพลังงานจาก £job_technician£ ช่างเทคนิค +20%",
-                        "£energy£ พลังงานจากสิ่งปลูกสร้างในฐานอวกาศ +20%"
+                        "£energy£ พลังงานจากสิ่งปลูกสร้างในฐานอวกาศ +10%"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -1812,7 +1812,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:lime'>1.25</b>) มี วัฒนธรรมความยิ่งใหญ่ ",
+                "(×<b style='color:lime'>1.25</b>) มี วัฒนธรรมความแข็งกร้าว ",
                 "(×<b style='color:lime'>1.25</b>) หัวหน้าการวิจัย (ฟิสิกส์): <br/>    •   เชี่ยวชาญ: อนุภาค"
               ],
               "potential": [],
@@ -2647,7 +2647,7 @@
                   "category": "การคำนวณ",
                   "cost": 1500,
                   "feature_unlocks": [
-                    "ผลผลิตของสถานีวิจัย +15%"
+                    "ผลผลิตของสถานีวิจัย +10%"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -2677,7 +2677,7 @@
                       "category": "การคำนวณ",
                       "cost": 2500,
                       "feature_unlocks": [
-                        "ผลผลิตของสถานีวิจัย +15%"
+                        "ผลผลิตของสถานีวิจัย +10%"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -2707,7 +2707,7 @@
                           "category": "การคำนวณ",
                           "cost": 4000,
                           "feature_unlocks": [
-                            "ผลผลิตของสถานีวิจัย +30%"
+                            "ผลผลิตของสถานีวิจัย +10%"
                           ],
                           "is_dangerous": false,
                           "is_rare": false,
