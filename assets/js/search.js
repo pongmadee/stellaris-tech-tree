@@ -1,5 +1,6 @@
 const search = document.getElementById('search');
 const matchList = document.getElementById('match-list');
+const clearBtn = document.getElementById('clear_btn');
 
 const searchTechs = async searchText => {
 
@@ -61,3 +62,9 @@ matchList.addEventListener('click', function(e) { e.preventDefault();const ancho
     } , 4000)
   matchList.innerHTML = '';
 }, false);
+
+//clear all
+clearBtn.addEventListener( 'click', () => { 
+    search.value = "";
+    matchList.innerHTML = '';
+} );
