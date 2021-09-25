@@ -79,6 +79,27 @@ body {
     /*box-shadow: 0 0 2em #800080;*/
 }
 
+.tech-highlight-fade-in {
+    -moz-transition: box-shadow 900ms; /* Firefox 4 */
+      -o-transition: box-shadow 900ms; /* Opera     */
+ -webkit-transition: box-shadow 900ms; /* Chrome    */
+         transition: box-shadow 900ms;
+
+ box-shadow: 
+     0 0 0  1px rgba(  0,  0,  0, 0.1),
+     0 0 0  7px rgba(192, 192, 192, 0.6);
+}
+
+.tech-highlight-fade-out {
+    -moz-transition: box-shadow 900ms; /* Firefox 4 */
+      -o-transition: box-shadow 900ms; /* Opera     */
+ -webkit-transition: box-shadow 900ms; /* Chrome    */
+         transition: box-shadow 900ms;
+
+ box-shadow: 
+     0 0 0  0px rgba(0, 0, 0, 0);
+}
+
 .tech p.node-name {
     height: 20px;
     font-weight: bold;

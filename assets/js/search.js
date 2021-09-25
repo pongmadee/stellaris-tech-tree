@@ -53,5 +53,11 @@ matchList.addEventListener('click', function(e) { e.preventDefault();const ancho
       scrollTop: $(anchor.getAttribute('href')).offset().top - 250 ,
       scrollLeft: $(anchor.getAttribute('href')).offset().left - 450
     }, 100);
+    $(anchor.getAttribute('href')).addClass('tech-highlight-fade-in');
+    setTimeout( () => {
+        $(anchor.getAttribute('href')).addClass('tech-highlight-fade-out');
+        $(anchor.getAttribute('href')).removeClass('tech-highlight-fade-in');
+        setTimeout( () => {$(anchor.getAttribute('href')).removeClass('tech-highlight-fade-out')} , 900 )
+    } , 4000)
   matchList.innerHTML = '';
 }, false);
