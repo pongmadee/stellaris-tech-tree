@@ -276,10 +276,9 @@ div.extra-data {
 }
 
 .ui-tooltip img.resource {
-    position: relative;
-    top: 4px;
-    width: 16px;
-    height: 16px;
+    vertical-align: middle;
+    width: 12px;
+    height: 12px;
 }
 
 ui-tooltip ul li {
@@ -302,6 +301,8 @@ pre {
 }
 
 .tooltip-header {
+    position: relative;
+    top: 3px;
     width: 100%;
     color: #f59f17;
     font-weight: bold;
