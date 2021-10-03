@@ -102,107 +102,122 @@
 </head>
 
 <body>
-<ul class="float-Holder">
-  <li class="float-Element float-Highlight float-All">
-    <a href="#top" class="float-Contents">
-      <h2>ทั้งหมด <img src="../assets/icons/research_icon.png" class="float-Image"> </h2>
-    </a>
-  </li>
-  <li class="float-Element float-Lowlight float-Physics">
-    <a href="#top" class="float-Contents">
-      <h2>ฟิสิกส์ <img src="../assets/icons/physics_research.png" class="float-Image"> </h2>
-    </a>
-  </li>
-  <li class="float-Element float-Lowlight float-Society">
-    <a href="#top" class="float-Contents">
-      <h2>สังคม <img src="../assets/icons/society_research.png" class="float-Image"> </h2>
-    </a>
-  </li>
-  <li class="float-Element float-Lowlight float-Engineering">
-    <a href="#top" class="float-Contents">
-      <h2>วิศวกรรม <img src="../assets/icons/engineering_research.png" class="float-Image"> </h2>
-    </a>
-  </li>
-  <li class="float-Element float-Lowlight float-Anomalies">
-    <a href="#top" class="float-Contents">
-      <h2>เหตุการณ์ <img src="../assets/icons/event.png" class="float-Image"> </h2>
-    </a>
-  </li>
-  <li class="float-RightElement float-RightBuffer">
-    <a href="#top" class="float-RightContents">
-      <h2><img src="../assets/icons/up_to_top.png" class="float-RightImage"> Top</h2>
-    </a>
-  </li>
-  <li class="float-RightElement research hide">
-    <a href="#toggle_save" class="float-RightContents" title="Save, Load or Remove Research File">
-      <h2><img src="../assets/icons/job_administrator.png" class="float-RightImage"></h2>
-    </a>
-  </li>
-  <div id="save_research" class="float-NoDisplay">
-  <li class="float-RightElement float-RightBuffer research hide">
-    <a id="research_remove" class="float-RightContents">
-      <h2>Remove</h2>
-    </a>
-  </li>
-  <li class="float-RightElement research hide">
-    <a id="research_save" class="float-RightContents">
-      <h2>Save</h2>
-    </a>
-  </li>
-  <li class="float-RightElement research hide">
-    <a id="research_load" class="float-RightContents">
-      <h2>Load</h2>
-    </a>
-  </li>
-  <li class="float-RightElement research hide">
-    <span class="float-RightContents">Research List:
-      <input id="research_selection" list="research_list">
-    </span>
-    <datalist id="research_list">
-    </datalist>
-  </li>
-  </div>
-  <li class="float-RightElement float-RightBuffer research hide">
-    <a id="clear_btn" class="float-RightContents" title="Clear input field">
-      <h2><img src="../assets/icons/delete.png" class="float-RightImage">Clear</h2>
-    </a>
-  </li>
-  <li class="float-RightElement research hide">
-	<span class="float-RightContents">Search:
-      <input type="text" id="search" placeholder="ใส่ชื่อการวิจัย">
-    </span>
-	<div id="match-list" class="search_result-container"></div>
-  </li>
-</ul>
-<div id="tech-tree" style="margin-top:50px">
-  <div id="info-container">
-    <div id="description" class="description-container">
-      <b>คำอธิบายของสี</b><br>
-      สีกรอบ : <a style="background-color:#4396E2;">ฟิสิกส์</a> <a style="background-color: #5ACA9C;">สังคม</a> <a style="background-color:#E29C43;">วิศวกรรม</a> <br>
-      สีพื้น : <a style="background-color:#800080;color:white;">เทคโนโลยีหายาก</a> <a style="background-color:red;color:white;">เทคโนโลยีอันตราย</a>
-    </div>
-    <div id="description2" class="description-container2">
-      <b>หมายเหตุ</b><br>
-      <u>สำหรับคนที่มี DLC Utopia สามารถปลดล็อกเทคโนโลยีที่เกี่ยวกับพลังจิต(บางเทคโนโลยี)ผ่านการยกระดับ <b>'จิตอยู่เหนือสรรพสิ่ง'</b> *</u>
-    </div>
-  </div>
-
   
-  <div id="tech-tree-physics">
-
+  <div class="loading">
+    <div></div>
   </div>
-  <div id="tech-tree-society">
-
+  
+  <div class="content">
+    <ul class="float-Holder">
+      <li class="float-Element float-Highlight float-All">
+        <a href="#top" class="float-Contents">
+          <h2>ทั้งหมด <img src="../assets/icons/research_icon.png" class="float-Image"> </h2>
+        </a>
+      </li>
+      <li class="float-Element float-Lowlight float-Physics">
+        <a href="#top" class="float-Contents">
+          <h2>ฟิสิกส์ <img src="../assets/icons/physics_research.png" class="float-Image"> </h2>
+        </a>
+      </li>
+      <li class="float-Element float-Lowlight float-Society">
+        <a href="#top" class="float-Contents">
+          <h2>สังคม <img src="../assets/icons/society_research.png" class="float-Image"> </h2>
+        </a>
+      </li>
+      <li class="float-Element float-Lowlight float-Engineering">
+        <a href="#top" class="float-Contents">
+          <h2>วิศวกรรม <img src="../assets/icons/engineering_research.png" class="float-Image"> </h2>
+        </a>
+      </li>
+      <li class="float-Element float-Lowlight float-Anomalies">
+        <a href="#top" class="float-Contents">
+          <h2>เหตุการณ์ <img src="../assets/icons/event.png" class="float-Image"> </h2>
+        </a>
+      </li>
+      <li class="float-RightElement float-RightBuffer">
+        <a href="#top" class="float-RightContents">
+          <h2><img src="../assets/icons/up_to_top.png" class="float-RightImage"> Top</h2>
+        </a>
+      </li>
+      <li class="float-RightElement research hide">
+        <a href="#toggle_save" class="float-RightContents" title="Save, Load or Remove Research File">
+          <h2><img src="../assets/icons/job_administrator.png" class="float-RightImage"></h2>
+        </a>
+      </li>
+      <div id="save_research" class="float-NoDisplay">
+      <li class="float-RightElement float-RightBuffer research hide">
+        <a id="research_remove" class="float-RightContents">
+          <h2>Remove</h2>
+        </a>
+      </li>
+      <li class="float-RightElement research hide">
+        <a id="research_save" class="float-RightContents">
+          <h2>Save</h2>
+        </a>
+      </li>
+      <li class="float-RightElement research hide">
+        <a id="research_load" class="float-RightContents">
+          <h2>Load</h2>
+        </a>
+      </li>
+      <li class="float-RightElement research hide">
+        <span class="float-RightContents">Research List:
+          <input id="research_selection" list="research_list">
+        </span>
+        <datalist id="research_list">
+        </datalist>
+      </li>
+      </div>
+      <li class="float-RightElement float-RightBuffer research hide">
+        <a id="clear_btn" class="float-RightContents" title="Clear input field">
+          <h2><img src="../assets/icons/delete.png" class="float-RightImage">Clear</h2>
+        </a>
+      </li>
+      <li class="float-RightElement research hide">
+      <span class="float-RightContents">Search:
+          <input type="text" id="search" placeholder="ใส่ชื่อการวิจัย">
+        </span>
+      <div id="match-list" class="search_result-container"></div>
+      </li>
+    </ul>
+    <div id="tech-tree" style="margin-top:50px">
+      <div id="info-container">
+        <div id="description" class="description-container">
+          <b>คำอธิบายของสี</b><br>
+          สีกรอบ : <a style="background-color:#4396E2;">ฟิสิกส์</a> <a style="background-color: #5ACA9C;">สังคม</a> <a style="background-color:#E29C43;">วิศวกรรม</a> <br>
+          สีพื้น : <a style="background-color:#800080;color:white;">เทคโนโลยีหายาก</a> <a style="background-color:red;color:white;">เทคโนโลยีอันตราย</a>
+        </div>
+        <div id="description2" class="description-container2">
+          <b>หมายเหตุ</b><br>
+          <u>สำหรับคนที่มี DLC Utopia สามารถปลดล็อกเทคโนโลยีที่เกี่ยวกับพลังจิต(บางเทคโนโลยี)ผ่านการยกระดับ <b>'จิตอยู่เหนือสรรพสิ่ง'</b> *</u>
+        </div>
+      </div>
+  
+      
+      <div id="tech-tree-physics">
+  
+      </div>
+      <div id="tech-tree-society">
+  
+      </div>
+      <div id="tech-tree-engineering">
+  
+      </div>
+      <div id="tech-tree-anomalies" class="float-NoDisplay">
+  
+      </div>
+      <div id="setup-tech" style="display:none"></div>
+    </div>
+  
+    <script src="../assets/js/search.js"></script>
   </div>
-  <div id="tech-tree-engineering">
 
-  </div>
-  <div id="tech-tree-anomalies" class="float-NoDisplay">
+  <script>
+    $(window).on('load', () => {
+      $(".loading").fadeOut(1000);
+      $(".content").fadeIn(1000);
+    })
+  </script>
 
-  </div>
-  <div id="setup-tech" style="display:none"></div>
-</div>
-
-<script src="../assets/js/search.js"></script>
 </body>
 </html>

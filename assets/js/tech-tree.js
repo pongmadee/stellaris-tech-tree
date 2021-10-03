@@ -22,31 +22,26 @@ var config = {
             //init_tooltips();
 
             var area = tree.nodeHTMLclass.replace('tech', '').replace(' ', '');
-            init_nodestatus(area);
 
-            if(area == 'engineering') {
-
-                /**
-                *  fix tooltips img css-class are missing : we need to loaded all tech areas before call init_tooltips() to add img class
-                *  assume: the last area is engineering
-                */
-                init_tooltips();
-
-
-                /**
-                 * add start tech connector
-                 */
-                let start_techs = techList.filter(tech => tech.is_start === true);
-                start_techs.forEach( tech => {
-                    let inode = getNodeDBNode(tech.area, tech.key);
-                    //console.log(inode);
-                    if(inode != null) {
-                        for(const child of inode.children) {
+            /**
+            * add start tech connector
+            */
+            let start_techs = techList.filter(tech => tech.is_start === true);
+            start_techs.forEach( tech => {
+                let inode = getNodeDBNode(tech.area, tech.key);
+                //console.log(inode);
+                if(inode != null) {
+                    for(const child of inode.children) {
+                        if(charts[tech.area].tree.nodeDB.db[child].connector){
                             $(charts[tech.area].tree.nodeDB.db[child].connector[0]).addClass(tech.area);
                         }
                     }
-                });
-            }
+                }
+            });
+
+            init_nodestatus(area);
+            init_tooltips();
+
 
             const observer = lozad();
             observer.observe();

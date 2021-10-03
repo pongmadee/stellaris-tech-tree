@@ -10,6 +10,40 @@ abbr,acronym { border:0; }
 body {
     background: #474747;
 }
+
+.content {
+    display: none;
+}
+
+.loading {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    position: absolute;
+    overflow: hidden;
+}
+
+.loading > div {
+    height: 100px;
+    width: 100px;
+    border: 17px solid #474747;
+    border-top-color: green;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    border-radius: 50%;
+    animation: spin 1.7s infinite linear;
+}
+
+@keyframes spin {
+    20% {
+        transform: rotate(1turn);
+    }
+}
+
 /* optional Container STYLES */
 .chart { border: none; overflow: scroll}
 .Treant > .node {
