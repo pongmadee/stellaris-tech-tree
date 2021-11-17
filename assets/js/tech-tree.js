@@ -103,7 +103,8 @@ function setup(tech, area) {
             "key": tech.key,
             "name": tech.name,
             "area": area,
-            "is_start": tech.is_start_tech
+            "is_start": tech.is_start_tech,
+            "effects": tech.feature_unlocks
         }
 
 	    techList.push(tech_item);
