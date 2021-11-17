@@ -70,6 +70,7 @@ matchList.addEventListener('click', function(e) { e.preventDefault();const ancho
 clearBtn.addEventListener( 'click', () => { 
     search.value = "";
     matchList.innerHTML = '';
+    $('#search').css('background-color', '');
     doTechsHighlight();
 } );
 
