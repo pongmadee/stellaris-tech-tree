@@ -11,9 +11,9 @@ const searchTechs = async searchText => {
         const regex = new RegExp(searchText, 'gi');
 		
 		if(selected_tab == "all") {
-            return ( (tech.name.match(regex) == null ? false : true) || (tech.effects.filter(eff => eff.match(regex)).length > 0 ? true : false) ) && (tech.area.match("physics") || tech.area.match("society") || tech.area.match("engineering")) ;
+            return ( (tech.name.match(regex) == null ? false : true) || (tech.effects.filter(eff => eff.match(regex)).length > 0 ? true : false) ) && (tech.area.match("physics") || tech.area.match("society") || tech.area.match("engineering"));
 		} else {
-            return ( (tech.name.match(regex) == null ? false : true) || (tech.effects.filter(eff => eff.match(regex)).length > 0 ? true : false) ) && tech.area.match(selected_tab)
+            return ( (tech.name.match(regex) == null ? false : true) || (tech.effects.filter(eff => eff.match(regex)).length > 0 ? true : false) ) && tech.area.match(selected_tab);
 		}
         
     });
