@@ -54,6 +54,7 @@
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์ :\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: ทฤษฎีพลังจิต",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีประชากรที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   ประชากรมีคุณลักษณะ พลังจิต",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) ไม่ มีประชากรที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   ประชากรมีคุณลักษณะ พลังจิต",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   มีการปรับเปลี่ยน Shroudwalker Teacher",
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ทั้งหมดต้องเป็นจริง\u003cbr/\u003e    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t    •   มีจริยธรรม วัตถุนิยม \u003cbr/\u003e\t    •   มีจริยธรรม วัตถุนิยมสุดโต่ง \u003cbr/\u003e    •   ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e\t    •   หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e\t\t    •   เชี่ยวชาญ: พลังจิต\u003cbr/\u003e\t    •   มีประชากรที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t\t    •   ประชากรมีคุณลักษณะ พลังจิต\u003cbr/\u003e\t\t\t    •   ประชากรมีคุณลักษณะ พลังจิตแฝง"
           ],
           "potential": [
@@ -86,7 +87,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) มี DLC Utopia",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มีจุดเริ่มต้น Teachers of the Shroud",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) ไม่ หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   เชี่ยวชาญ: พลังจิต",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.1\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   สกิลเลเวล มากกว่า 2\u003cbr/\u003e    •   เชี่ยวชาญ: พลังจิต",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   สกิลเลเวล มากกว่า 3\u003cbr/\u003e    •   เชี่ยวชาญ: พลังจิต",
@@ -95,6 +96,7 @@
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์ :\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: โทรจิต",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีจริยธรรม จิตวิญญาณนิยม ",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) มีจริยธรรม จิตวิญญาณนิยมสุดโต่ง ",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   มีการปรับเปลี่ยน Shroudwalker Teacher",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   มีคุณลักษณะ: คลั่งไคล้หลงใหล"
               ],
               "potential": [
@@ -133,6 +135,7 @@
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์ :\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: เครื่องดักจับและตีความสัญญาณโทรจิต",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีจริยธรรม จิตวิญญาณนิยม ",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) มีจริยธรรม จิตวิญญาณนิยมสุดโต่ง ",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   มีการปรับเปลี่ยน Shroudwalker Teacher",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   มีคุณลักษณะ: คลั่งไคล้หลงใหล",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   เชี่ยวชาญ: พลังจิต"
                   ],
@@ -170,6 +173,7 @@
                         "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) มี DLC Utopia",
                         "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e\t    •   เชี่ยวชาญ: พลังจิต\u003cbr/\u003e    •   หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e\t    •   มีคุณลักษณะ: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e\t    •   มีคุณลักษณะ: ประกายแห่งความอัจฉริยะ\u003cbr/\u003e    •   หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e\t    •   มีคุณลักษณะ: คลั่งไคล้หลงใหล",
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ เข้าใจความว่างเปล่าในอวกาศ (สกิลพิเศษ)",
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์ :\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: ระบบขับเคลื่อนจั้มไดร์ฟพลังจิต"
                       ],
                       "potential": [
@@ -214,6 +218,7 @@
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์ :\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: การบังคับความคิด",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีจริยธรรม อำนาจเผด็จการ ",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) มีจริยธรรม อำนาจเผด็จการสุดโต่ง ",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   มีการปรับเปลี่ยน Shroudwalker Teacher",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีรัฐบาลพลเมือง: รัฐตำรวจ",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   มีคุณลักษณะ: คลั่งไคล้หลงใหล",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   เชี่ยวชาญ: พลังจิต"
@@ -356,7 +361,9 @@
                   "weight_modifiers": [
                     "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.01\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   ไม่เป็นสายพันธุ์ย่อยของเผ่าพันธุ์หิน (Lithoid) (country flag)\u003cbr/\u003e    •   มีรัฐบาลพลเมือง: เครื่องจักรรับใช้\u003cbr/\u003e    •   มีรัฐบาลพลเมือง: เครื่องดูดกลืนสิ่งมีชีวิต\u003cbr/\u003e    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีจำนวนของ เขตเกษตรกรรม มากกว่า 0\u003cbr/\u003e\t\t    •   มีจำนวนของ ส่วนการเกษตร มากกว่า 0",
                     "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีระบอบการปกครอง สติปัญญาจักรกล \u003cbr/\u003e    •   เผ่าพันธุ์ผู้ก่อตั้ง :\u003cbr/\u003e\t    •   เป็นจักรวรรดิประเภทหิน (Lithoid)",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   เชี่ยวชาญ: ชีววิทยา\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   เชี่ยวชาญ: ชีววิทยา\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีรัฐบาลพลเมือง: ทำเกษตรกรรมตามธรรมชาติ\u003cbr/\u003e    •   is_anglers_empire\u003dyes",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) is_catalytic_empire\u003dyes"
                   ],
                   "potential": [],
                   "children": [
@@ -369,6 +376,7 @@
                       "cost": 8000,
                       "description": "New cryopreservation and protein resequencing methods will make food processing much more efficient.",
                       "feature_unlocks": [
+                        "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: Climate Optimization Stations",
                         "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ศูนย์แปรรูปอาหาร"
                       ],
                       "is_dangerous": false,
@@ -1214,7 +1222,8 @@
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 10",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 15",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 20",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   เชี่ยวชาญ: ชีววิทยา\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   เชี่ยวชาญ: ชีววิทยา\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : Scholarium"
           ],
           "potential": [],
           "children": [
@@ -1248,7 +1257,8 @@
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 10",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 15",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 20",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   เชี่ยวชาญ: ชีววิทยา\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   เชี่ยวชาญ: ชีววิทยา\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : Scholarium"
               ],
               "potential": [],
               "children": [
@@ -1282,7 +1292,8 @@
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 30",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 35",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 40",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   เชี่ยวชาญ: ชีววิทยา\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   เชี่ยวชาญ: ชีววิทยา\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : Scholarium"
                   ],
                   "potential": [],
                   "children": [],
@@ -1363,6 +1374,7 @@
               "cost": 5000,
               "description": "By clustering networks of macroscopic synaptic nodes, maximum meganeuron transmission per available surface area can be attained.",
               "feature_unlocks": [
+                "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: Synaptic Relays",
                 "\u003cb\u003eประกาศคำสั่ง\u003c/b\u003e: เสริมกำลังโครงข่ายประสาท",
                 "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Sensorium Center",
                 "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: คลัสเตอร์โครงข่ายประสาท"
@@ -1637,6 +1649,7 @@
                             "เลเวลพื้นฐานของข่าวกรอง +10",
                             "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: แหล่งรวมของระบบต่างๆ",
                             "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ศูนย์อำนวยการปกครอง",
+                            "\u003cb\u003eประกาศคำสั่ง\u003c/b\u003e: Networked Dominance",
                             "กองทุนของประกาศคำสั่ง +20"
                           ],
                           "is_dangerous": false,
@@ -1707,6 +1720,7 @@
                       "cost": 4000,
                       "description": "Improved algorithms for processing and organizing vast amounts of data has streamlined decision-making and information-sharing throughout the empire.",
                       "feature_unlocks": [
+                        "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: Orbital Filing System",
                         "กองทุนของประกาศคำสั่ง +20"
                       ],
                       "is_dangerous": false,
@@ -1730,9 +1744,12 @@
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) จำนวนดาวเคราะห์ที่เป็นเจ้าของ มากกว่า 4",
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   เชี่ยวชาญ: การปกครอง\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
                       ],
-                      "potential": [],
+                      "potential": [
+                        "ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน "
+                      ],
                       "children": [],
-                      "is_event": false
+                      "is_event": false,
+                      "is_gestalt": false
                     }
                   ],
                   "is_event": false
@@ -2209,7 +2226,8 @@
                       ],
                       "weight_modifiers": [
                         "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีเทคโนโลยี: การประกอบวงจรนาโน\u003cbr/\u003e    •   จักรวรรดิไม่ใช้ทรัพยากรประเภทสินค้าอุปโภคบริโภค",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   เชี่ยวชาญ: การปกครอง\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   เชี่ยวชาญ: การปกครอง\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : Prospectorium"
                       ],
                       "potential": [],
                       "children": [],
@@ -2437,7 +2455,7 @@
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มี วัฒนธรรมความเจริญ "
               ],
               "potential": [
-                "ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน "
+                "เงื่อนไข: \n    •   หนึ่งอย่างต้องเป็นจริง\n\t    •   เป็นจักรวรรดิประเภท: default\n\t    •   เป็นจักรวรรดิประเภท: จักรวรรดิเก่าแก่ทรงพลัง\n\t    •   เป็นจักรวรรดิประเภท: จักรวรรดิที่ตื่นขึ้นแล้ว\n    •   ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน "
               ],
               "children": [
                 {
@@ -2450,6 +2468,7 @@
                   "description": "As we journeyed into the cosmos and ventured beyond our home system, we also entered a new era of economics. New markets are appearing a startling rate, and economic theorists are struggling to keep up.",
                   "feature_unlocks": [
                     "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ศูนย์การพาณิชย์ขนาดใหญ่",
+                    "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: The Giga-Mall",
                     "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: ระบบนำทางไฮเปอร์เลน"
                   ],
                   "is_dangerous": false,
@@ -2745,7 +2764,7 @@
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e\t    •   มีนโยบาย อนุญาตให้มีทาส\u003cbr/\u003e\t    •   มีจริยธรรม เป็นหนึ่งเดียวกัน \u003cbr/\u003e    •   ไม่ มีประชากรที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   ประชากรตกเป็นทาส"
           ],
           "potential": [
-            "ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน "
+            "เงื่อนไข: \n    •   หนึ่งอย่างต้องเป็นจริง\n\t    •   เป็นจักรวรรดิประเภท: default\n\t    •   เป็นจักรวรรดิประเภท: จักรวรรดิเก่าแก่ทรงพลัง\n\t    •   เป็นจักรวรรดิประเภท: จักรวรรดิที่ตื่นขึ้นแล้ว\n    •   ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน "
           ],
           "children": [
             {
@@ -2797,6 +2816,7 @@
           "cost": 6000,
           "description": "The purpose of one is the purpose of all. Together, we are greater than the sum of our parts.",
           "feature_unlocks": [
+            "\u003cb\u003eประกาศคำสั่ง\u003c/b\u003e: Networked Amenities",
             "ความเบี่ยงเบน -15%",
             "ความอยู่ดีกินดี +5%"
           ],
@@ -2823,7 +2843,8 @@
               "cost": 8000,
               "description": "Efficiency in all things.",
               "feature_unlocks": [
-                "ทรัพยากรจากงาน £job£ +5%"
+                "ทรัพยากรจากงาน £job£ +5%",
+                "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: Orbital Maintenance Drops"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -2898,6 +2919,7 @@
           "description": "It is circumstance that dictates what is moral. Define the circumstances, and ethics is like clay in your hands.",
           "feature_unlocks": [
             "อาชญากรรม -15%",
+            "\u003cb\u003eประกาศคำสั่ง\u003c/b\u003e: Networked Amenities",
             "ความอยู่ดีกินดี +5%"
           ],
           "is_dangerous": false,
@@ -3110,7 +3132,8 @@
                   ],
                   "weight_modifiers": [
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจริยธรรม ชอบสงคราม \u003cbr/\u003e    •   มีจริยธรรม ชอบสงครามอย่างมาก ",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   เชี่ยวชาญ: ทฤษฎีทางทหาร\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   เชี่ยวชาญ: ทฤษฎีทางทหาร\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : Bulwark"
                   ],
                   "potential": [],
                   "children": [],
@@ -3769,7 +3792,7 @@
           "base_factor": 1.0,
           "base_weight": 0.0,
           "category": "โลกใหม่",
-          "cost": 0,
+          "cost": 500,
           "description": "Calculating required resources and gear required to establish a planetary colony allows us to herd brave pioneers into grand \"ark ships,\" confident that they will survive the long voyage across the stars to a new home.",
           "feature_unlocks": [
             "\u003cb\u003eขนาดยาน\u003c/b\u003e: Lithoid Meteorite",
@@ -4016,7 +4039,7 @@
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   เชี่ยวชาญ: ชีววิทยา\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
               ],
               "potential": [
-                "ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน "
+                "เงื่อนไข: \n    •   หนึ่งอย่างต้องเป็นจริง\n\t    •   เป็นจักรวรรดิประเภท: default\n\t    •   เป็นจักรวรรดิประเภท: จักรวรรดิเก่าแก่ทรงพลัง\n\t    •   เป็นจักรวรรดิประเภท: จักรวรรดิที่ตื่นขึ้นแล้ว\n    •   ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน "
               ],
               "children": [
                 {
