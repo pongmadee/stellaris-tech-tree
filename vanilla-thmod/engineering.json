@@ -57,7 +57,7 @@
               "description": "These manned strike craft are launched from a mothership and rely on their speed and small size to survive long enough to punch through enemy defenses.",
               "feature_unlocks": [
                 "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ยานลูกขั้นพื้นฐาน",
-                "\u003cb\u003eโมดูลในฐานอวกาศ\u003c/b\u003e: Planetary Defense Hangars",
+                "\u003cb\u003eโมดูลในฐานอวกาศ\u003c/b\u003e: โรงเก็บเครื่องบินป้องกันดาวเคราะห์",
                 "\u003cb\u003eโมดูลในฐานอวกาศ\u003c/b\u003e: โรงเก็บเครื่องบิน"
               ],
               "is_dangerous": false,
@@ -585,7 +585,7 @@
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
                   ],
                   "potential": [
-                    "หนึ่งอย่างต้องเป็นจริง\n    •   มีจุดเริ่มต้น ผู้อยู่อาศัยในอวกาศ\n    •   มี DLC Utopia"
+                    "หนึ่งอย่างต้องเป็นจริง\n    •   มีจุดเริ่มต้น ผู้อยู่อาศัยในอวกาศ\n    •   มีจุดเริ่มต้น Knights of the Toxic God\n    •   มี DLC Utopia"
                   ],
                   "children": [
                     {
@@ -1261,7 +1261,7 @@
                                   "base_weight": 10.0,
                                   "category": "ยานอวกาศ",
                                   "cost": 48000,
-                                  "description": "เครื่องกระจายนาโนบอท",
+                                  "description": "Swarms of nanobots are dispersed in the atmosphere. They infect sapient beings and restructure themselves into cybernetic implants, turning their unwitting hosts into cyborgs slaved to the Machine Intelligence.",
                                   "feature_unlocks": [
                                     "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เครื่องกระจายนาโนบอท"
                                   ],
@@ -3465,6 +3465,7 @@
           "feature_unlocks": [
             "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ไซโลเก็บทรัพยากร",
             "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: โรงหล่อโลหะผสม",
+            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Coordinated Fulfillment Center",
             "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: อุตสาหกรรมพลเรือน"
           ],
           "is_dangerous": false,
@@ -4083,7 +4084,7 @@
                           "description": "Highly advanced robots that are stronger, faster and more durable than the vast majority of organics. With their upgraded neural processors they are fully capable of independent operations.",
                           "feature_unlocks": [
                             "\u003cb\u003eฟีเจอร์ : \u003c/b\u003eแรงงานจักรกลสังเคราะห์",
-                            "ผลผลิตหุ่นยนต์ +10%"
+                            "ผลผลิตของหุ่นยนต์ +10%"
                           ],
                           "is_dangerous": true,
                           "is_rare": true,
@@ -4366,7 +4367,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีการทับถมของ Bubbling Swamp\u003cbr/\u003e\t\t    •   มีการทับถมของ Fuming Bog\u003cbr/\u003e\t\t    •   มีการทับถมของ Industrial Sector\u003cbr/\u003e    •   มีดาวเคราะห์ใดๆที่อยู่ภายในพรมแดน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีการทับถมของ £exotic_gases£ +1\u003cbr/\u003e\t\t    •   มีการทับถมของ £exotic_gases£ +2\u003cbr/\u003e\t\t    •   มีการทับถมของ £exotic_gases£ +3\u003cbr/\u003e\t\t    •   มีการทับถมของ £exotic_gases£ +4\u003cbr/\u003e\t\t    •   มีการทับถมของ £exotic_gases£ +5",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Bubbling Swamp\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Fuming Bog\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Industrial Sector\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Exotic Mountains\u003cbr/\u003e    •   มีดาวเคราะห์ใดๆที่อยู่ภายในพรมแดน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £exotic_gases£ +1\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £exotic_gases£ +2\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £exotic_gases£ +3\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £exotic_gases£ +4\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £exotic_gases£ +5",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: วัสดุ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
               ],
               "potential": [],
@@ -4400,7 +4401,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีการทับถมของ Crystalline Caverns\u003cbr/\u003e\t\t    •   มีการทับถมของ Crystal Forest\u003cbr/\u003e\t\t    •   มีการทับถมของ Crystal Reef\u003cbr/\u003e\t\t    •   มีการทับถมของ Industrial Sector\u003cbr/\u003e    •   มีดาวเคราะห์ใดๆที่อยู่ภายในพรมแดน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีการทับถมของ £rare_crystals£ +1\u003cbr/\u003e\t\t    •   มีการทับถมของ £rare_crystals£ +2\u003cbr/\u003e\t\t    •   มีการทับถมของ £rare_crystals£ +3\u003cbr/\u003e\t\t    •   มีการทับถมของ £rare_crystals£ +4\u003cbr/\u003e\t\t    •   มีการทับถมของ £rare_crystals£ +5",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Crystalline Caverns\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Crystal Forest\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Crystal Reef\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Industrial Sector\u003cbr/\u003e    •   มีดาวเคราะห์ใดๆที่อยู่ภายในพรมแดน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +1\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +2\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +3\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +4\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +5",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: วัสดุ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
               ],
               "potential": [],
@@ -4460,7 +4461,7 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: วัสดุ",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   มีการทับถมของ Betharian Fields"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   มีแหล่งทรัพยากร Betharian Fields"
               ],
               "potential": [],
               "children": [],
@@ -4494,7 +4495,7 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: วัสดุ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีการทับถมของ Bubbling Swamp\u003cbr/\u003e\t\t    •   มีการทับถมของ Fuming Bog\u003cbr/\u003e\t\t    •   มีการทับถมของ Industrial Sector\u003cbr/\u003e    •   มีดาวเคราะห์ใดๆที่อยู่ภายในพรมแดน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีการทับถมของ £exotic_gases£ +1\u003cbr/\u003e\t\t    •   มีการทับถมของ £exotic_gases£ +2\u003cbr/\u003e\t\t    •   มีการทับถมของ £exotic_gases£ +3\u003cbr/\u003e\t\t    •   มีการทับถมของ £exotic_gases£ +4\u003cbr/\u003e\t\t    •   มีการทับถมของ £exotic_gases£ +5"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Bubbling Swamp\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Fuming Bog\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Industrial Sector\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Exotic Mountains\u003cbr/\u003e    •   มีดาวเคราะห์ใดๆที่อยู่ภายในพรมแดน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £exotic_gases£ +1\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £exotic_gases£ +2\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £exotic_gases£ +3\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £exotic_gases£ +4\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £exotic_gases£ +5"
               ],
               "potential": [],
               "children": [],
@@ -4528,7 +4529,7 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: วัสดุ",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีการทับถมของ Crystalline Caverns\u003cbr/\u003e\t\t    •   มีการทับถมของ Crystal Forest\u003cbr/\u003e\t\t    •   มีการทับถมของ Crystal Reef\u003cbr/\u003e\t\t    •   มีการทับถมของ Industrial Sector\u003cbr/\u003e    •   มีดาวเคราะห์ใดๆที่อยู่ภายในพรมแดน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีการทับถมของ £rare_crystals£ +1\u003cbr/\u003e\t\t    •   มีการทับถมของ £rare_crystals£ +2\u003cbr/\u003e\t\t    •   มีการทับถมของ £rare_crystals£ +3\u003cbr/\u003e\t\t    •   มีการทับถมของ £rare_crystals£ +4\u003cbr/\u003e\t\t    •   มีการทับถมของ £rare_crystals£ +5"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Crystalline Caverns\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Crystal Forest\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Crystal Reef\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Industrial Sector\u003cbr/\u003e    •   มีดาวเคราะห์ใดๆที่อยู่ภายในพรมแดน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +1\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +2\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +3\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +4\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +5"
               ],
               "potential": [],
               "children": [],
@@ -4561,7 +4562,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มีดาวเคราะห์ใดๆที่อยู่ภายในพรมแดน\u003cbr/\u003e    •   มีการทับถมของ Living Metal discovered\u003cbr/\u003e"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มีดาวเคราะห์ใดๆที่อยู่ภายในพรมแดน\u003cbr/\u003e    •   มีแหล่งทรัพยากร Living Metal discovered\u003cbr/\u003e"
               ],
               "potential": [],
               "children": [],
@@ -4805,7 +4806,9 @@
                   "description": "Standardized pre-fab templates massively reduce on-site facility construction times.",
                   "feature_unlocks": [
                     "ความเร็วในการก่อสร้างบนดาวเคราะห์ +50%",
-                    "ขนาดจักรวรรดิจากเขตต่างๆ -10%"
+                    "\u003cfont color\u003d\"yellow\"\u003eCustom Tooltip\u003c/font\u003e:  ",
+                    "ขนาดจักรวรรดิจากเขตต่างๆ -10%",
+                    "แสดงเฉพาะ \u003cfont color\u003d\"yellow\"\u003eCustom Tooltip\u003c/font\u003e:  ไม่"
                   ],
                   "is_dangerous": false,
                   "is_rare": true,
@@ -5116,7 +5119,8 @@
           "cost": 0,
           "description": "The realization of faster-than-light travel is a new dawn for space exploration. Manned missions to other star systems are now not only possible, but necessary.",
           "feature_unlocks": [
-            "\u003cb\u003eขนาดยาน\u003c/b\u003e: Science"
+            "\u003cb\u003eขนาดยาน\u003c/b\u003e: ยานวิจัยวิทยาศาสตร์",
+            "\u003cb\u003eฟีเจอร์ : \u003c/b\u003eสำรวจอัตโนมัติ"
           ],
           "is_dangerous": false,
           "is_rare": false,

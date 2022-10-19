@@ -522,7 +522,7 @@
     "cost": 20000,
     "description": "When tailored to a species\u0027 genome, this form of tissue engineering has intensive neuroregenerative properties, significantly increasing the development of neurons, axons, and synapses in its recipient.",
     "feature_unlocks": [
-      "ผู้นำ(เผ่าพันธุ์/สายพันธุ์) ได้รับค่าประสบการณ์ +25%",
+      "ผู้นำ(เผ่าพันธุ์) ได้รับค่าประสบการณ์ +25%",
       "เลเวลผู้นำสูงสุด +1"
     ],
     "is_dangerous": false,

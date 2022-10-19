@@ -1929,6 +1929,7 @@
           "cost": 500,
           "description": "Testable predictions of observable phenomena.",
           "feature_unlocks": [
+            "\u003cb\u003eฟีเจอร์ : \u003c/b\u003eเทคโนโลยีการวิจัยอัตโนมัติ",
             "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ห้องวิจัย"
           ],
           "is_dangerous": false,
@@ -2241,7 +2242,7 @@
                   "cost": 4000,
                   "description": "Basic administrative AIs can be used to streamline supply and demand lines, reducing waste.",
                   "feature_unlocks": [
-                    "£job_artisan£ ช่างฝีมือ Output +10%"
+                    "£job_artisan£ ผลิตผล ช่างฝีมือ +10%"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -2278,7 +2279,7 @@
                       "cost": 16000,
                       "description": "Using advanced AIs, we can reliably predict consumer demand before it exists.",
                       "feature_unlocks": [
-                        "£job_artisan£ ช่างฝีมือ Output +10%"
+                        "£job_artisan£ ผลิตผล ช่างฝีมือ +10%"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -2357,8 +2358,7 @@
                       "cost": 16000,
                       "description": "Expanding possibilities through the application of limited cybernetics.",
                       "feature_unlocks": [
-                        "ความเร็วในการวิจัย +5%",
-                        "\u003cb\u003eฟีเจอร์ : \u003c/b\u003eเทคโนโลยีการวิจัยอัตโนมัติ"
+                        "ความเร็วในการวิจัย +5%"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -2394,8 +2394,7 @@
                       "cost": 16000,
                       "description": "Evolving artificial intellects are opening the door to the possibility for true synthetic sapience.",
                       "feature_unlocks": [
-                        "ความเร็วในการวิจัย +5%",
-                        "\u003cb\u003eฟีเจอร์ : \u003c/b\u003eเทคโนโลยีการวิจัยอัตโนมัติ"
+                        "ความเร็วในการวิจัย +5%"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -3323,7 +3322,7 @@
           "prerequisites_names": [],
           "weight_modifiers": [
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e    •   เชี่ยวชาญ: อนุภาค\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีการทับถมของ Dust Caverns\u003cbr/\u003e\t\t    •   มีการทับถมของ Dust Desert\u003cbr/\u003e\t\t    •   มีการทับถมของ Industrial Sector\u003cbr/\u003e    •   มีดาวเคราะห์ใดๆที่อยู่ภายในพรมแดน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีการทับถมของ £volatile_motes£ +1\u003cbr/\u003e\t\t    •   มีการทับถมของ £volatile_motes£ +2\u003cbr/\u003e\t\t    •   มีการทับถมของ £volatile_motes£ +3\u003cbr/\u003e\t\t    •   มีการทับถมของ £volatile_motes£ +4\u003cbr/\u003e\t\t    •   มีการทับถมของ £volatile_motes£ +5"
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Dust Caverns\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Dust Desert\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Industrial Sector\u003cbr/\u003e    •   มีดาวเคราะห์ใดๆที่อยู่ภายในพรมแดน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £volatile_motes£ +1\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £volatile_motes£ +2\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £volatile_motes£ +3\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £volatile_motes£ +4\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £volatile_motes£ +5"
           ],
           "potential": [],
           "children": [],
@@ -3348,7 +3347,7 @@
           "tier": 2,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีการทับถมของ Dust Caverns\u003cbr/\u003e\t\t    •   มีการทับถมของ Dust Desert\u003cbr/\u003e\t\t    •   มีการทับถมของ Industrial Sector\u003cbr/\u003e    •   มีดาวเคราะห์ใดๆที่อยู่ภายในพรมแดน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีการทับถมของ £volatile_motes£ +1\u003cbr/\u003e\t\t    •   มีการทับถมของ £volatile_motes£ +2\u003cbr/\u003e\t\t    •   มีการทับถมของ £volatile_motes£ +3\u003cbr/\u003e\t\t    •   มีการทับถมของ £volatile_motes£ +4\u003cbr/\u003e\t\t    •   มีการทับถมของ £volatile_motes£ +5",
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Dust Caverns\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Dust Desert\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Industrial Sector\u003cbr/\u003e    •   มีดาวเคราะห์ใดๆที่อยู่ภายในพรมแดน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £volatile_motes£ +1\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £volatile_motes£ +2\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £volatile_motes£ +3\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £volatile_motes£ +4\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £volatile_motes£ +5",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e    •   เชี่ยวชาญ: อนุภาค\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
           ],
           "potential": [],
@@ -3364,8 +3363,7 @@
           "cost": 2500,
           "description": "An advanced AI will aid science officers in their task to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no Blorg has gone before. The Science Ship will be able to explore the galaxy with help from an AI.",
           "feature_unlocks": [
-            "ความเร็วในการสำรวจ +25%",
-            "\u003cb\u003eฟีเจอร์ : \u003c/b\u003eการสำรวจแบบอัตโนมัติ"
+            "ความเร็วในการสำรวจ +25%"
           ],
           "is_dangerous": false,
           "is_rare": false,
