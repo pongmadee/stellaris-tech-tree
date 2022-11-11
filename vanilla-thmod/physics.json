@@ -3180,12 +3180,12 @@
               "description": "Sensors that detect the subspace fluctuations left in the wake of traveling starships. Their sensitivity and range is greater than that of a gravitic sensor array.",
               "feature_unlocks": [
                 "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: หอสังเกตการณ์หลุมดำ",
-                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เซนเซอร์ปริภูมิย่อย"
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เซนเซอร์มิติย่อย"
               ],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
-              "name": "เซนเซอร์ปริภูมิย่อย",
+              "name": "เซนเซอร์มิติย่อย(ทางลัดอวกาศ)",
               "prerequisites": [
                 "tech_sensors_2"
               ],
@@ -3223,7 +3223,7 @@
                   "tier": 4,
                   "prerequisites_names": [
                     {
-                      "name": "เซนเซอร์ปริภูมิย่อย",
+                      "name": "เซนเซอร์มิติย่อย(ทางลัดอวกาศ)",
                       "key": "tech_sensors_3"
                     }
                   ],

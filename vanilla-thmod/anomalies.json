@@ -499,12 +499,12 @@
     "cost": 48000,
     "description": "A highly effective hull auto-repair system comprised of billions of microscopic nanomachines was found among the smoking remains of the Scavenger, and has been repurposed for our uses. Whether the Scavenger pilfered this system from an ancient derelict, or was originally constructed with it remains unknown.",
     "feature_unlocks": [
-      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ระบบการซ่อมด้วยนาโนไนต์"
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ระบบการซ่อมด้วยนาไนต์"
     ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
-    "name": "ระบบการซ่อมด้วยนาโนไนต์",
+    "name": "ระบบการซ่อมด้วยนาไนต์",
     "prerequisites": [],
     "tier": 5,
     "prerequisites_names": [],
