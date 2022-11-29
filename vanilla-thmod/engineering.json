@@ -141,10 +141,10 @@
                       "children": [
                         {
                           "key": "tech_repeatable_weapon_type_strike_craft_fire_damage",
-                          "area": "engineering",
+                          "area": "society",
                           "base_factor": 1.0,
                           "base_weight": 12.5,
-                          "category": "ยานอวกาศ",
+                          "category": "ทฤษฎีทางทหาร",
                           "cost": 50000,
                           "description": "Increasing the speed at which fighter pilots can process and act upon enemy positioning data elevates strike craft a few steps up the food chain.",
                           "feature_unlocks": [
@@ -153,7 +153,7 @@
                           "is_dangerous": false,
                           "is_rare": false,
                           "is_start_tech": false,
-                          "name": "ไซแนปส์อินเตอร์เซ็ปเตอร์",
+                          "name": "ไซแน็ปอินเตอร์เซ็ปเตอร์",
                           "prerequisites": [
                             "tech_strike_craft_3"
                           ],
@@ -171,19 +171,19 @@
                         },
                         {
                           "key": "tech_repeatable_weapon_type_strike_craft_fire_rate",
-                          "area": "engineering",
+                          "area": "society",
                           "base_factor": 1.0,
                           "base_weight": 12.5,
-                          "category": "ยานอวกาศ",
+                          "category": "ทฤษฎีทางทหาร",
                           "cost": 50000,
-                          "description": "Circulating excess heat from weapons discharge in order to prime munitions as they are loaded increases the rate of fire of strike craft weaponry.",
+                          "description": "By collecting and analyzing the performance data of the pilots that came before, we have exponentially improved our pilot training methods. Each one will be quicker than the one that came before.",
                           "feature_unlocks": [
                             "ความเร็วในการโจมตีของยานลูก +10%"
                           ],
                           "is_dangerous": false,
                           "is_rare": false,
                           "is_start_tech": false,
-                          "name": "เครื่องรีไซเคิลความร้อน",
+                          "name": "การฝึกนักบินแบบซ้ำๆ",
                           "prerequisites": [
                             "tech_strike_craft_3"
                           ],
@@ -274,7 +274,7 @@
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์ :\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: ปรับปรุงความสมบูรณ์ของโครงสร้าง",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : Bulwark"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : ฐานที่มั่นอวกาศ"
                   ],
                   "potential": [],
                   "children": [
@@ -408,7 +408,7 @@
                       ],
                       "weight_modifiers": [
                         "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e\t    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e    •   หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e\t    •   มีคุณลักษณะ: ผู้ดูแลพิพิธภัณฑ์",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : Bulwark",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : ฐานที่มั่นอวกาศ",
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์ :\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: คณะวิศวกร",
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจริยธรรม ชอบสงคราม \u003cbr/\u003e    •   มีจริยธรรม ชอบสงครามอย่างมาก "
@@ -743,9 +743,9 @@
                   "cost": 6000,
                   "description": "Advances in building techniques will allow for the construction of sturdier and more durable destroyers.",
                   "feature_unlocks": [
-                    "HP ยานพิฆาต +200",
+                    "ผล HP ยานพิฆาต +10%",
                     "\u003cfont color\u003d\"yellow\"\u003eCustom Tooltip\u003c/font\u003e:  ",
-                    "ผล HP ยานพิฆาต +200"
+                    "HP ยานพิฆาต +10%"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -776,9 +776,9 @@
                       "cost": 8000,
                       "description": "The latest generation of destroyer hulls have optimized structural integrity fields and improved bulkheads.",
                       "feature_unlocks": [
-                        "HP ยานพิฆาต +200",
+                        "ผล HP ยานพิฆาต +10%",
                         "\u003cfont color\u003d\"yellow\"\u003eCustom Tooltip\u003c/font\u003e:  ",
-                        "ผล HP ยานพิฆาต +200"
+                        "HP ยานพิฆาต +10%"
                       ],
                       "is_dangerous": false,
                       "is_rare": true,
@@ -925,8 +925,8 @@
                               "description": "The latest generation of battleship hulls have optimized structural integrity fields and improved bulkheads.",
                               "feature_unlocks": [
                                 "\u003cfont color\u003d\"yellow\"\u003eCustom Tooltip\u003c/font\u003e:  ",
-                                "ผล HP ยานประจัญบาน +800",
-                                "HP ยานประจัญบาน +800"
+                                "HP ยานประจัญบาน +10%",
+                                "ผล HP ยานประจัญบาน +10%"
                               ],
                               "is_dangerous": false,
                               "is_rare": true,
@@ -1007,7 +1007,7 @@
                               "cost": 40000,
                               "description": "Advances in building techniques will allow for the construction of sturdier and more durable titans.",
                               "feature_unlocks": [
-                                "HP ไททัน +2000"
+                                "HP ไททัน +10%"
                               ],
                               "is_dangerous": false,
                               "is_rare": true,
@@ -1041,7 +1041,7 @@
                                   "cost": 48000,
                                   "description": "The latest generation of titan hulls have optimized structural integrity fields and improved bulkheads.",
                                   "feature_unlocks": [
-                                    "HP ไททัน +2000"
+                                    "HP ไททัน +10%"
                                   ],
                                   "is_dangerous": false,
                                   "is_rare": true,
@@ -1352,7 +1352,7 @@
                             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีจำนวนของ ป้อมปราการอวกาศ มากกว่าหรือเท่ากับ 6",
                             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น ที่อยู่อาศัยวงโคจรดาว",
                             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีจักรวรรดิเพื่อนบ้านบางส่วน\u003cbr/\u003e    •   มีเทคโนโลยี: วิศวกรรมขนาดใหญ่",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e20.0\u003c/b\u003e) มีสิ่งก่อสร้างขนาดใหญ่"
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e20.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดใหญ่\u003cbr/\u003e    •   มีจุดเริ่มต้น วงแหวนที่แตกหัก"
                           ],
                           "potential": [],
                           "children": [
@@ -1442,7 +1442,7 @@
                               "base_weight": 5.0,
                               "category": "การคำนวณ",
                               "cost": 48000,
-                              "description": "ขั้นของ อาร์เรย์สังเกตุการณ์กาแล็กซี จะค่อยๆขยายช่วงเซนเซอร์จนในที่สุดก็ครอบคลุมทั้งกาแล็กซี",
+                              "description": "ขั้นของ อาร์เรย์สังเกตุการณ์กาแล็กซี จะค่อยๆขยายช่วงเซ็นเซอร์จนในที่สุดก็ครอบคลุมทั้งกาแล็กซี",
                               "feature_unlocks": [],
                               "is_dangerous": false,
                               "is_rare": true,
@@ -1760,9 +1760,9 @@
                       "cost": 12000,
                       "description": "Advances in building techniques will allow for the construction of sturdier and more durable cruisers.",
                       "feature_unlocks": [
-                        "HP ยานลาดตระเวณ +500",
+                        "HP ยานลาดตระเวณ +10%",
                         "\u003cfont color\u003d\"yellow\"\u003eCustom Tooltip\u003c/font\u003e:  ",
-                        "ผล HP ยานลาดตระเวณ +500"
+                        "ผล HP ยานลาดตระเวณ +10%"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -1793,9 +1793,9 @@
                           "cost": 16000,
                           "description": "The latest generation of cruiser hulls have optimized structural integrity fields and improved bulkheads.",
                           "feature_unlocks": [
-                            "HP ยานลาดตระเวณ +500",
+                            "HP ยานลาดตระเวณ +10%",
                             "\u003cfont color\u003d\"yellow\"\u003eCustom Tooltip\u003c/font\u003e:  ",
-                            "ผล HP ยานลาดตระเวณ +500"
+                            "ผล HP ยานลาดตระเวณ +10%"
                           ],
                           "is_dangerous": false,
                           "is_rare": true,
@@ -1875,9 +1875,10 @@
               "cost": 3000,
               "description": "Advances in building techniques will allow for the construction of sturdier and more durable corvettes.",
               "feature_unlocks": [
-                "HP ยานคอร์เวต +100",
                 "\u003cfont color\u003d\"yellow\"\u003eCustom Tooltip\u003c/font\u003e:  ",
-                "ผล HP ยานคอร์เวต +100"
+                "HP ยานคอร์เวต +10%",
+                "HP ยานฟริเกต +10%",
+                "ผล HP ยานคอร์เวต +10%"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -1907,9 +1908,10 @@
                   "cost": 6000,
                   "description": "The latest generation of corvette hulls have optimized structural integrity fields and improved bulkheads.",
                   "feature_unlocks": [
-                    "HP ยานคอร์เวต +100",
                     "\u003cfont color\u003d\"yellow\"\u003eCustom Tooltip\u003c/font\u003e:  ",
-                    "ผล HP ยานคอร์เวต +100"
+                    "HP ยานคอร์เวต +10%",
+                    "HP ยานฟริเกต +10%",
+                    "ผล HP ยานคอร์เวต +10%"
                   ],
                   "is_dangerous": false,
                   "is_rare": true,
@@ -1950,7 +1952,8 @@
                 "ค่าใช้จ่ายในการสร้างยานคอร์เวต -5%",
                 "\u003cfont color\u003d\"yellow\"\u003eCustom Tooltip\u003c/font\u003e:  ",
                 "ความเร็วในการสร้างยานคอร์เวต +25%",
-                "ผล ความเร็วในการสร้างยานคอร์เวต +25%"
+                "ผล ความเร็วในการสร้างยานคอร์เวต +25%",
+                "ความเร็วในการสร้างยานฟริเกต +25%"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -2024,7 +2027,7 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: วัสดุ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : Bulwark"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : ฐานที่มั่นอวกาศ"
               ],
               "potential": [],
               "children": [
@@ -2063,6 +2066,81 @@
                   ],
                   "potential": [],
                   "children": [
+                    {
+                      "key": "tech_armor_hardeners_1",
+                      "area": "engineering",
+                      "base_factor": 1.0,
+                      "base_weight": 70.0,
+                      "category": "วัสดุ",
+                      "cost": 6000,
+                      "description": "Incorporating a crystal lattice in our ship\u0027s defenses provides some resistance to weapons that normally cut through armor.",
+                      "feature_unlocks": [
+                        "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เกราะปฏิกิริยาสะท้อน"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "name": "การเสริมความแข็งแกร่งให้เกราะ",
+                      "prerequisites": [
+                        "tech_advanced_metallurgy_1",
+                        "tech_exotic_gases"
+                      ],
+                      "tier": 2,
+                      "prerequisites_names": [
+                        {
+                          "name": "โลหะผสมเซราโม",
+                          "key": "tech_advanced_metallurgy_1"
+                        },
+                        {
+                          "name": "การกลั่นก๊าซแปลกประหลาด",
+                          "key": "tech_exotic_gases"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e    •   เชี่ยวชาญ: วัสดุ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                      ],
+                      "potential": [],
+                      "children": [
+                        {
+                          "key": "tech_armor_hardeners_2",
+                          "area": "engineering",
+                          "base_factor": 1.0,
+                          "base_weight": 20.0,
+                          "category": "วัสดุ",
+                          "cost": 48000,
+                          "description": "Threads of living metal react to incoming fire, rearranging itself to better resist penetrating weapons fire.",
+                          "feature_unlocks": [
+                            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เกราะปฏิกิริยาสะท้อนแบบใช้โลหะมีชีวิต"
+                          ],
+                          "is_dangerous": false,
+                          "is_rare": false,
+                          "is_start_tech": false,
+                          "name": "การเสริมความแข็งแกร่งแบบปรับปรุงให้เกราะ",
+                          "prerequisites": [
+                            "tech_armor_hardeners_1",
+                            "tech_mine_living_metal"
+                          ],
+                          "tier": 5,
+                          "prerequisites_names": [
+                            {
+                              "name": "การเสริมความแข็งแกร่งให้เกราะ",
+                              "key": "tech_armor_hardeners_1"
+                            },
+                            {
+                              "name": "โลหะมีชีวิต",
+                              "key": "tech_mine_living_metal"
+                            }
+                          ],
+                          "weight_modifiers": [
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e    •   เชี่ยวชาญ: วัสดุ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                          ],
+                          "potential": [],
+                          "children": [],
+                          "is_event": false
+                        }
+                      ],
+                      "is_event": false
+                    },
                     {
                       "key": "tech_advanced_metallurgy_2",
                       "area": "engineering",
@@ -2135,7 +2213,7 @@
                   ],
                   "weight_modifiers": [
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: วัสดุ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : Bulwark"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : ฐานที่มั่นอวกาศ"
                   ],
                   "potential": [],
                   "children": [
@@ -2166,7 +2244,7 @@
                       ],
                       "weight_modifiers": [
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: วัสดุ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : Bulwark"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : ฐานที่มั่นอวกาศ"
                       ],
                       "potential": [],
                       "children": [
@@ -2197,7 +2275,7 @@
                           ],
                           "weight_modifiers": [
                             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: วัสดุ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : Bulwark"
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : ฐานที่มั่นอวกาศ"
                           ],
                           "potential": [],
                           "children": [],
@@ -2577,9 +2655,7 @@
           "cost": 0,
           "description": "Space-to-space missiles equipped with high-yield nuclear warheads. Although based on old pre-space technology, these crude fire-and-forget weapons can be surprisingly effective at range.",
           "feature_unlocks": [
-            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: มิสไซล์นิวเคลียร์",
-            "\u003cb\u003eโมดูลในฐานอวกาศ\u003c/b\u003e: ป้อมมิสไซล์",
-            "\u003cb\u003eโมดูลในฐานอวกาศ\u003c/b\u003e: ป้อมยิงอาวุธนำวิถีที่ป้องกันดาวเคราะห์"
+            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: มิสไซล์นิวเคลียร์"
           ],
           "is_dangerous": false,
           "is_rare": false,
@@ -2873,7 +2949,15 @@
               "cost": 5000,
               "description": "These torpedoes are essentially very large, slow-moving missiles. They are equipped with more powerful warheads and shield modulators that let them slip unmolested through energy screens.",
               "feature_unlocks": [
-                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ตอร์ปิโดอวกาศ"
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: คอมพิวเตอร์ต่อสู้ฉลาด",
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ตอร์ปิโดอวกาศ",
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: สติปัญญายานอัตโนมัติ",
+                "\u003cb\u003eโมดูลในฐานอวกาศ\u003c/b\u003e: ป้อมยิงตอร์ปิโด",
+                "\u003cb\u003eขนาดยาน\u003c/b\u003e: ยานฟริเกต",
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: คอมพิวเตอร์ต่อสู้",
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: คอมพิวเตอร์ต่อสู้ขั้นสูง",
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เครื่องตีความสัญญาณโทรจิต",
+                "\u003cb\u003eโมดูลในฐานอวกาศ\u003c/b\u003e: ป้อมยิงอาวุธนำวิถีที่ป้องกันดาวเคราะห์"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -3465,7 +3549,7 @@
           "feature_unlocks": [
             "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ไซโลเก็บทรัพยากร",
             "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: โรงหล่อโลหะผสม",
-            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Coordinated Fulfillment Center",
+            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ศูนย์ประสานงานการผลิต",
             "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: อุตสาหกรรมพลเรือน"
           ],
           "is_dangerous": false,
@@ -3604,7 +3688,7 @@
                   ],
                   "weight_modifiers": [
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: อุตสาหกรรม\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : Prospectorium"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : เหมืองแร่"
                   ],
                   "potential": [],
                   "children": [
@@ -3617,7 +3701,7 @@
                       "cost": 6000,
                       "description": "Second-stage processing of pseudo-refined minerals allow for more efficient storage and transportation.",
                       "feature_unlocks": [
-                        "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: Low Gravity Mega-Refiners",
+                        "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: ศูนย์สกัดแร่แรงโน้มถ่วงต่ำ",
                         "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ศูนย์กลางการฟอกแร่"
                       ],
                       "is_dangerous": false,
@@ -3641,7 +3725,7 @@
                       ],
                       "weight_modifiers": [
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: อุตสาหกรรม\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : Prospectorium",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : เหมืองแร่",
                         "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีเทคโนโลยี: การปรับความเสถียรของผงธุลี\u003cbr/\u003e    •   มีเทคโนโลยี: โรงงานวัสดุระเหย\u003cbr/\u003e    •   มีการเข้าถึงตลาดกาแลกติก (country flag)"
                       ],
                       "potential": [],
@@ -3713,7 +3797,7 @@
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีเทคโนโลยี: การขุดผลึกหายาก\u003cbr/\u003e    •   มีเทคโนโลยี: การผลิตผลึกหายาก\u003cbr/\u003e    •   มีการเข้าถึงตลาดกาแลกติก (country flag)",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: วัสดุ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : Prospectorium"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : เหมืองแร่"
               ],
               "potential": [
                 "หนึ่งอย่างต้องเป็นจริง\n    •   ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน \n    •   มีรัฐบาลพลเมือง: เครื่องจักรรับใช้"
@@ -3728,7 +3812,7 @@
                   "cost": 8000,
                   "description": "These kiosks can replicate any pre-approved object if its pattern has been stored within their memory banks.",
                   "feature_unlocks": [
-                    "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: Orbital Logistics Systems",
+                    "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: ระบบลอจิสติกส์วงโคจร",
                     "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: โรงงานพลเรือนแบบทำซ้ำที่ซับซ้อน"
                   ],
                   "is_dangerous": false,
@@ -3752,7 +3836,7 @@
                   ],
                   "weight_modifiers": [
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: วัสดุ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : Prospectorium"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : เหมืองแร่"
                   ],
                   "potential": [
                     "หนึ่งอย่างต้องเป็นจริง\n    •   ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน \n    •   มีรัฐบาลพลเมือง: เครื่องจักรรับใช้"
@@ -3793,7 +3877,7 @@
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีเทคโนโลยี: การปรับความเสถียรของผงธุลี\u003cbr/\u003e    •   มีเทคโนโลยี: โรงงานวัสดุระเหย\u003cbr/\u003e    •   มีการเข้าถึงตลาดกาแลกติก (country flag)",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: วัสดุ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : Prospectorium"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : เหมืองแร่"
               ],
               "potential": [],
               "children": [
@@ -3806,8 +3890,8 @@
                   "cost": 8000,
                   "description": "Nano-separators are a revolutionary new step in the creation of alloys, simplifying the casting process while improving overall production quality.",
                   "feature_unlocks": [
-                    "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: โรงงานโลหะผสมนาโน",
-                    "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: Alloy Processing Facilities"
+                    "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: เครื่องอำนวยความสะดวกในการแปรรูปโลหะผสม",
+                    "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: โรงงานโลหะผสมนาโน"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -3830,7 +3914,7 @@
                   ],
                   "weight_modifiers": [
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: วัสดุ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : Prospectorium"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : เหมืองแร่"
                   ],
                   "potential": [],
                   "children": [],
@@ -3848,7 +3932,7 @@
               "cost": 2000,
               "description": "Wearing a powered exoskeleton suit augments the user\u0027s strength and speed. The military applications are obvious, but it will also increase labor efficiency.",
               "feature_unlocks": [
-                "£minerals£ แร่จาก £job£ งาน +5%",
+                "ผลผลิตทรัพยากรจากประชากร แรงงาน +5%",
                 "พลังโจมตีของทหาร +5%"
               ],
               "is_dangerous": false,
@@ -4012,7 +4096,7 @@
                               "weight_modifiers": [
                                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) มีนโยบาย แรงงานหุ่นยนต์ผิดกฎหมาย",
                                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีจุดเริ่มต้น ลัทธิวัตถุนิยม",
-                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) มีการยกระดับ ร่างกายเป็นสิ่งที่อ่อนแอ (สกิลพิเศษ)",
+                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) มีการยกระดับ วิวัฒนาการจักรกลสังเคราะห์ (สกิลพิเศษ)",
                                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
                                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์ :\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: วงจรที่แลกเปลี่ยนกันได้",
                                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e\t    •   มีคุณลักษณะ: คลั่งไคล้หลงใหล\u003cbr/\u003e    •   หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e\t    •   มีคุณลักษณะ: ประกายแห่งความอัจฉริยะ\u003cbr/\u003e    •   หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e\t    •   มีคุณลักษณะ: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e\t    •   เชี่ยวชาญ: อุตสาหกรรม"
@@ -4025,6 +4109,49 @@
                               "is_gestalt": false
                             }
                           ],
+                          "is_event": false,
+                          "is_gestalt": false
+                        },
+                        {
+                          "key": "tech_robot_assembly_complex",
+                          "area": "engineering",
+                          "base_factor": 1.0,
+                          "base_weight": 22.5,
+                          "category": "อุตสาหกรรม",
+                          "cost": 16000,
+                          "description": "Advanced templates allow us to drastically increase the assembly of new robots.",
+                          "feature_unlocks": [
+                            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ศูนย์ประกอบหุ่นยนต์ซับซ้อน"
+                          ],
+                          "is_dangerous": false,
+                          "is_rare": true,
+                          "is_start_tech": false,
+                          "name": "ระบบประกอบหุ่นยนต์",
+                          "prerequisites": [
+                            "tech_robomodding",
+                            "tech_galactic_administration"
+                          ],
+                          "tier": 4,
+                          "prerequisites_names": [
+                            {
+                              "name": "ระบบแม่แบบเครื่องจักร",
+                              "key": "tech_robomodding"
+                            },
+                            {
+                              "name": "การบริหารกาแล็กติก",
+                              "key": "tech_galactic_administration"
+                            }
+                          ],
+                          "weight_modifiers": [
+                            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e\t    •   มีคุณลักษณะ: คลั่งไคล้หลงใหล\u003cbr/\u003e    •   หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e\t    •   มีคุณลักษณะ: ประกายแห่งความอัจฉริยะ\u003cbr/\u003e    •   หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e\t    •   มีคุณลักษณะ: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e\t    •   เชี่ยวชาญ: อุตสาหกรรม",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์ :\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: ระบบประกอบหุ่นยนต์",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: อุตสาหกรรม\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                          ],
+                          "potential": [
+                            "ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน "
+                          ],
+                          "children": [],
                           "is_event": false,
                           "is_gestalt": false
                         }
@@ -4117,7 +4244,6 @@
                             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
                             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์ :\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: จักรกลสังเคราะห์",
                             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีจุดเริ่มต้น ลัทธิวัตถุนิยม",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) มีการยกระดับ ร่างกายเป็นสิ่งที่อ่อนแอ (สกิลพิเศษ)",
                             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e\t    •   มีคุณลักษณะ: คลั่งไคล้หลงใหล\u003cbr/\u003e    •   หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e\t    •   มีคุณลักษณะ: ประกายแห่งความอัจฉริยะ\u003cbr/\u003e    •   หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e\t    •   มีคุณลักษณะ: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e\t    •   เชี่ยวชาญ: อุตสาหกรรม"
                           ],
                           "potential": [
@@ -4337,6 +4463,46 @@
                   ],
                   "is_event": false,
                   "is_machine_empire": true
+                },
+                {
+                  "key": "tech_integrated_cybernetics",
+                  "area": "engineering",
+                  "base_factor": 1.0,
+                  "base_weight": 105.0,
+                  "category": "อุตสาหกรรม",
+                  "cost": 6000,
+                  "description": "Improving upon basic exoskeletal suits, these integrated cybernetic implants make the user more resistant to harmful environmental effects.",
+                  "feature_unlocks": [
+                    "การอยู่อาศัยได้ +5%"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "name": "การรวมกันของไซเบอร์เนติกส์",
+                  "prerequisites": [
+                    "tech_powered_exoskeletons",
+                    "tech_colonial_centralization"
+                  ],
+                  "tier": 2,
+                  "prerequisites_names": [
+                    {
+                      "name": "โครงกระดูกภายนอก",
+                      "key": "tech_powered_exoskeletons"
+                    },
+                    {
+                      "name": "การรวมศูนย์อำนาจอาณานิคม",
+                      "key": "tech_colonial_centralization"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: อุตสาหกรรม\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                  ],
+                  "potential": [
+                    "หนึ่งอย่างต้องเป็นจริง\n    •   ไม่ มีระบอบการปกครอง สติปัญญาจักรกล \n    •   มีรัฐบาลพลเมือง: เครื่องดัดแปลงประชากร"
+                  ],
+                  "children": [],
+                  "is_event": false,
+                  "is_machine_empire": false
                 }
               ],
               "is_event": false
@@ -4761,7 +4927,7 @@
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 15",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 20",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: อุตสาหกรรม\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : Scholarium"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : วิชาการ"
           ],
           "potential": [],
           "children": [
@@ -4899,7 +5065,7 @@
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 35",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 40",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: อุตสาหกรรม\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : Scholarium"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : วิชาการ"
               ],
               "potential": [],
               "children": [
@@ -4934,7 +5100,7 @@
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 35",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 40",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: อุตสาหกรรม\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : Scholarium"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : วิชาการ"
                   ],
                   "potential": [],
                   "children": [],

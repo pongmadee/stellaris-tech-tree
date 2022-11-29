@@ -208,7 +208,7 @@
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มี วัฒนธรรมความเจริญ ",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e    •   เชี่ยวชาญ: การควบคุมสนามพลัง\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : Prospectorium"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : เหมืองแร่"
               ],
               "potential": [],
               "children": [
@@ -222,7 +222,7 @@
                   "description": "A re-engineered and unified grid further reduces energy losses over distance.",
                   "feature_unlocks": [
                     "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: จุดเชื่อมโยงพลังงาน",
-                    "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: Stratospheric Ionization Elements"
+                    "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: เครื่องสตราโตสเฟียร์ไอออไนเซชัน"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -247,7 +247,7 @@
                     "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีเทคโนโลยี: การสกัดก๊าซแปลกประหลาด\u003cbr/\u003e    •   มีเทคโนโลยี: การกลั่นก๊าซแปลกประหลาด\u003cbr/\u003e    •   มีการเข้าถึงตลาดกาแลกติก (country flag)",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มี วัฒนธรรมความเจริญ ",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e    •   เชี่ยวชาญ: การควบคุมสนามพลัง\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : Prospectorium"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : เหมืองแร่"
                   ],
                   "potential": [],
                   "children": [],
@@ -307,7 +307,7 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e    •   เชี่ยวชาญ: การควบคุมสนามพลัง\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : Bulwark"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : ฐานที่มั่นอวกาศ"
               ],
               "potential": [],
               "children": [
@@ -338,10 +338,118 @@
                   ],
                   "weight_modifiers": [
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e    •   เชี่ยวชาญ: การควบคุมสนามพลัง\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : Bulwark"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : ฐานที่มั่นอวกาศ"
                   ],
                   "potential": [],
                   "children": [
+                    {
+                      "key": "tech_shield_rechargers_1",
+                      "area": "physics",
+                      "base_factor": 1.0,
+                      "base_weight": 70.0,
+                      "category": "การควบคุมสนามพลัง",
+                      "cost": 6000,
+                      "description": "These capacitors store surplus energy which can quickly be transferred to reinforce a ship\u0027s shields.",
+                      "feature_unlocks": [
+                        "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ตัวเก็บโล่พลังงาน"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "name": "ตัวเก็บพลังงานสำหรับโล่",
+                      "prerequisites": [
+                        "tech_shields_3"
+                      ],
+                      "tier": 2,
+                      "prerequisites_names": [
+                        {
+                          "name": "โล่พลังงาน",
+                          "key": "tech_shields_3"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e    •   เชี่ยวชาญ: การควบคุมสนามพลัง\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                      ],
+                      "potential": [],
+                      "children": [
+                        {
+                          "key": "tech_shield_hardeners_1",
+                          "area": "physics",
+                          "base_factor": 1.0,
+                          "base_weight": 70.0,
+                          "category": "การควบคุมสนามพลัง",
+                          "cost": 6000,
+                          "description": "With these modifications, the fields generated by our shield emitters will partially deflect attacks that would otherwise bypass the shields.",
+                          "feature_unlocks": [
+                            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ตัวเสริมความแข็งแกร่งให้โล่พลังงาน"
+                          ],
+                          "is_dangerous": false,
+                          "is_rare": false,
+                          "is_start_tech": false,
+                          "name": "การเสริมความแข็งแกร่งให้โล่พลังงาน",
+                          "prerequisites": [
+                            "tech_shield_rechargers_1",
+                            "tech_exotic_gases"
+                          ],
+                          "tier": 2,
+                          "prerequisites_names": [
+                            {
+                              "name": "ตัวเก็บพลังงานสำหรับโล่",
+                              "key": "tech_shield_rechargers_1"
+                            },
+                            {
+                              "name": "การกลั่นก๊าซแปลกประหลาด",
+                              "key": "tech_exotic_gases"
+                            }
+                          ],
+                          "weight_modifiers": [
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e    •   เชี่ยวชาญ: การควบคุมสนามพลัง\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                          ],
+                          "potential": [],
+                          "children": [
+                            {
+                              "key": "tech_shield_hardeners_2",
+                              "area": "physics",
+                              "base_factor": 1.0,
+                              "base_weight": 20.0,
+                              "category": "การควบคุมสนามพลัง",
+                              "cost": 48000,
+                              "description": "Zro particles raised to a high energy state add fluctuations to our shields that can deflect certain weapons that would otherwise easily penetrate the fields.",
+                              "feature_unlocks": [
+                                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ตัวเสริมความแข็งแกร่งให้โล่พลังงานขั้นสูง"
+                              ],
+                              "is_dangerous": false,
+                              "is_rare": false,
+                              "is_start_tech": false,
+                              "name": "การเสริมความแข็งแกร่งขั้นสูงให้โล่พลังงาน",
+                              "prerequisites": [
+                                "tech_shield_hardeners_1",
+                                "tech_mine_zro"
+                              ],
+                              "tier": 5,
+                              "prerequisites_names": [
+                                {
+                                  "name": "การเสริมความแข็งแกร่งให้โล่พลังงาน",
+                                  "key": "tech_shield_hardeners_1"
+                                },
+                                {
+                                  "name": "การสกัดแร่ซีโร",
+                                  "key": "tech_mine_zro"
+                                }
+                              ],
+                              "weight_modifiers": [
+                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e    •   เชี่ยวชาญ: การควบคุมสนามพลัง\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                              ],
+                              "potential": [],
+                              "children": [],
+                              "is_event": false
+                            }
+                          ],
+                          "is_event": false
+                        }
+                      ],
+                      "is_event": false
+                    },
                     {
                       "key": "tech_shields_4",
                       "area": "physics",
@@ -369,7 +477,7 @@
                       ],
                       "weight_modifiers": [
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e    •   เชี่ยวชาญ: การควบคุมสนามพลัง\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : Bulwark"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : ฐานที่มั่นอวกาศ"
                       ],
                       "potential": [],
                       "children": [
@@ -400,7 +508,7 @@
                           ],
                           "weight_modifiers": [
                             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e    •   เชี่ยวชาญ: การควบคุมสนามพลัง\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : Bulwark"
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : ฐานที่มั่นอวกาศ"
                           ],
                           "potential": [],
                           "children": [
@@ -475,38 +583,6 @@
                       "is_event": false
                     },
                     {
-                      "key": "tech_shield_rechargers_1",
-                      "area": "physics",
-                      "base_factor": 1.0,
-                      "base_weight": 70.0,
-                      "category": "การควบคุมสนามพลัง",
-                      "cost": 6000,
-                      "description": "These capacitors store surplus energy which can quickly be transferred to reinforce a ship\u0027s shields.",
-                      "feature_unlocks": [
-                        "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ตัวเก็บโล่พลังงาน"
-                      ],
-                      "is_dangerous": false,
-                      "is_rare": false,
-                      "is_start_tech": false,
-                      "name": "ตัวเก็บพลังงานสำหรับโล่",
-                      "prerequisites": [
-                        "tech_shields_3"
-                      ],
-                      "tier": 2,
-                      "prerequisites_names": [
-                        {
-                          "name": "โล่พลังงาน",
-                          "key": "tech_shields_3"
-                        }
-                      ],
-                      "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e    •   เชี่ยวชาญ: การควบคุมสนามพลัง\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
-                      ],
-                      "potential": [],
-                      "children": [],
-                      "is_event": false
-                    },
-                    {
                       "key": "tech_planetary_shield_generator",
                       "area": "physics",
                       "base_factor": 1.0,
@@ -515,6 +591,7 @@
                       "cost": 8000,
                       "description": "Generating a strong energy shield within a planetary atmosphere is a greater challenge than in the vacuum of space, but it offers a potent defense against orbital bombardment.",
                       "feature_unlocks": [
+                        "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: เครื่องกำเนิดโล่พลังงานของสถานีวงโคจร",
                         "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: เครื่องกำเนิดโล่พลังงานของดาวเคราะห์"
                       ],
                       "is_dangerous": false,
@@ -796,10 +873,15 @@
                           "is_start_tech": false,
                           "name": "เครื่องยิงโปรตอน",
                           "prerequisites": [
-                            "tech_lasers_4"
+                            "tech_lasers_4",
+                            "tech_torpedoes_1"
                           ],
                           "tier": 3,
                           "prerequisites_names": [
+                            {
+                              "name": "ตอร์ปิโดอวกาศ",
+                              "key": "tech_torpedoes_1"
+                            },
                             {
                               "name": "เลเซอร์ X-Ray",
                               "key": "tech_lasers_4"
@@ -1598,8 +1680,8 @@
                   "cost": 12000,
                   "description": "A new generation of hyper drives capable of accessing the subspace slipstreams that are present within hyperspace. This leads to dramatically improved drive performance.",
                   "feature_unlocks": [
-                    "\u003cb\u003eประกาศคำสั่ง\u003c/b\u003e: Networked Movement",
-                    "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ระบบขับเคลื่อนไฮเปอร์ไดรฟ์ III"
+                    "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ระบบขับเคลื่อนไฮเปอร์ไดรฟ์ III",
+                    "\u003cb\u003eประกาศคำสั่ง\u003c/b\u003e: การเคลื่อนย้ายแบบเครือข่าย"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -1717,8 +1799,8 @@
                   "cost": 6000,
                   "description": "ไฮเปอร์รีเลย์ สร้างห่วงโซ่ของโครงสร้างที่สร้างขึ้นนอกแรงดึงดูดของระบบดาว ทำให้สามารถเดินทางจากรีเลย์หนึ่งไปยังอีกรีเลย์ได้อย่างรวดเร็วแทนที่จะต้องใช้ไฮเปอร์เลนแบบปกติ",
                   "feature_unlocks": [
-                    "\u003cb\u003eประกาศคำสั่ง\u003c/b\u003e: Networked Relays",
-                    "\u003cb\u003eฟีเจอร์ : \u003c/b\u003eการก่อสร้างไฮเปอร์รีเลย์"
+                    "\u003cb\u003eฟีเจอร์ : \u003c/b\u003eการก่อสร้างไฮเปอร์รีเลย์",
+                    "\u003cb\u003eประกาศคำสั่ง\u003c/b\u003e: เครือข่ายรีเรย์"
                   ],
                   "is_dangerous": false,
                   "is_rare": true,
@@ -1969,7 +2051,7 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e    •   เชี่ยวชาญ: การคำนวณ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : Scholarium"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : วิชาการ"
               ],
               "potential": [],
               "children": [
@@ -2376,7 +2458,7 @@
                       ],
                       "weight_modifiers": [
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e    •   เชี่ยวชาญ: การคำนวณ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : Scholarium"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : วิชาการ"
                       ],
                       "potential": [
                         "มีจริยธรรม เป็นหนึ่งเดียวกัน "
@@ -2412,7 +2494,7 @@
                       ],
                       "weight_modifiers": [
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e    •   เชี่ยวชาญ: การคำนวณ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : Scholarium"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : วิชาการ"
                       ],
                       "potential": [
                         "ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน "
@@ -2493,7 +2575,7 @@
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีเทคโนโลยี: การสกัดก๊าซแปลกประหลาด\u003cbr/\u003e    •   มีเทคโนโลยี: การกลั่นก๊าซแปลกประหลาด\u003cbr/\u003e    •   มีการเข้าถึงตลาดกาแลกติก (country flag)",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e    •   เชี่ยวชาญ: การคำนวณ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : Scholarium"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : วิชาการ"
               ],
               "potential": [],
               "children": [
@@ -2531,11 +2613,53 @@
                   "weight_modifiers": [
                     "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   เชี่ยวชาญ: การคำนวณ\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   มีคุณลักษณะ: ผู้ดูแลพิพิธภัณฑ์",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e    •   เชี่ยวชาญ: การคำนวณ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : Scholarium"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : วิชาการ"
                   ],
                   "potential": [],
                   "children": [],
                   "is_event": false
+                },
+                {
+                  "key": "tech_neuro_quantum_links",
+                  "area": "physics",
+                  "base_factor": 1.0,
+                  "base_weight": 97.5,
+                  "category": "การคำนวณ",
+                  "cost": 8000,
+                  "description": "การปลูกถ่ายระบบประสาทขั้นสูงที่มีการเชื่อมต่อกับคลัสเตอร์ควอนตัมคอมพิวเตอร์ช่วยให้มีความคิดแบบมัลติเธรด(คิดหลายๆอย่างในเวเลาเดียวกัน)",
+                  "feature_unlocks": [
+                    "ผลผลิตทรัพยากรจากประชากร ผู้เชี่ยวชาญ +5%"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "name": "ลิงก์สมองกับควอนตัมคอมพิวเตอร์",
+                  "prerequisites": [
+                    "tech_basic_science_lab_2",
+                    "tech_integrated_cybernetics"
+                  ],
+                  "tier": 3,
+                  "prerequisites_names": [
+                    {
+                      "name": "ห้องวิจัยวัสดุแปลกใหม่",
+                      "key": "tech_basic_science_lab_2"
+                    },
+                    {
+                      "name": "การรวมกันของไซเบอร์เนติกส์",
+                      "key": "tech_integrated_cybernetics"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) มี DLC Utopia",
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   เชี่ยวชาญ: การคำนวณ\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   มีคุณลักษณะ: ผู้ดูแลพิพิธภัณฑ์",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e    •   เชี่ยวชาญ: การคำนวณ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                  ],
+                  "potential": [
+                    "ไม่ มีระบอบการปกครอง สติปัญญาจักรกล "
+                  ],
+                  "children": [],
+                  "is_event": false,
+                  "is_machine_empire": false
                 },
                 {
                   "key": "tech_basic_science_lab_3",
@@ -2569,7 +2693,7 @@
                   ],
                   "weight_modifiers": [
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e    •   เชี่ยวชาญ: การคำนวณ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : Scholarium"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : วิชาการ"
                   ],
                   "potential": [],
                   "children": [],
@@ -2763,7 +2887,7 @@
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 15",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 20",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e    •   เชี่ยวชาญ: การคำนวณ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : Scholarium"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : วิชาการ"
           ],
           "potential": [],
           "children": [
@@ -3033,7 +3157,7 @@
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 35",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 40",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e    •   เชี่ยวชาญ: การคำนวณ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : Scholarium"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : วิชาการ"
               ],
               "potential": [],
               "children": [
@@ -3068,7 +3192,7 @@
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 35",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 40",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e    •   เชี่ยวชาญ: การคำนวณ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : Scholarium"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : วิชาการ"
                   ],
                   "potential": [],
                   "children": [],
@@ -3180,12 +3304,12 @@
               "description": "Sensors that detect the subspace fluctuations left in the wake of traveling starships. Their sensitivity and range is greater than that of a gravitic sensor array.",
               "feature_unlocks": [
                 "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: หอสังเกตการณ์หลุมดำ",
-                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เซนเซอร์มิติย่อย"
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เซ็นเซอร์มิติย่อย"
               ],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
-              "name": "เซนเซอร์มิติย่อย(ทางลัดอวกาศ)",
+              "name": "เซ็นเซอร์มิติย่อย(ทางลัดอวกาศ)",
               "prerequisites": [
                 "tech_sensors_2"
               ],
@@ -3211,19 +3335,19 @@
                   "cost": 16000,
                   "description": "Advanced sensors that rely on rotating tachyon beams to detect ship movements even at extreme distances.",
                   "feature_unlocks": [
-                    "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เซนเซอร์อนุภาคแทคีออน"
+                    "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เซ็นเซอร์อนุภาคแทคีออน"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
-                  "name": "เซนเซอร์อนุภาคแทคีออน",
+                  "name": "เซ็นเซอร์อนุภาคแทคีออน",
                   "prerequisites": [
                     "tech_sensors_3"
                   ],
                   "tier": 4,
                   "prerequisites_names": [
                     {
-                      "name": "เซนเซอร์มิติย่อย(ทางลัดอวกาศ)",
+                      "name": "เซ็นเซอร์มิติย่อย(ทางลัดอวกาศ)",
                       "key": "tech_sensors_3"
                     }
                   ],
@@ -3254,7 +3378,7 @@
                       "tier": 3,
                       "prerequisites_names": [
                         {
-                          "name": "เซนเซอร์อนุภาคแทคีออน",
+                          "name": "เซ็นเซอร์อนุภาคแทคีออน",
                           "key": "tech_sensors_4"
                         }
                       ],
@@ -3267,6 +3391,45 @@
                       "is_event": false
                     }
                   ],
+                  "is_event": false
+                },
+                {
+                  "key": "tech_mine_zro",
+                  "area": "society",
+                  "base_factor": 1.0,
+                  "base_weight": 60.0,
+                  "category": "พลังจิต",
+                  "cost": 10000,
+                  "description": "An extremely rare aerosol of exotic particles. It has been deposited on a number of worlds through meteor impacts, but its true origin is a mystery. If ingested by psionically-gifted individuals, Zro acts as a very potent (and addictive) drug that enhances Psi abilities.",
+                  "feature_unlocks": [
+                    "\u003cb\u003eเผยทรัพยากร\u003c/b\u003e: แร่ซีโร"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": true,
+                  "is_start_tech": false,
+                  "name": "การสกัดแร่ซีโร",
+                  "prerequisites": [
+                    "tech_sensors_3"
+                  ],
+                  "tier": 3,
+                  "prerequisites_names": [
+                    {
+                      "name": "เซ็นเซอร์มิติย่อย(ทางลัดอวกาศ)",
+                      "key": "tech_sensors_3"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e\t    •   เชี่ยวชาญ: พลังจิต\u003cbr/\u003e    •   หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e\t    •   มีคุณลักษณะ: ผู้ดูแลพิพิธภัณฑ์",
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) ไม่ มีเทคโนโลยี: ทฤษฎีพลังจิต",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์ :\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: การสกัดแร่ซีโร",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีประชากรที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   ประชากรมีคุณลักษณะ พลังจิต",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) ไม่ มีประชากรที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   ประชากรมีคุณลักษณะ พลังจิต",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   มีการปรับเปลี่ยน Shroudwalker Teacher",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e10.0\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   เชี่ยวชาญ: พลังจิต"
+                  ],
+                  "potential": [],
+                  "children": [],
                   "is_event": false
                 }
               ],

@@ -190,6 +190,126 @@
     "is_event": true
   },
   {
+    "key": "tech_covenant_composer",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "พลังจิต",
+    "cost": 50000,
+    "description": "We have discovered how to let psionic energy flow through our ships. Armed with this knowledge, we can now imbue our vessels with the powers of our patron.",
+    "feature_unlocks": [
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Mark of the Composer"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "Mark of the Composer",
+    "prerequisites": [
+      "tech_psionic_theory"
+    ],
+    "tier": 5,
+    "prerequisites_names": [
+      {
+        "name": "ทฤษฎีพลังจิต",
+        "key": "tech_psionic_theory"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_covenant_eater",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "พลังจิต",
+    "cost": 50000,
+    "description": "We have discovered how to let psionic energy flow through our ships. Armed with this knowledge, we can now imbue our vessels with the powers of our patron.",
+    "feature_unlocks": [
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Mark of the Eater"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "Mark of the Eater",
+    "prerequisites": [
+      "tech_psionic_theory"
+    ],
+    "tier": 5,
+    "prerequisites_names": [
+      {
+        "name": "ทฤษฎีพลังจิต",
+        "key": "tech_psionic_theory"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_covenant_instrument",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "พลังจิต",
+    "cost": 50000,
+    "description": "We have discovered how to let psionic energy flow through our ships. Armed with this knowledge, we can now imbue our vessels with the powers of our patron.",
+    "feature_unlocks": [
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Mark of the Instrument"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "Mark of the Instrument",
+    "prerequisites": [
+      "tech_psionic_theory"
+    ],
+    "tier": 5,
+    "prerequisites_names": [
+      {
+        "name": "ทฤษฎีพลังจิต",
+        "key": "tech_psionic_theory"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_covenant_whisperers",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "พลังจิต",
+    "cost": 50000,
+    "description": "We have discovered how to let psionic energy flow through our ships. Armed with this knowledge, we can now imbue our vessels with the powers of our patron.",
+    "feature_unlocks": [
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Mark of the Whisperers"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "Mark of the Whisperers",
+    "prerequisites": [
+      "tech_psionic_theory"
+    ],
+    "tier": 5,
+    "prerequisites_names": [
+      {
+        "name": "ทฤษฎีพลังจิต",
+        "key": "tech_psionic_theory"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
     "key": "tech_crystal_armor_1",
     "area": "engineering",
     "base_factor": 1.0,
@@ -391,30 +511,6 @@
     "is_event": true
   },
   {
-    "key": "tech_genetic_resequencing",
-    "area": "society",
-    "base_factor": 1.0,
-    "base_weight": 0.0,
-    "category": "ชีววิทยา",
-    "cost": 32000,
-    "description": "No longer will we be limited by the basic biological structure of a species when striving to improve them. DNA is just another material to be shaped as the sculptor wills it.",
-    "feature_unlocks": [
-      "\u003cb\u003eฟีเจอร์ : \u003c/b\u003eการเรียงลำดับทางพันธุกรรม",
-      "\u003cb\u003eฟีเจอร์ : \u003c/b\u003eคุณลักษณะขั้นสูง"
-    ],
-    "is_dangerous": false,
-    "is_rare": true,
-    "is_start_tech": false,
-    "name": "การเรียงลำดับทางพันธุกรรม",
-    "prerequisites": [],
-    "tier": 5,
-    "prerequisites_names": [],
-    "weight_modifiers": [],
-    "potential": [],
-    "children": [],
-    "is_event": true
-  },
-  {
     "key": "tech_lgate_activation",
     "area": "physics",
     "base_factor": 1.0,
@@ -484,6 +580,52 @@
     "name": "เลเซอร์โดรนขุดแร่",
     "prerequisites": [],
     "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_nanite_autocannon",
+    "area": "engineering",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "แรงขับดัน",
+    "cost": 48000,
+    "description": "Highly advanced autocannons capable of ejecting shells that explode into a cloud of nanites at the target, overwhelming shields and chewing through hull sections.",
+    "feature_unlocks": [
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ปืนใหญ่อัตโนมัตินาไนต์"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "ปืนใหญ่อัตโนมัตินาไนต์",
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_nanite_flak_batteries",
+    "area": "engineering",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "แรงขับดัน",
+    "cost": 48000,
+    "description": "Improving upon previous designs by launching canisters of nanites capable of eating away at strike craft, these flak batteries are the bane of any fighter pilot.",
+    "feature_unlocks": [
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ป้อมปืนนาไนต์"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "ป้อมปืนนาไนต์",
+    "prerequisites": [],
+    "tier": 5,
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [],
