@@ -75,7 +75,8 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีพลเมือง: Eager Explorers"
               ],
               "potential": [],
               "children": [
@@ -105,7 +106,8 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีพลเมือง: Eager Explorers"
                   ],
                   "potential": [],
                   "children": [
@@ -135,7 +137,8 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีพลเมือง: Eager Explorers"
                       ],
                       "potential": [],
                       "children": [
@@ -241,7 +244,8 @@
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 40",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e5.0\u003c/b\u003e) มีจำนวนของ ฐานจอดยานอวกาศ มากกว่าหรือเท่ากับ 3",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มี วัฒนธรรมความแข็งกร้าว ",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีพลเมือง: Eager Explorers"
               ],
               "potential": [],
               "children": [
@@ -254,7 +258,7 @@
                   "cost": 5000,
                   "description": "A reinforced framework and blast shields with enhanced impact absorption will ensure the structural integrity of the platform even under immense pressure.",
                   "feature_unlocks": [
-                    "HP แพลตฟอร์มป้องกัน +500"
+                    "HP แพลตฟอร์มป้องกัน +10%"
                   ],
                   "is_dangerous": false,
                   "is_rare": true,
@@ -274,6 +278,7 @@
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์ :\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: ปรับปรุงความสมบูรณ์ของโครงสร้าง",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีพลเมือง: Eager Explorers",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : ฐานที่มั่นอวกาศ"
                   ],
                   "potential": [],
@@ -371,7 +376,8 @@
                     "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e\t    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e    •   หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e\t    •   มีคุณลักษณะ: ผู้ดูแลพิพิธภัณฑ์",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์ :\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: วิศวกรรมโมดูลแยกส่วน",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีพลเมือง: Eager Explorers"
                   ],
                   "potential": [],
                   "children": [
@@ -504,7 +510,8 @@
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 70",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e5.0\u003c/b\u003e) มีจำนวนของ ฐานที่มั่นอวกาศ มากกว่าหรือเท่ากับ 3",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มี วัฒนธรรมความแข็งกร้าว ",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีพลเมือง: Eager Explorers"
                   ],
                   "potential": [],
                   "children": [
@@ -541,7 +548,8 @@
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 100",
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e5.0\u003c/b\u003e) มีจำนวนของ ป้อมดวงดาว มากกว่าหรือเท่ากับ 3",
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มี วัฒนธรรมความแข็งกร้าว ",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีพลเมือง: Eager Explorers"
                       ],
                       "potential": [],
                       "children": [],
@@ -582,7 +590,8 @@
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e5.0\u003c/b\u003e) มีจำนวนของ ฐานที่มั่นอวกาศ มากกว่าหรือเท่ากับ 3",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มี วัฒนธรรมการขยายอาณาเขต ",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มี วัฒนธรรมการขยายอาณาเขตเสร็จแล้ว ",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีพลเมือง: Eager Explorers"
                   ],
                   "potential": [
                     "หนึ่งอย่างต้องเป็นจริง\n    •   มีจุดเริ่มต้น ผู้อยู่อาศัยในอวกาศ\n    •   มีจุดเริ่มต้น Knights of the Toxic God\n    •   มี DLC Utopia"
@@ -619,7 +628,8 @@
                       "weight_modifiers": [
                         "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น ที่อยู่อาศัยวงโคจรดาว",
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e10.0\u003c/b\u003e) มีจุดเริ่มต้น ผู้อยู่อาศัยในอวกาศ",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีพลเมือง: Eager Explorers"
                       ],
                       "potential": [
                         "หนึ่งอย่างต้องเป็นจริง\n    •   มีจุดเริ่มต้น ผู้อยู่อาศัยในอวกาศ\n    •   มี DLC Utopia"
@@ -656,7 +666,8 @@
                           "weight_modifiers": [
                             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น ที่อยู่อาศัยวงโคจรดาว",
                             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e10.0\u003c/b\u003e) มีจุดเริ่มต้น ผู้อยู่อาศัยในอวกาศ",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีพลเมือง: Eager Explorers"
                           ],
                           "potential": [
                             "หนึ่งอย่างต้องเป็นจริง\n    •   มีจุดเริ่มต้น ผู้อยู่อาศัยในอวกาศ\n    •   มี DLC Utopia"
@@ -682,7 +693,7 @@
           "base_factor": 1.0,
           "base_weight": 0.0,
           "category": "ยานอวกาศ",
-          "cost": 500,
+          "cost": 1000,
           "description": "The FTL breakthrough allowed early attempts to adapt traditional surface-to-space shuttle frames to military applications to finally create relatively small, fast, and maneuverable vessels with limited firepower.",
           "feature_unlocks": [
             "\u003cb\u003eขนาดยาน\u003c/b\u003e: ยานคอร์เวต"
@@ -730,7 +741,8 @@
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 20",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 30",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มี วัฒนธรรมความยิ่งใหญ่ ",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีพลเมือง: Eager Explorers"
               ],
               "potential": [],
               "children": [
@@ -763,7 +775,8 @@
                   ],
                   "weight_modifiers": [
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มี วัฒนธรรมความยิ่งใหญ่ ",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีพลเมือง: Eager Explorers"
                   ],
                   "potential": [],
                   "children": [
@@ -799,7 +812,8 @@
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มี วัฒนธรรมความยิ่งใหญ่ ",
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์ :\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: ตัวยานพิฆาตขั้นสูง",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีพลเมือง: Eager Explorers"
                       ],
                       "potential": [],
                       "children": [],
@@ -841,7 +855,8 @@
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 35",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 40",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มี วัฒนธรรมความยิ่งใหญ่ ",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีพลเมือง: Eager Explorers"
                   ],
                   "potential": [],
                   "children": [
@@ -878,7 +893,8 @@
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 65",
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 70",
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มี วัฒนธรรมความยิ่งใหญ่ ",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีพลเมือง: Eager Explorers"
                       ],
                       "potential": [],
                       "children": [
@@ -892,8 +908,8 @@
                           "description": "Advances in building techniques will allow for the construction of sturdier and more durable battleships.",
                           "feature_unlocks": [
                             "\u003cfont color\u003d\"yellow\"\u003eCustom Tooltip\u003c/font\u003e:  ",
-                            "ผล HP ยานประจัญบาน +800",
-                            "HP ยานประจัญบาน +800"
+                            "HP ยานประจัญบาน +10%",
+                            "ผล HP ยานประจัญบาน +10%"
                           ],
                           "is_dangerous": false,
                           "is_rare": false,
@@ -911,7 +927,8 @@
                           ],
                           "weight_modifiers": [
                             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มี วัฒนธรรมความยิ่งใหญ่ ",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีพลเมือง: Eager Explorers"
                           ],
                           "potential": [],
                           "children": [
@@ -947,7 +964,8 @@
                                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
                                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์ :\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: ตัวยานประจัญบานขั้นสูง",
                                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มี วัฒนธรรมความยิ่งใหญ่ ",
-                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีพลเมือง: Eager Explorers"
                               ],
                               "potential": [],
                               "children": [],
@@ -963,12 +981,11 @@
                           "base_weight": 30.0,
                           "category": "ยานอวกาศ",
                           "cost": 32000,
-                          "description": "Modeled after the hulking shadows looming in the core systems of Stagnant Ascendancies, the Titan class can be outfitted with X-size weapons.",
+                          "description": "Designing ships at this scale allows for a deadly combination of exceptional firepower and cutting-edge auxiliary support. Titan configurations may serve as highly versatile flagships which are also capable of bolstering surrounding vessels or ensnaring hostiles.",
                           "feature_unlocks": [
                             "\u003cb\u003eขนาดยาน\u003c/b\u003e: ไททัน",
                             "\u003cb\u003eอัปเกรดฐานอวกาศ\u003c/b\u003e: ปืนใหญ่ไอออน",
                             "ขีดจำกัดคำสั่งของกองยาน +10",
-                            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ปืนใหญ่ไอออน",
                             "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ลำแสงนรก"
                           ],
                           "is_dangerous": false,
@@ -992,7 +1009,8 @@
                             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 140",
                             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 150",
                             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มี วัฒนธรรมความยิ่งใหญ่ ",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีพลเมือง: Eager Explorers"
                           ],
                           "potential": [
                             "มี DLC Apocalypse"
@@ -1028,7 +1046,8 @@
                                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
                                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์ :\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: ตัวยานไททันแบบปรับปรุง",
                                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มี วัฒนธรรมความยิ่งใหญ่ ",
-                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีพลเมือง: Eager Explorers"
                               ],
                               "potential": [],
                               "children": [
@@ -1062,7 +1081,8 @@
                                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
                                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์ :\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: ตัวยานไททันขั้นสูง",
                                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มี วัฒนธรรมความยิ่งใหญ่ ",
-                                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีพลเมือง: Eager Explorers"
                                   ],
                                   "potential": [],
                                   "children": [],
@@ -1078,7 +1098,7 @@
                               "base_weight": 0.0,
                               "category": "ยานอวกาศ",
                               "cost": 48000,
-                              "description": "Advances in mega-engineering make blur the lines between reality and the fantastical, enabling the construction of Colossus-class military vessels that carry weapons capable of obliterating - or fundamentally altering - entire worlds, with the push of a button.",
+                              "description": "Advances in mega-engineering blur the lines between reality and fantasy in the form of Colossus-type military vessels. These immense, single-weapon platforms are capable of radically altering or obliterating entire worlds at the push of a button.",
                               "feature_unlocks": [],
                               "is_dangerous": false,
                               "is_rare": true,
@@ -1287,7 +1307,7 @@
                                   "potential": [
                                     "มี DLC Apocalypse",
                                     "มีโครงการโคลอสซัส (country flag)",
-                                    "มีรัฐบาลพลเมือง: เครื่องดัดแปลงประชากร"
+                                    "มีพลเมือง: เครื่องดัดแปลงประชากร"
                                   ],
                                   "children": [],
                                   "is_event": false
@@ -1390,6 +1410,7 @@
                                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e6.0\u003c/b\u003e) มีการยกระดับ สถาปนิก (สกิลพิเศษ)",
                                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
                                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ เข้าใจความว่างเปล่าในอวกาศ (สกิลพิเศษ)",
+                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e5.0\u003c/b\u003e) เป็นจักรวรรดิที่มีพลเมือง(นักสำรวจที่กระตือรือร้น)",
                                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์ :\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: เครื่องเหวี่ยงกองยานควอนตัม"
                               ],
                               "potential": [
@@ -1664,7 +1685,8 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีพลเมือง: Eager Explorers"
                           ],
                           "potential": [],
                           "children": [],
@@ -1745,7 +1767,8 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีพลเมือง: Eager Explorers"
                       ],
                       "potential": [],
                       "children": [],
@@ -1780,7 +1803,8 @@
                       ],
                       "weight_modifiers": [
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มี วัฒนธรรมความยิ่งใหญ่ ",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีพลเมือง: Eager Explorers"
                       ],
                       "potential": [],
                       "children": [
@@ -1816,7 +1840,8 @@
                             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
                             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์ :\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: ตัวยานลาดตระเวนขั้นสูง",
                             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มี วัฒนธรรมความยิ่งใหญ่ ",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีพลเมือง: Eager Explorers"
                           ],
                           "potential": [],
                           "children": [],
@@ -1857,7 +1882,8 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีพลเมือง: Eager Explorers"
                   ],
                   "potential": [],
                   "children": [],
@@ -1895,7 +1921,8 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีพลเมือง: Eager Explorers"
               ],
               "potential": [],
               "children": [
@@ -1931,7 +1958,8 @@
                     "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e\t    •   มีคุณลักษณะ: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e\t    •   มีคุณลักษณะ: ประกายแห่งความอัจฉริยะ\u003cbr/\u003e    •   หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e\t    •   เชี่ยวชาญ: ยานอวกาศ",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์ :\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: ตัวยานคอร์เวตขั้นสูง",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีพลเมือง: Eager Explorers"
                   ],
                   "potential": [],
                   "children": [],
@@ -1970,7 +1998,8 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ยานอวกาศ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีพลเมือง: Eager Explorers"
               ],
               "potential": [],
               "children": [],
@@ -2083,7 +2112,7 @@
                       "name": "การเสริมความแข็งแกร่งให้เกราะ",
                       "prerequisites": [
                         "tech_advanced_metallurgy_1",
-                        "tech_exotic_gases"
+                        "tech_rare_crystals"
                       ],
                       "tier": 2,
                       "prerequisites_names": [
@@ -2092,12 +2121,12 @@
                           "key": "tech_advanced_metallurgy_1"
                         },
                         {
-                          "name": "การกลั่นก๊าซแปลกประหลาด",
-                          "key": "tech_exotic_gases"
+                          "name": "การผลิตผลึกหายาก",
+                          "key": "tech_rare_crystals"
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e    •   เชี่ยวชาญ: วัสดุ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: วัสดุ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
                       ],
                       "potential": [],
                       "children": [
@@ -2132,7 +2161,7 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e    •   เชี่ยวชาญ: วัสดุ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: วัสดุ\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
                           ],
                           "potential": [],
                           "children": [],
@@ -2705,6 +2734,118 @@
               "potential": [],
               "children": [
                 {
+                  "key": "tech_torpedoes_1",
+                  "area": "engineering",
+                  "base_factor": 1.0,
+                  "base_weight": 95.0,
+                  "category": "แรงขับดัน",
+                  "cost": 2500,
+                  "description": "These torpedoes are essentially very large, slow-moving missiles. They are equipped with more powerful warheads and shield modulators that let them slip unmolested through energy screens.",
+                  "feature_unlocks": [
+                    "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: คอมพิวเตอร์ต่อสู้ฉลาด",
+                    "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ตอร์ปิโดอวกาศ",
+                    "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: สติปัญญายานอัตโนมัติ",
+                    "\u003cb\u003eโมดูลในฐานอวกาศ\u003c/b\u003e: ป้อมยิงตอร์ปิโด",
+                    "\u003cb\u003eขนาดยาน\u003c/b\u003e: ยานฟริเกต",
+                    "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: คอมพิวเตอร์ต่อสู้",
+                    "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: คอมพิวเตอร์ต่อสู้ขั้นสูง",
+                    "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เครื่องตีความสัญญาณโทรจิต",
+                    "\u003cb\u003eโมดูลในฐานอวกาศ\u003c/b\u003e: ป้อมยิงอาวุธนำวิถีที่ป้องกันดาวเคราะห์"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "name": "ตอร์ปิโดอวกาศ",
+                  "prerequisites": [
+                    "tech_missiles_2"
+                  ],
+                  "tier": 1,
+                  "prerequisites_names": [
+                    {
+                      "name": "มิสไซล์ฟิวชัน",
+                      "key": "tech_missiles_2"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มีจริยธรรม ชอบสงคราม ",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีจริยธรรม ชอบสงครามอย่างมาก ",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ระบบขับเคลื่อน\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                  ],
+                  "potential": [],
+                  "children": [
+                    {
+                      "key": "tech_torpedoes_2",
+                      "area": "engineering",
+                      "base_factor": 1.0,
+                      "base_weight": 60.0,
+                      "category": "แรงขับดัน",
+                      "cost": 10000,
+                      "description": "Upgraded space torpedoes encased in armor, to better withstand enemy point-defense fire. The armor fragments into shards that cause additional damage when the torpedo detonates.",
+                      "feature_unlocks": [
+                        "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ตอร์ปิโดหุ้มเกราะ"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "name": "ตอร์ปิโดหุ้มเกราะ",
+                      "prerequisites": [
+                        "tech_torpedoes_1"
+                      ],
+                      "tier": 3,
+                      "prerequisites_names": [
+                        {
+                          "name": "ตอร์ปิโดอวกาศ",
+                          "key": "tech_torpedoes_1"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มีจริยธรรม ชอบสงคราม ",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีจริยธรรม ชอบสงครามอย่างมาก ",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ระบบขับเคลื่อน\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                      ],
+                      "potential": [],
+                      "children": [
+                        {
+                          "key": "tech_torpedoes_3",
+                          "area": "engineering",
+                          "base_factor": 1.0,
+                          "base_weight": 40.0,
+                          "category": "แรงขับดัน",
+                          "cost": 20000,
+                          "description": "Advanced torpedoes with very powerful warheads. They have a sleeker design, faster engines and upgraded shield modulators for slipping through energy screens.",
+                          "feature_unlocks": [
+                            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ตอร์ปิโดทำลายล้าง"
+                          ],
+                          "is_dangerous": false,
+                          "is_rare": false,
+                          "is_start_tech": false,
+                          "name": "ตอร์ปิโดทำลายล้าง",
+                          "prerequisites": [
+                            "tech_torpedoes_2"
+                          ],
+                          "tier": 4,
+                          "prerequisites_names": [
+                            {
+                              "name": "ตอร์ปิโดหุ้มเกราะ",
+                              "key": "tech_torpedoes_2"
+                            }
+                          ],
+                          "weight_modifiers": [
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มีจริยธรรม ชอบสงคราม ",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีจริยธรรม ชอบสงครามอย่างมาก ",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ระบบขับเคลื่อน\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+                          ],
+                          "potential": [],
+                          "children": [],
+                          "is_event": false
+                        }
+                      ],
+                      "is_event": false
+                    }
+                  ],
+                  "is_event": false
+                },
+                {
                   "key": "tech_missiles_3",
                   "area": "engineering",
                   "base_factor": 1.0,
@@ -2923,118 +3064,6 @@
                         {
                           "name": "ฝูงมิสไซล์",
                           "key": "tech_swarmer_missiles_1"
-                        }
-                      ],
-                      "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มีจริยธรรม ชอบสงคราม ",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีจริยธรรม ชอบสงครามอย่างมาก ",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ระบบขับเคลื่อน\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
-                      ],
-                      "potential": [],
-                      "children": [],
-                      "is_event": false
-                    }
-                  ],
-                  "is_event": false
-                }
-              ],
-              "is_event": false
-            },
-            {
-              "key": "tech_torpedoes_1",
-              "area": "engineering",
-              "base_factor": 1.0,
-              "base_weight": 75.0,
-              "category": "แรงขับดัน",
-              "cost": 5000,
-              "description": "These torpedoes are essentially very large, slow-moving missiles. They are equipped with more powerful warheads and shield modulators that let them slip unmolested through energy screens.",
-              "feature_unlocks": [
-                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: คอมพิวเตอร์ต่อสู้ฉลาด",
-                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ตอร์ปิโดอวกาศ",
-                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: สติปัญญายานอัตโนมัติ",
-                "\u003cb\u003eโมดูลในฐานอวกาศ\u003c/b\u003e: ป้อมยิงตอร์ปิโด",
-                "\u003cb\u003eขนาดยาน\u003c/b\u003e: ยานฟริเกต",
-                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: คอมพิวเตอร์ต่อสู้",
-                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: คอมพิวเตอร์ต่อสู้ขั้นสูง",
-                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เครื่องตีความสัญญาณโทรจิต",
-                "\u003cb\u003eโมดูลในฐานอวกาศ\u003c/b\u003e: ป้อมยิงอาวุธนำวิถีที่ป้องกันดาวเคราะห์"
-              ],
-              "is_dangerous": false,
-              "is_rare": false,
-              "is_start_tech": false,
-              "name": "ตอร์ปิโดอวกาศ",
-              "prerequisites": [
-                "tech_missiles_1"
-              ],
-              "tier": 2,
-              "prerequisites_names": [
-                {
-                  "name": "มิสไซล์นิวเคลียร์",
-                  "key": "tech_missiles_1"
-                }
-              ],
-              "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มีจริยธรรม ชอบสงคราม ",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีจริยธรรม ชอบสงครามอย่างมาก ",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ระบบขับเคลื่อน\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
-              ],
-              "potential": [],
-              "children": [
-                {
-                  "key": "tech_torpedoes_2",
-                  "area": "engineering",
-                  "base_factor": 1.0,
-                  "base_weight": 60.0,
-                  "category": "แรงขับดัน",
-                  "cost": 10000,
-                  "description": "Upgraded space torpedoes encased in armor, to better withstand enemy point-defense fire. The armor fragments into shards that cause additional damage when the torpedo detonates.",
-                  "feature_unlocks": [
-                    "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ตอร์ปิโดหุ้มเกราะ"
-                  ],
-                  "is_dangerous": false,
-                  "is_rare": false,
-                  "is_start_tech": false,
-                  "name": "ตอร์ปิโดหุ้มเกราะ",
-                  "prerequisites": [
-                    "tech_torpedoes_1"
-                  ],
-                  "tier": 3,
-                  "prerequisites_names": [
-                    {
-                      "name": "ตอร์ปิโดอวกาศ",
-                      "key": "tech_torpedoes_1"
-                    }
-                  ],
-                  "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มีจริยธรรม ชอบสงคราม ",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีจริยธรรม ชอบสงครามอย่างมาก ",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: ระบบขับเคลื่อน\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
-                  ],
-                  "potential": [],
-                  "children": [
-                    {
-                      "key": "tech_torpedoes_3",
-                      "area": "engineering",
-                      "base_factor": 1.0,
-                      "base_weight": 40.0,
-                      "category": "แรงขับดัน",
-                      "cost": 20000,
-                      "description": "Advanced torpedoes with very powerful warheads. They have a sleeker design, faster engines and upgraded shield modulators for slipping through energy screens.",
-                      "feature_unlocks": [
-                        "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ตอร์ปิโดทำลายล้าง"
-                      ],
-                      "is_dangerous": false,
-                      "is_rare": false,
-                      "is_start_tech": false,
-                      "name": "ตอร์ปิโดทำลายล้าง",
-                      "prerequisites": [
-                        "tech_torpedoes_2"
-                      ],
-                      "tier": 4,
-                      "prerequisites_names": [
-                        {
-                          "name": "ตอร์ปิโดหุ้มเกราะ",
-                          "key": "tech_torpedoes_2"
                         }
                       ],
                       "weight_modifiers": [
@@ -3800,7 +3829,7 @@
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : เหมืองแร่"
               ],
               "potential": [
-                "หนึ่งอย่างต้องเป็นจริง\n    •   ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน \n    •   มีรัฐบาลพลเมือง: เครื่องจักรรับใช้"
+                "หนึ่งอย่างต้องเป็นจริง\n    •   ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน \n    •   มีพลเมือง: เครื่องจักรรับใช้"
               ],
               "children": [
                 {
@@ -3839,7 +3868,7 @@
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : เหมืองแร่"
                   ],
                   "potential": [
-                    "หนึ่งอย่างต้องเป็นจริง\n    •   ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน \n    •   มีรัฐบาลพลเมือง: เครื่องจักรรับใช้"
+                    "หนึ่งอย่างต้องเป็นจริง\n    •   ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน \n    •   มีพลเมือง: เครื่องจักรรับใช้"
                   ],
                   "children": [],
                   "is_event": false,
@@ -4498,7 +4527,7 @@
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: อุตสาหกรรม\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
                   ],
                   "potential": [
-                    "หนึ่งอย่างต้องเป็นจริง\n    •   ไม่ มีระบอบการปกครอง สติปัญญาจักรกล \n    •   มีรัฐบาลพลเมือง: เครื่องดัดแปลงประชากร"
+                    "หนึ่งอย่างต้องเป็นจริง\n    •   ไม่ มีระบอบการปกครอง สติปัญญาจักรกล \n    •   มีพลเมือง: เครื่องดัดแปลงประชากร"
                   ],
                   "children": [],
                   "is_event": false,
@@ -5167,7 +5196,7 @@
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   เชี่ยวชาญ: การปกครอง\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
               ],
               "potential": [
-                "หนึ่งอย่างต้องเป็นจริง\n    •   ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน \n    •   มีรัฐบาลพลเมือง: เครื่องจักรรับใช้"
+                "หนึ่งอย่างต้องเป็นจริง\n    •   ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน \n    •   มีพลเมือง: เครื่องจักรรับใช้"
               ],
               "children": [],
               "is_event": false,
@@ -5201,7 +5230,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) มีรัฐบาลพลเมือง: ทำเกษตรกรรมตามธรรมชาติ",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) มีพลเมือง: ทำเกษตรกรรมตามธรรมชาติ",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (วิศวกรรม): \u003cbr/\u003e    •   เชี่ยวชาญ: อุตสาหกรรม\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
               ],
               "potential": [],
@@ -5286,6 +5315,7 @@
           "description": "The realization of faster-than-light travel is a new dawn for space exploration. Manned missions to other star systems are now not only possible, but necessary.",
           "feature_unlocks": [
             "\u003cb\u003eขนาดยาน\u003c/b\u003e: ยานวิจัยวิทยาศาสตร์",
+            "\u003cb\u003eฟีเจอร์ : \u003c/b\u003eเทคโนโลยีการวิจัยอัตโนมัติ",
             "\u003cb\u003eฟีเจอร์ : \u003c/b\u003eสำรวจอัตโนมัติ"
           ],
           "is_dangerous": false,
