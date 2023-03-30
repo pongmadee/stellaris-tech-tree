@@ -192,12 +192,12 @@
                           "cost": 48000,
                           "description": "Psi-Phase Field Generators focus the psionic potential of the ship\u0027s crew to partially phase the vessel into the Shroud. This allows the ship to remain undetected by all but the best sensor arrays, though what the crew may be forced to witness is better left unsaid.",
                           "feature_unlocks": [
-                            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Psi-Phase Field Generator"
+                            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e:  เครื่องกำเนิดสนามพลังพรางตัว"
                           ],
                           "is_dangerous": false,
                           "is_rare": true,
                           "is_start_tech": false,
-                          "name": "Psi-Phase Field Generator",
+                          "name": " เครื่องกำเนิดสนามพลังพรางตัว (พลังจิต)",
                           "prerequisites": [
                             "tech_psi_jump_drive_1"
                           ],
@@ -211,7 +211,7 @@
                           "weight_modifiers": [
                             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e\t    •   เชี่ยวชาญ: พลังจิต\u003cbr/\u003e    •   หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e\t    •   มีคุณลักษณะ: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e\t    •   มีคุณลักษณะ: ประกายแห่งความอัจฉริยะ\u003cbr/\u003e    •   หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e\t    •   มีคุณลักษณะ: คลั่งไคล้หลงใหล",
                             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์ :\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: Psi-Phase Field Generator",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์ :\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี:  เครื่องกำเนิดสนามพลังพรางตัว (พลังจิต)",
                             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e5.0\u003c/b\u003e) มี วัฒนธรรมการวางอุบาย "
                           ],
                           "potential": [
@@ -4705,7 +4705,7 @@
           "cost": 4000,
           "description": "This new field of studies focuses on the practical applications of ancient artifacts. We are far from being the first galactic civilization to tread these stars. With a bit of work, their legacies could secure our future.",
           "feature_unlocks": [
-            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Faculty of Archaeostudies"
+            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: คณะโบราณคดี"
           ],
           "is_dangerous": false,
           "is_rare": true,
@@ -4716,7 +4716,7 @@
           "prerequisites_names": [],
           "weight_modifiers": [
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   มีคุณลักษณะ: Expertise: Archaeostudies\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   เชี่ยวชาญ: การศึกษาโบราณคดี\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี DLC Ancient Relics Story Pack",
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.3\u003c/b\u003e) มีจำนวนโบราณสถาน น้อยกว่า 3 \u003cbr/\u003e    •   การขุดค้นโบราณสถานเสร็จสมบูรณ์",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   origin_shoulders_closure (country flag)\u003cbr/\u003e    •   เสร็จสิ้นการวิจัยจักรวรรดิแรกเริ่ม(พรีเคอร์เซอร์)"
@@ -4734,12 +4734,12 @@
               "cost": 12000,
               "description": "This millennia-old processing equipment has an efficiency rate above 100%. Its functioning remains alien, but its production gains are substantial.",
               "feature_unlocks": [
-                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Ancient Refinery"
+                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: โรงกลั่นโบราณ"
               ],
               "is_dangerous": false,
               "is_rare": true,
               "is_start_tech": false,
-              "name": "Ancient Refinery",
+              "name": "โรงกลั่นโบราณ",
               "prerequisites": [
                 "tech_archaeostudies"
               ],
@@ -4752,9 +4752,9 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   มีคุณลักษณะ: Expertise: Archaeostudies\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ประเภท Faculty of Archaeostudies น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.3\u003c/b\u003e) ไม่ มีการยกระดับ Archaeo-Engineers (สกิลพิเศษ)",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   เชี่ยวชาญ: การศึกษาโบราณคดี\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ชนิด คณะโบราณคดี น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.3\u003c/b\u003e) ไม่ มีการยกระดับ วิศวกรโบราณคดี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี DLC Ancient Relics Story Pack"
               ],
               "potential": [
@@ -4772,14 +4772,14 @@
               "cost": 12000,
               "description": "These cannons of gargantuan size deliver relatively slow but devastating projectiles, and can fire pretty much anything, from scrap metal, to asteroid chunks.",
               "feature_unlocks": [
-                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Large Ancient Macro Batteries",
-                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Small Ancient Macro Batteries",
-                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Medium Ancient Macro Batteries"
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ป้อมปืนใหญ่โบราณ ใหญ่",
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ป้อมปืนใหญ่โบราณ เล็ก",
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ป้อมปืนใหญ่โบราณ กลาง"
               ],
               "is_dangerous": false,
               "is_rare": true,
               "is_start_tech": false,
-              "name": "Ancient Macro Batteries",
+              "name": "ป้อมปืนใหญ่โบราณ",
               "prerequisites": [
                 "tech_archaeostudies"
               ],
@@ -4792,9 +4792,9 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   มีคุณลักษณะ: Expertise: Archaeostudies\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ประเภท Faculty of Archaeostudies น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.3\u003c/b\u003e) ไม่ มีการยกระดับ Archaeo-Engineers (สกิลพิเศษ)",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   เชี่ยวชาญ: การศึกษาโบราณคดี\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ชนิด คณะโบราณคดี น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.3\u003c/b\u003e) ไม่ มีการยกระดับ วิศวกรโบราณคดี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี DLC Ancient Relics Story Pack"
               ],
               "potential": [
@@ -4812,14 +4812,14 @@
               "cost": 12000,
               "description": "This high energy weapon causes brutal micro collapsing events on impact, generating tremendous heat and force inside its targets armor.",
               "feature_unlocks": [
-                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Large Ancient Cavitation Collapser",
-                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Small Ancient Cavitation Collapser",
-                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Medium Ancient Cavitation Collapser"
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เลเซอร์กัดกร่อนเนื้อโลหะโบราณ ใหญ่",
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เลเซอร์กัดกร่อนเนื้อโลหะโบราณ เล็ก",
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เลเซอร์กัดกร่อนเนื้อโลหะโบราณ กลาง"
               ],
               "is_dangerous": false,
               "is_rare": true,
               "is_start_tech": false,
-              "name": "Ancient Cavitation Collapser",
+              "name": "เลเซอร์กัดกร่อนเนื้อโลหะโบราณ",
               "prerequisites": [
                 "tech_archaeostudies"
               ],
@@ -4832,9 +4832,9 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   มีคุณลักษณะ: Expertise: Archaeostudies\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ประเภท Faculty of Archaeostudies น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.3\u003c/b\u003e) ไม่ มีการยกระดับ Archaeo-Engineers (สกิลพิเศษ)",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   เชี่ยวชาญ: การศึกษาโบราณคดี\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ชนิด คณะโบราณคดี น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.3\u003c/b\u003e) ไม่ มีการยกระดับ วิศวกรโบราณคดี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี DLC Ancient Relics Story Pack"
               ],
               "potential": [
@@ -4852,12 +4852,12 @@
               "cost": 12000,
               "description": "When it comes to tracking and shooting down missiles, these antique batteries are the best of the best, making use of a predictive algorithm written in long forgotten code to weave a fiery defensive web.",
               "feature_unlocks": [
-                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Ancient Defensive Web Slinger"
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ปืนป้องกันมิสไซล์โบราณ"
               ],
               "is_dangerous": false,
               "is_rare": true,
               "is_start_tech": false,
-              "name": "Ancient Defensive Web Slinger",
+              "name": "ปืนป้องกันมิสไซล์โบราณ",
               "prerequisites": [
                 "tech_archaeostudies"
               ],
@@ -4870,9 +4870,9 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   มีคุณลักษณะ: Expertise: Archaeostudies\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ประเภท Faculty of Archaeostudies น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.3\u003c/b\u003e) ไม่ มีการยกระดับ Archaeo-Engineers (สกิลพิเศษ)",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   เชี่ยวชาญ: การศึกษาโบราณคดี\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ชนิด คณะโบราณคดี น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.3\u003c/b\u003e) ไม่ มีการยกระดับ วิศวกรโบราณคดี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี DLC Ancient Relics Story Pack"
               ],
               "potential": [
@@ -4890,12 +4890,12 @@
               "cost": 12000,
               "description": "Particle charges, once stabilized thanks to ancient technology, allow us to create swarms of tiny missiles that still carry a respectable payload, and should be able to overwhelm most point-defense systems.",
               "feature_unlocks": [
-                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Ancient Nano-Missile Cloud Launcher"
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เครื่องยิงมิสไซล์นาโนโบราณ"
               ],
               "is_dangerous": false,
               "is_rare": true,
               "is_start_tech": false,
-              "name": "Ancient Nano-Missile Cloud Launcher",
+              "name": "เครื่องยิงมิสไซล์นาโนโบราณ",
               "prerequisites": [
                 "tech_archaeostudies"
               ],
@@ -4908,9 +4908,9 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   มีคุณลักษณะ: Expertise: Archaeostudies\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ประเภท Faculty of Archaeostudies น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.3\u003c/b\u003e) ไม่ มีการยกระดับ Archaeo-Engineers (สกิลพิเศษ)",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   เชี่ยวชาญ: การศึกษาโบราณคดี\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ชนิด คณะโบราณคดี น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.3\u003c/b\u003e) ไม่ มีการยกระดับ วิศวกรโบราณคดี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี DLC Ancient Relics Story Pack"
               ],
               "potential": [
@@ -4928,14 +4928,14 @@
               "cost": 12000,
               "description": "Ionized plates of armor can carry a reactive charge to alleviate the energy of impacts, using magnetic repulsion and field projection principles.",
               "feature_unlocks": [
-                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Large Ancient Pulse Armor",
-                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Medium Ancient Pulse Armor",
-                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Small Ancient Pulse Armor"
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เกราะพัลส์โบราณ กลาง",
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เกราะพัลส์โบราณ ใหญ่",
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เกราะพัลส์โบราณ เล็ก"
               ],
               "is_dangerous": false,
               "is_rare": true,
               "is_start_tech": false,
-              "name": "Ancient Pulse Armor",
+              "name": "เกราะพัลส์โบราณ",
               "prerequisites": [
                 "tech_archaeostudies"
               ],
@@ -4948,9 +4948,9 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   มีคุณลักษณะ: Expertise: Archaeostudies\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ประเภท Faculty of Archaeostudies น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.3\u003c/b\u003e) ไม่ มีการยกระดับ Archaeo-Engineers (สกิลพิเศษ)",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   เชี่ยวชาญ: การศึกษาโบราณคดี\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ชนิด คณะโบราณคดี น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.3\u003c/b\u003e) ไม่ มีการยกระดับ วิศวกรโบราณคดี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี DLC Ancient Relics Story Pack"
               ],
               "potential": [
@@ -4968,12 +4968,12 @@
               "cost": 12000,
               "description": "Defense platforms are a cost effective way to ensure our safety, but they need to be monitored from an operation center. Fortifying our Starbase to ensure its survivability in the event of an attack, and maximizing our capacity to network independent orbital defenses would give us more time to dispatch reinforcements.",
               "feature_unlocks": [
-                "\u003cb\u003eโมดูลในฐานอวกาศ\u003c/b\u003e: Ancient Rampart"
+                "\u003cb\u003eโมดูลในฐานอวกาศ\u003c/b\u003e: ป้อมป้องกันโบราณ"
               ],
               "is_dangerous": false,
               "is_rare": true,
               "is_start_tech": false,
-              "name": "Ancient Rampart",
+              "name": "ป้อมป้องกันโบราณ",
               "prerequisites": [
                 "tech_archaeostudies"
               ],
@@ -4986,9 +4986,9 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   มีคุณลักษณะ: Expertise: Archaeostudies\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ประเภท Faculty of Archaeostudies น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.3\u003c/b\u003e) ไม่ มีการยกระดับ Archaeo-Engineers (สกิลพิเศษ)",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   เชี่ยวชาญ: การศึกษาโบราณคดี\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ชนิด คณะโบราณคดี น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.3\u003c/b\u003e) ไม่ มีการยกระดับ วิศวกรโบราณคดี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี DLC Ancient Relics Story Pack"
               ],
               "potential": [
@@ -5006,12 +5006,12 @@
               "cost": 12000,
               "description": "Supercharging shields can be done safely thanks to ancient stabilizer coils and dampeners. In addition to the production of a stronger force field, this also has the added benefit of outright vaporizing certain incoming projectiles.",
               "feature_unlocks": [
-                "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: Ancient Shield Overcharger"
+                "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: โล่พลังงานโอเวอร์ชาร์จโบราณ"
               ],
               "is_dangerous": false,
               "is_rare": true,
               "is_start_tech": false,
-              "name": "Ancient Shield Overcharger",
+              "name": "โล่พลังงานโอเวอร์ชาร์จโบราณ",
               "prerequisites": [
                 "tech_archaeostudies"
               ],
@@ -5024,9 +5024,9 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   มีคุณลักษณะ: Expertise: Archaeostudies\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ประเภท Faculty of Archaeostudies น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.3\u003c/b\u003e) ไม่ มีการยกระดับ Archaeo-Engineers (สกิลพิเศษ)",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   เชี่ยวชาญ: การศึกษาโบราณคดี\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ชนิด คณะโบราณคดี น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.3\u003c/b\u003e) ไม่ มีการยกระดับ วิศวกรโบราณคดี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี DLC Ancient Relics Story Pack"
               ],
               "potential": [
@@ -5044,12 +5044,12 @@
               "cost": 12000,
               "description": "This cannon fires a barrage of ancient miniscule ionized spheres that charge upon contact with most force fields, giving them high levels of shield penetration. Any theory that these spheres could have been used for jewelry purposes were dismissed when a critical incident melted an entire laboratory.",
               "feature_unlocks": [
-                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Ancient Saturator Artillery"
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ปืนใหญ่เจาะโล่พลังงานโบราณ"
               ],
               "is_dangerous": false,
               "is_rare": true,
               "is_start_tech": false,
-              "name": "Ancient Saturator Artillery",
+              "name": "ปืนใหญ่เจาะโล่พลังงานโบราณ",
               "prerequisites": [
                 "tech_archaeostudies"
               ],
@@ -5062,9 +5062,9 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   มีคุณลักษณะ: Expertise: Archaeostudies\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ประเภท Faculty of Archaeostudies น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.3\u003c/b\u003e) ไม่ มีการยกระดับ Archaeo-Engineers (สกิลพิเศษ)",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   เชี่ยวชาญ: การศึกษาโบราณคดี\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ชนิด คณะโบราณคดี น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.3\u003c/b\u003e) ไม่ มีการยกระดับ วิศวกรโบราณคดี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี DLC Ancient Relics Story Pack"
               ],
               "potential": [
@@ -5082,12 +5082,12 @@
               "cost": 12000,
               "description": "These high velocity drones have been equipped with antique mining lasers that virtually ignore any plating protecting their target. A tech too good to be wasted on astro mining.",
               "feature_unlocks": [
-                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Ancient Driller Drones"
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: โดรนขุดเจาะโบราณ"
               ],
               "is_dangerous": false,
               "is_rare": true,
               "is_start_tech": false,
-              "name": "Ancient Driller Drones",
+              "name": "โดรนขุดเจาะโบราณ",
               "prerequisites": [
                 "tech_archaeostudies"
               ],
@@ -5100,9 +5100,9 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   มีคุณลักษณะ: Expertise: Archaeostudies\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ประเภท Faculty of Archaeostudies น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.3\u003c/b\u003e) ไม่ มีการยกระดับ Archaeo-Engineers (สกิลพิเศษ)",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   เชี่ยวชาญ: การศึกษาโบราณคดี\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ชนิด คณะโบราณคดี น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.3\u003c/b\u003e) ไม่ มีการยกระดับ วิศวกรโบราณคดี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี DLC Ancient Relics Story Pack"
               ],
               "potential": [
@@ -5120,14 +5120,14 @@
               "cost": 12000,
               "description": "Projected farther than regular shields, the suspension field technology uses ancient artifacts to slow time at the point of impact to afford the shields a longer opportunity to dispel the incoming attack\u0027s energy.",
               "feature_unlocks": [
-                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Small Ancient Suspension Field",
-                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Large Ancient Suspension Field",
-                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Medium Ancient Suspension Field"
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: สนามพลังหยุดความเสียหายชั่วคราวโบราณ เล็ก",
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: สนามพลังหยุดความเสียหายชั่วคราวโบราณ ใหญ่",
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: สนามพลังหยุดความเสียหายชั่วคราวโบราณ กลาง"
               ],
               "is_dangerous": false,
               "is_rare": true,
               "is_start_tech": false,
-              "name": "Ancient Suspension Field",
+              "name": "สนามพลังหยุดความเสียหายชั่วคราวโบราณ",
               "prerequisites": [
                 "tech_archaeostudies"
               ],
@@ -5140,9 +5140,9 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   มีคุณลักษณะ: Expertise: Archaeostudies\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ประเภท Faculty of Archaeostudies น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.3\u003c/b\u003e) ไม่ มีการยกระดับ Archaeo-Engineers (สกิลพิเศษ)",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   เชี่ยวชาญ: การศึกษาโบราณคดี\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ชนิด คณะโบราณคดี น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.3\u003c/b\u003e) ไม่ มีการยกระดับ วิศวกรโบราณคดี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี DLC Ancient Relics Story Pack"
               ],
               "potential": [
@@ -5160,12 +5160,12 @@
               "cost": 20000,
               "description": "Tremendous medium range firepower will enable our titans to break through enemy lines. These ancient cannons were once the foundation upon which a galactic empire was built.",
               "feature_unlocks": [
-                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Ancient Ruination Glare"
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ลำแสงหายนะโบราณ"
               ],
               "is_dangerous": false,
               "is_rare": true,
               "is_start_tech": false,
-              "name": "Ancient Ruination Glare",
+              "name": "ลำแสงหายนะโบราณ",
               "prerequisites": [
                 "tech_archaeostudies"
               ],
@@ -5178,9 +5178,9 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   มีคุณลักษณะ: Expertise: Archaeostudies\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ประเภท Faculty of Archaeostudies น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.3\u003c/b\u003e) ไม่ มีการยกระดับ Archaeo-Engineers (สกิลพิเศษ)",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   เชี่ยวชาญ: การศึกษาโบราณคดี\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ชนิด คณะโบราณคดี น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.3\u003c/b\u003e) ไม่ มีการยกระดับ วิศวกรโบราณคดี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี DLC Ancient Relics Story Pack"
               ],
               "potential": [
@@ -5198,12 +5198,12 @@
               "cost": 20000,
               "description": "Ping repetitors and optic diffusers with the right wavelengths can produce destructive interference and effectively scramble hostile targeting systems.",
               "feature_unlocks": [
-                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Ancient Target Scrambler"
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เครื่องส่งสัญญาณรบกวนเป้าหมายโบราณ"
               ],
               "is_dangerous": false,
               "is_rare": true,
               "is_start_tech": false,
-              "name": "Ancient Target Scrambler",
+              "name": "เครื่องส่งสัญญาณรบกวนเป้าหมายโบราณ",
               "prerequisites": [
                 "tech_archaeostudies"
               ],
@@ -5216,9 +5216,9 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   มีคุณลักษณะ: Expertise: Archaeostudies\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ประเภท Faculty of Archaeostudies น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.3\u003c/b\u003e) ไม่ มีการยกระดับ Archaeo-Engineers (สกิลพิเศษ)",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   เชี่ยวชาญ: การศึกษาโบราณคดี\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ชนิด คณะโบราณคดี น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.3\u003c/b\u003e) ไม่ มีการยกระดับ วิศวกรโบราณคดี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี DLC Ancient Relics Story Pack"
               ],
               "potential": [
@@ -5509,20 +5509,20 @@
           "cost": 48000,
           "description": "A colossal mind-wiping cannon, which unleashes a planet-wide wave of energy returning most sentient life to a pre-sapient state. Engineers estimate that with additional tuning, it might also be used to wipe clean memory banks and disable robotic units.",
           "feature_unlocks": [
-            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Devolving Beam"
+            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: คลื่นล้างความทรงจำ"
           ],
           "is_dangerous": false,
           "is_rare": true,
           "is_start_tech": false,
-          "name": "Devolving Beam",
+          "name": "คลื่นล้างความทรงจำ",
           "prerequisites": [],
           "tier": 5,
           "prerequisites_names": [],
           "weight_modifiers": [
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   มีคุณลักษณะ: Expertise: Archaeostudies\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
-            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ประเภท Faculty of Archaeostudies น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
-            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.3\u003c/b\u003e) ไม่ มีการยกระดับ Archaeo-Engineers (สกิลพิเศษ)",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หัวหน้าการวิจัย (สังคม): \u003cbr/\u003e    •   เชี่ยวชาญ: การศึกษาโบราณคดี\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ชนิด คณะโบราณคดี น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.3\u003c/b\u003e) ไม่ มีการยกระดับ วิศวกรโบราณคดี (สกิลพิเศษ)",
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี DLC Ancient Relics Story Pack"
           ],
           "potential": [

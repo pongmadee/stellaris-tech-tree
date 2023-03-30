@@ -154,7 +154,7 @@
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
-    "name": "Alien Topography",
+    "name": "ภูมิประเทศที่เหมาะสำหรับมนุษย์ต่างดาว",
     "prerequisites": [],
     "tier": 2,
     "prerequisites_names": [],
@@ -197,14 +197,14 @@
     "cost": 6000,
     "description": "Due to our vast experience operating observation stations in orbit of pre-FTL worlds, we have discovered slight optimizations. By implementing them empire-wide, we can drastically reduce the maintenance our stations require.",
     "feature_unlocks": [
-      "Resources from Orbital Stations +5%",
+      "ทรัพยากรจากสถานีวงโคจร +5%",
       "ทูตที่มี +0.25",
-      "Station Upkeep -50%"
+      "การบำรุงรักษาสถานี -50%"
     ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
-    "name": "Atmospheric Orbital Mechanics",
+    "name": "กลศาสตร์การโคจรบนชั้นบรรยากาศ",
     "prerequisites": [],
     "tier": 2,
     "prerequisites_names": [],
@@ -257,7 +257,7 @@
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
-    "name": "Compact Living",
+    "name": "การดำรงชีวิตแบบกะทัดรัด",
     "prerequisites": [],
     "tier": 2,
     "prerequisites_names": [],
@@ -628,7 +628,7 @@
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
-    "name": "Lost Building Methods",
+    "name": "วิธีการสร้างของคนยุคโบราณ",
     "prerequisites": [],
     "tier": 2,
     "prerequisites_names": [],
@@ -800,7 +800,7 @@
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
-    "name": "New Numbers",
+    "name": "ตัวเลขแบบใหม่",
     "prerequisites": [],
     "tier": 2,
     "prerequisites_names": [],
@@ -844,12 +844,12 @@
     "description": "While studying the victors of battles might be the most obvious way to gain insight from combat, observing the loser on pre-FTL worlds has taught us how to organize our withdraws more effectively.",
     "feature_unlocks": [
       "ทูตที่มี +0.25",
-      "Reduced time spent Missing In Action -15%"
+      "เวลาที่ใช้เมื่อสูญหายในระหว่างปฏิบัติภาระกิจลดลง -15%"
     ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
-    "name": "Ordered Retreat",
+    "name": "การออกคำสั่งถอย",
     "prerequisites": [],
     "tier": 2,
     "prerequisites_names": [],
@@ -874,7 +874,7 @@
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
-    "name": "Predatory Tactics",
+    "name": "กลยุทธ์นักล่า",
     "prerequisites": [],
     "tier": 2,
     "prerequisites_names": [],
@@ -1036,7 +1036,7 @@
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
-    "name": "Satisfying Insults",
+    "name": "เรียนรู้วิธีดูถูกในหลายภาษา",
     "prerequisites": [],
     "tier": 2,
     "prerequisites_names": [],
@@ -1079,12 +1079,12 @@
     "cost": 24000,
     "description": "The Baol Organism had a unique way of producing tools. Given the species\u0027 relative slowness, they would simply grow them out of organic matter in locations that were half orchard, half factory. With the proper genetic adjustments, we could also grow various commodities and tools alongside our regular crops.",
     "feature_unlocks": [
-      "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Baol Organic Plant"
+      "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: พืชมีชีวิต"
     ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
-    "name": "Baol Organic Plant",
+    "name": "พืชมีชีวิต (Baol)",
     "prerequisites": [],
     "tier": 4,
     "prerequisites_names": [],
@@ -1104,12 +1104,12 @@
     "cost": 24000,
     "description": "To build their ring world, the Cybrex relied on highly efficient mining drones to survey and harvest orbital resources. Cybrex-made memory chips and sensors could outfit our own mining drones, so that we might put their millennia old algorithms to good use.",
     "feature_unlocks": [
-      "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: Cybrex Mining Hub"
+      "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: ศูนย์กลางการขุดเหมือง"
     ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
-    "name": "Cybrex Mining Hub",
+    "name": "ศูนย์กลางการขุดเหมือง (Cybrex)",
     "prerequisites": [],
     "tier": 4,
     "prerequisites_names": [],
@@ -1129,12 +1129,12 @@
     "cost": 24000,
     "description": "The Irassian astronaval tradition was unmatched in their time. Their shipyards produced a constant stream of ships for their navy and merchant fleets, which would ultimately be their downfall. With so many ships, and such a high reliance on them, the Irassians were powerless to quarantine the disease that would claim their empire.",
     "feature_unlocks": [
-      "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: Irassian Naval Yards"
+      "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: อู่ต่อยาน"
     ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
-    "name": "Irassian Naval Yards",
+    "name": "อู่ต่อยาน (Irassian)",
     "prerequisites": [],
     "tier": 4,
     "prerequisites_names": [],
@@ -1154,12 +1154,12 @@
     "cost": 24000,
     "description": "The sprawling empire of the First League dwarfed our own at its peak, and relied on implacable bureaucracy to keep the wheels of the state in motion. The quantic filing arrays they used afforded them unprecedented efficiency in the sorting and storing of documents.",
     "feature_unlocks": [
-      "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: First League Filing Offices"
+      "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: สำนักงานจัดเก็บเอกสาร"
     ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
-    "name": "First League Filing Offices",
+    "name": "สำนักงานจัดเก็บเอกสาร (First League)",
     "prerequisites": [],
     "tier": 4,
     "prerequisites_names": [],
@@ -1179,12 +1179,12 @@
     "cost": 24000,
     "description": "The reality computers of the Vultaums were unique processing units, dedicated to analyzing existence itself, not quite through physics, but rather by trying to reverse engineer reality\u0027s source code and find the glitch that would finally allow the Vultaums to take down the simulation where they believed they lived.",
     "feature_unlocks": [
-      "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Vultaum Reality Computer"
+      "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: คอมพิวเตอร์แห่งความเป็นจริง"
     ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
-    "name": "Vultaum Reality Computer",
+    "name": "คอมพิวเตอร์แห่งความเป็นจริง (Vultaum)",
     "prerequisites": [],
     "tier": 4,
     "prerequisites_names": [],
@@ -1204,12 +1204,12 @@
     "cost": 24000,
     "description": "The Yuht were a paradoxical society, obsessed with the idea of finding other sentient species, yet refusing to accept that they were not alone. They were so focused on disproving any claim of alien life, that their bias found a way into their technology. However, with the proper modifications and calibrations, we could certainly fix their powerful detection arrays.",
     "feature_unlocks": [
-      "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: Yuht Astronomical Interferometer"
+      "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: เครื่องมือตรวจจับคลื่นในอวกาศ"
     ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
-    "name": "Yuht Astronomical Interferometer",
+    "name": "เครื่องมือตรวจจับคลื่นในอวกาศ (Yuht)",
     "prerequisites": [],
     "tier": 4,
     "prerequisites_names": [],
@@ -1229,12 +1229,12 @@
     "cost": 24000,
     "description": "Zro is a fascinating element, prone to chaotic bursts of energy. We believe that with the right artifacts, we could use it to fuel spatial storms over entire solar systems.",
     "feature_unlocks": [
-      "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: Zroni Storm Caster"
+      "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: สตอร์มแคสเตอร์"
     ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
-    "name": "Zroni Storm Caster",
+    "name": "สตอร์มแคสเตอร์ (Zroni)",
     "prerequisites": [],
     "tier": 4,
     "prerequisites_names": [],
@@ -1300,13 +1300,13 @@
     "cost": 1000,
     "description": "An insight borne of a desperate desire to leave our home, these Subspace Drive engines were designed to facilitate limited interstellar travel. While only allowing small-scale jumps, they provide a unique opportunity to jumpstart our galactic exploration.",
     "feature_unlocks": [
-      "\u003cb\u003eฟีเจอร์ : \u003c/b\u003eการเดินทางแบบกระโดดข้าม (จั้มไดร์ฟ)",
-      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Subspace Drive"
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ระบบขับเคลื่อนในทางลัดอวกาศ",
+      "\u003cb\u003eฟีเจอร์ : \u003c/b\u003eการเดินทางแบบกระโดดข้าม (จั้มไดร์ฟ)"
     ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
-    "name": "Subspace Drive",
+    "name": "ระบบขับเคลื่อนในทางลัดอวกาศ",
     "prerequisites": [],
     "tier": 0,
     "prerequisites_names": [],
@@ -1332,7 +1332,7 @@
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
-    "name": "Supreme Alloy",
+    "name": "โลหะผสมขั้นสูงสุด",
     "prerequisites": [],
     "tier": 2,
     "prerequisites_names": [],
@@ -1375,13 +1375,13 @@
     "cost": 6000,
     "description": "Transportation networks bring people together: a sentiment shared by many civilization we observed. While we do not have steam engines, our hyper relay networks could serve a similar purpose.",
     "feature_unlocks": [
-      "Monthly £unity£ Unity from ไฮเปอร์รีเลย์ +3",
-      "ทูตที่มี +0.25"
+      "ทูตที่มี +0.25",
+      "£unity£ เอกภาพจาก ไฮเปอร์รีเลย์ ต่อเดือน +3"
     ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
-    "name": "Temple of Transportation",
+    "name": "วิหารแห่งการขนส่ง",
     "prerequisites": [],
     "tier": 2,
     "prerequisites_names": [],
@@ -1408,7 +1408,7 @@
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
-    "name": "Trinary Computing",
+    "name": "การคำนวณแบบไตรนารี",
     "prerequisites": [],
     "tier": 2,
     "prerequisites_names": [],
@@ -1433,7 +1433,7 @@
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
-    "name": "Unusual Senses",
+    "name": "ความรู้สึกที่ผิดปกติ",
     "prerequisites": [],
     "tier": 2,
     "prerequisites_names": [],
@@ -1453,13 +1453,13 @@
     "cost": 6000,
     "description": "After analyzing a multitude of artists from drastically different cultures, we have come up with a general theorem. By studying a civilization\u0027s art and culture, we can gain an advantage against them in combat.",
     "feature_unlocks": [
-      "Damage to Rivals +10%",
+      "ทำความเสียหายกับคู่แข่ง +10%",
       "ทูตที่มี +0.5"
     ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
-    "name": "Xeno-Aesthetics",
+    "name": "การศึกษาสุนทรียศาสตร์ของชาวต่างดาว",
     "prerequisites": [],
     "tier": 2,
     "prerequisites_names": [],

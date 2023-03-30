@@ -320,13 +320,13 @@
                   "cost": 6000,
                   "description": "A modified particle field allows our vessels to effectively \u0027hide\u0027 in open space. However, this comes at the cost of destabilizing other forms of energy shielding which would otherwise protect the ship.",
                   "feature_unlocks": [
-                    "\u003cb\u003eฟีเจอร์ : \u003c/b\u003eActive Reconnaissance",
-                    "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Basic Cloaking Field Generator"
+                    "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เครื่องกำเนิดสนามพลัง B.C. Field",
+                    "\u003cb\u003eฟีเจอร์ : \u003c/b\u003eเปิดใช้งานการสอดแนม"
                   ],
                   "is_dangerous": false,
                   "is_rare": true,
                   "is_start_tech": false,
-                  "name": "Basic Cloaking Fields",
+                  "name": "สนามพลัง B.C. Field (พรางตัว)",
                   "prerequisites": [
                     "tech_shields_2"
                   ],
@@ -338,9 +338,9 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   เชี่ยวชาญ: การควบคุมสนามพลัง\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   มีคุณลักษณะ: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   มีคุณลักษณะ: Cunning\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   เชี่ยวชาญ: การควบคุมสนามพลัง\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   มีคุณลักษณะ: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   มีคุณลักษณะ: เจ้าเล่ห์\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์ :\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: Basic Cloaking Fields",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์ :\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: สนามพลัง B.C. Field (พรางตัว)",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e5.0\u003c/b\u003e) มี วัฒนธรรมการวางอุบาย "
                   ],
                   "potential": [
@@ -356,12 +356,12 @@
                       "cost": 12000,
                       "description": "Advancements in rare crystal lensing technology have greatly improved cloaking efficiency.",
                       "feature_unlocks": [
-                        "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Advanced Cloaking Field Generator"
+                        "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เครื่องกำเนิดสนามพลัง A.C. Field"
                       ],
                       "is_dangerous": false,
                       "is_rare": true,
                       "is_start_tech": false,
-                      "name": "Advanced Cloaking Fields",
+                      "name": "สนามพลัง A.C. Field (พรางตัว)",
                       "prerequisites": [
                         "tech_cloaking_1",
                         "tech_shields_3"
@@ -369,7 +369,7 @@
                       "tier": 3,
                       "prerequisites_names": [
                         {
-                          "name": "Basic Cloaking Fields",
+                          "name": "สนามพลัง B.C. Field (พรางตัว)",
                           "key": "tech_cloaking_1"
                         },
                         {
@@ -378,9 +378,9 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   เชี่ยวชาญ: การควบคุมสนามพลัง\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   มีคุณลักษณะ: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   มีคุณลักษณะ: Cunning\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   เชี่ยวชาญ: การควบคุมสนามพลัง\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   มีคุณลักษณะ: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   มีคุณลักษณะ: เจ้าเล่ห์\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์ :\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: Advanced Cloaking Fields",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์ :\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: สนามพลัง A.C. Field (พรางตัว)",
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e5.0\u003c/b\u003e) มี วัฒนธรรมการวางอุบาย "
                       ],
                       "potential": [
@@ -396,12 +396,12 @@
                           "cost": 24000,
                           "description": "Typical cloaking technology can play havoc with a ship\u0027s more delicate instruments. However, these elite fields render such concerns obsolete.",
                           "feature_unlocks": [
-                            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Elite Cloaking Field Generator"
+                            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เครื่องกำเนิดสนามพลัง E.C. Field"
                           ],
                           "is_dangerous": false,
                           "is_rare": true,
                           "is_start_tech": false,
-                          "name": "Elite Cloaking Fields",
+                          "name": "สนามพลัง E.C. Field (พรางตัว)",
                           "prerequisites": [
                             "tech_cloaking_2",
                             "tech_shields_4"
@@ -409,7 +409,7 @@
                           "tier": 4,
                           "prerequisites_names": [
                             {
-                              "name": "Advanced Cloaking Fields",
+                              "name": "สนามพลัง A.C. Field (พรางตัว)",
                               "key": "tech_cloaking_2"
                             },
                             {
@@ -418,9 +418,9 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   เชี่ยวชาญ: การควบคุมสนามพลัง\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   มีคุณลักษณะ: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   มีคุณลักษณะ: Cunning\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   เชี่ยวชาญ: การควบคุมสนามพลัง\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   มีคุณลักษณะ: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   มีคุณลักษณะ: เจ้าเล่ห์\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
                             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์ :\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: Elite Cloaking Fields",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์ :\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: สนามพลัง E.C. Field (พรางตัว)",
                             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e5.0\u003c/b\u003e) มี วัฒนธรรมการวางอุบาย "
                           ],
                           "potential": [
@@ -436,12 +436,12 @@
                               "cost": 50000,
                               "description": "This device uses dark matter to warp space-time around the vessel, making it incredibly difficult to detect.",
                               "feature_unlocks": [
-                                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Dark Matter Cloaking Field Generator"
+                                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เครื่องกำเนิดสนามพลัง D.M.C. Field"
                               ],
                               "is_dangerous": false,
                               "is_rare": true,
                               "is_start_tech": false,
-                              "name": "Dark Matter Cloaking Fields",
+                              "name": "สนามพลัง D.M.C. Field (พรางตัว)",
                               "prerequisites": [
                                 "tech_cloaking_3",
                                 "tech_dark_matter_deflector"
@@ -453,14 +453,14 @@
                                   "key": "tech_dark_matter_deflector"
                                 },
                                 {
-                                  "name": "Elite Cloaking Fields",
+                                  "name": "สนามพลัง E.C. Field (พรางตัว)",
                                   "key": "tech_cloaking_3"
                                 }
                               ],
                               "weight_modifiers": [
-                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   เชี่ยวชาญ: การควบคุมสนามพลัง\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   มีคุณลักษณะ: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   มีคุณลักษณะ: Cunning\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   เชี่ยวชาญ: การควบคุมสนามพลัง\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   มีคุณลักษณะ: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   มีคุณลักษณะ: เจ้าเล่ห์\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
                                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์ :\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: Dark Matter Cloaking Fields",
+                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์ :\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: สนามพลัง D.M.C. Field (พรางตัว)",
                                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e5.0\u003c/b\u003e) มี วัฒนธรรมการวางอุบาย "
                               ],
                               "potential": [],
@@ -3446,12 +3446,12 @@
               "cost": 6000,
               "description": "A high-powered suite of external sensors, capable of detecting cloaked fleets.\n",
               "feature_unlocks": [
-                "\u003cb\u003eโมดูลในฐานอวกาศ\u003c/b\u003e: Detection Array"
+                "\u003cb\u003eโมดูลในฐานอวกาศ\u003c/b\u003e: เซ็นเซอร์ตรวจจับยานพรางตัว"
               ],
               "is_dangerous": false,
               "is_rare": true,
               "is_start_tech": false,
-              "name": "Detection Array",
+              "name": "เซ็นเซอร์ตรวจจับยานพรางตัว",
               "prerequisites": [
                 "tech_sensors_2"
               ],
@@ -3463,9 +3463,9 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   เชี่ยวชาญ: การคำนวณ\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   มีคุณลักษณะ: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   มีคุณลักษณะ: Cunning\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   เชี่ยวชาญ: การคำนวณ\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   มีคุณลักษณะ: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   มีคุณลักษณะ: เจ้าเล่ห์\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์ :\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: Detection Array",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์ :\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: เซ็นเซอร์ตรวจจับยานพรางตัว",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e5.0\u003c/b\u003e) มี วัฒนธรรมการวางอุบาย "
               ],
               "potential": [
@@ -3481,12 +3481,12 @@
                   "cost": 48000,
                   "description": "Dark matter resonance chambers will significantly improve the performance of our detection arrays.",
                   "feature_unlocks": [
-                    "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: Dark Matter Resonance Chamber"
+                    "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: ห้องเรโซแนนซ์สสารมืด"
                   ],
                   "is_dangerous": false,
                   "is_rare": true,
                   "is_start_tech": false,
-                  "name": "Dark Matter Detection",
+                  "name": "เซ็นเซอร์ตรวจจับสสารมืด",
                   "prerequisites": [
                     "tech_detection_array",
                     "tech_mine_dark_matter"
@@ -3494,7 +3494,7 @@
                   "tier": 5,
                   "prerequisites_names": [
                     {
-                      "name": "Detection Array",
+                      "name": "เซ็นเซอร์ตรวจจับยานพรางตัว",
                       "key": "tech_detection_array"
                     },
                     {
@@ -3503,9 +3503,9 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   เชี่ยวชาญ: อนุภาค\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   มีคุณลักษณะ: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   มีคุณลักษณะ: Cunning\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   เชี่ยวชาญ: อนุภาค\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   มีคุณลักษณะ: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   มีคุณลักษณะ: เจ้าเล่ห์\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์ :\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: Dark Matter Detection",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์ :\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: เซ็นเซอร์ตรวจจับสสารมืด",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e5.0\u003c/b\u003e) มี วัฒนธรรมการวางอุบาย "
                   ],
                   "potential": [
@@ -3523,12 +3523,12 @@
                   "cost": 6000,
                   "description": "Coupling detection arrays with the computers onboard our science vessels can vastly increase their scanning resolution.",
                   "feature_unlocks": [
-                    "\u003cb\u003eฟีเจอร์ : \u003c/b\u003eAssist Cloaking Detection"
+                    "\u003cb\u003eฟีเจอร์ : \u003c/b\u003eตรวจจับการพรางตัว"
                   ],
                   "is_dangerous": false,
                   "is_rare": true,
                   "is_start_tech": false,
-                  "name": "Advanced Detection Algorithms",
+                  "name": "อัลกอริทึมตรวจจับขั้นสูง",
                   "prerequisites": [
                     "tech_detection_array",
                     "tech_physics_2"
@@ -3536,7 +3536,7 @@
                   "tier": 2,
                   "prerequisites_names": [
                     {
-                      "name": "Detection Array",
+                      "name": "เซ็นเซอร์ตรวจจับยานพรางตัว",
                       "key": "tech_detection_array"
                     },
                     {
@@ -3545,9 +3545,9 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   เชี่ยวชาญ: การคำนวณ\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   มีคุณลักษณะ: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   มีคุณลักษณะ: Cunning\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   เชี่ยวชาญ: การคำนวณ\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   มีคุณลักษณะ: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   หัวหน้าการวิจัย (ฟิสิกส์): \u003cbr/\u003e\t    •   มีคุณลักษณะ: เจ้าเล่ห์\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์ :\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: Detection Array",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์ :\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: เซ็นเซอร์ตรวจจับยานพรางตัว",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e5.0\u003c/b\u003e) มี วัฒนธรรมการวางอุบาย "
                   ],
                   "potential": [
