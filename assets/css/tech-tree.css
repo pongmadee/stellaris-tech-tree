@@ -319,6 +319,13 @@ pre {
     font-weight: bold;
 }
 
+.tech-name {
+    position: relative;
+    top: 3px;
+    width: 100%;
+    font-weight: bold;
+}
+
 .tech.society {
     border-color: #5ACA9C;
     background-image: url("tech_bg_society.png");
