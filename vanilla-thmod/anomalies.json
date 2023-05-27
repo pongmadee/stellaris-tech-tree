@@ -482,7 +482,7 @@
     "tier": 5,
     "prerequisites_names": [
       {
-        "name": "วิศวกรรมขนาดใหญ่",
+        "name": "วิศวกรรมขนาดมหึมา",
         "key": "tech_mega_engineering"
       }
     ],
@@ -658,7 +658,7 @@
     "tier": 5,
     "prerequisites_names": [
       {
-        "name": "วิศวกรรมขนาดใหญ่",
+        "name": "วิศวกรรมขนาดมหึมา",
         "key": "tech_mega_engineering"
       }
     ],
@@ -676,7 +676,7 @@
     "base_weight": 0.0,
     "category": "อนุภาค",
     "cost": 5000,
-    "description": "Using strong-focus lenses in combination with an oscillating firing frequence help create lasers strong enough to mine asteroids, or shoot down hostiles.",
+    "description": "Using intense-focus lenses in combination with an oscillating firing frequency help create lasers strong enough to mine asteroids, or shoot down hostiles.",
     "feature_unlocks": [
       "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เลเซอร์ตัด"
     ],
@@ -770,8 +770,8 @@
     "cost": 20000,
     "description": "When tailored to a species\u0027 genome, this form of tissue engineering has intensive neuroregenerative properties, significantly increasing the development of neurons, axons, and synapses in its recipient.",
     "feature_unlocks": [
-      "ผู้นำ(เผ่าพันธุ์) ได้รับค่าประสบการณ์ +25%",
-      "เลเวลผู้นำสูงสุด +1"
+      "อายุขัยผู้นำ +10",
+      "ผู้นำ(เผ่าพันธุ์) ได้รับค่าประสบการณ์ +25%"
     ],
     "is_dangerous": false,
     "is_rare": true,
@@ -844,7 +844,7 @@
     "description": "While studying the victors of battles might be the most obvious way to gain insight from combat, observing the loser on pre-FTL worlds has taught us how to organize our withdraws more effectively.",
     "feature_unlocks": [
       "ทูตที่มี +0.25",
-      "เวลาที่ใช้เมื่อสูญหายในระหว่างปฏิบัติภาระกิจลดลง -15%"
+      "เวลาที่ใช้เมื่อสูญหายในระหว่างปฏิบัติภาระกิจ -15%"
     ],
     "is_dangerous": false,
     "is_rare": false,
@@ -1010,7 +1010,7 @@
     "tier": 5,
     "prerequisites_names": [
       {
-        "name": "วิศวกรรมขนาดใหญ่",
+        "name": "วิศวกรรมขนาดมหึมา",
         "key": "tech_mega_engineering"
       }
     ],
@@ -1292,6 +1292,31 @@
     "is_event": true
   },
   {
+    "key": "tech_strike_craft_skrand",
+    "area": "engineering",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "ยานอวกาศ",
+    "cost": 24000,
+    "description": "Learning from the design expertise of Skrand and his people, these superior strike craft are capable of prolonged engagement and highly adaptive tactics.",
+    "feature_unlocks": [
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ยานรบ Skravird"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "ยานรบ Skravird",
+    "prerequisites": [],
+    "tier": 4,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "มี DLC Galactic Paragons "
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
     "key": "tech_subspace_drive",
     "area": "physics",
     "base_factor": 1.0,
@@ -1469,5 +1494,39 @@
     ],
     "children": [],
     "is_event": true
+  },
+  {
+    "key": "tech_xeno_linguistics",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "การปกครอง",
+    "cost": 2500,
+    "description": "Given recent encounters with intelligent races, it is essential that we improve our xeno-linguistic capabilities.",
+    "feature_unlocks": [
+      "\u003cfont color\u003d\"yellow\"\u003eCustom Tooltip\u003c/font\u003e:  ",
+      "ความเร็วในการค้นพบการติดต่อแรก +20%",
+      "แสดงเฉพาะ \u003cfont color\u003d\"yellow\"\u003eCustom Tooltip\u003c/font\u003e:  ไม่",
+      "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: สำนักงานสรรหาและคัดเลือกระหว่างดวงดาว"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "ภาษาศาสตร์-ต่างดาว",
+    "prerequisites": [],
+    "tier": 1,
+    "prerequisites_names": [],
+    "weight_modifiers": [
+      "(+\u003cb style\u003d\u0027color:lime\u0027\u003e1.0\u003c/b\u003e) ทั้งหมดต้องเป็นจริง\u003cbr/\u003e    •   เงื่อนไข: \u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   เป็นจักรวรรดิประเภท: default\u003cbr/\u003e\t\t    •   เป็นจักรวรรดิประเภท: จักรวรรดิเก่าแก่ทรงพลัง\u003cbr/\u003e\t\t    •   เป็นจักรวรรดิประเภท: จักรวรรดิฟอลเล็น (สถานะ: ตื่นขึ้น)\u003cbr/\u003e\t    •   ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน \u003cbr/\u003e    •   ไม่เป็นพวกต้องการที่จะฆ่า\u003cbr/\u003e    •   ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน \u003cbr/\u003e    •   perc_communications_with_playable\u003e0"
+    ],
+    "potential": [
+      "มี DLC Galactic Paragons ",
+      "เงื่อนไข: \n    •   หนึ่งอย่างต้องเป็นจริง\n\t    •   เป็นจักรวรรดิประเภท: default\n\t    •   เป็นจักรวรรดิประเภท: จักรวรรดิเก่าแก่ทรงพลัง\n\t    •   เป็นจักรวรรดิประเภท: จักรวรรดิฟอลเล็น (สถานะ: ตื่นขึ้น)\n    •   ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน ",
+      "ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน ",
+      "ไม่เป็นพวกต้องการที่จะฆ่า"
+    ],
+    "children": [],
+    "is_event": true,
+    "is_gestalt": false
   }
 ]
