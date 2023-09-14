@@ -77,7 +77,7 @@
         "feature_unlocks": [
           "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: วัตถุจัดตำแหน่งโอเมก้า"
         ],
-        "is_dangerous": false,
+        "is_dangerous": true,
         "is_rare": true,
         "is_start_tech": false,
         "name": "ทฤษฎีโอเมก้า",
@@ -115,7 +115,7 @@
     "feature_unlocks": [
       "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: วัตถุจัดตำแหน่งโอเมก้า"
     ],
-    "is_dangerous": false,
+    "is_dangerous": true,
     "is_rare": true,
     "is_start_tech": false,
     "name": "ทฤษฎีโอเมก้า",
@@ -558,9 +558,9 @@
     "tier": 5,
     "prerequisites_names": [],
     "weight_modifiers": [
-      "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มีการปรับเปลี่ยน Covenant: End of the Cycle",
+      "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มีการปรับเปลี่ยน พันธสัญญา: จุดสิ้นสุดของวัฏจักร",
       "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-      "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์ :\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: อาวุธต่างมิติ"
+      "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์:\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: อาวุธต่างมิติ"
     ],
     "potential": [],
     "children": [],
@@ -598,7 +598,7 @@
     "cost": 12000,
     "description": "The L-Gates defy our current understanding of subspace mechanics. This must be remedied before they can be opened for travel.",
     "feature_unlocks": [],
-    "is_dangerous": false,
+    "is_dangerous": true,
     "is_rare": true,
     "is_start_tech": false,
     "name": "การเปิดใช้งาน L-Gate",
@@ -998,12 +998,12 @@
     "base_weight": 0.0,
     "category": "ยานอวกาศ",
     "cost": 48000,
-    "description": "A โลกวงแหวน / พิภพวงแหวน allows for multiple planet-like zones, cannibalizing all other planets in the system for materials.",
+    "description": "A วงแหวนเซ็กเมนต์ allows for multiple planet-like zones, cannibalizing all other planets in the system for materials.",
     "feature_unlocks": [],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
-    "name": "โลกวงแหวน / พิภพวงแหวน",
+    "name": "วงแหวนเซ็กเมนต์",
     "prerequisites": [
       "tech_mega_engineering"
     ],
@@ -1352,7 +1352,7 @@
     "description": "What we thought was the greatest alloy turned out to be far from the truth. Countless pre-FTL refining processes have been cataloged, and we have now synthesized an unbeatable metal.",
     "feature_unlocks": [
       "ทูตที่มี +0.25",
-      "£alloys£ โลหะผสมจาก £job_foundry£ นักโลหะวิทยา +50%"
+      "TODO:modifier +50%"
     ],
     "is_dangerous": false,
     "is_rare": false,
@@ -1517,11 +1517,11 @@
     "tier": 1,
     "prerequisites_names": [],
     "weight_modifiers": [
-      "(+\u003cb style\u003d\u0027color:lime\u0027\u003e1.0\u003c/b\u003e) ทั้งหมดต้องเป็นจริง\u003cbr/\u003e    •   เงื่อนไข: \u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   เป็นจักรวรรดิประเภท: default\u003cbr/\u003e\t\t    •   เป็นจักรวรรดิประเภท: จักรวรรดิเก่าแก่ทรงพลัง\u003cbr/\u003e\t\t    •   เป็นจักรวรรดิประเภท: จักรวรรดิฟอลเล็น (สถานะ: ตื่นขึ้น)\u003cbr/\u003e\t    •   ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน \u003cbr/\u003e    •   ไม่เป็นพวกต้องการที่จะฆ่า\u003cbr/\u003e    •   ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน \u003cbr/\u003e    •   perc_communications_with_playable\u003e0"
+      "(+\u003cb style\u003d\u0027color:lime\u0027\u003e1.0\u003c/b\u003e) ทั้งหมดต้องเป็นจริง\u003cbr/\u003e    •   เงื่อนไข: \u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   เป็นจักรวรรดิประเภท: default\u003cbr/\u003e\t\t    •   เป็นจักรวรรดิประเภท: awakened_marauders\u003cbr/\u003e\t\t    •   เป็นจักรวรรดิประเภท: จักรวรรดิเก่าแก่ทรงพลัง\u003cbr/\u003e\t\t    •   เป็นจักรวรรดิประเภท: จักรวรรดิฟอลเล็น (สถานะ: ตื่นขึ้น)\u003cbr/\u003e\t    •   ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน \u003cbr/\u003e    •   ไม่เป็นพวกต้องการที่จะฆ่า\u003cbr/\u003e    •   ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน \u003cbr/\u003e    •   perc_communications_with_playable\u003e0"
     ],
     "potential": [
       "มี DLC Galactic Paragons ",
-      "เงื่อนไข: \n    •   หนึ่งอย่างต้องเป็นจริง\n\t    •   เป็นจักรวรรดิประเภท: default\n\t    •   เป็นจักรวรรดิประเภท: จักรวรรดิเก่าแก่ทรงพลัง\n\t    •   เป็นจักรวรรดิประเภท: จักรวรรดิฟอลเล็น (สถานะ: ตื่นขึ้น)\n    •   ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน ",
+      "เงื่อนไข: \n    •   หนึ่งอย่างต้องเป็นจริง\n\t    •   เป็นจักรวรรดิประเภท: default\n\t    •   เป็นจักรวรรดิประเภท: awakened_marauders\n\t    •   เป็นจักรวรรดิประเภท: จักรวรรดิเก่าแก่ทรงพลัง\n\t    •   เป็นจักรวรรดิประเภท: จักรวรรดิฟอลเล็น (สถานะ: ตื่นขึ้น)\n    •   ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน ",
       "ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน ",
       "ไม่เป็นพวกต้องการที่จะฆ่า"
     ],
