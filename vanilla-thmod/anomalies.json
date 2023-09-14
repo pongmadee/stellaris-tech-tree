@@ -1352,7 +1352,7 @@
     "description": "What we thought was the greatest alloy turned out to be far from the truth. Countless pre-FTL refining processes have been cataloged, and we have now synthesized an unbeatable metal.",
     "feature_unlocks": [
       "ทูตที่มี +0.25",
-      "TODO:modifier +50%"
+      "£alloys£ โลหะผสมจาก £job_foundry£ นักโลหะวิทยา +50%"
     ],
     "is_dangerous": false,
     "is_rare": false,

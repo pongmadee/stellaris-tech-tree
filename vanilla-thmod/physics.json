@@ -55,7 +55,7 @@
               "description": "Modulated fields allow for increased production and improved energy yield.",
               "feature_unlocks": [
                 "£energy£ พลังงานจากสิ่งปลูกสร้างในฐานอวกาศ +10%",
-                "TODO:modifier +20%"
+                "£energy£ เครดิตพลังงานจาก £job_technician£ ช่างเทคนิค +20%"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -86,7 +86,7 @@
                   "description": "Basic entanglement principles applied to energy generation provide a substantial increase in energy output.",
                   "feature_unlocks": [
                     "£energy£ พลังงานจากสิ่งปลูกสร้างในฐานอวกาศ +10%",
-                    "TODO:modifier +20%"
+                    "£energy£ เครดิตพลังงานจาก £job_technician£ ช่างเทคนิค +20%"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -117,7 +117,7 @@
                       "description": "Quantum superposition of energy coils, simultaneously drained and charged.",
                       "feature_unlocks": [
                         "£energy£ พลังงานจากสิ่งปลูกสร้างในฐานอวกาศ +10%",
-                        "TODO:modifier +20%"
+                        "£energy£ เครดิตพลังงานจาก £job_technician£ ช่างเทคนิค +20%"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -2437,7 +2437,7 @@
                   "cost": 4000,
                   "description": "Basic administrative AIs can be used to streamline supply and demand lines, reducing waste.",
                   "feature_unlocks": [
-                    "TODO:modifier +10%"
+                    "£job_artisan£ ผลิตผล ช่างฝีมือ +10%"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -2472,7 +2472,7 @@
                       "cost": 16000,
                       "description": "Using advanced AIs, we can reliably predict consumer demand before it exists.",
                       "feature_unlocks": [
-                        "TODO:modifier +10%"
+                        "£job_artisan£ ผลิตผล ช่างฝีมือ +10%"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -2962,7 +2962,7 @@
           "cost": 2000,
           "description": "Exploring the mediation of fundamental forces through subatomic particles.",
           "feature_unlocks": [
-            "TODO:modifier +20%"
+            "£physics£ การวิจัยฟิสิกส์จาก £job_researcher£ นักวิจัย +20%"
           ],
           "is_dangerous": false,
           "is_rare": false,
@@ -3225,7 +3225,7 @@
               "cost": 6000,
               "description": "The seemingly erratic behavior of tiny things can dramatically alter the way we think about bigger things.",
               "feature_unlocks": [
-                "TODO:modifier +20%"
+                "£physics£ การวิจัยฟิสิกส์จาก £job_researcher£ นักวิจัย +20%"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -3259,7 +3259,7 @@
                   "cost": 20000,
                   "description": "Three dimensions, inextricable from the fourth.",
                   "feature_unlocks": [
-                    "TODO:modifier +20%"
+                    "£physics£ การวิจัยฟิสิกส์จาก £job_researcher£ นักวิจัย +20%"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,

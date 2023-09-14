@@ -304,7 +304,7 @@
               "cost": 2000,
               "description": "Farming techniques can be further refined through sophisticated computer simulations of different environments and weather patterns. This allows for more predictable crop yields.",
               "feature_unlocks": [
-                "TODO:modifier +20%",
+                "£food£ อาหารจาก £job_farmer£ เกษตรกร +20%",
                 "£food£ อาหารจากสิ่งปลูกสร้างในฐานอวกาศ +10%"
               ],
               "is_dangerous": false,
@@ -414,7 +414,7 @@
                   "description": "Sophisticated genetic engineering of crops helps increase yield and further improves both taste and nutrient levels.",
                   "feature_unlocks": [
                     "\u003cb\u003eประกาศคำสั่ง\u003c/b\u003e: ความอุดมสมบูรณ์ด้านอาหาร",
-                    "TODO:modifier +20%",
+                    "£food£ อาหารจาก £job_farmer£ เกษตรกร +20%",
                     "£food£ อาหารจากสิ่งปลูกสร้างในฐานอวกาศ +10%",
                     "\u003cb\u003eประกาศคำสั่ง\u003c/b\u003e: โครงการขยายพันธุ์"
                   ],
@@ -450,7 +450,7 @@
                       "cost": 8000,
                       "description": "Infusing crop strands with small amounts of nano-machines help create a type of produce that is ultra resilient, and the chemical composition of which can be tailored and altered during its entire lifetime.",
                       "feature_unlocks": [
-                        "TODO:modifier +20%",
+                        "£food£ อาหารจาก £job_farmer£ เกษตรกร +20%",
                         "£food£ อาหารจากสิ่งปลูกสร้างในฐานอวกาศ +10%"
                       ],
                       "is_dangerous": false,
@@ -1186,7 +1186,7 @@
           "cost": 2000,
           "description": "Studying the different forms of life that appear on our world helps us better understand ourselves and the life that surrounds us.",
           "feature_unlocks": [
-            "TODO:modifier +20%"
+            "£society£ การวิจัยสังคมจาก £job_researcher£ นักวิจัย +20%"
           ],
           "is_dangerous": false,
           "is_rare": false,
@@ -1215,7 +1215,7 @@
               "cost": 6000,
               "description": "Studying the life that arises on other worlds and beyond allows us to understand fundamental aspects of biology that were previously beyond our reach.",
               "feature_unlocks": [
-                "TODO:modifier +20%"
+                "£society£ การวิจัยสังคมจาก £job_researcher£ นักวิจัย +20%"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -1250,7 +1250,7 @@
                   "cost": 20000,
                   "description": "Having the opportunity to study the multitudes of life lets us find some common ground for all living beings. The foundational building blocks of life.",
                   "feature_unlocks": [
-                    "TODO:modifier +20%"
+                    "£society£ การวิจัยสังคมจาก £job_researcher£ นักวิจัย +20%"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -2288,7 +2288,7 @@
                       "description": "Stronger alloys allow us to create prefabricated buildings, providing our colonies with the improved infrastructure.",
                       "feature_unlocks": [
                         "ความเร็วในการพัฒนาอาณานิคม +25%",
-                        "Habitat จำนวนเขตสูงสุด +10%",
+                        "ที่อยู่อาศัยในอวกาศ จำนวนเขตสูงสุด +10%",
                         "ช่องก่อสร้าง +1"
                       ],
                       "is_dangerous": false,
@@ -2323,7 +2323,7 @@
                           "description": "Advances in metallurgy permit us to build vastly larger and more durable structures, greatly improving the infrastructure of our colonies.",
                           "feature_unlocks": [
                             "ความเร็วในการพัฒนาอาณานิคม +25%",
-                            "Habitat จำนวนเขตสูงสุด +10%",
+                            "ที่อยู่อาศัยในอวกาศ จำนวนเขตสูงสุด +10%",
                             "ช่องก่อสร้าง +1"
                           ],
                           "is_dangerous": false,
@@ -2491,7 +2491,7 @@
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
-                      "name": "Rudimentary Node Culling",
+                      "name": "โหนดคัดเลือกขั้นพื้นฐาน",
                       "prerequisites": [
                         "tech_colonial_centralization"
                       ],
@@ -2523,19 +2523,19 @@
                           "description": "Once removed, a replacement node is encouraged to grow within the proper environment. The secret is to feed it the previous node.",
                           "feature_unlocks": [
                             "สมาชิกสภาได้รับค่าประสบการณ์ +25%",
-                            "Restored Node Additional Skill +2"
+                            "โหนดฟื้นฟู เพิ่มสกิล +2"
                           ],
                           "is_dangerous": false,
                           "is_rare": false,
                           "is_start_tech": false,
-                          "name": "Basic Node Culling",
+                          "name": "โหนดคัดเลือก",
                           "prerequisites": [
                             "tech_node_culling_1"
                           ],
                           "tier": 3,
                           "prerequisites_names": [
                             {
-                              "name": "Rudimentary Node Culling",
+                              "name": "โหนดคัดเลือกขั้นพื้นฐาน",
                               "key": "tech_node_culling_1"
                             }
                           ],
@@ -2558,20 +2558,20 @@
                               "cost": 24000,
                               "description": "Culling an entire node is very inefficient. Instead, just trim the divergent and unwanted lobes.",
                               "feature_unlocks": [
-                                "Restored Node Additional Skill +2",
+                                "โหนดฟื้นฟู เพิ่มสกิล +2",
                                 "สกิลของสมาชิกสภา +1"
                               ],
                               "is_dangerous": false,
                               "is_rare": true,
                               "is_start_tech": false,
-                              "name": "Advanced Node Culling",
+                              "name": "โหนดคัดเลือกขั้นสูง",
                               "prerequisites": [
                                 "tech_node_culling_2"
                               ],
                               "tier": 4,
                               "prerequisites_names": [
                                 {
-                                  "name": "Basic Node Culling",
+                                  "name": "โหนดคัดเลือก",
                                   "key": "tech_node_culling_2"
                                 }
                               ],
@@ -2581,7 +2581,7 @@
                                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีผู้นำ:\u003cbr/\u003e    •   ไม่เป็นสมาชิกสภา\u003cbr/\u003e    •   เป็นผู้ปกครอง\u003cbr/\u003e    •   มีสกิล มากกว่าหรือเท่ากับ 9",
                                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: การปกครอง\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์",
                                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์:\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: Advanced Node Culling"
+                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์:\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: โหนดคัดเลือกขั้นสูง"
                               ],
                               "potential": [
                                 "มีระบอบการปกครอง จิตสำนึกร่วม "
@@ -2610,7 +2610,7 @@
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
-                      "name": "Rudimentary Node Reformatting",
+                      "name": "โหนดกระบวนการรีฟอร์แมตขั้นพื้นฐาน",
                       "prerequisites": [
                         "tech_colonial_centralization"
                       ],
@@ -2642,19 +2642,19 @@
                           "description": "Every self-iterating algorithm has its value. We will not allow important learning go to waste when restoring our leaders.",
                           "feature_unlocks": [
                             "สมาชิกสภาได้รับค่าประสบการณ์ +25%",
-                            "Restored Node Additional Skill +2"
+                            "โหนดฟื้นฟู เพิ่มสกิล +2"
                           ],
                           "is_dangerous": false,
                           "is_rare": false,
                           "is_start_tech": false,
-                          "name": "Basic Node Reformatting",
+                          "name": "โหนดกระบวนการรีฟอร์แมต",
                           "prerequisites": [
                             "tech_node_reformatting_1"
                           ],
                           "tier": 3,
                           "prerequisites_names": [
                             {
-                              "name": "Rudimentary Node Reformatting",
+                              "name": "โหนดกระบวนการรีฟอร์แมตขั้นพื้นฐาน",
                               "key": "tech_node_reformatting_1"
                             }
                           ],
@@ -2677,20 +2677,20 @@
                               "cost": 24000,
                               "description": "Using a failed piece of software to develop its successor enables quick reconstruction. Learning from faulty memory pathways generates even more advanced council directives.",
                               "feature_unlocks": [
-                                "Restored Node Additional Skill +2",
+                                "โหนดฟื้นฟู เพิ่มสกิล +2",
                                 "สกิลของสมาชิกสภา +1"
                               ],
                               "is_dangerous": false,
                               "is_rare": true,
                               "is_start_tech": false,
-                              "name": "Advanced Node Reformatting",
+                              "name": "โหนดกระบวนการรีฟอร์แมตขั้นสูง",
                               "prerequisites": [
                                 "tech_node_reformatting_2"
                               ],
                               "tier": 4,
                               "prerequisites_names": [
                                 {
-                                  "name": "Basic Node Reformatting",
+                                  "name": "โหนดกระบวนการรีฟอร์แมต",
                                   "key": "tech_node_reformatting_2"
                                 }
                               ],
@@ -2700,7 +2700,7 @@
                                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีผู้นำ:\u003cbr/\u003e    •   ไม่เป็นสมาชิกสภา\u003cbr/\u003e    •   เป็นผู้ปกครอง\u003cbr/\u003e    •   มีสกิล มากกว่าหรือเท่ากับ 9",
                                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: การปกครอง\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์",
                                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์:\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: Advanced Node Reformatting"
+                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์:\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: โหนดกระบวนการรีฟอร์แมตขั้นสูง"
                               ],
                               "potential": [
                                 "มีระบอบการปกครอง สติปัญญาจักรกล "
@@ -5341,7 +5341,7 @@
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
-          "name": "Fruit Gardens",
+          "name": "สวนผลไม้",
           "prerequisites": [],
           "tier": 0,
           "prerequisites_names": [],

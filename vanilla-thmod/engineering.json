@@ -587,7 +587,7 @@
                       "cost": 20000,
                       "description": "Our early habitats were primitive things compared to the efficient designs we can now develop.",
                       "feature_unlocks": [
-                        "Habitat จำนวนเขตสูงสุด +10%"
+                        "ที่อยู่อาศัยในอวกาศ จำนวนเขตสูงสุด +10%"
                       ],
                       "is_dangerous": false,
                       "is_rare": true,
@@ -625,7 +625,7 @@
                           "cost": 40000,
                           "description": "Years of improvements to our Orbital Habitats have led us to create newer more effective designs.",
                           "feature_unlocks": [
-                            "Habitat จำนวนเขตสูงสุด +10%"
+                            "ที่อยู่อาศัยในอวกาศ จำนวนเขตสูงสุด +10%"
                           ],
                           "is_dangerous": false,
                           "is_rare": true,
@@ -2120,7 +2120,7 @@
                   "cost": 4000,
                   "description": "The widespread use of advanced ceramics in industry can improve metallurgical yields.",
                   "feature_unlocks": [
-                    "TODO:modifier +10%"
+                    "£job_foundry£ ผลิตผล นักโลหะวิทยา +10%"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -2224,7 +2224,7 @@
                       "cost": 16000,
                       "description": "By replacing antiquated ceramo-metal equipment with cutting edge technology, we can run our forges hotter and longer, increasing production.",
                       "feature_unlocks": [
-                        "TODO:modifier +10%"
+                        "£job_foundry£ ผลิตผล นักโลหะวิทยา +10%"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -3504,7 +3504,7 @@
               "description": "New fracking techniques will allow us to tap into previously unattainable pockets of geothermal resources deep beneath the planet\u0027s crust.",
               "feature_unlocks": [
                 "£minerals£ แร่จากสิ่งปลูกสร้างในฐานอวกาศ +10%",
-                "ตัวคูนการผลิตแร่ของคนงานของดาวเคราะห์ +20%"
+                "£minerals£ แร่จาก £job_miner£ คนงานเหมือง +20%"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -3533,7 +3533,7 @@
                   "description": "These massive drills are needed to access the rich mineral deposits that can often be found close to a planet\u0027s core.",
                   "feature_unlocks": [
                     "£minerals£ แร่จากสิ่งปลูกสร้างในฐานอวกาศ +10%",
-                    "ตัวคูนการผลิตแร่ของคนงานของดาวเคราะห์ +20%"
+                    "£minerals£ แร่จาก £job_miner£ คนงานเหมือง +20%"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -3562,7 +3562,7 @@
                       "description": "Advanced spectrometry combines with fracking techniques and chemical flushing to rapidly exploit shallow and mid-depth deposits.",
                       "feature_unlocks": [
                         "£minerals£ แร่จากสิ่งปลูกสร้างในฐานอวกาศ +10%",
-                        "ตัวคูนการผลิตแร่ของคนงานของดาวเคราะห์ +20%"
+                        "£minerals£ แร่จาก £job_miner£ คนงานเหมือง +20%"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -4803,7 +4803,7 @@
           "cost": 2000,
           "description": "Advanced instrumentation allows for the study and practical application of physical systems at nanometric scales.",
           "feature_unlocks": [
-            "TODO:modifier +20%"
+            "£engineering£ การวิจัยวิศวกรรมจาก £job_researcher£ นักวิจัย +20%"
           ],
           "is_dangerous": false,
           "is_rare": false,
@@ -4933,7 +4933,7 @@
               "cost": 6000,
               "description": "The production and understanding of supersolids are of immeasurable value to any and every space-age civilization.",
               "feature_unlocks": [
-                "TODO:modifier +20%"
+                "£engineering£ การวิจัยวิศวกรรมจาก £job_researcher£ นักวิจัย +20%"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -4967,7 +4967,7 @@
                   "cost": 20000,
                   "description": "The study of superfluidity promises to marry quantum mechanics with the fundamental interaction of gravity.",
                   "feature_unlocks": [
-                    "TODO:modifier +20%"
+                    "£engineering£ การวิจัยวิศวกรรมจาก £job_researcher£ นักวิจัย +20%"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
