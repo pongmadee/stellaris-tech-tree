@@ -75,7 +75,7 @@
         "cost": 10000,
         "description": "When a temporal paradox becomes tangled, a kind of consciousness arises, with its own needs, its own desires. This is what has occurred with the consciousness that some call the Worm-in-Waiting. If we can align ourselves with that consciousness, we might just achieve a kind of immortality.",
         "feature_unlocks": [
-          "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: วัตถุจัดตำแหน่งโอเมก้า"
+          "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Omega Alignment"
         ],
         "is_dangerous": true,
         "is_rare": true,
@@ -113,7 +113,7 @@
     "cost": 10000,
     "description": "When a temporal paradox becomes tangled, a kind of consciousness arises, with its own needs, its own desires. This is what has occurred with the consciousness that some call the Worm-in-Waiting. If we can align ourselves with that consciousness, we might just achieve a kind of immortality.",
     "feature_unlocks": [
-      "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: วัตถุจัดตำแหน่งโอเมก้า"
+      "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Omega Alignment"
     ],
     "is_dangerous": true,
     "is_rare": true,
@@ -697,7 +697,7 @@
     "area": "engineering",
     "base_factor": 1.0,
     "base_weight": 0.0,
-    "category": "แรงขับดัน",
+    "category": "ระบบขับดัน",
     "cost": 48000,
     "description": "Highly advanced autocannons capable of ejecting shells that explode into a cloud of nanites at the target, overwhelming shields and chewing through hull sections.",
     "feature_unlocks": [
@@ -720,7 +720,7 @@
     "area": "engineering",
     "base_factor": 1.0,
     "base_weight": 0.0,
-    "category": "แรงขับดัน",
+    "category": "ระบบขับดัน",
     "cost": 48000,
     "description": "Improving upon previous designs by launching canisters of nanites capable of eating away at strike craft, these flak batteries are the bane of any fighter pilot.",
     "feature_unlocks": [
@@ -816,7 +816,7 @@
     "area": "engineering",
     "base_factor": 1.0,
     "base_weight": 0.0,
-    "category": "แรงขับดัน",
+    "category": "ระบบขับดัน",
     "cost": 8000,
     "description": "This orbital bombardment management system spams a planet with millions of minute, high-velocity projectiles, overwhelming planetside defensive grids with trash data. Ships equipped with this component will cause more damage during orbital bombardment.",
     "feature_unlocks": [

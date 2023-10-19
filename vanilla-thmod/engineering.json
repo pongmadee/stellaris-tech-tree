@@ -549,7 +549,9 @@
                   "category": "ยานอวกาศ",
                   "cost": 10000,
                   "description": "Allows the construction of largely self-sustaining Orbital Habitats.",
-                  "feature_unlocks": [],
+                  "feature_unlocks": [
+                    "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ศูนย์บริหารและที่อยู่อาศัย"
+                  ],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -587,7 +589,8 @@
                       "cost": 20000,
                       "description": "Our early habitats were primitive things compared to the efficient designs we can now develop.",
                       "feature_unlocks": [
-                        "ที่อยู่อาศัยในอวกาศ จำนวนเขตสูงสุด +10%"
+                        "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ที่อยู่อาศัยที่ควบคุมจากส่วนกลาง",
+                        "ที่อยู่อาศัยในอวกาศ จำนวนเขตสูงสุด +1"
                       ],
                       "is_dangerous": false,
                       "is_rare": true,
@@ -625,7 +628,8 @@
                           "cost": 40000,
                           "description": "Years of improvements to our Orbital Habitats have led us to create newer more effective designs.",
                           "feature_unlocks": [
-                            "ที่อยู่อาศัยในอวกาศ จำนวนเขตสูงสุด +10%"
+                            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Habitat System Control",
+                            "ที่อยู่อาศัยในอวกาศ จำนวนเขตสูงสุด +1"
                           ],
                           "is_dangerous": false,
                           "is_rare": true,
@@ -1914,7 +1918,7 @@
               "area": "engineering",
               "base_factor": 1.0,
               "base_weight": 95.0,
-              "category": "แรงขับดัน",
+              "category": "ระบบขับดัน",
               "cost": 2500,
               "description": "These torpedoes are essentially very large, slow-moving missiles. They are equipped with more powerful warheads and shield modulators that let them slip unmolested through energy screens.",
               "feature_unlocks": [
@@ -1958,7 +1962,7 @@
                   "area": "engineering",
                   "base_factor": 1.0,
                   "base_weight": 60.0,
-                  "category": "แรงขับดัน",
+                  "category": "ระบบขับดัน",
                   "cost": 10000,
                   "description": "Upgraded space torpedoes encased in armor, to better withstand enemy point-defense fire. The armor fragments into shards that cause additional damage when the torpedo detonates.",
                   "feature_unlocks": [
@@ -1989,7 +1993,7 @@
                       "area": "engineering",
                       "base_factor": 1.0,
                       "base_weight": 40.0,
-                      "category": "แรงขับดัน",
+                      "category": "ระบบขับดัน",
                       "cost": 20000,
                       "description": "Advanced torpedoes with very powerful warheads. They have a sleeker design, faster engines and upgraded shield modulators for slipping through energy screens.",
                       "feature_unlocks": [
@@ -2397,7 +2401,7 @@
           "area": "engineering",
           "base_factor": 1.0,
           "base_weight": 0.0,
-          "category": "แรงขับดัน",
+          "category": "ระบบขับดัน",
           "cost": 0,
           "description": "Gun batteries that fire shrapnel rounds at close range. They are particularly lethal to enemy strike craft, but can also defend against missiles.",
           "feature_unlocks": [
@@ -2418,7 +2422,7 @@
               "area": "engineering",
               "base_factor": 1.0,
               "base_weight": 70.0,
-              "category": "แรงขับดัน",
+              "category": "ระบบขับดัน",
               "cost": 6000,
               "description": "Upgraded flak batteries with new, more powerful shrapnel rounds.",
               "feature_unlocks": [
@@ -2449,7 +2453,7 @@
                   "area": "engineering",
                   "base_factor": 1.0,
                   "base_weight": 45.0,
-                  "category": "แรงขับดัน",
+                  "category": "ระบบขับดัน",
                   "cost": 16000,
                   "description": "Predictive tracking algorithms and even more powerful rounds make these batteries incredibly lethal to enemy strike craft.",
                   "feature_unlocks": [
@@ -2488,16 +2492,16 @@
           "area": "engineering",
           "base_factor": 1.0,
           "base_weight": 0.0,
-          "category": "แรงขับดัน",
+          "category": "ระบบขับดัน",
           "cost": 0,
           "description": "Simple yet moderately effective chemical thrusters that rely on combustible propellant to function.",
           "feature_unlocks": [
-            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ตัวขับดันเคมี"
+            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ระบบขับดันเคมี"
           ],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
-          "name": "ตัวขับดันดันเคมี",
+          "name": "ระบบขับดันเคมี",
           "prerequisites": [],
           "tier": 0,
           "prerequisites_names": [],
@@ -2509,7 +2513,7 @@
               "area": "engineering",
               "base_factor": 1.0,
               "base_weight": 118.75,
-              "category": "แรงขับดัน",
+              "category": "ระบบขับดัน",
               "cost": 2500,
               "description": "These powerful thrusters provide additional combat speed but consume a great deal of power.",
               "feature_unlocks": [
@@ -2525,13 +2529,13 @@
               "tier": 1,
               "prerequisites_names": [
                 {
-                  "name": "ตัวขับดันดันเคมี",
+                  "name": "ระบบขับดันเคมี",
                   "key": "tech_thrusters_1"
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีเทคโนโลยี: ตัวขับดันไอออน",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีเทคโนโลยี: ตัวขับดันพลาสมา"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีเทคโนโลยี: ระบบขับดันไอออน",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีเทคโนโลยี: ระบบขับดันพลาสมา"
               ],
               "potential": [],
               "children": [
@@ -2540,7 +2544,7 @@
                   "area": "engineering",
                   "base_factor": 1.0,
                   "base_weight": 75.0,
-                  "category": "แรงขับดัน",
+                  "category": "ระบบขับดัน",
                   "cost": 10000,
                   "description": "This improved version of the standard afterburners provide an even greater boost to a ship\u0027s combat speed.",
                   "feature_unlocks": [
@@ -2561,7 +2565,7 @@
                       "key": "tech_afterburners_1"
                     },
                     {
-                      "name": "ตัวขับดันพลาสมา",
+                      "name": "ระบบขับดันพลาสมา",
                       "key": "tech_thrusters_3"
                     }
                   ],
@@ -2578,23 +2582,23 @@
               "area": "engineering",
               "base_factor": 1.0,
               "base_weight": 106.25,
-              "category": "แรงขับดัน",
+              "category": "ระบบขับดัน",
               "cost": 4000,
               "description": "These electric thrusters use beams of ions to generate thrust without the need for propellant.",
               "feature_unlocks": [
-                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ตัวขับดันไอออน"
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ระบบขับดันไอออน"
               ],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
-              "name": "ตัวขับดันไอออน",
+              "name": "ระบบขับดันไอออน",
               "prerequisites": [
                 "tech_thrusters_1"
               ],
               "tier": 2,
               "prerequisites_names": [
                 {
-                  "name": "ตัวขับดันดันเคมี",
+                  "name": "ระบบขับดันเคมี",
                   "key": "tech_thrusters_1"
                 }
               ],
@@ -2608,23 +2612,23 @@
                   "area": "engineering",
                   "base_factor": 1.0,
                   "base_weight": 81.25,
-                  "category": "แรงขับดัน",
+                  "category": "ระบบขับดัน",
                   "cost": 8000,
                   "description": "An advanced form of electric propulsion, plasma thrusters afford ships greater sublight speeds and maneuverability.",
                   "feature_unlocks": [
-                    "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ตัวขับดันพลาสมา"
+                    "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ระบบขับดันพลาสมา"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
-                  "name": "ตัวขับดันพลาสมา",
+                  "name": "ระบบขับดันพลาสมา",
                   "prerequisites": [
                     "tech_thrusters_2"
                   ],
                   "tier": 3,
                   "prerequisites_names": [
                     {
-                      "name": "ตัวขับดันไอออน",
+                      "name": "ระบบขับดันไอออน",
                       "key": "tech_thrusters_2"
                     }
                   ],
@@ -2638,23 +2642,23 @@
                       "area": "engineering",
                       "base_factor": 1.0,
                       "base_weight": 56.25,
-                      "category": "แรงขับดัน",
+                      "category": "ระบบขับดัน",
                       "cost": 16000,
                       "description": "These highly advanced fusion-powered thrusters provide ships with unmatched maneuverability and speed under sublight conditions.",
                       "feature_unlocks": [
-                        "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ตัวขับดันแรงดล"
+                        "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ระบบขับดันแรงดล"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
-                      "name": "ตัวขับดันแรงดล",
+                      "name": "ระบบขับดันแรงดล",
                       "prerequisites": [
                         "tech_thrusters_3"
                       ],
                       "tier": 4,
                       "prerequisites_names": [
                         {
-                          "name": "ตัวขับดันพลาสมา",
+                          "name": "ระบบขับดันพลาสมา",
                           "key": "tech_thrusters_3"
                         }
                       ],
@@ -2668,23 +2672,23 @@
                           "area": "engineering",
                           "base_factor": 1.0,
                           "base_weight": 1.0,
-                          "category": "แรงขับดัน",
+                          "category": "ระบบขับดัน",
                           "cost": 50000,
                           "description": "These ship thrusters utilize Dark Matter technology to generate propulsion in a manner that appears to defy numerous laws of physics.",
                           "feature_unlocks": [
-                            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ตัวขับดันสสารมืด"
+                            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ระบบขับดันสสารมืด"
                           ],
                           "is_dangerous": false,
                           "is_rare": true,
                           "is_start_tech": false,
-                          "name": "การขับเคลื่อนด้วยสสารมืด",
+                          "name": "ระบบขับดันสสารมืด",
                           "prerequisites": [
                             "tech_thrusters_4"
                           ],
                           "tier": 5,
                           "prerequisites_names": [
                             {
-                              "name": "ตัวขับดันแรงดล",
+                              "name": "ระบบขับดันแรงดล",
                               "key": "tech_thrusters_4"
                             }
                           ],
@@ -2712,7 +2716,7 @@
           "area": "engineering",
           "base_factor": 1.0,
           "base_weight": 0.0,
-          "category": "แรงขับดัน",
+          "category": "ระบบขับดัน",
           "cost": 0,
           "description": "Space-to-space missiles equipped with high-yield nuclear warheads. Although based on old pre-space technology, these crude fire-and-forget weapons can be surprisingly effective at range.",
           "feature_unlocks": [
@@ -2733,7 +2737,7 @@
               "area": "engineering",
               "base_factor": 1.0,
               "base_weight": 95.0,
-              "category": "แรงขับดัน",
+              "category": "ระบบขับดัน",
               "cost": 2500,
               "description": "These updated space-to-space missiles have more powerful fusion warheads and improved flight performance.",
               "feature_unlocks": [
@@ -2769,7 +2773,7 @@
                   "area": "engineering",
                   "base_factor": 1.0,
                   "base_weight": 85.0,
-                  "category": "แรงขับดัน",
+                  "category": "ระบบขับดัน",
                   "cost": 4000,
                   "description": "Advanced missiles equipped with very powerful antimatter warheads. A new and improved guidance system gives them a better chance of finding their targets.",
                   "feature_unlocks": [
@@ -2800,7 +2804,7 @@
                       "area": "engineering",
                       "base_factor": 1.0,
                       "base_weight": 65.0,
-                      "category": "แรงขับดัน",
+                      "category": "ระบบขับดัน",
                       "cost": 8000,
                       "description": "The latest version of space-to-space missile, this upgraded variant has an immensely powerful warhead that draws its energy from a zero point vacuum.",
                       "feature_unlocks": [
@@ -2831,7 +2835,7 @@
                           "area": "engineering",
                           "base_factor": 1.0,
                           "base_weight": 40.0,
-                          "category": "แรงขับดัน",
+                          "category": "ระบบขับดัน",
                           "cost": 20000,
                           "description": "These highly advanced missiles are equipped with limited onboard AI pilots that substantially improve their performance and ability to track targets.",
                           "feature_unlocks": [
@@ -2867,7 +2871,7 @@
                       "area": "engineering",
                       "base_factor": 1.0,
                       "base_weight": 12.5,
-                      "category": "แรงขับดัน",
+                      "category": "ระบบขับดัน",
                       "cost": 50000,
                       "description": "With the chemical reaction tightly controlled by missile-board microprocessors, warhead detonations can be tuned for maximum effect for local conditions at the time of impact.",
                       "feature_unlocks": [
@@ -2897,7 +2901,7 @@
                       "area": "engineering",
                       "base_factor": 1.0,
                       "base_weight": 12.5,
-                      "category": "แรงขับดัน",
+                      "category": "ระบบขับดัน",
                       "cost": 50000,
                       "description": "Advances in miniaturization allow for more rapid loading and discharging of rocket-propelled payloads.",
                       "feature_unlocks": [
@@ -2930,7 +2934,7 @@
                   "area": "engineering",
                   "base_factor": 1.0,
                   "base_weight": 75.0,
-                  "category": "แรงขับดัน",
+                  "category": "ระบบขับดัน",
                   "cost": 5000,
                   "description": "These smaller missiles are launched in volleys and have been specifically designed to overwhelm enemy point-defense systems.",
                   "feature_unlocks": [
@@ -2961,7 +2965,7 @@
                       "area": "engineering",
                       "base_factor": 1.0,
                       "base_weight": 40.0,
-                      "category": "แรงขับดัน",
+                      "category": "ระบบขับดัน",
                       "cost": 20000,
                       "description": "New miniaturization techniques will allow us to equip swarmer missiles with more powerful warheads and improved flight performance.",
                       "feature_unlocks": [
@@ -3003,7 +3007,7 @@
           "area": "engineering",
           "base_factor": 1.0,
           "base_weight": 0.0,
-          "category": "แรงขับดัน",
+          "category": "ระบบขับดัน",
           "cost": 0,
           "description": "These electromagnetic projectile launchers use magnets to accelerate armor-piercing rounds towards targets at high speeds.",
           "feature_unlocks": [
@@ -3026,7 +3030,7 @@
               "area": "engineering",
               "base_factor": 1.0,
               "base_weight": 95.0,
-              "category": "แรงขับดัน",
+              "category": "ระบบขับดัน",
               "cost": 2500,
               "description": "Coilguns are more powerful versions of the early mass drivers, using electromagnetic coils to rapidly accelerate projectiles towards targets.",
               "feature_unlocks": [
@@ -3057,7 +3061,7 @@
                   "area": "engineering",
                   "base_factor": 1.0,
                   "base_weight": 85.0,
-                  "category": "แรงขับดัน",
+                  "category": "ระบบขับดัน",
                   "cost": 4000,
                   "description": "The latest in electromagnetic accelerators, railguns use twin parallel rails to fire projectiles at incredible speeds.",
                   "feature_unlocks": [
@@ -3088,7 +3092,7 @@
                       "area": "engineering",
                       "base_factor": 1.0,
                       "base_weight": 65.0,
-                      "category": "แรงขับดัน",
+                      "category": "ระบบขับดัน",
                       "cost": 8000,
                       "description": "A new version of the venerable railgun, with sturdier rails and an enhanced power supply. These weapons are even more powerful and accurate than their predecessors.",
                       "feature_unlocks": [
@@ -3119,7 +3123,7 @@
                           "area": "engineering",
                           "base_factor": 1.0,
                           "base_weight": 50.0,
-                          "category": "แรงขับดัน",
+                          "category": "ระบบขับดัน",
                           "cost": 12000,
                           "description": "Very long-range artillery capable of hurling powerful rounds over extreme distances with a large degree of accuracy.",
                           "feature_unlocks": [
@@ -3150,7 +3154,7 @@
                               "area": "engineering",
                               "base_factor": 1.0,
                               "base_weight": 40.0,
-                              "category": "แรงขับดัน",
+                              "category": "ระบบขับดัน",
                               "cost": 20000,
                               "description": "An even more powerful long-range, ship-based artillery cannon, equipped with a new barrel and an upgraded fire control computer.",
                               "feature_unlocks": [
@@ -3191,7 +3195,7 @@
                           "area": "engineering",
                           "base_factor": 1.0,
                           "base_weight": 40.0,
-                          "category": "แรงขับดัน",
+                          "category": "ระบบขับดัน",
                           "cost": 20000,
                           "description": "An enormous mass accelerator cannon that can only be placed in a spinal mount and fires monstrously powerful rounds over vast distances.",
                           "feature_unlocks": [
@@ -3227,7 +3231,7 @@
                               "area": "engineering",
                               "base_factor": 1.0,
                               "base_weight": 35.0,
-                              "category": "แรงขับดัน",
+                              "category": "ระบบขับดัน",
                               "cost": 24000,
                               "description": "An even more powerful mass accelerator cannon that can rip through even the toughest shields.",
                               "feature_unlocks": [
@@ -3268,7 +3272,7 @@
                           "area": "engineering",
                           "base_factor": 1.0,
                           "base_weight": 45.0,
-                          "category": "แรงขับดัน",
+                          "category": "ระบบขับดัน",
                           "cost": 16000,
                           "description": "This updated version of the old coilgun design is even more destructive than the latest railgun designs. It is capable of launching projectiles with incredible accuracy and speed.",
                           "feature_unlocks": [
@@ -3304,7 +3308,7 @@
                       "area": "engineering",
                       "base_factor": 1.0,
                       "base_weight": 12.5,
-                      "category": "แรงขับดัน",
+                      "category": "ระบบขับดัน",
                       "cost": 50000,
                       "description": "Ultra-dense slugs can punch through even the strongest of projected shields.",
                       "feature_unlocks": [
@@ -3334,7 +3338,7 @@
                       "area": "engineering",
                       "base_factor": 1.0,
                       "base_weight": 12.5,
-                      "category": "แรงขับดัน",
+                      "category": "ระบบขับดัน",
                       "cost": 50000,
                       "description": "Minor technical advances combine with improved shipboard routines for handling munitions to provide a noticeable boost in fire rate.",
                       "feature_unlocks": [
@@ -3367,7 +3371,7 @@
                   "area": "engineering",
                   "base_factor": 1.0,
                   "base_weight": 75.0,
-                  "category": "แรงขับดัน",
+                  "category": "ระบบขับดัน",
                   "cost": 5000,
                   "description": "Large-caliber ballistic weapons that fire cased explosive shells. The main advantage of these cannons is their high rate of fire.",
                   "feature_unlocks": [
@@ -3399,7 +3403,7 @@
                       "area": "engineering",
                       "base_factor": 1.0,
                       "base_weight": 65.0,
-                      "category": "แรงขับดัน",
+                      "category": "ระบบขับดัน",
                       "cost": 8000,
                       "description": "These upgraded rotary autocannons feature improved tracking and fire control systems. This allows them to maintain an even higher rate of fire.",
                       "feature_unlocks": [
@@ -3430,7 +3434,7 @@
                           "area": "engineering",
                           "base_factor": 1.0,
                           "base_weight": 45.0,
-                          "category": "แรงขับดัน",
+                          "category": "ระบบขับดัน",
                           "cost": 16000,
                           "description": "Advanced rotary autocannons capable of spewing a cloud of high-explosive shells at a target.",
                           "feature_unlocks": [
@@ -4644,9 +4648,9 @@
               "cost": 2000,
               "description": "The addition of internal refineries on mining stations will substantially increase mineral production.",
               "feature_unlocks": [
+                "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: ที่ทำเหมืองแร่",
                 "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: โรงงานสกัดเนบิวลา",
-                "ผลผลิตของสถานีเหมืองแร่ +10%",
-                "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: Mining Bay"
+                "ผลผลิตของสถานีเหมืองแร่ +10%"
               ],
               "is_dangerous": false,
               "is_rare": false,

@@ -2288,7 +2288,7 @@
                       "description": "Stronger alloys allow us to create prefabricated buildings, providing our colonies with the improved infrastructure.",
                       "feature_unlocks": [
                         "ความเร็วในการพัฒนาอาณานิคม +25%",
-                        "ที่อยู่อาศัยในอวกาศ จำนวนเขตสูงสุด +10%",
+                        "ที่อยู่อาศัยในอวกาศ จำนวนเขตสูงสุด +1",
                         "ช่องก่อสร้าง +1"
                       ],
                       "is_dangerous": false,
@@ -2323,7 +2323,7 @@
                           "description": "Advances in metallurgy permit us to build vastly larger and more durable structures, greatly improving the infrastructure of our colonies.",
                           "feature_unlocks": [
                             "ความเร็วในการพัฒนาอาณานิคม +25%",
-                            "ที่อยู่อาศัยในอวกาศ จำนวนเขตสูงสุด +10%",
+                            "ที่อยู่อาศัยในอวกาศ จำนวนเขตสูงสุด +1",
                             "ช่องก่อสร้าง +1"
                           ],
                           "is_dangerous": false,
