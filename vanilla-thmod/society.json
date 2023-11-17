@@ -50,8 +50,6 @@
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีจริยธรรม จิตวิญญาณนิยมสุดโต่ง ",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ II\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ III",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: มีญาณทิพย์\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ถูกเลือก\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ถูกเลือกจากผู้สร้าง\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ถูกเลือกจากผู้บรรเลงดนตรี\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ถูกเลือกจากผู้กระซิบ",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์:\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: ทฤษฎีพลังจิต",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีประชากรที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   ประชากรมีคุณลักษณะ พลังจิต",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) ไม่ มีประชากรที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   ประชากรมีคุณลักษณะ พลังจิต",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีผู้นำ:\u003cbr/\u003e    •   มีคุณลักษณะ: ครูผู้นำทางสู่ดินแดนแห่งจิต",
@@ -89,8 +87,6 @@
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มีการยกระดับ จิตอยู่เหนือสรรพสิ่ง (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) ไม่ มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: พลังจิต",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์:\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: โทรจิต",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีจริยธรรม จิตวิญญาณนิยม ",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) มีจริยธรรม จิตวิญญาณนิยมสุดโต่ง ",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) มีผู้นำ:\u003cbr/\u003e    •   มีคุณลักษณะ: ครูผู้นำทางสู่ดินแดนแห่งจิต",
@@ -128,8 +124,6 @@
                   "weight_modifiers": [
                     "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) มี DLC Utopia",
                     "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) ไม่ มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: พลังจิต",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์:\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: เครื่องดักจับและตีความสัญญาณโทรจิต",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีจริยธรรม จิตวิญญาณนิยม ",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) มีจริยธรรม จิตวิญญาณนิยมสุดโต่ง ",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) มีผู้นำ:\u003cbr/\u003e    •   มีคุณลักษณะ: ครูผู้นำทางสู่ดินแดนแห่งจิต",
@@ -168,11 +162,9 @@
                       "weight_modifiers": [
                         "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) มี DLC Utopia",
                         "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: พลังจิต\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ประกายแห่งความอัจฉริยะ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ประกายแห่งความอัจฉริยะ II\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ II\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ III",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ เข้าใจความว่างเปล่าในอวกาศ (สกิลพิเศษ)",
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e5.0\u003c/b\u003e) เป็นจักรวรรดิที่มีพลเมือง(นักสำรวจที่กระตือรือร้น)",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) jaunted_traveler_secret_revealed (country flag)",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์:\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: ระบบขับเคลื่อนจั้มไดร์ฟพลังจิต"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) jaunted_traveler_secret_revealed (country flag)"
                       ],
                       "potential": [
                         "ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน "
@@ -205,8 +197,6 @@
                           ],
                           "weight_modifiers": [
                             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: พลังจิต\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ประกายแห่งความอัจฉริยะ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ประกายแห่งความอัจฉริยะ II\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ II\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ III",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์:\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี:  เครื่องกำเนิดสนามพลังพรางตัว (พลังจิต)",
                             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e5.0\u003c/b\u003e) มี วัฒนธรรมการวางอุบาย "
                           ],
                           "potential": [
@@ -253,8 +243,6 @@
                   "weight_modifiers": [
                     "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มีการยกระดับ จิตอยู่เหนือสรรพสิ่ง (สกิลพิเศษ)",
                     "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) ไม่ มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: พลังจิต",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์:\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: การบังคับความคิด",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีจริยธรรม อำนาจเผด็จการ ",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) มีจริยธรรม อำนาจเผด็จการสุดโต่ง ",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีพลเมือง: รัฐตำรวจ",
@@ -506,8 +494,6 @@
                             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.01\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   ไม่เป็นสายพันธุ์ย่อยของเผ่าพันธุ์หิน (Lithoid) (country flag)\u003cbr/\u003e    •   มีพลเมือง: เครื่องจักรรับใช้\u003cbr/\u003e    •   มีพลเมือง: เครื่องดัดแปลงประชากร\u003cbr/\u003e    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีจำนวนของ เขตเกษตรกรรม มากกว่า 0\u003cbr/\u003e\t\t    •   มีจำนวนของ ส่วนการเกษตร มากกว่า 0",
                             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีระบอบการปกครอง สติปัญญาจักรกล \u003cbr/\u003e    •   เผ่าพันธุ์ผู้ก่อตั้ง:\u003cbr/\u003e\t    •   เป็นจักรวรรดิประเภทหิน (Lithoid)",
                             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: ชีววิทยา\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์:\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: การผลิตอาหารซ้ำๆ",
                             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มีจริยธรรม รักสงบ ",
                             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีจริยธรรม รักสงบอย่างมาก ",
                             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีวัตถุโบราณ Javorian Pox Sample"
@@ -687,8 +673,6 @@
                     "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) มีจริยธรรม ความเสมอภาคสุดโต่ง ",
                     "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจริยธรรม ความเสมอภาค \u003cbr/\u003e    •   มีจริยธรรม ความเสมอภาคสุดโต่ง ",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจริยธรรม อำนาจเผด็จการ \u003cbr/\u003e    •   มีจริยธรรม อำนาจเผด็จการสุดโต่ง ",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์:\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: เชื้อสายที่ถูกเลือก",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีวัตถุโบราณ Javorian Pox Sample"
                   ],
                   "potential": [
@@ -724,8 +708,6 @@
                         "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: ชีววิทยา\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ประกายแห่งความอัจฉริยะ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ประกายแห่งความอัจฉริยะ II",
                         "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจริยธรรม ความเสมอภาค \u003cbr/\u003e    •   มีจริยธรรม ความเสมอภาคสุดโต่ง ",
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจริยธรรม อำนาจเผด็จการ \u003cbr/\u003e    •   มีจริยธรรม อำนาจเผด็จการสุดโต่ง ",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์:\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: เพิ่มสมรรถนะและประสิทธิภาพ",
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีวัตถุโบราณ Javorian Pox Sample"
                       ],
                       "potential": [
@@ -800,8 +782,6 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีจริยธรรม ความเสมอภาค \u003cbr/\u003e    •   มีจริยธรรม ความเสมอภาคสุดโต่ง ",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์:\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: ระบบกระตุ้นใต้ผิวหนัง",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีวัตถุโบราณ Javorian Pox Sample"
               ],
               "potential": [
@@ -840,9 +820,7 @@
                   ],
                   "weight_modifiers": [
                     "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีการปรับเปลี่ยน ข้อมูลเชิงลึกผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: การปกครอง",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจริยธรรม อำนาจเผด็จการ \u003cbr/\u003e    •   มีจริยธรรม อำนาจเผด็จการสุดโต่ง ",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์:\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: การฝังระบบติดตาม"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจริยธรรม อำนาจเผด็จการ \u003cbr/\u003e    •   มีจริยธรรม อำนาจเผด็จการสุดโต่ง "
                   ],
                   "potential": [],
                   "children": [],
@@ -955,8 +933,6 @@
                   "weight_modifiers": [
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มีระบอบการปกครอง จิตสำนึกร่วม ",
                     "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: ชีววิทยา\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ประกายแห่งความอัจฉริยะ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ประกายแห่งความอัจฉริยะ II",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์:\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: การบีบให้ยีนเป็นไปตามเป้าหมาย",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีวัตถุโบราณ Javorian Pox Sample"
                   ],
                   "potential": [
@@ -997,8 +973,6 @@
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มีจริยธรรม ชอบสงคราม ",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีจริยธรรม ชอบสงครามอย่างมาก ",
                     "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: ชีววิทยา\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์:\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: การทำยีนต้นกำเนิดให้บริสุทธิ์",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ประกายแห่งความอัจฉริยะ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ประกายแห่งความอัจฉริยะ II"
                   ],
                   "potential": [
@@ -1081,8 +1055,6 @@
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มีจริยธรรม ชอบสงคราม ",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีจริยธรรม ชอบสงครามอย่างมาก ",
                     "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: ชีววิทยา\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์:\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: ความเชี่ยวชาญในการเกิดรูปร่าง (การเกิดสัณฐาน)",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ II\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ III",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ประกายแห่งความอัจฉริยะ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ประกายแห่งความอัจฉริยะ II"
                   ],
@@ -1158,9 +1130,7 @@
                   ],
                   "weight_modifiers": [
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มีระบอบการปกครอง จิตสำนึกร่วม ",
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: ชีววิทยา\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ประกายแห่งความอัจฉริยะ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ประกายแห่งความอัจฉริยะ II",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์:\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: ธนาคารยีน"
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: ชีววิทยา\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ประกายแห่งความอัจฉริยะ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ประกายแห่งความอัจฉริยะ II"
                   ],
                   "potential": [
                     "หนึ่งอย่างต้องเป็นจริง\n    •   ไม่ มีระบอบการปกครอง สติปัญญาจักรกล \n    •   มีพลเมือง: เครื่องดัดแปลงประชากร"
@@ -1307,8 +1277,6 @@
                     "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี £minor_artifacts£ ศิลปวัตถุชั้นรอง มากกว่า 0",
                     "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี DLC Ancient Relics Story Pack",
                     "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) มีการปรับเปลี่ยน ข้อมูลเชิงลึกผู้ดูแลพิพิธภัณฑ์",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์:\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: การถอดรหัสที่ซ่อนเอาไว้",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์"
                   ],
                   "potential": [],
@@ -2168,11 +2136,13 @@
                   "cost": 5000,
                   "description": "Robust frameworks for local governance created on a per-case basis, to meet each colony\u0027s needs.",
                   "feature_unlocks": [
+                    "ความจุ £scientist£ นักวิทยาศาสตร์ +1",
                     "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: รัง Nexus",
                     "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: โปรเซสเซอร์ดาวเคราะห์",
+                    "ความจุ £commander£ ผู้บัญชาการ +1",
                     "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: นครหลวงดาวเคราะห์",
-                    "ความจุของผู้นำ +1",
-                    "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ศาลตัดสินความ"
+                    "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ศาลตัดสินความ",
+                    "ความจุ £official£ เจ้าหน้าที่ +1"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -2403,10 +2373,11 @@
                           "cost": 12000,
                           "description": "Initiative and some measure of ambition must be promoted in our autonomous leader units, while still making certain that they do not stray too far from the directives of the core intelligence.",
                           "feature_unlocks": [
+                            "ความจุ £scientist£ นักวิทยาศาสตร์ +1",
                             "ทูตที่มี +1",
-                            "ค่าบำรุงรักษาผู้นำ (เงินเดือน) -10%",
                             "กลุ่มผู้นำที่สรรหามาได้ +1",
-                            "ความจุของผู้นำ +1"
+                            "ความจุ £commander£ ผู้บัญชาการ +1",
+                            "ความจุ £official£ เจ้าหน้าที่ +1"
                           ],
                           "is_dangerous": false,
                           "is_rare": false,
@@ -2579,9 +2550,7 @@
                                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) มีผู้นำ:\u003cbr/\u003e    •   ไม่เป็นสมาชิกสภา\u003cbr/\u003e    •   เป็นผู้ปกครอง\u003cbr/\u003e    •   มีสกิล น้อยกว่า 6",
                                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีผู้นำ:\u003cbr/\u003e    •   ไม่เป็นสมาชิกสภา\u003cbr/\u003e    •   เป็นผู้ปกครอง\u003cbr/\u003e    •   มีสกิล มากกว่าหรือเท่ากับ 7",
                                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีผู้นำ:\u003cbr/\u003e    •   ไม่เป็นสมาชิกสภา\u003cbr/\u003e    •   เป็นผู้ปกครอง\u003cbr/\u003e    •   มีสกิล มากกว่าหรือเท่ากับ 9",
-                                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: การปกครอง\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์",
-                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์:\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: โหนดคัดเลือกขั้นสูง"
+                                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: การปกครอง\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์"
                               ],
                               "potential": [
                                 "มีระบอบการปกครอง จิตสำนึกร่วม "
@@ -2698,9 +2667,7 @@
                                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) มีผู้นำ:\u003cbr/\u003e    •   ไม่เป็นสมาชิกสภา\u003cbr/\u003e    •   เป็นผู้ปกครอง\u003cbr/\u003e    •   มีสกิล น้อยกว่า 6",
                                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีผู้นำ:\u003cbr/\u003e    •   ไม่เป็นสมาชิกสภา\u003cbr/\u003e    •   เป็นผู้ปกครอง\u003cbr/\u003e    •   มีสกิล มากกว่าหรือเท่ากับ 7",
                                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีผู้นำ:\u003cbr/\u003e    •   ไม่เป็นสมาชิกสภา\u003cbr/\u003e    •   เป็นผู้ปกครอง\u003cbr/\u003e    •   มีสกิล มากกว่าหรือเท่ากับ 9",
-                                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: การปกครอง\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์",
-                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์:\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: โหนดกระบวนการรีฟอร์แมตขั้นสูง"
+                                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: การปกครอง\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์"
                               ],
                               "potential": [
                                 "มีระบอบการปกครอง สติปัญญาจักรกล "
@@ -2839,9 +2806,10 @@
                       "cost": 12000,
                       "description": "Finding aspects of the self within the group is natural and inevitable; eventually those shared aspects must be valued higher than individual identities.",
                       "feature_unlocks": [
-                        "ค่าบำรุงรักษาผู้นำ (เงินเดือน) -10%",
+                        "ความจุ £scientist£ นักวิทยาศาสตร์ +1",
                         "กลุ่มผู้นำที่สรรหามาได้ +1",
-                        "ความจุของผู้นำ +1"
+                        "ความจุ £commander£ ผู้บัญชาการ +1",
+                        "ความจุ £official£ เจ้าหน้าที่ +1"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -2904,8 +2872,6 @@
                       ],
                       "weight_modifiers": [
                         "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: การปกครอง\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์:\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: ตลาดกาแล็กติก",
                         "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) จำนวนของการติดต่อสื่อสาร น้อยกว่า 2"
                       ],
                       "potential": [
@@ -3126,7 +3092,7 @@
               "is_dangerous": false,
               "is_rare": true,
               "is_start_tech": false,
-              "name": "ทัณฑนิคม (อาณานิคมสถานที่คุมขัง)",
+              "name": "ทัณฑนิคม (อาณานิคมคุก)",
               "prerequisites": [
                 "tech_artificial_moral_codes"
               ],
@@ -3139,8 +3105,6 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: การปกครอง\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์:\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: ทัณฑนิคม (อาณานิคมสถานที่คุมขัง)",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจริยธรรม อำนาจเผด็จการ \u003cbr/\u003e    •   มีจริยธรรม อำนาจเผด็จการสุดโต่ง ",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) จำนวนดาวเคราะห์ที่เป็นเจ้าของ น้อยกว่า 2"
               ],
@@ -3176,8 +3140,6 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: การปกครอง\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์:\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: ดาวรีสอร์ต (ที่พักตากอากาศ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) จำนวนดาวเคราะห์ที่เป็นเจ้าของ น้อยกว่า 2"
               ],
               "potential": [
@@ -3468,7 +3430,7 @@
                               "base_weight": 12.5,
                               "category": "ทฤษฎีทางทหาร",
                               "cost": 50000,
-                              "description": "Improving the support staff available to our admirals will increase the number of ships they can command in a single fleet.",
+                              "description": "Improving the support staff available to our commanders will increase the number of ships they can lead in a single fleet.",
                               "feature_unlocks": [
                                 "ขีดจำกัดคำสั่งของกองยาน +10"
                               ],
@@ -3507,127 +3469,6 @@
           "is_event": false
         },
         {
-          "key": "tech_centralized_command",
-          "area": "society",
-          "base_factor": 1.0,
-          "base_weight": 75.0,
-          "category": "ทฤษฎีทางทหาร",
-          "cost": 5000,
-          "description": "Creating dedicated headquarters for all levels of military operations shapes an efficient fleet, and lays a better foundation for future military training.",
-          "feature_unlocks": [
-            "ทหารรักษาการณ์เพื่อการยึดครองสูงสุด +2",
-            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: โรงเรียนการทหาร"
-          ],
-          "is_dangerous": false,
-          "is_rare": false,
-          "is_start_tech": false,
-          "name": "คำสั่งจากส่วนกลาง",
-          "prerequisites": [],
-          "tier": 2,
-          "prerequisites_names": [],
-          "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจริยธรรม ชอบสงคราม \u003cbr/\u003e    •   มีจริยธรรม ชอบสงครามอย่างมาก "
-          ],
-          "potential": [],
-          "children": [
-            {
-              "key": "tech_combat_training",
-              "area": "society",
-              "base_factor": 1.0,
-              "base_weight": 65.0,
-              "category": "ทฤษฎีทางทหาร",
-              "cost": 8000,
-              "description": "A more extensive training program for new recruits, including realistic combat scenarios, prepare them for the field.",
-              "feature_unlocks": [
-                "ขวัญกำลังใจกองทัพจู่โจม +15%",
-                "พลังโจมตีทหารจู่โจม +15%"
-              ],
-              "is_dangerous": false,
-              "is_rare": false,
-              "is_start_tech": false,
-              "name": "การฝึกการรบ",
-              "prerequisites": [
-                "tech_centralized_command"
-              ],
-              "tier": 3,
-              "prerequisites_names": [
-                {
-                  "name": "คำสั่งจากส่วนกลาง",
-                  "key": "tech_centralized_command"
-                }
-              ],
-              "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจริยธรรม ชอบสงคราม \u003cbr/\u003e    •   มีจริยธรรม ชอบสงครามอย่างมาก "
-              ],
-              "potential": [],
-              "children": [
-                {
-                  "key": "tech_repeatable_improved_army_damage",
-                  "area": "society",
-                  "base_factor": 1.0,
-                  "base_weight": 12.5,
-                  "category": "ทฤษฎีทางทหาร",
-                  "cost": 50000,
-                  "description": "Iterating on the standard conditioning regimen for ground troops has proven to make them more effective in direct combat.",
-                  "feature_unlocks": [
-                    "พลังโจมตีของทหาร +10%"
-                  ],
-                  "is_dangerous": false,
-                  "is_rare": false,
-                  "is_start_tech": false,
-                  "name": "การเรียนรู้และฝึกการบุก",
-                  "prerequisites": [
-                    "tech_combat_training"
-                  ],
-                  "tier": 5,
-                  "prerequisites_names": [
-                    {
-                      "name": "การฝึกการรบ",
-                      "key": "tech_combat_training"
-                    }
-                  ],
-                  "weight_modifiers": [],
-                  "potential": [],
-                  "children": [],
-                  "is_event": false
-                },
-                {
-                  "key": "tech_repeatable_improved_army_health",
-                  "area": "society",
-                  "base_factor": 1.0,
-                  "base_weight": 12.5,
-                  "category": "ทฤษฎีทางทหาร",
-                  "cost": 50000,
-                  "description": "Careful tuning of pain receptors allow soldiers to fight through what would previously have been debilitating injuries.",
-                  "feature_unlocks": [
-                    "พลังชีวิตกองทัพ +10%"
-                  ],
-                  "is_dangerous": false,
-                  "is_rare": false,
-                  "is_start_tech": false,
-                  "name": "ตัวต่อต้านประสาทการรับรู้ความเจ็บปวด",
-                  "prerequisites": [
-                    "tech_combat_training"
-                  ],
-                  "tier": 5,
-                  "prerequisites_names": [
-                    {
-                      "name": "การฝึกการรบ",
-                      "key": "tech_combat_training"
-                    }
-                  ],
-                  "weight_modifiers": [],
-                  "potential": [],
-                  "children": [],
-                  "is_event": false
-                }
-              ],
-              "is_event": false
-            }
-          ],
-          "is_event": false
-        },
-        {
           "key": "tech_doctrine_navy_size_1",
           "area": "society",
           "base_factor": 1.0,
@@ -3636,7 +3477,7 @@
           "cost": 5000,
           "description": "As extrasolar expeditions become more common, it is important to provide planetside relief for returning fleets.",
           "feature_unlocks": [
-            "ความจุยานรบของกองยาน +30"
+            "ความจุยานรบ +30"
           ],
           "is_dangerous": false,
           "is_rare": false,
@@ -3659,7 +3500,7 @@
               "cost": 10000,
               "description": "A fleet does not run on zeal alone. To ensure steady access to critical supplies, we should organize our logistics corps into dedicated support vessels.",
               "feature_unlocks": [
-                "ความจุยานรบของกองยาน +30"
+                "ความจุยานรบ +30"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -3689,7 +3530,7 @@
                   "cost": 16000,
                   "description": "Amateurs talk about tactics. Professionals study logistics. By ensuring our fleets are regularly and efficiently supplied, we can increase the number of vessels we can effectively support.",
                   "feature_unlocks": [
-                    "ความจุยานรบของกองยาน +30"
+                    "ความจุยานรบ +30"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -3719,7 +3560,7 @@
                       "cost": 24000,
                       "description": "By maintaining a professional corps of fleet liaisons, we can improve communications and the flow of orders throughout the chain of command.",
                       "feature_unlocks": [
-                        "ความจุยานรบของกองยาน +30"
+                        "ความจุยานรบ +30"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -3749,7 +3590,7 @@
                           "cost": 50000,
                           "description": "Improved fleet management procedures will free up the resources needed to maintain a bigger fleet.",
                           "feature_unlocks": [
-                            "ความจุยานรบของกองยาน +20"
+                            "ความจุยานรบ +20"
                           ],
                           "is_dangerous": false,
                           "is_rare": false,
@@ -3831,9 +3672,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: ชีววิทยา\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์:\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: ชีวกลศาสตร์"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: ชีววิทยา\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์"
               ],
               "potential": [
                 "มีระบอบการปกครอง สติปัญญาจักรกล "
@@ -3930,6 +3769,127 @@
                   "weight_modifiers": [
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจริยธรรม ชอบสงคราม \u003cbr/\u003e    •   มีจริยธรรม ชอบสงครามอย่างมาก "
                   ],
+                  "potential": [],
+                  "children": [],
+                  "is_event": false
+                }
+              ],
+              "is_event": false
+            }
+          ],
+          "is_event": false
+        },
+        {
+          "key": "tech_centralized_command",
+          "area": "society",
+          "base_factor": 1.0,
+          "base_weight": 60.0,
+          "category": "ทฤษฎีทางทหาร",
+          "cost": 10000,
+          "description": "Creating dedicated headquarters for all levels of military operations shapes an efficient fleet, and lays a better foundation for future military training.",
+          "feature_unlocks": [
+            "ทหารรักษาการณ์เพื่อการยึดครองสูงสุด +2",
+            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: โรงเรียนการทหาร"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "name": "คำสั่งจากส่วนกลาง",
+          "prerequisites": [],
+          "tier": 3,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจริยธรรม ชอบสงคราม \u003cbr/\u003e    •   มีจริยธรรม ชอบสงครามอย่างมาก "
+          ],
+          "potential": [],
+          "children": [
+            {
+              "key": "tech_combat_training",
+              "area": "society",
+              "base_factor": 1.0,
+              "base_weight": 65.0,
+              "category": "ทฤษฎีทางทหาร",
+              "cost": 8000,
+              "description": "A more extensive training program for new recruits, including realistic combat scenarios, prepare them for the field.",
+              "feature_unlocks": [
+                "ขวัญกำลังใจกองทัพจู่โจม +15%",
+                "พลังโจมตีทหารจู่โจม +15%"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "name": "การฝึกการรบ",
+              "prerequisites": [
+                "tech_centralized_command"
+              ],
+              "tier": 3,
+              "prerequisites_names": [
+                {
+                  "name": "คำสั่งจากส่วนกลาง",
+                  "key": "tech_centralized_command"
+                }
+              ],
+              "weight_modifiers": [
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจริยธรรม ชอบสงคราม \u003cbr/\u003e    •   มีจริยธรรม ชอบสงครามอย่างมาก "
+              ],
+              "potential": [],
+              "children": [
+                {
+                  "key": "tech_repeatable_improved_army_damage",
+                  "area": "society",
+                  "base_factor": 1.0,
+                  "base_weight": 12.5,
+                  "category": "ทฤษฎีทางทหาร",
+                  "cost": 50000,
+                  "description": "Iterating on the standard conditioning regimen for ground troops has proven to make them more effective in direct combat.",
+                  "feature_unlocks": [
+                    "พลังโจมตีของทหาร +10%"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "name": "การเรียนรู้และฝึกการบุก",
+                  "prerequisites": [
+                    "tech_combat_training"
+                  ],
+                  "tier": 5,
+                  "prerequisites_names": [
+                    {
+                      "name": "การฝึกการรบ",
+                      "key": "tech_combat_training"
+                    }
+                  ],
+                  "weight_modifiers": [],
+                  "potential": [],
+                  "children": [],
+                  "is_event": false
+                },
+                {
+                  "key": "tech_repeatable_improved_army_health",
+                  "area": "society",
+                  "base_factor": 1.0,
+                  "base_weight": 12.5,
+                  "category": "ทฤษฎีทางทหาร",
+                  "cost": 50000,
+                  "description": "Careful tuning of pain receptors allow soldiers to fight through what would previously have been debilitating injuries.",
+                  "feature_unlocks": [
+                    "พลังชีวิตกองทัพ +10%"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "name": "ตัวต่อต้านประสาทการรับรู้ความเจ็บปวด",
+                  "prerequisites": [
+                    "tech_combat_training"
+                  ],
+                  "tier": 5,
+                  "prerequisites_names": [
+                    {
+                      "name": "การฝึกการรบ",
+                      "key": "tech_combat_training"
+                    }
+                  ],
+                  "weight_modifiers": [],
                   "potential": [],
                   "children": [],
                   "is_event": false
@@ -4125,8 +4085,6 @@
                       ],
                       "weight_modifiers": [
                         "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: โลกใหม่\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์:\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: การปรับตัวในดาวแห่งความตาย",
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น ดาวแห่งความตาย"
                       ],
                       "potential": [
@@ -4825,7 +4783,6 @@
           "tier": 2,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี DLC Ancient Relics Story Pack",
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.3\u003c/b\u003e) มีจำนวนโบราณสถาน น้อยกว่า 3 \u003cbr/\u003e    •   การขุดค้นโบราณสถานเสร็จสมบูรณ์",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   origin_shoulders_closure (country flag)\u003cbr/\u003e    •   เสร็จสิ้นการวิจัยจักรวรรดิแรกเริ่ม(พรีเคอร์เซอร์)"
@@ -4860,7 +4817,6 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ชนิด คณะโบราณคดี น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) ไม่ มีการยกระดับ วิศวกรโบราณคดี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี DLC Ancient Relics Story Pack"
@@ -4899,7 +4855,6 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ชนิด คณะโบราณคดี น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) ไม่ มีการยกระดับ วิศวกรโบราณคดี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี DLC Ancient Relics Story Pack"
@@ -4938,7 +4893,6 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ชนิด คณะโบราณคดี น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) ไม่ มีการยกระดับ วิศวกรโบราณคดี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี DLC Ancient Relics Story Pack"
@@ -4975,7 +4929,6 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ชนิด คณะโบราณคดี น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) ไม่ มีการยกระดับ วิศวกรโบราณคดี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี DLC Ancient Relics Story Pack"
@@ -5012,7 +4965,6 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ชนิด คณะโบราณคดี น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) ไม่ มีการยกระดับ วิศวกรโบราณคดี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี DLC Ancient Relics Story Pack"
@@ -5051,7 +5003,6 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ชนิด คณะโบราณคดี น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) ไม่ มีการยกระดับ วิศวกรโบราณคดี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี DLC Ancient Relics Story Pack"
@@ -5088,7 +5039,6 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ชนิด คณะโบราณคดี น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) ไม่ มีการยกระดับ วิศวกรโบราณคดี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี DLC Ancient Relics Story Pack"
@@ -5125,7 +5075,6 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ชนิด คณะโบราณคดี น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) ไม่ มีการยกระดับ วิศวกรโบราณคดี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี DLC Ancient Relics Story Pack"
@@ -5162,7 +5111,6 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ชนิด คณะโบราณคดี น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) ไม่ มีการยกระดับ วิศวกรโบราณคดี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี DLC Ancient Relics Story Pack"
@@ -5199,7 +5147,6 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ชนิด คณะโบราณคดี น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) ไม่ มีการยกระดับ วิศวกรโบราณคดี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี DLC Ancient Relics Story Pack"
@@ -5238,7 +5185,6 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ชนิด คณะโบราณคดี น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) ไม่ มีการยกระดับ วิศวกรโบราณคดี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี DLC Ancient Relics Story Pack"
@@ -5275,7 +5221,6 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ชนิด คณะโบราณคดี น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) ไม่ มีการยกระดับ วิศวกรโบราณคดี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี DLC Ancient Relics Story Pack"
@@ -5312,7 +5257,6 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ชนิด คณะโบราณคดี น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) ไม่ มีการยกระดับ วิศวกรโบราณคดี (สกิลพิเศษ)",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี DLC Ancient Relics Story Pack"
@@ -5406,9 +5350,7 @@
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) มีจริยธรรม เกลียดต่างดาวอย่างมาก ",
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.75\u003c/b\u003e) มีจริยธรรม เกลียดต่างดาว ",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มีจริยธรรม ชอบต่างดาว ",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีจริยธรรม ชอบต่างดาวอย่างมาก ",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์:\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: การถ่ายโอนยีน[พืช]ไปยังสิ่งมีชีวิตอื่น"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีจริยธรรม ชอบต่างดาวอย่างมาก "
           ],
           "potential": [],
           "children": [],
@@ -5437,9 +5379,7 @@
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) มีจริยธรรม เกลียดต่างดาวอย่างมาก ",
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.75\u003c/b\u003e) มีจริยธรรม เกลียดต่างดาว ",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มีจริยธรรม ชอบต่างดาว ",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีจริยธรรม ชอบต่างดาวอย่างมาก ",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์:\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: การถ่ายโอนยีน[เผ่าหิน]ไปยังสิ่งมีชีวิตอื่น"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีจริยธรรม ชอบต่างดาวอย่างมาก "
           ],
           "potential": [],
           "children": [],
@@ -5468,9 +5408,7 @@
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) มีจริยธรรม เกลียดต่างดาวอย่างมาก ",
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.75\u003c/b\u003e) มีจริยธรรม เกลียดต่างดาว ",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มีจริยธรรม ชอบต่างดาว ",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีจริยธรรม ชอบต่างดาวอย่างมาก ",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์:\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: การถ่ายโอนยีน[ลิไวธาน]ไปยังสิ่งมีชีวิตอื่น"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีจริยธรรม ชอบต่างดาวอย่างมาก "
           ],
           "potential": [],
           "children": [],
@@ -5573,9 +5511,7 @@
           "tier": 5,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีการปรับเปลี่ยน ข้อมูลเชิงลึกผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: การปกครอง",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์:\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: ทฤษฎีการยกระดับ"
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีการปรับเปลี่ยน ข้อมูลเชิงลึกผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: การปกครอง"
           ],
           "potential": [],
           "children": [],
@@ -5601,8 +5537,6 @@
           "prerequisites_names": [],
           "weight_modifiers": [
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) มีการปรับเปลี่ยน ข้อมูลเชิงลึกผู้ดูแลพิพิธภัณฑ์",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์:\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: ห้องแล็บโบราณคดี",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์",
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   มีการปรับเปลี่ยน ข้อมูลเชิงลึกผู้ดูแลพิพิธภัณฑ์"
           ],
@@ -5631,7 +5565,6 @@
           "tier": 5,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) มีจำนวนของสิ่งปลูกสร้าง \u003cbr/\u003e    •   ชนิด คณะโบราณคดี น้อยกว่า 1 \u003cbr/\u003e    •   ปิดการใช้งาน: ไม่ \u003cbr/\u003e    •   กำลังก่อสร้าง: ไม่",
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) ไม่ มีการยกระดับ วิศวกรโบราณคดี (สกิลพิเศษ)",
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี DLC Ancient Relics Story Pack"
