@@ -2462,7 +2462,7 @@
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
-                      "name": "โหนดคัดเลือกขั้นพื้นฐาน",
+                      "name": "การคัดเลือกโหนดขั้นต้น",
                       "prerequisites": [
                         "tech_colonial_centralization"
                       ],
@@ -2499,14 +2499,14 @@
                           "is_dangerous": false,
                           "is_rare": false,
                           "is_start_tech": false,
-                          "name": "โหนดคัดเลือก",
+                          "name": "การคัดเลือกโหนดพื้นฐาน",
                           "prerequisites": [
                             "tech_node_culling_1"
                           ],
                           "tier": 3,
                           "prerequisites_names": [
                             {
-                              "name": "โหนดคัดเลือกขั้นพื้นฐาน",
+                              "name": "การคัดเลือกโหนดขั้นต้น",
                               "key": "tech_node_culling_1"
                             }
                           ],
@@ -2535,14 +2535,14 @@
                               "is_dangerous": false,
                               "is_rare": true,
                               "is_start_tech": false,
-                              "name": "โหนดคัดเลือกขั้นสูง",
+                              "name": "การคัดเลือกโหนดขั้นสูง",
                               "prerequisites": [
                                 "tech_node_culling_2"
                               ],
                               "tier": 4,
                               "prerequisites_names": [
                                 {
-                                  "name": "โหนดคัดเลือก",
+                                  "name": "การคัดเลือกโหนดพื้นฐาน",
                                   "key": "tech_node_culling_2"
                                 }
                               ],
@@ -2579,7 +2579,7 @@
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
-                      "name": "โหนดกระบวนการรีฟอร์แมตขั้นพื้นฐาน",
+                      "name": "การรีฟอร์แมตโหนดขั้นต้น",
                       "prerequisites": [
                         "tech_colonial_centralization"
                       ],
@@ -2616,14 +2616,14 @@
                           "is_dangerous": false,
                           "is_rare": false,
                           "is_start_tech": false,
-                          "name": "โหนดกระบวนการรีฟอร์แมต",
+                          "name": "การรีฟอร์แมตโหนดขั้นพื้นฐาน",
                           "prerequisites": [
                             "tech_node_reformatting_1"
                           ],
                           "tier": 3,
                           "prerequisites_names": [
                             {
-                              "name": "โหนดกระบวนการรีฟอร์แมตขั้นพื้นฐาน",
+                              "name": "การรีฟอร์แมตโหนดขั้นต้น",
                               "key": "tech_node_reformatting_1"
                             }
                           ],
@@ -2652,14 +2652,14 @@
                               "is_dangerous": false,
                               "is_rare": true,
                               "is_start_tech": false,
-                              "name": "โหนดกระบวนการรีฟอร์แมตขั้นสูง",
+                              "name": "การรีฟอร์แมตโหนดขั้นสูง",
                               "prerequisites": [
                                 "tech_node_reformatting_2"
                               ],
                               "tier": 4,
                               "prerequisites_names": [
                                 {
-                                  "name": "โหนดกระบวนการรีฟอร์แมต",
+                                  "name": "การรีฟอร์แมตโหนดขั้นพื้นฐาน",
                                   "key": "tech_node_reformatting_2"
                                 }
                               ],
