@@ -578,6 +578,71 @@
               "potential": [],
               "children": [],
               "is_event": false
+            },
+            {
+              "key": "tech_bio_reactor",
+              "area": "society",
+              "base_factor": 1.0,
+              "base_weight": 10.0,
+              "category": "ชีววิทยา",
+              "cost": 2000,
+              "description": "A facility where organic matter is converted into energy at a highly efficient rate.",
+              "feature_unlocks": [
+                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: เครื่องกำเนิดพลังงานชีวภาพ"
+              ],
+              "is_dangerous": false,
+              "is_rare": true,
+              "is_start_tech": false,
+              "name": "เครื่องกำเนิดพลังงานชีวภาพ",
+              "prerequisites": [
+                "tech_industrial_farming"
+              ],
+              "tier": 1,
+              "prerequisites_names": [
+                {
+                  "name": "เกษตรอุตสาหกรรม",
+                  "key": "tech_industrial_farming"
+                }
+              ],
+              "weight_modifiers": [
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e20.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   จักรวรรดิมีพลเมือง ตัวเร่งปฏิกิริยาแปรสภาพ\u003cbr/\u003e    •   มีระบอบการปกครอง สติปัญญาจักรกล \u003cbr/\u003e    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t    •   เผ่าพันธุ์ผู้ก่อตั้ง:\u003cbr/\u003e\t\t    •   มีคุณลักษณะ: เครื่องจักรกล\u003cbr/\u003e\t    •   จักรวรรดิจักรกลสังเคราะห์ (country flag)\u003cbr/\u003e    •   เผ่าพันธุ์ผู้ก่อตั้ง:\u003cbr/\u003e\t    •   เป็นจักรวรรดิประเภทหิน (Lithoid)"
+              ],
+              "potential": [],
+              "children": [
+                {
+                  "key": "tech_bio_reactor_2",
+                  "area": "society",
+                  "base_factor": 1.0,
+                  "base_weight": 8.5,
+                  "category": "ชีววิทยา",
+                  "cost": 4000,
+                  "description": "A facility where organic matter is converted into energy at a highly efficient rate, improvements in waste collection allows harvesting of useful gaseous by-products.",
+                  "feature_unlocks": [
+                    "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: เครื่องกำเนิดพลังงานชีวภาพขั้นสูง"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": true,
+                  "is_start_tech": false,
+                  "name": "เครื่องกำเนิดพลังงานชีวภาพขั้นสูง",
+                  "prerequisites": [
+                    "tech_bio_reactor"
+                  ],
+                  "tier": 2,
+                  "prerequisites_names": [
+                    {
+                      "name": "เครื่องกำเนิดพลังงานชีวภาพ",
+                      "key": "tech_bio_reactor"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e20.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   จักรวรรดิมีพลเมือง ตัวเร่งปฏิกิริยาแปรสภาพ\u003cbr/\u003e    •   มีระบอบการปกครอง สติปัญญาจักรกล \u003cbr/\u003e    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t    •   เผ่าพันธุ์ผู้ก่อตั้ง:\u003cbr/\u003e\t\t    •   มีคุณลักษณะ: เครื่องจักรกล\u003cbr/\u003e\t    •   จักรวรรดิจักรกลสังเคราะห์ (country flag)\u003cbr/\u003e    •   เผ่าพันธุ์ผู้ก่อตั้ง:\u003cbr/\u003e\t    •   เป็นจักรวรรดิประเภทหิน (Lithoid)"
+                  ],
+                  "potential": [],
+                  "children": [],
+                  "is_event": false
+                }
+              ],
+              "is_event": false
             }
           ],
           "is_event": false
@@ -987,6 +1052,86 @@
               "is_machine_empire": false
             },
             {
+              "key": "tech_frontier_health",
+              "area": "society",
+              "base_factor": 1.0,
+              "base_weight": 190.0,
+              "category": "ชีววิทยา",
+              "cost": 2500,
+              "description": "The colonization of alien worlds has opened up an entirely new field of biomedical research.",
+              "feature_unlocks": [
+                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: คลินิกยีนพันธุกรรม"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "name": "การดูแลสุขภาพทางพันธุกรรม",
+              "prerequisites": [
+                "tech_genome_mapping"
+              ],
+              "tier": 1,
+              "prerequisites_names": [
+                {
+                  "name": "การจัดทําแผนที่พันธุกรรม",
+                  "key": "tech_genome_mapping"
+                }
+              ],
+              "weight_modifiers": [
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มี วัฒนธรรมความปรองดอง ",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีวัตถุโบราณ Javorian Pox Sample",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) payback_researching_gene_clinics (country flag)"
+              ],
+              "potential": [
+                "เงื่อนไข: \n    •   หนึ่งอย่างต้องเป็นจริง\n\t    •   เป็นจักรวรรดิประเภท: default\n\t    •   เป็นจักรวรรดิประเภท: จักรวรรดิจอมโจร (สถานะ:ตื่นขึ้น)\n\t    •   เป็นจักรวรรดิประเภท: จักรวรรดิเก่าแก่ทรงพลัง\n\t    •   เป็นจักรวรรดิประเภท: จักรวรรดิฟอลเล็น (สถานะ: ตื่นขึ้น)\n    •   ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน "
+              ],
+              "children": [
+                {
+                  "key": "tech_frontier_hospital",
+                  "area": "society",
+                  "base_factor": 1.0,
+                  "base_weight": 70.0,
+                  "category": "ชีววิทยา",
+                  "cost": 6000,
+                  "description": "As our empire grows, so does our understanding of our own biology. Advanced medical treatments on a cellular level have allowed for significant advancements in population health.",
+                  "feature_unlocks": [
+                    "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ศูนย์ฟื้นฟูเซลล์"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "name": "การฟื้นฟูเซลล์",
+                  "prerequisites": [
+                    "tech_frontier_health",
+                    "tech_colonial_centralization"
+                  ],
+                  "tier": 2,
+                  "prerequisites_names": [
+                    {
+                      "name": "การดูแลสุขภาพทางพันธุกรรม",
+                      "key": "tech_frontier_health"
+                    },
+                    {
+                      "name": "การรวมศูนย์อำนาจอาณานิคม",
+                      "key": "tech_colonial_centralization"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีเทคโนโลยี: การสกัดก๊าซแปลกประหลาด\u003cbr/\u003e    •   มีเทคโนโลยี: การกลั่นก๊าซแปลกประหลาด\u003cbr/\u003e    •   มีการเข้าถึงตลาดกาแลกติก (country flag)",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มี วัฒนธรรมความปรองดอง ",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีวัตถุโบราณ Javorian Pox Sample"
+                  ],
+                  "potential": [
+                    "ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน "
+                  ],
+                  "children": [],
+                  "is_event": false,
+                  "is_gestalt": false
+                }
+              ],
+              "is_event": false,
+              "is_gestalt": false
+            },
+            {
               "key": "tech_epigenetic_triggers",
               "area": "society",
               "base_factor": 1.0,
@@ -1146,148 +1291,6 @@
           ],
           "is_event": false,
           "is_machine_empire": false
-        },
-        {
-          "key": "tech_society_1",
-          "area": "society",
-          "base_factor": 1.0,
-          "base_weight": 100.0,
-          "category": "ชีววิทยา",
-          "cost": 2000,
-          "description": "Studying the different forms of life that appear on our world helps us better understand ourselves and the life that surrounds us.",
-          "feature_unlocks": [
-            "£society£ การวิจัยสังคมจาก £job_researcher£ นักวิจัย +20%"
-          ],
-          "is_dangerous": false,
-          "is_rare": false,
-          "is_start_tech": false,
-          "name": "การศึกษาความหลากหลายทางชีวภาพ",
-          "prerequisites": [],
-          "tier": 1,
-          "prerequisites_names": [],
-          "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e5.0\u003c/b\u003e) เป็น AI",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 5",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 10",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 15",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 20",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : วิชาการ",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีวัตถุโบราณ Javorian Pox Sample"
-          ],
-          "potential": [],
-          "children": [
-            {
-              "key": "tech_society_2",
-              "area": "society",
-              "base_factor": 1.0,
-              "base_weight": 70.0,
-              "category": "ชีววิทยา",
-              "cost": 6000,
-              "description": "Studying the life that arises on other worlds and beyond allows us to understand fundamental aspects of biology that were previously beyond our reach.",
-              "feature_unlocks": [
-                "£society£ การวิจัยสังคมจาก £job_researcher£ นักวิจัย +20%"
-              ],
-              "is_dangerous": false,
-              "is_rare": false,
-              "is_start_tech": false,
-              "name": "ชีววิทยาของต่างดาว",
-              "prerequisites": [
-                "tech_society_1"
-              ],
-              "tier": 2,
-              "prerequisites_names": [
-                {
-                  "name": "การศึกษาความหลากหลายทางชีวภาพ",
-                  "key": "tech_society_1"
-                }
-              ],
-              "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 5",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 10",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 15",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 20",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : วิชาการ",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีวัตถุโบราณ Javorian Pox Sample"
-              ],
-              "potential": [],
-              "children": [
-                {
-                  "key": "tech_society_3",
-                  "area": "society",
-                  "base_factor": 1.0,
-                  "base_weight": 40.0,
-                  "category": "ชีววิทยา",
-                  "cost": 20000,
-                  "description": "Having the opportunity to study the multitudes of life lets us find some common ground for all living beings. The foundational building blocks of life.",
-                  "feature_unlocks": [
-                    "£society£ การวิจัยสังคมจาก £job_researcher£ นักวิจัย +20%"
-                  ],
-                  "is_dangerous": false,
-                  "is_rare": false,
-                  "is_start_tech": false,
-                  "name": "ความลับของชีวิต",
-                  "prerequisites": [
-                    "tech_society_2"
-                  ],
-                  "tier": 4,
-                  "prerequisites_names": [
-                    {
-                      "name": "ชีววิทยาของต่างดาว",
-                      "key": "tech_society_2"
-                    }
-                  ],
-                  "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 25",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 30",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 35",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 40",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : วิชาการ",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีวัตถุโบราณ Javorian Pox Sample"
-                  ],
-                  "potential": [],
-                  "children": [],
-                  "is_event": false
-                },
-                {
-                  "key": "tech_arcane_deciphering",
-                  "area": "society",
-                  "base_factor": 1.0,
-                  "base_weight": 35.0,
-                  "category": "การศึกษาโบราณคดี",
-                  "cost": 6000,
-                  "description": "Various artifacts and technologies functioning by arcane means that cannot be understood or replicated... at least not by conventional science as it is known to us.",
-                  "feature_unlocks": [
-                    "\u003cb\u003eฟีเจอร์ : \u003c/b\u003eวิศวกรรมย้อนกลับศิลปวัตถุชั้นรอง"
-                  ],
-                  "is_dangerous": false,
-                  "is_rare": true,
-                  "is_start_tech": false,
-                  "name": "การถอดรหัสที่ซ่อนเอาไว้",
-                  "prerequisites": [
-                    "tech_society_2"
-                  ],
-                  "tier": 2,
-                  "prerequisites_names": [
-                    {
-                      "name": "ชีววิทยาของต่างดาว",
-                      "key": "tech_society_2"
-                    }
-                  ],
-                  "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี £minor_artifacts£ ศิลปวัตถุชั้นรอง มากกว่า 0",
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี DLC Ancient Relics Story Pack",
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) มีการปรับเปลี่ยน ข้อมูลเชิงลึกผู้ดูแลพิพิธภัณฑ์",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์"
-                  ],
-                  "potential": [],
-                  "children": [],
-                  "is_event": false
-                }
-              ],
-              "is_event": false
-            }
-          ],
-          "is_event": false
         },
         {
           "key": "tech_hive_node",
@@ -1904,6 +1907,211 @@
                       ],
                       "potential": [],
                       "children": [
+                        {
+                          "key": "tech_encryption_1",
+                          "area": "physics",
+                          "base_factor": 1.0,
+                          "base_weight": 90.0,
+                          "category": "การคำนวณ",
+                          "cost": 2500,
+                          "description": "Advances in computing technology have given us new ways to protect our data from prying eyes.",
+                          "feature_unlocks": [
+                            "การเข้ารหัส +2"
+                          ],
+                          "is_dangerous": false,
+                          "is_rare": false,
+                          "is_start_tech": false,
+                          "name": "ไฟร์วอลล์ควอนตัม",
+                          "prerequisites": [
+                            "tech_colonial_bureaucracy"
+                          ],
+                          "tier": 1,
+                          "prerequisites_names": [
+                            {
+                              "name": "ระบบราชการอาณานิคม",
+                              "key": "tech_colonial_bureaucracy"
+                            }
+                          ],
+                          "weight_modifiers": [
+                            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   เป็น AI\u003cbr/\u003e    •   เริ่มมีเครือข่ายสอดแนม (country flag)",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e5.0\u003c/b\u003e) มี วัฒนธรรมการวางอุบาย "
+                          ],
+                          "potential": [],
+                          "children": [
+                            {
+                              "key": "tech_encryption_2",
+                              "area": "physics",
+                              "base_factor": 1.0,
+                              "base_weight": 70.0,
+                              "category": "การคำนวณ",
+                              "cost": 5000,
+                              "description": "Further advances in unstable entanglement have given us new ways to prevent unauthorized intrusions into our databases.",
+                              "feature_unlocks": [
+                                "การเข้ารหัส +2"
+                              ],
+                              "is_dangerous": false,
+                              "is_rare": false,
+                              "is_start_tech": false,
+                              "name": "ที่เก็บข้อมูลที่พังได้พร้อมๆกัน",
+                              "prerequisites": [
+                                "tech_encryption_1"
+                              ],
+                              "tier": 2,
+                              "prerequisites_names": [
+                                {
+                                  "name": "ไฟร์วอลล์ควอนตัม",
+                                  "key": "tech_encryption_1"
+                                }
+                              ],
+                              "weight_modifiers": [
+                                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   เป็น AI\u003cbr/\u003e    •   เริ่มมีเครือข่ายสอดแนม (country flag)",
+                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e5.0\u003c/b\u003e) มี วัฒนธรรมการวางอุบาย "
+                              ],
+                              "potential": [],
+                              "children": [
+                                {
+                                  "key": "tech_encryption_3",
+                                  "area": "physics",
+                                  "base_factor": 1.0,
+                                  "base_weight": 50.0,
+                                  "category": "การคำนวณ",
+                                  "cost": 20000,
+                                  "description": "Our latest advances in encryption exploit recently discovered quirks of physics to require inputting a specialized key before it has been generated.",
+                                  "feature_unlocks": [
+                                    "การเข้ารหัส +2"
+                                  ],
+                                  "is_dangerous": false,
+                                  "is_rare": false,
+                                  "is_start_tech": false,
+                                  "name": "กุญแจแบบ Negative-Time",
+                                  "prerequisites": [
+                                    "tech_encryption_2"
+                                  ],
+                                  "tier": 4,
+                                  "prerequisites_names": [
+                                    {
+                                      "name": "ที่เก็บข้อมูลที่พังได้พร้อมๆกัน",
+                                      "key": "tech_encryption_2"
+                                    }
+                                  ],
+                                  "weight_modifiers": [
+                                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   เป็น AI\u003cbr/\u003e    •   เริ่มมีเครือข่ายสอดแนม (country flag)",
+                                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e5.0\u003c/b\u003e) มี วัฒนธรรมการวางอุบาย "
+                                  ],
+                                  "potential": [],
+                                  "children": [],
+                                  "is_event": false
+                                }
+                              ],
+                              "is_event": false
+                            }
+                          ],
+                          "is_event": false
+                        },
+                        {
+                          "key": "tech_decryption_1",
+                          "area": "physics",
+                          "base_factor": 1.0,
+                          "base_weight": 90.0,
+                          "category": "การคำนวณ",
+                          "cost": 2500,
+                          "description": "Primitive encryption systems stand no chance against modern decryption tools.",
+                          "feature_unlocks": [
+                            "การถอดรหัส +2",
+                            "\u003cb\u003eประกาศคำสั่ง\u003c/b\u003e: อัลกอริทึมการวิเคราะห์ข้อมูลลับ",
+                            "\u003cb\u003eประกาศคำสั่ง\u003c/b\u003e: สำนักงานข่าวกรอง",
+                            "\u003cb\u003eประกาศคำสั่ง\u003c/b\u003e: เพิ่มการสังเกตการณ์"
+                          ],
+                          "is_dangerous": false,
+                          "is_rare": false,
+                          "is_start_tech": false,
+                          "name": "การแฮ็กควอนตัม",
+                          "prerequisites": [
+                            "tech_colonial_bureaucracy"
+                          ],
+                          "tier": 1,
+                          "prerequisites_names": [
+                            {
+                              "name": "ระบบราชการอาณานิคม",
+                              "key": "tech_colonial_bureaucracy"
+                            }
+                          ],
+                          "weight_modifiers": [
+                            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   เป็น AI\u003cbr/\u003e    •   เริ่มมีเครือข่ายสอดแนม (country flag)",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e5.0\u003c/b\u003e) มี วัฒนธรรมการวางอุบาย "
+                          ],
+                          "potential": [],
+                          "children": [
+                            {
+                              "key": "tech_decryption_2",
+                              "area": "physics",
+                              "base_factor": 1.0,
+                              "base_weight": 70.0,
+                              "category": "การคำนวณ",
+                              "cost": 5000,
+                              "description": "The weakest link in any security system are the individuals within it. By modeling their weaknesses in computer simulations we can find novel ways to bypass their security - or trick them into bypassing it for us.",
+                              "feature_unlocks": [
+                                "การถอดรหัส +2"
+                              ],
+                              "is_dangerous": false,
+                              "is_rare": false,
+                              "is_start_tech": false,
+                              "name": "การจำลองวิศวกรรมสังคม",
+                              "prerequisites": [
+                                "tech_decryption_1"
+                              ],
+                              "tier": 2,
+                              "prerequisites_names": [
+                                {
+                                  "name": "การแฮ็กควอนตัม",
+                                  "key": "tech_decryption_1"
+                                }
+                              ],
+                              "weight_modifiers": [
+                                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   เป็น AI\u003cbr/\u003e    •   เริ่มมีเครือข่ายสอดแนม (country flag)",
+                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e5.0\u003c/b\u003e) มี วัฒนธรรมการวางอุบาย "
+                              ],
+                              "potential": [],
+                              "children": [
+                                {
+                                  "key": "tech_decryption_3",
+                                  "area": "physics",
+                                  "base_factor": 1.0,
+                                  "base_weight": 50.0,
+                                  "category": "การคำนวณ",
+                                  "cost": 20000,
+                                  "description": "Our operatives can access data from adjacent realities without risking setting off alarms in this reality.",
+                                  "feature_unlocks": [
+                                    "การถอดรหัส +2"
+                                  ],
+                                  "is_dangerous": false,
+                                  "is_rare": false,
+                                  "is_start_tech": false,
+                                  "name": "การสะท้อนของมิติเสมือน",
+                                  "prerequisites": [
+                                    "tech_decryption_2"
+                                  ],
+                                  "tier": 4,
+                                  "prerequisites_names": [
+                                    {
+                                      "name": "การจำลองวิศวกรรมสังคม",
+                                      "key": "tech_decryption_2"
+                                    }
+                                  ],
+                                  "weight_modifiers": [
+                                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   เป็น AI\u003cbr/\u003e    •   เริ่มมีเครือข่ายสอดแนม (country flag)",
+                                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e5.0\u003c/b\u003e) มี วัฒนธรรมการวางอุบาย "
+                                  ],
+                                  "potential": [],
+                                  "children": [],
+                                  "is_event": false
+                                }
+                              ],
+                              "is_event": false
+                            }
+                          ],
+                          "is_event": false
+                        },
                         {
                           "key": "tech_galactic_bureaucracy",
                           "area": "society",
@@ -3059,7 +3267,7 @@
           "key": "tech_artificial_moral_codes",
           "area": "society",
           "base_factor": 1.0,
-          "base_weight": 105.0,
+          "base_weight": 112.5,
           "category": "การปกครอง",
           "cost": 6000,
           "description": "It is circumstance that dictates what is moral. Define the circumstances, and ethics is like clay in your hands.",
@@ -3080,6 +3288,39 @@
             "ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน "
           ],
           "children": [
+            {
+              "key": "tech_resort_colonies",
+              "area": "society",
+              "base_factor": 1.0,
+              "base_weight": 105.0,
+              "category": "การปกครอง",
+              "cost": 6000,
+              "description": "With careful study devoted to landscaping and the science of fun, the construction of entire worlds dedicated to leisure can be made possible.",
+              "feature_unlocks": [],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "name": "ดาวรีสอร์ต (ที่พักตากอากาศ)",
+              "prerequisites": [
+                "tech_artificial_moral_codes"
+              ],
+              "tier": 3,
+              "prerequisites_names": [
+                {
+                  "name": "รหัสคุณธรรมประดิษฐ์",
+                  "key": "tech_artificial_moral_codes"
+                }
+              ],
+              "weight_modifiers": [
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) จำนวนดาวเคราะห์ที่เป็นเจ้าของ น้อยกว่า 2"
+              ],
+              "potential": [
+                "ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน "
+              ],
+              "children": [],
+              "is_event": false,
+              "is_gestalt": false
+            },
             {
               "key": "tech_penal_colonies",
               "area": "society",
@@ -3106,40 +3347,6 @@
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: การปกครอง\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจริยธรรม อำนาจเผด็จการ \u003cbr/\u003e    •   มีจริยธรรม อำนาจเผด็จการสุดโต่ง ",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) จำนวนดาวเคราะห์ที่เป็นเจ้าของ น้อยกว่า 2"
-              ],
-              "potential": [
-                "ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน "
-              ],
-              "children": [],
-              "is_event": false,
-              "is_gestalt": false
-            },
-            {
-              "key": "tech_resort_colonies",
-              "area": "society",
-              "base_factor": 1.0,
-              "base_weight": 32.5,
-              "category": "การปกครอง",
-              "cost": 8000,
-              "description": "With careful study devoted to landscaping, climate control, and the science of fun,  construction of entire worlds dedicated to leisure can be made possible.",
-              "feature_unlocks": [],
-              "is_dangerous": false,
-              "is_rare": true,
-              "is_start_tech": false,
-              "name": "ดาวรีสอร์ต (ที่พักตากอากาศ)",
-              "prerequisites": [
-                "tech_artificial_moral_codes"
-              ],
-              "tier": 3,
-              "prerequisites_names": [
-                {
-                  "name": "รหัสคุณธรรมประดิษฐ์",
-                  "key": "tech_artificial_moral_codes"
-                }
-              ],
-              "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: การปกครอง\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) จำนวนดาวเคราะห์ที่เป็นเจ้าของ น้อยกว่า 2"
               ],
               "potential": [
@@ -3283,9 +3490,9 @@
           "key": "tech_doctrine_fleet_size_1",
           "area": "society",
           "base_factor": 1.0,
-          "base_weight": 255.0,
+          "base_weight": 300.0,
           "category": "ทฤษฎีทางทหาร",
-          "cost": 4000,
+          "cost": 2000,
           "description": "Gradual adaptation to the realities of deep-space combat allows us to effectively coordinate larger maneuvers.",
           "feature_unlocks": [
             "ขีดจำกัดคำสั่งของกองยาน +20",
@@ -3296,7 +3503,7 @@
           "is_start_tech": false,
           "name": "ทฤษฎี: การสู้รบในอวกาศ",
           "prerequisites": [],
-          "tier": 2,
+          "tier": 1,
           "prerequisites_names": [],
           "weight_modifiers": [
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจริยธรรม ชอบสงคราม \u003cbr/\u003e    •   มีจริยธรรม ชอบสงครามอย่างมาก "
@@ -3397,9 +3604,9 @@
                           "key": "tech_doctrine_fleet_size_5",
                           "area": "society",
                           "base_factor": 1.0,
-                          "base_weight": 105.0,
+                          "base_weight": 60.0,
                           "category": "ทฤษฎีทางทหาร",
-                          "cost": 24000,
+                          "cost": 48000,
                           "description": "Gradual adaptation to the realities of deep-space combat allows us to effectively coordinate larger maneuvers.",
                           "feature_unlocks": [
                             "ขีดจำกัดคำสั่งของกองยาน +20"
@@ -3411,7 +3618,7 @@
                           "prerequisites": [
                             "tech_doctrine_fleet_size_4"
                           ],
-                          "tier": 4,
+                          "tier": 5,
                           "prerequisites_names": [
                             {
                               "name": "ทฤษฎี: แม่แบบกองยานแบบผันแปร",
@@ -3472,19 +3679,19 @@
           "key": "tech_doctrine_navy_size_1",
           "area": "society",
           "base_factor": 1.0,
-          "base_weight": 225.0,
+          "base_weight": 285.0,
           "category": "ทฤษฎีทางทหาร",
-          "cost": 5000,
+          "cost": 2500,
           "description": "As extrasolar expeditions become more common, it is important to provide planetside relief for returning fleets.",
           "feature_unlocks": [
-            "ความจุยานรบ +30"
+            "ความจุยานรบ +25"
           ],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": false,
           "name": "ทฤษฎี: การสนับสนุนกองยาน",
           "prerequisites": [],
-          "tier": 2,
+          "tier": 1,
           "prerequisites_names": [],
           "weight_modifiers": [
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจริยธรรม ชอบสงคราม \u003cbr/\u003e    •   มีจริยธรรม ชอบสงครามอย่างมาก "
@@ -3495,12 +3702,12 @@
               "key": "tech_doctrine_navy_size_2",
               "area": "society",
               "base_factor": 1.0,
-              "base_weight": 600.0,
+              "base_weight": 750.0,
               "category": "ทฤษฎีทางทหาร",
-              "cost": 10000,
+              "cost": 5000,
               "description": "A fleet does not run on zeal alone. To ensure steady access to critical supplies, we should organize our logistics corps into dedicated support vessels.",
               "feature_unlocks": [
-                "ความจุยานรบ +30"
+                "ความจุยานรบ +25"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -3509,7 +3716,7 @@
               "prerequisites": [
                 "tech_doctrine_navy_size_1"
               ],
-              "tier": 3,
+              "tier": 2,
               "prerequisites_names": [
                 {
                   "name": "ทฤษฎี: การสนับสนุนกองยาน",
@@ -3525,12 +3732,12 @@
                   "key": "tech_doctrine_navy_size_3",
                   "area": "society",
                   "base_factor": 1.0,
-                  "base_weight": 135.0,
+                  "base_weight": 195.0,
                   "category": "ทฤษฎีทางทหาร",
-                  "cost": 16000,
+                  "cost": 8000,
                   "description": "Amateurs talk about tactics. Professionals study logistics. By ensuring our fleets are regularly and efficiently supplied, we can increase the number of vessels we can effectively support.",
                   "feature_unlocks": [
-                    "ความจุยานรบ +30"
+                    "ความจุยานรบ +25"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -3539,7 +3746,7 @@
                   "prerequisites": [
                     "tech_doctrine_navy_size_2"
                   ],
-                  "tier": 4,
+                  "tier": 3,
                   "prerequisites_names": [
                     {
                       "name": "ทฤษฎี: ยานสนับสนุน",
@@ -3560,7 +3767,7 @@
                       "cost": 24000,
                       "description": "By maintaining a professional corps of fleet liaisons, we can improve communications and the flow of orders throughout the chain of command.",
                       "feature_unlocks": [
-                        "ความจุยานรบ +30"
+                        "ความจุยานรบ +25"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -4101,91 +4308,6 @@
               ],
               "is_event": false,
               "is_machine_empire": false
-            },
-            {
-              "key": "tech_frontier_health",
-              "area": "society",
-              "base_factor": 1.0,
-              "base_weight": 190.0,
-              "category": "ชีววิทยา",
-              "cost": 2500,
-              "description": "The colonization of alien worlds has opened up an entirely new field of biomedical research.",
-              "feature_unlocks": [
-                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: คลินิกยีนพันธุกรรม"
-              ],
-              "is_dangerous": false,
-              "is_rare": false,
-              "is_start_tech": false,
-              "name": "การดูแลสุขภาพทางพันธุกรรม",
-              "prerequisites": [
-                "tech_colonization_1",
-                "tech_genome_mapping"
-              ],
-              "tier": 1,
-              "prerequisites_names": [
-                {
-                  "name": "การจัดทําแผนที่พันธุกรรม",
-                  "key": "tech_genome_mapping"
-                },
-                {
-                  "name": "วิธีการจัดการโลกใหม่",
-                  "key": "tech_colonization_1"
-                }
-              ],
-              "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มี วัฒนธรรมความปรองดอง ",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีวัตถุโบราณ Javorian Pox Sample",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) payback_researching_gene_clinics (country flag)"
-              ],
-              "potential": [
-                "เงื่อนไข: \n    •   หนึ่งอย่างต้องเป็นจริง\n\t    •   เป็นจักรวรรดิประเภท: default\n\t    •   เป็นจักรวรรดิประเภท: จักรวรรดิจอมโจร (สถานะ:ตื่นขึ้น)\n\t    •   เป็นจักรวรรดิประเภท: จักรวรรดิเก่าแก่ทรงพลัง\n\t    •   เป็นจักรวรรดิประเภท: จักรวรรดิฟอลเล็น (สถานะ: ตื่นขึ้น)\n    •   ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน "
-              ],
-              "children": [
-                {
-                  "key": "tech_frontier_hospital",
-                  "area": "society",
-                  "base_factor": 1.0,
-                  "base_weight": 70.0,
-                  "category": "ชีววิทยา",
-                  "cost": 6000,
-                  "description": "As our empire grows, so does our understanding of our own biology. Advanced medical treatments on a cellular level have allowed for significant advancements in population health.",
-                  "feature_unlocks": [
-                    "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ศูนย์ฟื้นฟูเซลล์"
-                  ],
-                  "is_dangerous": false,
-                  "is_rare": false,
-                  "is_start_tech": false,
-                  "name": "การฟื้นฟูเซลล์",
-                  "prerequisites": [
-                    "tech_frontier_health",
-                    "tech_colonial_centralization"
-                  ],
-                  "tier": 2,
-                  "prerequisites_names": [
-                    {
-                      "name": "การดูแลสุขภาพทางพันธุกรรม",
-                      "key": "tech_frontier_health"
-                    },
-                    {
-                      "name": "การรวมศูนย์อำนาจอาณานิคม",
-                      "key": "tech_colonial_centralization"
-                    }
-                  ],
-                  "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีเทคโนโลยี: การสกัดก๊าซแปลกประหลาด\u003cbr/\u003e    •   มีเทคโนโลยี: การกลั่นก๊าซแปลกประหลาด\u003cbr/\u003e    •   มีการเข้าถึงตลาดกาแลกติก (country flag)",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มี วัฒนธรรมความปรองดอง ",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีวัตถุโบราณ Javorian Pox Sample"
-                  ],
-                  "potential": [
-                    "ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน "
-                  ],
-                  "children": [],
-                  "is_event": false,
-                  "is_gestalt": false
-                }
-              ],
-              "is_event": false,
-              "is_gestalt": false
             },
             {
               "key": "tech_deep_sinkhole",
@@ -5291,7 +5413,7 @@
           "prerequisites_names": [],
           "weight_modifiers": [],
           "potential": [
-            "มีจุดเริ่มต้น Fruitful Partnership"
+            "มีจุดเริ่มต้น หุ้นส่วนที่ออกดอกออกผล"
           ],
           "children": [],
           "is_event": false
@@ -5495,9 +5617,9 @@
           "key": "tech_ascension_theory",
           "area": "society",
           "base_factor": 1.0,
-          "base_weight": 12.5,
+          "base_weight": 20.0,
           "category": "การปกครอง",
-          "cost": 40000,
+          "cost": 20000,
           "description": "Our history is a repeating cycle of dramatic technological, political, and cultural leaps; these leaps are often preceded by periods of upheaval and followed by times of relative stability. By identifying the core, recurring premises of these leaps, we may be able to effectively short-circuit the cycle for our own benefit.",
           "feature_unlocks": [
             "ปลดล็อกการยกระดับ +1",
@@ -5508,10 +5630,11 @@
           "is_start_tech": false,
           "name": "ทฤษฎีการยกระดับ",
           "prerequisites": [],
-          "tier": 5,
+          "tier": 4,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีการปรับเปลี่ยน ข้อมูลเชิงลึกผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: การปกครอง"
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีการปรับเปลี่ยน ข้อมูลเชิงลึกผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: การปกครอง",
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) จำนวนสล็อตการยกระดับ น้อยกว่า 6"
           ],
           "potential": [],
           "children": [],
@@ -5543,6 +5666,34 @@
           "potential": [
             "มี DLC Ancient Relics Story Pack"
           ],
+          "children": [],
+          "is_event": false
+        },
+        {
+          "key": "tech_arcane_deciphering",
+          "area": "society",
+          "base_factor": 1.0,
+          "base_weight": 35.0,
+          "category": "การศึกษาโบราณคดี",
+          "cost": 6000,
+          "description": "Various artifacts and technologies functioning by arcane means that cannot be understood or replicated... at least not by conventional science as it is known to us.",
+          "feature_unlocks": [
+            "\u003cb\u003eฟีเจอร์ : \u003c/b\u003eวิศวกรรมย้อนกลับศิลปวัตถุชั้นรอง"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "name": "การถอดรหัสที่ซ่อนเอาไว้",
+          "prerequisites": [],
+          "tier": 2,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี £minor_artifacts£ ศิลปวัตถุชั้นรอง มากกว่า 0",
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี DLC Ancient Relics Story Pack",
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) มีการปรับเปลี่ยน ข้อมูลเชิงลึกผู้ดูแลพิพิธภัณฑ์",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์"
+          ],
+          "potential": [],
           "children": [],
           "is_event": false
         },

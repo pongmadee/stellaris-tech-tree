@@ -570,7 +570,7 @@
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มี วัฒนธรรมการขยายอาณาเขตเสร็จแล้ว "
                   ],
                   "potential": [
-                    "หนึ่งอย่างต้องเป็นจริง\n    •   มีจุดเริ่มต้น ผู้อยู่อาศัยในอวกาศ\n    •   มีจุดเริ่มต้น Knights of the Toxic God\n    •   มี DLC Utopia"
+                    "หนึ่งอย่างต้องเป็นจริง\n    •   มีจุดเริ่มต้น ผู้อยู่อาศัยในอวกาศ\n    •   มีจุดเริ่มต้น อัศวินของเทพทรพิษ\n    •   มี DLC Utopia"
                   ],
                   "children": [
                     {
@@ -1853,18 +1853,13 @@
               "is_start_tech": false,
               "name": "ตอร์ปิโดอวกาศ",
               "prerequisites": [
-                "tech_corvettes",
-                "tech_missiles_2"
+                "tech_corvettes"
               ],
               "tier": 1,
               "prerequisites_names": [
                 {
                   "name": "ยานคอร์เวต",
                   "key": "tech_corvettes"
-                },
-                {
-                  "name": "มิสไซล์ฟิวชัน",
-                  "key": "tech_missiles_2"
                 }
               ],
               "weight_modifiers": [
@@ -4705,199 +4700,88 @@
           "is_event": false
         },
         {
-          "key": "tech_engineering_1",
+          "key": "tech_assembly_pattern",
           "area": "engineering",
           "base_factor": 1.0,
-          "base_weight": 100.0,
+          "base_weight": 90.0,
           "category": "อุตสาหกรรม",
-          "cost": 2000,
-          "description": "Advanced instrumentation allows for the study and practical application of physical systems at nanometric scales.",
+          "cost": 3000,
+          "description": "Rapid iteration in construction simulations determines the optimal component assembly patterns for each building project ahead of time.",
           "feature_unlocks": [
-            "£engineering£ การวิจัยวิศวกรรมจาก £job_researcher£ นักวิจัย +20%"
+            "ความเร็วในการก่อสร้างบนดาวเคราะห์ +25%"
           ],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": false,
-          "name": "กลศาสตร์นาโน",
+          "name": "รูปแบบการประกอบ",
           "prerequisites": [],
           "tier": 1,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e5.0\u003c/b\u003e) เป็น AI",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 5",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 10",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 15",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 20",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : วิชาการ"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจริยธรรม ชอบสงคราม \u003cbr/\u003e    •   มีจริยธรรม ชอบสงครามอย่างมาก "
           ],
           "potential": [],
           "children": [
             {
-              "key": "tech_assembly_pattern",
+              "key": "tech_construction_templates",
               "area": "engineering",
               "base_factor": 1.0,
-              "base_weight": 90.0,
+              "base_weight": 30.0,
               "category": "อุตสาหกรรม",
-              "cost": 3000,
-              "description": "Rapid iteration in construction simulations determines the optimal component assembly patterns for each building project ahead of time.",
+              "cost": 10000,
+              "description": "Standardized pre-fab templates massively reduce on-site facility construction times.",
               "feature_unlocks": [
-                "ความเร็วในการก่อสร้างบนดาวเคราะห์ +25%"
+                "ความเร็วในการก่อสร้างบนดาวเคราะห์ +50%",
+                "\u003cfont color\u003d\"yellow\"\u003eCustom Tooltip\u003c/font\u003e:  ",
+                "ขนาดจักรวรรดิจากเขตต่างๆ -10%",
+                "แสดงเฉพาะ \u003cfont color\u003d\"yellow\"\u003eCustom Tooltip\u003c/font\u003e:  ไม่"
               ],
               "is_dangerous": false,
-              "is_rare": false,
+              "is_rare": true,
               "is_start_tech": false,
-              "name": "รูปแบบการประกอบ",
+              "name": "แม่แบบการก่อสร้าง",
               "prerequisites": [
-                "tech_engineering_1"
+                "tech_assembly_pattern"
               ],
-              "tier": 1,
+              "tier": 3,
               "prerequisites_names": [
                 {
-                  "name": "กลศาสตร์นาโน",
-                  "key": "tech_engineering_1"
+                  "name": "รูปแบบการประกอบ",
+                  "key": "tech_assembly_pattern"
                 }
               ],
               "weight_modifiers": [
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: อุตสาหกรรม\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจริยธรรม ชอบสงคราม \u003cbr/\u003e    •   มีจริยธรรม ชอบสงครามอย่างมาก "
               ],
               "potential": [],
               "children": [
                 {
-                  "key": "tech_construction_templates",
+                  "key": "tech_repeatable_reduced_building_time",
                   "area": "engineering",
                   "base_factor": 1.0,
-                  "base_weight": 30.0,
+                  "base_weight": 12.5,
                   "category": "อุตสาหกรรม",
-                  "cost": 10000,
-                  "description": "Standardized pre-fab templates massively reduce on-site facility construction times.",
+                  "cost": 50000,
+                  "description": "The application of game and puzzle theory has the potential to greatly optimize modular assembly and construction.",
                   "feature_unlocks": [
-                    "ความเร็วในการก่อสร้างบนดาวเคราะห์ +50%",
-                    "\u003cfont color\u003d\"yellow\"\u003eCustom Tooltip\u003c/font\u003e:  ",
-                    "ขนาดจักรวรรดิจากเขตต่างๆ -10%",
-                    "แสดงเฉพาะ \u003cfont color\u003d\"yellow\"\u003eCustom Tooltip\u003c/font\u003e:  ไม่"
-                  ],
-                  "is_dangerous": false,
-                  "is_rare": true,
-                  "is_start_tech": false,
-                  "name": "แม่แบบการก่อสร้าง",
-                  "prerequisites": [
-                    "tech_assembly_pattern"
-                  ],
-                  "tier": 3,
-                  "prerequisites_names": [
-                    {
-                      "name": "รูปแบบการประกอบ",
-                      "key": "tech_assembly_pattern"
-                    }
-                  ],
-                  "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: อุตสาหกรรม\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจริยธรรม ชอบสงคราม \u003cbr/\u003e    •   มีจริยธรรม ชอบสงครามอย่างมาก "
-                  ],
-                  "potential": [],
-                  "children": [
-                    {
-                      "key": "tech_repeatable_reduced_building_time",
-                      "area": "engineering",
-                      "base_factor": 1.0,
-                      "base_weight": 12.5,
-                      "category": "อุตสาหกรรม",
-                      "cost": 50000,
-                      "description": "The application of game and puzzle theory has the potential to greatly optimize modular assembly and construction.",
-                      "feature_unlocks": [
-                        "ความเร็วในการก่อสร้างบนดาวเคราะห์ +10%"
-                      ],
-                      "is_dangerous": false,
-                      "is_rare": false,
-                      "is_start_tech": false,
-                      "name": "อัลกอริทึม / วิธีการประกอบ",
-                      "prerequisites": [
-                        "tech_construction_templates"
-                      ],
-                      "tier": 5,
-                      "prerequisites_names": [
-                        {
-                          "name": "แม่แบบการก่อสร้าง",
-                          "key": "tech_construction_templates"
-                        }
-                      ],
-                      "weight_modifiers": [],
-                      "potential": [],
-                      "children": [],
-                      "is_event": false
-                    }
-                  ],
-                  "is_event": false
-                }
-              ],
-              "is_event": false
-            },
-            {
-              "key": "tech_engineering_2",
-              "area": "engineering",
-              "base_factor": 1.0,
-              "base_weight": 70.0,
-              "category": "อุตสาหกรรม",
-              "cost": 6000,
-              "description": "The production and understanding of supersolids are of immeasurable value to any and every space-age civilization.",
-              "feature_unlocks": [
-                "£engineering£ การวิจัยวิศวกรรมจาก £job_researcher£ นักวิจัย +20%"
-              ],
-              "is_dangerous": false,
-              "is_rare": false,
-              "is_start_tech": false,
-              "name": "วัสดุแข็งพิเศษ",
-              "prerequisites": [
-                "tech_engineering_1"
-              ],
-              "tier": 2,
-              "prerequisites_names": [
-                {
-                  "name": "กลศาสตร์นาโน",
-                  "key": "tech_engineering_1"
-                }
-              ],
-              "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 25",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 30",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 35",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 40",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : วิชาการ"
-              ],
-              "potential": [],
-              "children": [
-                {
-                  "key": "tech_engineering_3",
-                  "area": "engineering",
-                  "base_factor": 1.0,
-                  "base_weight": 40.0,
-                  "category": "อุตสาหกรรม",
-                  "cost": 20000,
-                  "description": "The study of superfluidity promises to marry quantum mechanics with the fundamental interaction of gravity.",
-                  "feature_unlocks": [
-                    "£engineering£ การวิจัยวิศวกรรมจาก £job_researcher£ นักวิจัย +20%"
+                    "ความเร็วในการก่อสร้างบนดาวเคราะห์ +10%"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
-                  "name": "วัสดุเหลวพิเศษ",
+                  "name": "อัลกอริทึม / วิธีการประกอบ",
                   "prerequisites": [
-                    "tech_engineering_2"
+                    "tech_construction_templates"
                   ],
-                  "tier": 4,
+                  "tier": 5,
                   "prerequisites_names": [
                     {
-                      "name": "วัสดุแข็งพิเศษ",
-                      "key": "tech_engineering_2"
+                      "name": "แม่แบบการก่อสร้าง",
+                      "key": "tech_construction_templates"
                     }
                   ],
-                  "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 25",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 30",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 35",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 40",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : วิชาการ"
-                  ],
+                  "weight_modifiers": [],
                   "potential": [],
                   "children": [],
                   "is_event": false

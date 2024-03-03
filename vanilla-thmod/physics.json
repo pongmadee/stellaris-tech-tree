@@ -2140,7 +2140,8 @@
               "cost": 2000,
               "description": "Organizational circuitry rerouting academic fervor.",
               "feature_unlocks": [
-                "ความเร็วในการวิจัย +5%"
+                "ความเร็วในการวิจัย +5%",
+                "ค่าบำรุงรักษา £job_researcher£ นักวิจัย +5%"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -2525,7 +2526,8 @@
                       "cost": 16000,
                       "description": "Expanding possibilities through the application of limited cybernetics.",
                       "feature_unlocks": [
-                        "ความเร็วในการวิจัย +5%"
+                        "ความเร็วในการวิจัย +5%",
+                        "ค่าบำรุงรักษา £job_researcher£ นักวิจัย +5%"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -2560,7 +2562,8 @@
                       "cost": 16000,
                       "description": "Evolving artificial intellects are opening the door to the possibility for true synthetic sapience.",
                       "feature_unlocks": [
-                        "ความเร็วในการวิจัย +5%"
+                        "ความเร็วในการวิจัย +5%",
+                        "ค่าบำรุงรักษา £job_researcher£ นักวิจัย +5%"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -2930,416 +2933,6 @@
           "is_event": false
         },
         {
-          "key": "tech_physics_1",
-          "area": "physics",
-          "base_factor": 1.0,
-          "base_weight": 100.0,
-          "category": "การคำนวณ",
-          "cost": 2000,
-          "description": "Exploring the mediation of fundamental forces through subatomic particles.",
-          "feature_unlocks": [
-            "£physics£ การวิจัยฟิสิกส์จาก £job_researcher£ นักวิจัย +20%"
-          ],
-          "is_dangerous": false,
-          "is_rare": false,
-          "is_start_tech": false,
-          "name": "ทฤษฎีควอนตัม",
-          "prerequisites": [],
-          "tier": 1,
-          "prerequisites_names": [],
-          "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e5.0\u003c/b\u003e) เป็น AI",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 5",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 10",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 15",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 20",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : วิชาการ"
-          ],
-          "potential": [],
-          "children": [
-            {
-              "key": "tech_encryption_1",
-              "area": "physics",
-              "base_factor": 1.0,
-              "base_weight": 90.0,
-              "category": "การคำนวณ",
-              "cost": 2500,
-              "description": "Advances in computing technology have given us new ways to protect our data from prying eyes.",
-              "feature_unlocks": [
-                "การเข้ารหัส +2"
-              ],
-              "is_dangerous": false,
-              "is_rare": false,
-              "is_start_tech": false,
-              "name": "ไฟร์วอลล์ควอนตัม",
-              "prerequisites": [
-                "tech_physics_1",
-                "tech_colonial_bureaucracy"
-              ],
-              "tier": 1,
-              "prerequisites_names": [
-                {
-                  "name": "ทฤษฎีควอนตัม",
-                  "key": "tech_physics_1"
-                },
-                {
-                  "name": "ระบบราชการอาณานิคม",
-                  "key": "tech_colonial_bureaucracy"
-                }
-              ],
-              "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   เป็น AI\u003cbr/\u003e    •   เริ่มมีเครือข่ายสอดแนม (country flag)",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e5.0\u003c/b\u003e) มี วัฒนธรรมการวางอุบาย "
-              ],
-              "potential": [],
-              "children": [
-                {
-                  "key": "tech_encryption_2",
-                  "area": "physics",
-                  "base_factor": 1.0,
-                  "base_weight": 70.0,
-                  "category": "การคำนวณ",
-                  "cost": 5000,
-                  "description": "Further advances in unstable entanglement have given us new ways to prevent unauthorized intrusions into our databases.",
-                  "feature_unlocks": [
-                    "การเข้ารหัส +2"
-                  ],
-                  "is_dangerous": false,
-                  "is_rare": false,
-                  "is_start_tech": false,
-                  "name": "ที่เก็บข้อมูลที่พังได้พร้อมๆกัน",
-                  "prerequisites": [
-                    "tech_encryption_1",
-                    "tech_physics_2"
-                  ],
-                  "tier": 2,
-                  "prerequisites_names": [
-                    {
-                      "name": "ไฟร์วอลล์ควอนตัม",
-                      "key": "tech_encryption_1"
-                    },
-                    {
-                      "name": "ฟิสิกส์ควอนตัมประยุกต์",
-                      "key": "tech_physics_2"
-                    }
-                  ],
-                  "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   เป็น AI\u003cbr/\u003e    •   เริ่มมีเครือข่ายสอดแนม (country flag)",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e5.0\u003c/b\u003e) มี วัฒนธรรมการวางอุบาย "
-                  ],
-                  "potential": [],
-                  "children": [
-                    {
-                      "key": "tech_encryption_3",
-                      "area": "physics",
-                      "base_factor": 1.0,
-                      "base_weight": 50.0,
-                      "category": "การคำนวณ",
-                      "cost": 20000,
-                      "description": "Our latest advances in encryption exploit recently discovered quirks of physics to require inputting a specialized key before it has been generated.",
-                      "feature_unlocks": [
-                        "การเข้ารหัส +2"
-                      ],
-                      "is_dangerous": false,
-                      "is_rare": false,
-                      "is_start_tech": false,
-                      "name": "กุญแจแบบ Negative-Time",
-                      "prerequisites": [
-                        "tech_encryption_2",
-                        "tech_physics_3"
-                      ],
-                      "tier": 4,
-                      "prerequisites_names": [
-                        {
-                          "name": "ที่เก็บข้อมูลที่พังได้พร้อมๆกัน",
-                          "key": "tech_encryption_2"
-                        },
-                        {
-                          "name": "ทฤษฎีปริภูมิ-เวลา",
-                          "key": "tech_physics_3"
-                        }
-                      ],
-                      "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   เป็น AI\u003cbr/\u003e    •   เริ่มมีเครือข่ายสอดแนม (country flag)",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e5.0\u003c/b\u003e) มี วัฒนธรรมการวางอุบาย "
-                      ],
-                      "potential": [],
-                      "children": [],
-                      "is_event": false
-                    }
-                  ],
-                  "is_event": false
-                }
-              ],
-              "is_event": false
-            },
-            {
-              "key": "tech_decryption_1",
-              "area": "physics",
-              "base_factor": 1.0,
-              "base_weight": 90.0,
-              "category": "การคำนวณ",
-              "cost": 2500,
-              "description": "Primitive encryption systems stand no chance against modern decryption tools.",
-              "feature_unlocks": [
-                "การถอดรหัส +2",
-                "\u003cb\u003eประกาศคำสั่ง\u003c/b\u003e: อัลกอริทึมการวิเคราะห์ข้อมูลลับ",
-                "\u003cb\u003eประกาศคำสั่ง\u003c/b\u003e: สำนักงานข่าวกรอง",
-                "\u003cb\u003eประกาศคำสั่ง\u003c/b\u003e: เพิ่มการสังเกตการณ์"
-              ],
-              "is_dangerous": false,
-              "is_rare": false,
-              "is_start_tech": false,
-              "name": "การแฮ็กควอนตัม",
-              "prerequisites": [
-                "tech_physics_1",
-                "tech_colonial_bureaucracy"
-              ],
-              "tier": 1,
-              "prerequisites_names": [
-                {
-                  "name": "ทฤษฎีควอนตัม",
-                  "key": "tech_physics_1"
-                },
-                {
-                  "name": "ระบบราชการอาณานิคม",
-                  "key": "tech_colonial_bureaucracy"
-                }
-              ],
-              "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   เป็น AI\u003cbr/\u003e    •   เริ่มมีเครือข่ายสอดแนม (country flag)",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e5.0\u003c/b\u003e) มี วัฒนธรรมการวางอุบาย "
-              ],
-              "potential": [],
-              "children": [
-                {
-                  "key": "tech_decryption_2",
-                  "area": "physics",
-                  "base_factor": 1.0,
-                  "base_weight": 70.0,
-                  "category": "การคำนวณ",
-                  "cost": 5000,
-                  "description": "The weakest link in any security system are the individuals within it. By modeling their weaknesses in computer simulations we can find novel ways to bypass their security - or trick them into bypassing it for us.",
-                  "feature_unlocks": [
-                    "การถอดรหัส +2"
-                  ],
-                  "is_dangerous": false,
-                  "is_rare": false,
-                  "is_start_tech": false,
-                  "name": "การจำลองวิศวกรรมสังคม",
-                  "prerequisites": [
-                    "tech_decryption_1",
-                    "tech_physics_2"
-                  ],
-                  "tier": 2,
-                  "prerequisites_names": [
-                    {
-                      "name": "การแฮ็กควอนตัม",
-                      "key": "tech_decryption_1"
-                    },
-                    {
-                      "name": "ฟิสิกส์ควอนตัมประยุกต์",
-                      "key": "tech_physics_2"
-                    }
-                  ],
-                  "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   เป็น AI\u003cbr/\u003e    •   เริ่มมีเครือข่ายสอดแนม (country flag)",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e5.0\u003c/b\u003e) มี วัฒนธรรมการวางอุบาย "
-                  ],
-                  "potential": [],
-                  "children": [
-                    {
-                      "key": "tech_decryption_3",
-                      "area": "physics",
-                      "base_factor": 1.0,
-                      "base_weight": 50.0,
-                      "category": "การคำนวณ",
-                      "cost": 20000,
-                      "description": "Our operatives can access data from adjacent realities without risking setting off alarms in this reality.",
-                      "feature_unlocks": [
-                        "การถอดรหัส +2"
-                      ],
-                      "is_dangerous": false,
-                      "is_rare": false,
-                      "is_start_tech": false,
-                      "name": "การสะท้อนของมิติเสมือน",
-                      "prerequisites": [
-                        "tech_decryption_2",
-                        "tech_physics_3"
-                      ],
-                      "tier": 4,
-                      "prerequisites_names": [
-                        {
-                          "name": "การจำลองวิศวกรรมสังคม",
-                          "key": "tech_decryption_2"
-                        },
-                        {
-                          "name": "ทฤษฎีปริภูมิ-เวลา",
-                          "key": "tech_physics_3"
-                        }
-                      ],
-                      "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   เป็น AI\u003cbr/\u003e    •   เริ่มมีเครือข่ายสอดแนม (country flag)",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e5.0\u003c/b\u003e) มี วัฒนธรรมการวางอุบาย "
-                      ],
-                      "potential": [],
-                      "children": [],
-                      "is_event": false
-                    }
-                  ],
-                  "is_event": false
-                }
-              ],
-              "is_event": false
-            },
-            {
-              "key": "tech_physics_2",
-              "area": "physics",
-              "base_factor": 1.0,
-              "base_weight": 70.0,
-              "category": "การคำนวณ",
-              "cost": 6000,
-              "description": "The seemingly erratic behavior of tiny things can dramatically alter the way we think about bigger things.",
-              "feature_unlocks": [
-                "£physics£ การวิจัยฟิสิกส์จาก £job_researcher£ นักวิจัย +20%"
-              ],
-              "is_dangerous": false,
-              "is_rare": false,
-              "is_start_tech": false,
-              "name": "ฟิสิกส์ควอนตัมประยุกต์",
-              "prerequisites": [
-                "tech_physics_1"
-              ],
-              "tier": 2,
-              "prerequisites_names": [
-                {
-                  "name": "ทฤษฎีควอนตัม",
-                  "key": "tech_physics_1"
-                }
-              ],
-              "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 25",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 30",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 35",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 40",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : วิชาการ"
-              ],
-              "potential": [],
-              "children": [
-                {
-                  "key": "tech_quantum_catapult",
-                  "area": "physics",
-                  "base_factor": 1.0,
-                  "base_weight": 12.5,
-                  "category": "อนุภาค",
-                  "cost": 16000,
-                  "description": "เครื่องเหวี่ยงกองยานควอนตัม ควบคุมพลังของดาวนิวตรอนหรือพัลซาร์เพื่อบิดโครงสร้างอวกาศ(กาลอวกาศยืด-หด) ทำให้สามารถส่งกองยานในระยะทางที่ไกลได้",
-                  "feature_unlocks": [],
-                  "is_dangerous": false,
-                  "is_rare": true,
-                  "is_start_tech": false,
-                  "name": "เครื่องเหวี่ยงกองยานควอนตัม",
-                  "prerequisites": [
-                    "tech_physics_2"
-                  ],
-                  "tier": 3,
-                  "prerequisites_names": [
-                    {
-                      "name": "ฟิสิกส์ควอนตัมประยุกต์",
-                      "key": "tech_physics_2"
-                    }
-                  ],
-                  "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจริยธรรม รักสงบ \u003cbr/\u003e    •   มีจริยธรรม รักสงบอย่างมาก ",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจริยธรรม ชอบสงคราม \u003cbr/\u003e    •   มีจริยธรรม ชอบสงครามอย่างมาก ",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ II\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ III",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ประกายแห่งความอัจฉริยะ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ประกายแห่งความอัจฉริยะ II",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : เครื่องเหวี่ยงกองยานควอนตัม\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : เครื่องเหวี่ยงกองยานควอนตัม\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : เครื่องเหวี่ยงกองยานควอนตัม\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : เครื่องเหวี่ยงกองยานควอนตัม\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : เครื่องเหวี่ยงกองยานควอนตัม\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : เครื่องเหวี่ยงกองยานควอนตัม (พังเสียหาย)\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : เครื่องเหวี่ยงกองยานควอนตัม (พังเสียหาย)",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีการยกระดับ สิ่งมหัศจรรย์แห่งกาแล็กติก (สกิลพิเศษ)\u003cbr/\u003e    •   มีการยกระดับ สิ่งมหัศจรรย์แห่งกาแล็กติก (สกิลพิเศษ)",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e6.0\u003c/b\u003e) มีการยกระดับ สถาปนิก (สกิลพิเศษ)",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ เข้าใจความว่างเปล่าในอวกาศ (สกิลพิเศษ)",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e5.0\u003c/b\u003e) เป็นจักรวรรดิที่มีพลเมือง(นักสำรวจที่กระตือรือร้น)"
-                  ],
-                  "potential": [
-                    "มี DLC Overlord ",
-                    "หนึ่งอย่างต้องเป็นจริง\n    •   มีเทคโนโลยี: วิศวกรรมขนาดมหึมา\n    •   มีข้อมูลเชิงลึกเครื่องเหวี่ยงกองยานควอนตัม (country flag)\n    •   ทั้งหมดต้องเป็นจริง\n\t    •   มีจุดเริ่มต้น หนังสติ๊กสู่ดวงดาว\n\t    •   หนึ่งอย่างต้องเป็นจริง\n\t\t    •   มีสิ่งก่อสร้างขนาดมหึมา : เครื่องเหวี่ยงกองยานควอนตัม\n\t\t    •   มีสิ่งก่อสร้างขนาดมหึมา : เครื่องเหวี่ยงกองยานควอนตัม"
-                  ],
-                  "children": [],
-                  "is_event": false
-                },
-                {
-                  "key": "tech_physics_3",
-                  "area": "physics",
-                  "base_factor": 1.0,
-                  "base_weight": 40.0,
-                  "category": "การคำนวณ",
-                  "cost": 20000,
-                  "description": "Three dimensions, inextricable from the fourth.",
-                  "feature_unlocks": [
-                    "£physics£ การวิจัยฟิสิกส์จาก £job_researcher£ นักวิจัย +20%"
-                  ],
-                  "is_dangerous": false,
-                  "is_rare": false,
-                  "is_start_tech": false,
-                  "name": "ทฤษฎีปริภูมิ-เวลา",
-                  "prerequisites": [
-                    "tech_physics_2"
-                  ],
-                  "tier": 4,
-                  "prerequisites_names": [
-                    {
-                      "name": "ฟิสิกส์ควอนตัมประยุกต์",
-                      "key": "tech_physics_2"
-                    }
-                  ],
-                  "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 25",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 30",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 35",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) จำนวนปีนับตั้งแต่เริ่มเกม มากกว่า 40",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : วิชาการ"
-                  ],
-                  "potential": [],
-                  "children": [],
-                  "is_event": false
-                },
-                {
-                  "key": "tech_repeatable_reduced_building_cost",
-                  "area": "physics",
-                  "base_factor": 1.0,
-                  "base_weight": 12.5,
-                  "category": "การคำนวณ",
-                  "cost": 50000,
-                  "description": "Increasingly powerful computation paradigms allow us to adapt individual construction projects to planetary and ultra-local gravitational conditions.",
-                  "feature_unlocks": [
-                    "ค่าสิ่งปลูกสร้าง -5%"
-                  ],
-                  "is_dangerous": false,
-                  "is_rare": false,
-                  "is_start_tech": false,
-                  "name": "การวิเคราะห์ความโน้มถ่วง",
-                  "prerequisites": [
-                    "tech_physics_2"
-                  ],
-                  "tier": 5,
-                  "prerequisites_names": [
-                    {
-                      "name": "ฟิสิกส์ควอนตัมประยุกต์",
-                      "key": "tech_physics_2"
-                    }
-                  ],
-                  "weight_modifiers": [],
-                  "potential": [],
-                  "children": [],
-                  "is_event": false
-                }
-              ],
-              "is_event": false
-            }
-          ],
-          "is_event": false
-        },
-        {
           "key": "tech_sensors_2",
           "area": "physics",
           "base_factor": 1.0,
@@ -3454,18 +3047,13 @@
                   "is_start_tech": false,
                   "name": "อัลกอริทึมตรวจจับขั้นสูง",
                   "prerequisites": [
-                    "tech_detection_array",
-                    "tech_physics_2"
+                    "tech_detection_array"
                   ],
                   "tier": 2,
                   "prerequisites_names": [
                     {
                       "name": "เซ็นเซอร์ตรวจจับยานพรางตัว",
                       "key": "tech_detection_array"
-                    },
-                    {
-                      "name": "ฟิสิกส์ควอนตัมประยุกต์",
-                      "key": "tech_physics_2"
                     }
                   ],
                   "weight_modifiers": [
@@ -3656,32 +3244,6 @@
           "is_event": false
         },
         {
-          "key": "tech_bio_reactor",
-          "area": "physics",
-          "base_factor": 1.0,
-          "base_weight": 0.0,
-          "category": "อนุภาค",
-          "cost": 0,
-          "description": "A facility where organic matter is converted into energy at a highly efficient rate.",
-          "feature_unlocks": [
-            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: เครื่องกำเนิดพลังงานชีวภาพ"
-          ],
-          "is_dangerous": false,
-          "is_rare": false,
-          "is_start_tech": true,
-          "name": "เครื่องกำเนิดพลังงานชีวภาพ",
-          "prerequisites": [],
-          "tier": 0,
-          "prerequisites_names": [],
-          "weight_modifiers": [],
-          "potential": [
-            "หนึ่งอย่างต้องเป็นจริง\n    •   จักรวรรดิมีพลเมือง ตัวเร่งปฏิกิริยาแปรสภาพ\n    •   มีระบอบการปกครอง สติปัญญาจักรกล \n    •   หนึ่งอย่างต้องเป็นจริง\n\t    •   เผ่าพันธุ์ผู้ก่อตั้ง:\n\t\t    •   มีคุณลักษณะ: เครื่องจักรกล\n\t    •   จักรวรรดิจักรกลสังเคราะห์ (country flag)\n    •   เผ่าพันธุ์ผู้ก่อตั้ง:\n\t    •   เป็นจักรวรรดิประเภทหิน (Lithoid)"
-          ],
-          "children": [],
-          "is_event": false,
-          "is_machine_empire": true
-        },
-        {
           "key": "tech_mine_volatile_motes",
           "area": "physics",
           "base_factor": 1.0,
@@ -3727,7 +3289,7 @@
           "tier": 2,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มีการค้นพบเส้นใยแอสทรอล (country flag)",
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีการค้นพบเส้นใยแอสทรอล (country flag)\u003cbr/\u003e    •   มีระบบใดๆที่อยู่ภายในพรมแดน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มี รอยแยกมิติ\u003cbr/\u003e\t\t    •   มีดาวเคราะห์ใดๆ\u003cbr/\u003e\t\t\t    •   มี £astral_threads£ เส้นใยแอสทรอล มากกว่า 0\u003cbr/\u003e    •   มีความสัมพันธ์กับจักรวรรดิใดๆ\u003cbr/\u003e\t    •   ทั้งหมดต้องเป็นจริง\u003cbr/\u003e\t\t    •   เป็นจักรวรรดิประเภท: default\u003cbr/\u003e\t\t    •   มีการติดต่อสื่อสารกับจักรวรรดิเรา\u003cbr/\u003e\t\t    •   มีเทคโนโลยี: การเก็บเกี่ยวเส้นใยแอสทรอล",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีระบบใดๆที่อยู่ภายในพรมแดน\u003cbr/\u003e    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t    •   มี รอยแยกมิติ\u003cbr/\u003e\t    •   มีดาวเคราะห์ใดๆ\u003cbr/\u003e\t\t    •   ไม่มีรอยแตกของมิติ"
           ],
           "potential": [
@@ -3758,6 +3320,40 @@
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Dust Caverns\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Dust Desert\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Industrial Sector\u003cbr/\u003e    •   มีดาวเคราะห์ใดๆที่อยู่ภายในพรมแดน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £volatile_motes£ +1\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £volatile_motes£ +2\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £volatile_motes£ +3\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £volatile_motes£ +4\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £volatile_motes£ +5"
           ],
           "potential": [],
+          "children": [],
+          "is_event": false
+        },
+        {
+          "key": "tech_quantum_catapult",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 12.5,
+          "category": "อนุภาค",
+          "cost": 16000,
+          "description": "เครื่องเหวี่ยงกองยานควอนตัม ควบคุมพลังของดาวนิวตรอนหรือพัลซาร์เพื่อบิดโครงสร้างอวกาศ(กาลอวกาศยืด-หด) ทำให้สามารถส่งกองยานในระยะทางที่ไกลได้",
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "name": "เครื่องเหวี่ยงกองยานควอนตัม",
+          "prerequisites": [],
+          "tier": 3,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจริยธรรม รักสงบ \u003cbr/\u003e    •   มีจริยธรรม รักสงบอย่างมาก ",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจริยธรรม ชอบสงคราม \u003cbr/\u003e    •   มีจริยธรรม ชอบสงครามอย่างมาก ",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ II\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ III",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ประกายแห่งความอัจฉริยะ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ประกายแห่งความอัจฉริยะ II",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : เครื่องเหวี่ยงกองยานควอนตัม\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : เครื่องเหวี่ยงกองยานควอนตัม\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : เครื่องเหวี่ยงกองยานควอนตัม\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : เครื่องเหวี่ยงกองยานควอนตัม\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : เครื่องเหวี่ยงกองยานควอนตัม\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : เครื่องเหวี่ยงกองยานควอนตัม (พังเสียหาย)\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : เครื่องเหวี่ยงกองยานควอนตัม (พังเสียหาย)",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีการยกระดับ สิ่งมหัศจรรย์แห่งกาแล็กติก (สกิลพิเศษ)\u003cbr/\u003e    •   มีการยกระดับ สิ่งมหัศจรรย์แห่งกาแล็กติก (สกิลพิเศษ)",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e6.0\u003c/b\u003e) มีการยกระดับ สถาปนิก (สกิลพิเศษ)",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ เข้าใจความว่างเปล่าในอวกาศ (สกิลพิเศษ)",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e5.0\u003c/b\u003e) เป็นจักรวรรดิที่มีพลเมือง(นักสำรวจที่กระตือรือร้น)"
+          ],
+          "potential": [
+            "มี DLC Overlord ",
+            "หนึ่งอย่างต้องเป็นจริง\n    •   มีเทคโนโลยี: วิศวกรรมขนาดมหึมา\n    •   มีข้อมูลเชิงลึกเครื่องเหวี่ยงกองยานควอนตัม (country flag)\n    •   ทั้งหมดต้องเป็นจริง\n\t    •   มีจุดเริ่มต้น หนังสติ๊กสู่ดวงดาว\n\t    •   หนึ่งอย่างต้องเป็นจริง\n\t\t    •   มีสิ่งก่อสร้างขนาดมหึมา : เครื่องเหวี่ยงกองยานควอนตัม\n\t\t    •   มีสิ่งก่อสร้างขนาดมหึมา : เครื่องเหวี่ยงกองยานควอนตัม"
+          ],
           "children": [],
           "is_event": false
         },
@@ -3847,6 +3443,29 @@
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์",
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   มีการปรับเปลี่ยน ข้อมูลเชิงลึกผู้ดูแลพิพิธภัณฑ์"
           ],
+          "potential": [],
+          "children": [],
+          "is_event": false
+        },
+        {
+          "key": "tech_repeatable_reduced_building_cost",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 12.5,
+          "category": "การคำนวณ",
+          "cost": 50000,
+          "description": "Increasingly powerful computation paradigms allow us to adapt individual construction projects to planetary and ultra-local gravitational conditions.",
+          "feature_unlocks": [
+            "ค่าสิ่งปลูกสร้าง -5%"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "name": "การวิเคราะห์ความโน้มถ่วง",
+          "prerequisites": [],
+          "tier": 5,
+          "prerequisites_names": [],
+          "weight_modifiers": [],
           "potential": [],
           "children": [],
           "is_event": false
