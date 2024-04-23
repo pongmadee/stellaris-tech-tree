@@ -501,6 +501,24 @@ div.fixed div {
 	background: #808080;
 }
 
+.description-container3 {
+    float: left;
+    margin-top: 20px;
+    margin-left: 15px;
+    padding: 5px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 2px solid #808080;
+    width: 690px;
+    height: 63px;
+    font-family: 'Arimo', Verdana;
+    font-size: 14px;
+    line-height: 20px;
+    color: black;
+	background: #808080;
+}
+
 /*********************************
     Floating Buttons
 **********************************/
@@ -521,9 +539,9 @@ div.fixed div {
     display: inline;
     float: left;
     padding-top: 5px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right:10px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right:5px;
     border-radius: 15px 15px 0px 0px;
     margin-top: 10px;
     

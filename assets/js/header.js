@@ -25,6 +25,7 @@ $(document).ready(function(){
             $("#tech-tree-society").addClass("float-NoDisplay");
             $("#tech-tree-engineering").addClass("float-NoDisplay");
             $("#tech-tree-anomalies").addClass("float-NoDisplay");
+            $("#tech-tree-infos").addClass("float-NoDisplay");
 			selected_tab = "physics";
         }
         if($(this).parent().hasClass("float-Society"))
@@ -33,6 +34,7 @@ $(document).ready(function(){
             $("#tech-tree-society").removeClass("float-NoDisplay");
             $("#tech-tree-engineering").addClass("float-NoDisplay");
             $("#tech-tree-anomalies").addClass("float-NoDisplay");
+            $("#tech-tree-infos").addClass("float-NoDisplay");
 			selected_tab = "society";
         }
         if($(this).parent().hasClass("float-Engineering"))
@@ -41,6 +43,7 @@ $(document).ready(function(){
             $("#tech-tree-society").addClass("float-NoDisplay");
             $("#tech-tree-engineering").removeClass("float-NoDisplay");
             $("#tech-tree-anomalies").addClass("float-NoDisplay");
+            $("#tech-tree-infos").addClass("float-NoDisplay");
 			selected_tab = "engineering";
         }
         if($(this).parent().hasClass("float-All"))
@@ -49,6 +52,7 @@ $(document).ready(function(){
             $("#tech-tree-society").removeClass("float-NoDisplay");
             $("#tech-tree-engineering").removeClass("float-NoDisplay");
             $("#tech-tree-anomalies").addClass("float-NoDisplay");
+            $("#tech-tree-infos").addClass("float-NoDisplay");
 			selected_tab = "all";
         }
         if($(this).parent().hasClass("float-Anomalies"))
@@ -57,7 +61,17 @@ $(document).ready(function(){
             $("#tech-tree-society").addClass("float-NoDisplay");
             $("#tech-tree-engineering").addClass("float-NoDisplay");
             $("#tech-tree-anomalies").removeClass("float-NoDisplay");
+            $("#tech-tree-infos").addClass("float-NoDisplay");
 			selected_tab = "anomalies";
+        }
+        if($(this).parent().hasClass("float-Informations"))
+        {
+            $("#tech-tree-physics").addClass("float-NoDisplay");
+            $("#tech-tree-society").addClass("float-NoDisplay");
+            $("#tech-tree-engineering").addClass("float-NoDisplay");
+            $("#tech-tree-anomalies").addClass("float-NoDisplay");
+            $("#tech-tree-infos").removeClass("float-NoDisplay");
+			selected_tab = "infos";
         }
     });
 
