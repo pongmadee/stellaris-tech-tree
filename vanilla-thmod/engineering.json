@@ -570,7 +570,7 @@
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มี วัฒนธรรมการขยายอาณาเขตเสร็จแล้ว "
                   ],
                   "potential": [
-                    "หนึ่งอย่างต้องเป็นจริง\n    •   มีจุดเริ่มต้น ผู้อยู่อาศัยในอวกาศ\n    •   มีจุดเริ่มต้น อัศวินของเทพทรพิษ\n    •   มี DLC Utopia"
+                    "หนึ่งอย่างต้องเป็นจริง\n    •   มีจุดเริ่มต้น ผู้อยู่อาศัยในอวกาศ \n    •   มีจุดเริ่มต้น อัศวินของเทพทรพิษ\n    •   มี DLC Utopia"
                   ],
                   "children": [
                     {
@@ -606,10 +606,10 @@
                       ],
                       "weight_modifiers": [
                         "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น ที่อยู่อาศัยวงโคจรดาว",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e10.0\u003c/b\u003e) มีจุดเริ่มต้น ผู้อยู่อาศัยในอวกาศ"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e10.0\u003c/b\u003e) เป็นจักรวรรดิ: ผู้อยู่อาศัยในอวกาศ"
                       ],
                       "potential": [
-                        "หนึ่งอย่างต้องเป็นจริง\n    •   มีจุดเริ่มต้น ผู้อยู่อาศัยในอวกาศ\n    •   มี DLC Utopia"
+                        "หนึ่งอย่างต้องเป็นจริง\n    •   มีจุดเริ่มต้น ผู้อยู่อาศัยในอวกาศ \n    •   มี DLC Utopia"
                       ],
                       "children": [
                         {
@@ -645,10 +645,10 @@
                           ],
                           "weight_modifiers": [
                             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น ที่อยู่อาศัยวงโคจรดาว",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e10.0\u003c/b\u003e) มีจุดเริ่มต้น ผู้อยู่อาศัยในอวกาศ"
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e10.0\u003c/b\u003e) เป็นจักรวรรดิ: ผู้อยู่อาศัยในอวกาศ"
                           ],
                           "potential": [
-                            "หนึ่งอย่างต้องเป็นจริง\n    •   มีจุดเริ่มต้น ผู้อยู่อาศัยในอวกาศ\n    •   มี DLC Utopia"
+                            "หนึ่งอย่างต้องเป็นจริง\n    •   เป็นจักรวรรดิ: ผู้อยู่อาศัยในอวกาศ\n    •   มี DLC Utopia"
                           ],
                           "children": [],
                           "is_event": false
@@ -946,6 +946,7 @@
                             "\u003cb\u003eขนาดยาน\u003c/b\u003e: ไททัน",
                             "\u003cb\u003eอัปเกรดฐานอวกาศ\u003c/b\u003e: ปืนใหญ่ไอออน",
                             "ขีดจำกัดคำสั่งของกองยาน +10",
+                            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ปืนใหญ่ไอออน",
                             "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ลำแสงนรก"
                           ],
                           "is_dangerous": false,
@@ -1268,6 +1269,8 @@
                           "description": "To complete construction projects of truly staggering scales we must first achieve a fundamental understanding of both the engineering and resource storage requirements for such megastructures.",
                           "feature_unlocks": [
                             "ความจุในการจัดเก็บทรัพยากร +20000",
+                            "Arc Furnace Capacity +2",
+                            "Dyson Swarm Capacity +2",
                             "\u003cb\u003eฟีเจอร์ : \u003c/b\u003eการฟื้นฟูโครงสร้างสิ่งก่อสร้างขนาดมหึมา"
                           ],
                           "is_dangerous": false,
@@ -1344,7 +1347,7 @@
                                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e6.0\u003c/b\u003e) มีการยกระดับ สถาปนิก (สกิลพิเศษ)",
                                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e9.0\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
                                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์:\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: สถานีเชื่อมโยงวิทยาศาสตร์ขนาดใหญ่",
-                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.1\u003c/b\u003e) is_dimensional_worship_empire\u003dyes"
+                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.1\u003c/b\u003e) เป็นจักรวรรดิ: ที่บูชามิติ"
                               ],
                               "potential": [
                                 "มี DLC Utopia"
@@ -2302,6 +2305,122 @@
                   "is_event": false
                 }
               ],
+              "is_event": false
+            }
+          ],
+          "is_event": false
+        },
+        {
+          "key": "tech_fe_mine_1",
+          "area": "engineering",
+          "base_factor": 1.0,
+          "base_weight": 20.0,
+          "category": "วัสดุ",
+          "cost": 50000,
+          "description": "This mining plant can find minerals anywhere in this planet\u0027s mantle using quantum tunneling technology to bore through solid materials without physical contact.",
+          "feature_unlocks": [
+            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Quantum Drilling Plant"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "name": "Quantum Drilling Plant",
+          "prerequisites": [],
+          "tier": 5,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี ไครซิสเลเวล 2",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   จำนวนประชากร มากกว่า 50"
+          ],
+          "potential": [],
+          "children": [
+            {
+              "key": "tech_fe_mine_2",
+              "area": "engineering",
+              "base_factor": 1.0,
+              "base_weight": 20.0,
+              "category": "วัสดุ",
+              "cost": 50000,
+              "description": "This mining hub can extract minerals anywhere down to the planet\u0027s outer core using quantum tunneling technology to bore through solid or liquid materials without physical contact.",
+              "feature_unlocks": [
+                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Quantum Drilling Hub"
+              ],
+              "is_dangerous": false,
+              "is_rare": true,
+              "is_start_tech": false,
+              "name": "Quantum Drilling Hub",
+              "prerequisites": [
+                "tech_fe_mine_1"
+              ],
+              "tier": 5,
+              "prerequisites_names": [
+                {
+                  "name": "Quantum Drilling Plant",
+                  "key": "tech_fe_mine_1"
+                }
+              ],
+              "weight_modifiers": [],
+              "potential": [],
+              "children": [],
+              "is_event": false
+            }
+          ],
+          "is_event": false
+        },
+        {
+          "key": "tech_fe_fabricator_1",
+          "area": "engineering",
+          "base_factor": 1.0,
+          "base_weight": 20.0,
+          "category": "วัสดุ",
+          "cost": 50000,
+          "description": "This fabricator\u0027s technology achieves flawless conversion from energy to matter.",
+          "feature_unlocks": [
+            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Dimensional Replicator"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "name": "Dimensional Replicator",
+          "prerequisites": [],
+          "tier": 5,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี ไครซิสเลเวล 4",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   จำนวนประชากร มากกว่า 50"
+          ],
+          "potential": [],
+          "children": [
+            {
+              "key": "tech_fe_fabricator_2",
+              "area": "engineering",
+              "base_factor": 1.0,
+              "base_weight": 20.0,
+              "category": "วัสดุ",
+              "cost": 50000,
+              "description": "This advanced fabricator seamlessly tunnels into the fabric of dimensional space, extracting valuable resources.",
+              "feature_unlocks": [
+                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Dimensional Fabricator"
+              ],
+              "is_dangerous": false,
+              "is_rare": true,
+              "is_start_tech": false,
+              "name": "Dimensional Fabricator",
+              "prerequisites": [
+                "tech_fe_fabricator_1"
+              ],
+              "tier": 5,
+              "prerequisites_names": [
+                {
+                  "name": "Dimensional Replicator",
+                  "key": "tech_fe_fabricator_1"
+                }
+              ],
+              "weight_modifiers": [],
+              "potential": [],
+              "children": [],
               "is_event": false
             }
           ],
@@ -3638,7 +3757,7 @@
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : เหมืองแร่"
               ],
               "potential": [
-                "หนึ่งอย่างต้องเป็นจริง\n    •   ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน \n    •   มีพลเมือง: เครื่องจักรรับใช้"
+                "จักรวรรดิใช้ทรัพยากรประเภทสินค้าอุปโภคบริโภค"
               ],
               "children": [
                 {
@@ -3676,15 +3795,13 @@
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีประเภทความเชี่ยวชาญของบริวาร/เมืองขึ้น : เหมืองแร่"
                   ],
                   "potential": [
-                    "หนึ่งอย่างต้องเป็นจริง\n    •   ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน \n    •   มีพลเมือง: เครื่องจักรรับใช้"
+                    "จักรวรรดิใช้ทรัพยากรประเภทสินค้าอุปโภคบริโภค"
                   ],
                   "children": [],
-                  "is_event": false,
-                  "is_gestalt": false
+                  "is_event": false
                 }
               ],
-              "is_event": false,
-              "is_gestalt": false
+              "is_event": false
             },
             {
               "key": "tech_alloys_1",
@@ -3794,7 +3911,7 @@
                   "base_weight": 135.0,
                   "category": "อุตสาหกรรม",
                   "cost": 3000,
-                  "description": "These robotic work units are perfect for menial labor tasks. They are hard-working and capable of following simple vocal instructions, but should not be expected to climb stairs.",
+                  "description": "These artificial work units are perfect for menial labor tasks. They are hard-working and capable of following simple vocal instructions, but should not be expected to climb stairs.",
                   "feature_unlocks": [
                     "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: โรงประกอบหุ่นยนต์",
                     "\u003cb\u003eฟีเจอร์ : \u003c/b\u003eแรงงานหุ่นยนต์"
@@ -3802,7 +3919,7 @@
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
-                  "name": "แรงงานหุ่นยนต์",
+                  "name": "แรงงานประดิษฐ์",
                   "prerequisites": [
                     "tech_powered_exoskeletons"
                   ],
@@ -3819,7 +3936,7 @@
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจริยธรรม วัตถุนิยม \u003cbr/\u003e    •   มีจริยธรรม วัตถุนิยมสุดโต่ง "
                   ],
                   "potential": [
-                    "ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน "
+                    "ทั้งหมดต้องเป็นเท็จ\n    •   มีจริยธรรม เป็นหนึ่งเดียวกัน \n    •   เป็นจักรวรรดิ: เครื่องจักรที่มีบุคลิกลักษณะเฉพาะตัว(ปัจเจกจักรกล)"
                   ],
                   "children": [
                     {
@@ -3829,9 +3946,9 @@
                       "base_weight": 85.0,
                       "category": "อุตสาหกรรม",
                       "cost": 4000,
-                      "description": "Rewritable assembly templates allow for the creation of bespoke synthetic worker designs.",
+                      "description": "Rewritable assembly templates allow for the creation of bespoke robot designs.",
                       "feature_unlocks": [
-                        "แต้มการปรับเปลี่ยนหุ่นยนต์ +2",
+                        "การอยู่อาศัยได้ +5%",
                         "\u003cb\u003eฟีเจอร์ : \u003c/b\u003eการดัดแปลงหุ่นยนต์"
                       ],
                       "is_dangerous": false,
@@ -3844,7 +3961,7 @@
                       "tier": 1,
                       "prerequisites_names": [
                         {
-                          "name": "แรงงานหุ่นยนต์",
+                          "name": "แรงงานประดิษฐ์",
                           "key": "tech_robotic_workers"
                         }
                       ],
@@ -3852,7 +3969,7 @@
                         "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) มีนโยบาย แรงงานหุ่นยนต์ผิดกฎหมาย"
                       ],
                       "potential": [
-                        "ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน "
+                        "ทั้งหมดต้องเป็นเท็จ\n    •   มีจริยธรรม เป็นหนึ่งเดียวกัน \n    •   เป็นจักรวรรดิ: เครื่องจักรที่มีบุคลิกลักษณะเฉพาะตัว(ปัจเจกจักรกล)"
                       ],
                       "children": [
                         {
@@ -3862,9 +3979,9 @@
                           "base_weight": 65.0,
                           "category": "อุตสาหกรรม",
                           "cost": 8000,
-                          "description": "Improved production practices allow for greater alterations to synthetic workers without compromising core functionality.",
+                          "description": "Improved production practices allow for greater alterations to robots without compromising core functionality.",
                           "feature_unlocks": [
-                            "แต้มการปรับเปลี่ยนหุ่นยนต์ +1"
+                            "Mechanical Modification Points +3"
                           ],
                           "is_dangerous": false,
                           "is_rare": false,
@@ -3881,7 +3998,7 @@
                               "key": "tech_robomodding"
                             },
                             {
-                              "name": "ดรอยด์",
+                              "name": "ผู้เชี่ยวชาญประดิษฐ์",
                               "key": "tech_droid_workers"
                             }
                           ],
@@ -3890,7 +4007,7 @@
                             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีจุดเริ่มต้น ลัทธิวัตถุนิยม"
                           ],
                           "potential": [
-                            "ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน "
+                            "ทั้งหมดต้องเป็นเท็จ\n    •   มีจริยธรรม เป็นหนึ่งเดียวกัน \n    •   เป็นจักรวรรดิ: เครื่องจักรที่มีบุคลิกลักษณะเฉพาะตัว(ปัจเจกจักรกล)"
                           ],
                           "children": [
                             {
@@ -3900,9 +4017,9 @@
                               "base_weight": 22.5,
                               "category": "อุตสาหกรรม",
                               "cost": 16000,
-                              "description": "Improved production practices allow for fundamental changes to synthetic workers without compromising core functionality.",
+                              "description": "Improved production practices allow for fundamental changes to robots without compromising core functionality.",
                               "feature_unlocks": [
-                                "แต้มการปรับเปลี่ยนหุ่นยนต์ +1"
+                                "Mechanical Modification Points +1"
                               ],
                               "is_dangerous": false,
                               "is_rare": true,
@@ -3919,7 +4036,7 @@
                                   "key": "tech_robomodding_points_1"
                                 },
                                 {
-                                  "name": "จักรกลสังเคราะห์",
+                                  "name": "ผู้บริหารประดิษฐ์",
                                   "key": "tech_synthetic_workers"
                                 }
                               ],
@@ -3930,15 +4047,15 @@
                                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ II\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ III\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ประกายแห่งความอัจฉริยะ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ประกายแห่งความอัจฉริยะ II\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: อุตสาหกรรม"
                               ],
                               "potential": [
-                                "ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน "
+                                "ทั้งหมดต้องเป็นเท็จ\n    •   มีจริยธรรม เป็นหนึ่งเดียวกัน \n    •   เป็นจักรวรรดิ: เครื่องจักรที่มีบุคลิกลักษณะเฉพาะตัว(ปัจเจกจักรกล)"
                               ],
                               "children": [],
                               "is_event": false,
-                              "is_gestalt": false
+                              "is_gestalt": true
                             }
                           ],
                           "is_event": false,
-                          "is_gestalt": false
+                          "is_gestalt": true
                         },
                         {
                           "key": "tech_robot_assembly_complex",
@@ -3982,7 +4099,7 @@
                         }
                       ],
                       "is_event": false,
-                      "is_gestalt": false
+                      "is_gestalt": true
                     },
                     {
                       "key": "tech_droid_workers",
@@ -3991,7 +4108,7 @@
                       "base_weight": 70.0,
                       "category": "อุตสาหกรรม",
                       "cost": 6000,
-                      "description": "Upgraded robotic workers, these units have an expanded movement range equal to that of most organics. Their neural processors have also been greatly improved.",
+                      "description": "Upgraded artificial units have an expanded movement range equal to that of most organics. Their neural processors have also been greatly improved.",
                       "feature_unlocks": [
                         "\u003cb\u003eฟีเจอร์ : \u003c/b\u003eแรงงานดรอยด์",
                         "\u003cb\u003eกองทัพบก\u003c/b\u003e: กองทัพหุ่นยนต์จู่โจม"
@@ -3999,7 +4116,7 @@
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
-                      "name": "ดรอยด์",
+                      "name": "ผู้เชี่ยวชาญประดิษฐ์",
                       "prerequisites": [
                         "tech_robotic_workers",
                         "tech_colonial_centralization"
@@ -4007,7 +4124,7 @@
                       "tier": 2,
                       "prerequisites_names": [
                         {
-                          "name": "แรงงานหุ่นยนต์",
+                          "name": "แรงงานประดิษฐ์",
                           "key": "tech_robotic_workers"
                         },
                         {
@@ -4022,7 +4139,7 @@
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีจุดเริ่มต้น ลัทธิวัตถุนิยม"
                       ],
                       "potential": [
-                        "ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน "
+                        "ทั้งหมดต้องเป็นเท็จ\n    •   มีจริยธรรม เป็นหนึ่งเดียวกัน \n    •   เป็นจักรวรรดิ: เครื่องจักรที่มีบุคลิกลักษณะเฉพาะตัว(ปัจเจกจักรกล)"
                       ],
                       "children": [
                         {
@@ -4032,7 +4149,7 @@
                           "base_weight": 20.0,
                           "category": "อุตสาหกรรม",
                           "cost": 20000,
-                          "description": "Highly advanced robots that are stronger, faster and more durable than the vast majority of organics. With their upgraded neural processors they are fully capable of independent operations.",
+                          "description": "Highly advanced units that are stronger, faster and more durable than the vast majority of organics. With their upgraded neural processors they are fully capable of independent operations.",
                           "feature_unlocks": [
                             "\u003cb\u003eฟีเจอร์ : \u003c/b\u003eแรงงานจักรกลสังเคราะห์",
                             "ผลผลิตของหุ่นยนต์ +10%"
@@ -4040,7 +4157,7 @@
                           "is_dangerous": true,
                           "is_rare": true,
                           "is_start_tech": false,
-                          "name": "จักรกลสังเคราะห์",
+                          "name": "ผู้บริหารประดิษฐ์",
                           "prerequisites": [
                             "tech_droid_workers",
                             "tech_galactic_administration",
@@ -4049,7 +4166,7 @@
                           "tier": 4,
                           "prerequisites_names": [
                             {
-                              "name": "ดรอยด์",
+                              "name": "ผู้เชี่ยวชาญประดิษฐ์",
                               "key": "tech_droid_workers"
                             },
                             {
@@ -4069,7 +4186,7 @@
                             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ II\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ III\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ประกายแห่งความอัจฉริยะ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ประกายแห่งความอัจฉริยะ II\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: อุตสาหกรรม"
                           ],
                           "potential": [
-                            "ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน "
+                            "ทั้งหมดต้องเป็นเท็จ\n    •   มีจริยธรรม เป็นหนึ่งเดียวกัน \n    •   เป็นจักรวรรดิ: เครื่องจักรที่มีบุคลิกลักษณะเฉพาะตัว(ปัจเจกจักรกล)"
                           ],
                           "children": [
                             {
@@ -4086,14 +4203,14 @@
                               "is_dangerous": false,
                               "is_rare": false,
                               "is_start_tech": false,
-                              "name": "เมทริกซ์บุคลิกภาพจักรกลสังเคราะห์",
+                              "name": "เมทริกซ์บุคลิกภาพประดิษฐ์",
                               "prerequisites": [
                                 "tech_synthetic_workers"
                               ],
                               "tier": 4,
                               "prerequisites_names": [
                                 {
-                                  "name": "จักรกลสังเคราะห์",
+                                  "name": "ผู้บริหารประดิษฐ์",
                                   "key": "tech_synthetic_workers"
                                 }
                               ],
@@ -4103,23 +4220,23 @@
                                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.33\u003c/b\u003e) มีคุณลักษณะ: เนโครเฟจ"
                               ],
                               "potential": [
-                                "ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน "
+                                "ทั้งหมดต้องเป็นเท็จ\n    •   มีจริยธรรม เป็นหนึ่งเดียวกัน \n    •   เป็นจักรวรรดิ: เครื่องจักรที่มีบุคลิกลักษณะเฉพาะตัว(ปัจเจกจักรกล)"
                               ],
                               "children": [],
                               "is_event": false,
-                              "is_gestalt": false
+                              "is_gestalt": true
                             }
                           ],
                           "is_event": false,
-                          "is_gestalt": false
+                          "is_gestalt": true
                         }
                       ],
                       "is_event": false,
-                      "is_gestalt": false
+                      "is_gestalt": true
                     }
                   ],
                   "is_event": false,
-                  "is_gestalt": false
+                  "is_gestalt": true
                 },
                 {
                   "key": "tech_robomodding_m",
@@ -4128,10 +4245,11 @@
                   "base_weight": 85.0,
                   "category": "อุตสาหกรรม",
                   "cost": 4000,
-                  "description": "Standardization of assembly templates allow for improved specialization of the drone population.",
+                  "description": "Standardization of assembly templates allows for improved specialization of the machine population.",
                   "feature_unlocks": [
-                    "แต้มการปรับเปลี่ยนเครื่องจักร +1",
-                    "\u003cb\u003eฟีเจอร์ : \u003c/b\u003eการดัดแปลงหุ่นยนต์"
+                    "การอยู่อาศัยได้ +5%",
+                    "\u003cb\u003eฟีเจอร์ : \u003c/b\u003eการดัดแปลงหุ่นยนต์",
+                    "อายุขัยผู้นำ +20"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -4149,7 +4267,7 @@
                   ],
                   "weight_modifiers": [],
                   "potential": [
-                    "มีระบอบการปกครอง สติปัญญาจักรกล "
+                    "หนึ่งอย่างต้องเป็นจริง\n    •   มีระบอบการปกครอง สติปัญญาจักรกล \n    •   เป็นจักรวรรดิ: เครื่องจักรที่มีบุคลิกลักษณะเฉพาะตัว(ปัจเจกจักรกล)"
                   ],
                   "children": [
                     {
@@ -4161,7 +4279,7 @@
                       "cost": 8000,
                       "description": "These advanced motivators are both smaller and lighter than previous versions, allowing robotic units to allocate additional space for subsystems.",
                       "feature_unlocks": [
-                        "แต้มการปรับเปลี่ยนเครื่องจักร +1"
+                        "แต้มการปรับเปลี่ยนเครื่องจักร +3"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -4184,7 +4302,7 @@
                       ],
                       "weight_modifiers": [],
                       "potential": [
-                        "มีระบอบการปกครอง สติปัญญาจักรกล "
+                        "หนึ่งอย่างต้องเป็นจริง\n    •   มีระบอบการปกครอง สติปัญญาจักรกล \n    •   เป็นจักรวรรดิ: เครื่องจักรที่มีบุคลิกลักษณะเฉพาะตัว(ปัจเจกจักรกล)"
                       ],
                       "children": [
                         {
@@ -4221,7 +4339,7 @@
                             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ II\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ III\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ประกายแห่งความอัจฉริยะ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ประกายแห่งความอัจฉริยะ II\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: อุตสาหกรรม"
                           ],
                           "potential": [
-                            "มีระบอบการปกครอง สติปัญญาจักรกล "
+                            "หนึ่งอย่างต้องเป็นจริง\n    •   มีระบอบการปกครอง สติปัญญาจักรกล \n    •   เป็นจักรวรรดิ: เครื่องจักรที่มีบุคลิกลักษณะเฉพาะตัว(ปัจเจกจักรกล)"
                           ],
                           "children": [],
                           "is_event": false,
@@ -4261,7 +4379,7 @@
                             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ II\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ III\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ประกายแห่งความอัจฉริยะ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ประกายแห่งความอัจฉริยะ II\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: อุตสาหกรรม"
                           ],
                           "potential": [
-                            "มีระบอบการปกครอง สติปัญญาจักรกล "
+                            "หนึ่งอย่างต้องเป็นจริง\n    •   มีระบอบการปกครอง สติปัญญาจักรกล \n    •   เป็นจักรวรรดิ: เครื่องจักรที่มีบุคลิกลักษณะเฉพาะตัว(ปัจเจกจักรกล)"
                           ],
                           "children": [],
                           "is_event": false,
@@ -4307,7 +4425,7 @@
                   ],
                   "weight_modifiers": [],
                   "potential": [
-                    "หนึ่งอย่างต้องเป็นจริง\n    •   ไม่ มีระบอบการปกครอง สติปัญญาจักรกล \n    •   มีพลเมือง: เครื่องดัดแปลงประชากร"
+                    "หนึ่งอย่างต้องเป็นจริง\n    •   ทั้งหมดต้องเป็นจริง\n\t    •   ไม่ มีระบอบการปกครอง สติปัญญาจักรกล \n\t    •   ไม่เป็นจักรวรรดิ: เครื่องจักรที่มีบุคลิกลักษณะเฉพาะตัว(ปัจเจกจักรกล)\n    •   มีพลเมือง: เครื่องดัดแปลงประชากร"
                   ],
                   "children": [],
                   "is_event": false,
@@ -4342,7 +4460,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Bubbling Swamp\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Fuming Bog\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Industrial Sector\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Exotic Mountains\u003cbr/\u003e    •   มีดาวเคราะห์ใดๆที่อยู่ภายในพรมแดน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £exotic_gases£ +1\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £exotic_gases£ +2\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £exotic_gases£ +3\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £exotic_gases£ +4\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £exotic_gases£ +5"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร หนองน้ำเดือด\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร บึงควัน\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Industrial Sector\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Exotic Mountains\u003cbr/\u003e    •   มีดาวเคราะห์ใดๆที่อยู่ภายในพรมแดน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £exotic_gases£ +1\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £exotic_gases£ +2\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £exotic_gases£ +3\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £exotic_gases£ +4\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £exotic_gases£ +5"
               ],
               "potential": [],
               "children": [],
@@ -4375,7 +4493,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Crystalline Caverns\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Crystal Forest\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร ปะการังคริสตัล\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Industrial Sector\u003cbr/\u003e    •   มีดาวเคราะห์ใดๆที่อยู่ภายในพรมแดน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +1\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +2\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +3\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +4\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +5"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร ถ้ำคริสตัลลีน\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร ป่าคริสตัล\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร ปะการังคริสตัล\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Industrial Sector\u003cbr/\u003e    •   มีดาวเคราะห์ใดๆที่อยู่ภายในพรมแดน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +1\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +2\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +3\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +4\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +5"
               ],
               "potential": [],
               "children": [],
@@ -4434,7 +4552,7 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.0\u003c/b\u003e)",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   มีแหล่งทรัพยากร Betharian Fields"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   มีแหล่งทรัพยากร ทุ่งบีธาเรียน"
               ],
               "potential": [],
               "children": [],
@@ -4467,7 +4585,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Bubbling Swamp\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Fuming Bog\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Industrial Sector\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Exotic Mountains\u003cbr/\u003e    •   มีดาวเคราะห์ใดๆที่อยู่ภายในพรมแดน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £exotic_gases£ +1\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £exotic_gases£ +2\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £exotic_gases£ +3\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £exotic_gases£ +4\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £exotic_gases£ +5"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร หนองน้ำเดือด\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร บึงควัน\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Industrial Sector\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Exotic Mountains\u003cbr/\u003e    •   มีดาวเคราะห์ใดๆที่อยู่ภายในพรมแดน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £exotic_gases£ +1\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £exotic_gases£ +2\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £exotic_gases£ +3\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £exotic_gases£ +4\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £exotic_gases£ +5"
               ],
               "potential": [],
               "children": [],
@@ -4501,7 +4619,7 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.0\u003c/b\u003e)",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Crystalline Caverns\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Crystal Forest\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร ปะการังคริสตัล\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Industrial Sector\u003cbr/\u003e    •   มีดาวเคราะห์ใดๆที่อยู่ภายในพรมแดน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +1\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +2\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +3\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +4\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +5"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร ถ้ำคริสตัลลีน\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร ป่าคริสตัล\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร ปะการังคริสตัล\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Industrial Sector\u003cbr/\u003e    •   มีดาวเคราะห์ใดๆที่อยู่ภายในพรมแดน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +1\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +2\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +3\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +4\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +5"
               ],
               "potential": [],
               "children": [],
@@ -4516,8 +4634,7 @@
               "cost": 32000,
               "description": "Mining and processing the rare living metals is exceedingly difficult, but successful application of the mutable alloys yields incomparable advantages.",
               "feature_unlocks": [
-                "\u003cb\u003eเผยทรัพยากร\u003c/b\u003e: โลหะมีชีวิต",
-                "\u003cb\u003eประกาศคำสั่ง\u003c/b\u003e: การก่อสร้างขนาดใหญ่ด้วยโลหะมีชีวิต"
+                "\u003cb\u003eเผยทรัพยากร\u003c/b\u003e: โลหะมีชีวิต"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -4549,7 +4666,6 @@
               "cost": 2000,
               "description": "The addition of internal refineries on mining stations will substantially increase mineral production.",
               "feature_unlocks": [
-                "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: ที่ทำเหมืองแร่",
                 "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: โรงงานสกัดเนบิวลา",
                 "ผลผลิตของสถานีเหมืองแร่ +10%"
               ],
@@ -4908,7 +5024,7 @@
           "prerequisites_names": [],
           "weight_modifiers": [],
           "potential": [
-            "มีระบอบการปกครอง สติปัญญาจักรกล "
+            "หนึ่งอย่างต้องเป็นจริง\n    •   มีระบอบการปกครอง สติปัญญาจักรกล \n    •   เป็นจักรวรรดิ: เครื่องจักรที่มีบุคลิกลักษณะเฉพาะตัว(ปัจเจกจักรกล)"
           ],
           "children": [
             {
@@ -4938,7 +5054,7 @@
               ],
               "weight_modifiers": [],
               "potential": [
-                "มีระบอบการปกครอง สติปัญญาจักรกล "
+                "หนึ่งอย่างต้องเป็นจริง\n    •   มีระบอบการปกครอง สติปัญญาจักรกล \n    •   เป็นจักรวรรดิ: เครื่องจักรที่มีบุคลิกลักษณะเฉพาะตัว(ปัจเจกจักรกล)"
               ],
               "children": [],
               "is_event": false,
@@ -4947,6 +5063,181 @@
           ],
           "is_event": false,
           "is_machine_empire": true
+        },
+        {
+          "key": "tech_fe_forge_1",
+          "area": "engineering",
+          "base_factor": 1.0,
+          "base_weight": 20.0,
+          "category": "อุตสาหกรรม",
+          "cost": 50000,
+          "description": "This forge\u0027s production speed is limited only by the quantity of resources loaded into it.",
+          "feature_unlocks": [
+            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Hyper-Forge"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "name": "Hyper-Forge",
+          "prerequisites": [],
+          "tier": 5,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี ไครซิสเลเวล 5",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   จำนวนประชากร มากกว่า 50"
+          ],
+          "potential": [],
+          "children": [
+            {
+              "key": "tech_fe_forge_2",
+              "area": "engineering",
+              "base_factor": 1.0,
+              "base_weight": 20.0,
+              "category": "อุตสาหกรรม",
+              "cost": 50000,
+              "description": "The expansive nano-replicator bays in this forge transform raw materials into advanced alloys with marvelous efficiency.",
+              "feature_unlocks": [
+                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Auto-Forge"
+              ],
+              "is_dangerous": false,
+              "is_rare": true,
+              "is_start_tech": false,
+              "name": "Auto-Forge",
+              "prerequisites": [
+                "tech_fe_forge_1"
+              ],
+              "tier": 5,
+              "prerequisites_names": [
+                {
+                  "name": "Hyper-Forge",
+                  "key": "tech_fe_forge_1"
+                }
+              ],
+              "weight_modifiers": [],
+              "potential": [],
+              "children": [],
+              "is_event": false
+            }
+          ],
+          "is_event": false
+        },
+        {
+          "key": "tech_fe_assembly_1",
+          "area": "engineering",
+          "base_factor": 1.0,
+          "base_weight": 20.0,
+          "category": "อุตสาหกรรม",
+          "cost": 50000,
+          "description": "An avant-garde assembly complex manned by expert Roboticists, this facility transcends conventional bounds, meticulously realizing the forefront of robotic innovation.",
+          "feature_unlocks": [
+            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Robot Manufacturing Nexus"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "name": "Robot Manufacturing Nexus",
+          "prerequisites": [],
+          "tier": 5,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี ไครซิสเลเวล 4",
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) มีระบอบการปกครอง จิตสำนึกร่วม ",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   จำนวนประชากร มากกว่า 50"
+          ],
+          "potential": [],
+          "children": [
+            {
+              "key": "tech_fe_assembly_2",
+              "area": "engineering",
+              "base_factor": 1.0,
+              "base_weight": 20.0,
+              "category": "อุตสาหกรรม",
+              "cost": 50000,
+              "description": "A marvel in engineering, this facility\u0027s quantic assembly line uses entanglement converters to craft machine parts down to the most minute detail. Not a single atom is misplaced.",
+              "feature_unlocks": [
+                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Robot Quantum Production Hub"
+              ],
+              "is_dangerous": false,
+              "is_rare": true,
+              "is_start_tech": false,
+              "name": "Robot Quantum Production Hub",
+              "prerequisites": [
+                "tech_fe_assembly_1"
+              ],
+              "tier": 5,
+              "prerequisites_names": [
+                {
+                  "name": "Robot Manufacturing Nexus",
+                  "key": "tech_fe_assembly_1"
+                }
+              ],
+              "weight_modifiers": [],
+              "potential": [],
+              "children": [],
+              "is_event": false
+            }
+          ],
+          "is_event": false
+        },
+        {
+          "key": "tech_fe_affluence_1",
+          "area": "engineering",
+          "base_factor": 1.0,
+          "base_weight": 20.0,
+          "category": "อุตสาหกรรม",
+          "cost": 50000,
+          "description": "This center anticipates and fulfills material desires using an advanced procurement algorithm, delivering satisfaction before the populace realizes their wants.",
+          "feature_unlocks": [
+            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Affluence Emporium"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "name": "Affluence Emporium",
+          "prerequisites": [],
+          "tier": 5,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี ไครซิสเลเวล 5",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   จำนวนประชากร มากกว่า 50"
+          ],
+          "potential": [],
+          "children": [
+            {
+              "key": "tech_fe_affluence_2",
+              "area": "engineering",
+              "base_factor": 1.0,
+              "base_weight": 20.0,
+              "category": "อุตสาหกรรม",
+              "cost": 50000,
+              "description": "This center effortlessly materializes the most outlandish desires at a moment\u0027s notice.",
+              "feature_unlocks": [
+                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Affluence Center"
+              ],
+              "is_dangerous": false,
+              "is_rare": true,
+              "is_start_tech": false,
+              "name": "Affluence Center",
+              "prerequisites": [
+                "tech_fe_affluence_1"
+              ],
+              "tier": 5,
+              "prerequisites_names": [
+                {
+                  "name": "Affluence Emporium",
+                  "key": "tech_fe_affluence_1"
+                }
+              ],
+              "weight_modifiers": [],
+              "potential": [],
+              "children": [],
+              "is_event": false
+            }
+          ],
+          "is_event": false
         },
         {
           "key": "tech_space_exploration",
@@ -5055,6 +5346,7 @@
           "description": "The invasion of another world is a staggering enterprise. There are immense logistical challenges that must be overcome before we can muster our first interplanetary armies.",
           "feature_unlocks": [
             "\u003cb\u003eกองทัพบก\u003c/b\u003e: กองทัพนักล่า-นักฆ่า",
+            "\u003cb\u003eกองทัพบก\u003c/b\u003e: Combat Android Army",
             "\u003cb\u003eกองทัพบก\u003c/b\u003e: กองทัพจู่โจม\nกองทัพเหล่านี้สามารถขึ้นยานและใช้สำหรับการรุกรานดาวเคราะห์ดวงอื่นได้",
             "\u003cb\u003eกองทัพบก\u003c/b\u003e: กองทัพผีดิบร่างยักษ์",
             "\u003cb\u003eกองทัพบก\u003c/b\u003e: กองทัพผีดิบ"
@@ -5092,6 +5384,36 @@
             "ค้นพบประตู L-Gate เป็นครั้งแรก (country flag)",
             "ไม่ ผ่านเหตุการณ์ L-Cluster (country flag)",
             "ไม่ เปิด L-Cluster (7 L-Gate) (global flag)"
+          ],
+          "children": [],
+          "is_event": false
+        },
+        {
+          "key": "tech_orbital_arc_furnace",
+          "area": "engineering",
+          "base_factor": 1.0,
+          "base_weight": 35.0,
+          "category": "วัสดุ",
+          "cost": 6000,
+          "description": "Utilizing the raw power of a molten planet, the Arc Furnace unlocks otherwise inaccessible minerals and improves system-wide mining operations.",
+          "feature_unlocks": [
+            "Arc Furnace Capacity +3"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "name": "Arc Furnace",
+          "prerequisites": [],
+          "tier": 2,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: วัสดุ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ประกายแห่งความอัจฉริยะ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ประกายแห่งความอัจฉริยะ II\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ II\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ III",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : Arc Furnace: Equatorial Band\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : Arc Furnace: Borehole Pumps\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : Arc Furnace: Mohole Extractors\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : Arc Furnace",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์:\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: Arc Furnace"
+          ],
+          "potential": [
+            "มี DLC The Machine Age "
           ],
           "children": [],
           "is_event": false
@@ -5141,6 +5463,54 @@
           "prerequisites_names": [],
           "weight_modifiers": [],
           "potential": [],
+          "children": [],
+          "is_event": false
+        },
+        {
+          "key": "tech_identity_fusion",
+          "area": "engineering",
+          "base_factor": 1.0,
+          "base_weight": 40.0,
+          "category": "อุตสาหกรรม",
+          "cost": 20000,
+          "description": "Merging the identities and memories of two or more Synthetics into a mechanical body will create new, somewhat unique individuals.",
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "name": "Identity Fusion",
+          "prerequisites": [],
+          "tier": 4,
+          "prerequisites_names": [],
+          "weight_modifiers": [],
+          "potential": [
+            "มี DLC The Machine Age ",
+            "advanced_identity_creation (country flag)"
+          ],
+          "children": [],
+          "is_event": false
+        },
+        {
+          "key": "tech_identity_initialization",
+          "area": "engineering",
+          "base_factor": 1.0,
+          "base_weight": 40.0,
+          "category": "อุตสาหกรรม",
+          "cost": 20000,
+          "description": "We will be able to initialize an identity kernel and provide it with a virtual childhood. While expensive, we can simulate the optimal experiences to generate productive personalities.",
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "name": "Identity Initialization",
+          "prerequisites": [],
+          "tier": 4,
+          "prerequisites_names": [],
+          "weight_modifiers": [],
+          "potential": [
+            "มี DLC The Machine Age ",
+            "advanced_identity_creation (country flag)"
+          ],
           "children": [],
           "is_event": false
         }

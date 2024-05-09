@@ -197,8 +197,9 @@
     "cost": 6000,
     "description": "Due to our vast experience operating observation stations in orbit of pre-FTL worlds, we have discovered slight optimizations. By implementing them empire-wide, we can drastically reduce the maintenance our stations require.",
     "feature_unlocks": [
-      "ทรัพยากรจากสถานีวงโคจร +5%",
+      "ผลผลิตของสถานีเหมืองแร่ +5%",
       "ทูตที่มี +0.25",
+      "ผลผลิตของสถานีวิจัย +5%",
       "การบำรุงรักษาสถานี -50%"
     ],
     "is_dangerous": false,
@@ -236,7 +237,7 @@
     "weight_modifiers": [],
     "potential": [
       "มี DLC Nemesis",
-      "มีการยกระดับ เป็นไครซิส (สกิลพิเศษ)",
+      "มีการยกระดับ Galactic Nemesis (สกิลพิเศษ)",
       "สามารถสร้างเครื่องกินดวงดาวได้ (country flag)"
     ],
     "children": [],
@@ -264,6 +265,219 @@
     "weight_modifiers": [],
     "potential": [
       "มี DLC First Contact "
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_cosmogenesis_FE_titan",
+    "area": "engineering",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "ยานอวกาศ",
+    "cost": 50000,
+    "description": "These formidable ships are closer to mobile fortresses than anything else, and only the most brutal assaults have a chance to damage them.",
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "Paradox Titan",
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "มี DLC The Machine Age "
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_cosmogenesis_battlecruiser",
+    "area": "engineering",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "ยานอวกาศ",
+    "cost": 50000,
+    "description": "Another optimized spacecraft, this time of larger dimensions, will make current Battleships look like toys.",
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "Enigma Battlecruiser",
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "มี DLC The Machine Age "
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_cosmogenesis_crisis_1",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "การคำนวณ",
+    "cost": 10000,
+    "description": "The radical shift in perspective required to comprehend the infinite layers of reality challenges even our most brilliant minds.",
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "Exponential Learning Theory",
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "มี DLC The Machine Age ",
+      "มีการยกระดับ Cosmogenesis (สกิลพิเศษ)"
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_cosmogenesis_crisis_2",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "การคำนวณ",
+    "cost": 50000,
+    "description": "Gravity and spacetime shape the universe. Starting with gravity, we will master tools to power our ascension.",
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "Gravitic Brush",
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "มี DLC The Machine Age ",
+      "มีการยกระดับ Cosmogenesis (สกิลพิเศษ)"
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_cosmogenesis_crisis_3",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "การคำนวณ",
+    "cost": 100000,
+    "description": "Precise and incredibly minute alterations in gravity allow us to inject commands into the code of reality. Extreme caution is imperative as we learn the applications of this new and incredible tool.",
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "Theoretical Infinity Thesis",
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "มี DLC The Machine Age ",
+      "มีการยกระดับ Cosmogenesis (สกิลพิเศษ)"
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_cosmogenesis_crisis_4",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "การคำนวณ",
+    "cost": 200000,
+    "description": "Recent experiments confirm that our edits to reality are only temporary. More significant alterations will be necessary to anchor these changes.",
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "The Rules of Reality",
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "มี DLC The Machine Age ",
+      "มีการยกระดับ Cosmogenesis (สกิลพิเศษ)"
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_cosmogenesis_crisis_5",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "การคำนวณ",
+    "cost": 300000,
+    "description": "Large-scale travel to different universes is a daunting task. We must engineer a spacecraft that can not only pierce the fabric of spacetime but also survive the journey.",
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "Nascent Universes",
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "มี DLC The Machine Age ",
+      "มีการยกระดับ Cosmogenesis (สกิลพิเศษ)"
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_cosmogenesis_escort",
+    "area": "engineering",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "ยานอวกาศ",
+    "cost": 50000,
+    "description": "A starship of modest size that optimizes our knowledge of spacetime to enact dimensional transcendentalism, making the inside bigger than its outward shape suggests. Advanced firepower capabilities come at a reduced logistical cost compared to traditional ship designs.",
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "Riddle Escort",
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "มี DLC The Machine Age "
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_cosmogenesis_world",
+    "area": "engineering",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "วัสดุ",
+    "cost": 32000,
+    "description": "Colossal in scale, the Synaptic Lathe is a reservoir computer. The processing power of our population\u0027s networked minds is used to compute and store data. The benefits are obvious, but some misguided species may view the transmutation of individuals into computing chips as morally questionable.",
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "Scalable Reservoir Computing",
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "มี DLC The Machine Age ",
+      "มีการยกระดับ Cosmogenesis (สกิลพิเศษ)"
     ],
     "children": [],
     "is_event": true
@@ -588,6 +802,52 @@
     "is_event": true
   },
   {
+    "key": "tech_identity_copy",
+    "area": "engineering",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "อุตสาหกรรม",
+    "cost": 16000,
+    "description": "We will be able to copy the identity and memories of a Synthetic into a new mechanical body. The copies have predictable skill sets but make for stale conversation.",
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "name": "Identity Copies",
+    "prerequisites": [],
+    "tier": 4,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "มี DLC The Machine Age "
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_leviathan_techgenesis",
+    "area": "engineering",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "อุตสาหกรรม",
+    "cost": 32000,
+    "description": "Utilizing the received knowledge seized from Leviathans, we now have access to new improvements for our frames.",
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "Leviathan Tech Genesis",
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "มี DLC The Machine Age "
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
     "key": "tech_lgate_activation",
     "area": "physics",
     "base_factor": 1.0,
@@ -742,7 +1002,7 @@
     "base_factor": 1.0,
     "base_weight": 0.0,
     "category": "ยานอวกาศ",
-    "cost": 48000,
+    "cost": 40000,
     "description": "A highly effective hull auto-repair system comprised of billions of microscopic nanomachines was found among the smoking remains of the Scavenger, and has been repurposed for our uses. Whether the Scavenger pilfered this system from an ancient derelict, or was originally constructed with it remains unknown.",
     "feature_unlocks": [
       "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ระบบการซ่อมด้วยนาไนต์"
@@ -756,6 +1016,31 @@
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_nanite_repair_system_synth_queen",
+    "area": "engineering",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "วัสดุ",
+    "cost": 48000,
+    "description": "Cetana\u0027s advanced nanite systems will tirelessly repair and refresh our ships at a rate far beyond our current capabilities.",
+    "feature_unlocks": [
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Cetana\u0027s Nanites Repair System"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "Cetana\u0027s Nanites",
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "มี DLC The Machine Age "
+    ],
     "children": [],
     "is_event": true
   },

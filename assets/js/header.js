@@ -88,8 +88,17 @@ $(document).ready(function(){
 		
 		if($("#save_research").hasClass("float-NoDisplay")){
 			$("#save_research").removeClass("float-NoDisplay");
-		} else {
-			$("#save_research").addClass("float-NoDisplay");
+            $("#search_research").addClass("float-NoDisplay");
+		}
+		
+    });
+
+    $("a[href='#toggle_search']").click(function() {
+		//console.log("toggle"); 
+		
+		if($("#search_research").hasClass("float-NoDisplay")){
+			$("#search_research").removeClass("float-NoDisplay");
+            $("#save_research").addClass("float-NoDisplay");
 		}
 		
     });

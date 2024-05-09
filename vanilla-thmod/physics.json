@@ -771,6 +771,64 @@
           "is_event": false
         },
         {
+          "key": "tech_fe_silo_1",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 20.0,
+          "category": "การควบคุมสนามพลัง",
+          "cost": 50000,
+          "description": "The depot influences a portion of subspace where the distance between molecules is reduced, effectively shrinking anything stored there. Living beings are forbidden from entering it.",
+          "feature_unlocks": [
+            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Shrinkspace Depot"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "name": "Shrinkspace Depot",
+          "prerequisites": [],
+          "tier": 5,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี ไครซิสเลเวล 1",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   จำนวนประชากร มากกว่า 50"
+          ],
+          "potential": [],
+          "children": [
+            {
+              "key": "tech_fe_silo_2",
+              "area": "physics",
+              "base_factor": 1.0,
+              "base_weight": 20.0,
+              "category": "การควบคุมสนามพลัง",
+              "cost": 50000,
+              "description": "By creating a localized pocket dimension, we can hold nearly endless resources.",
+              "feature_unlocks": [
+                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Extra-Dimensional Depot"
+              ],
+              "is_dangerous": false,
+              "is_rare": true,
+              "is_start_tech": false,
+              "name": "Extra-Dimensional Depot",
+              "prerequisites": [
+                "tech_fe_silo_1"
+              ],
+              "tier": 5,
+              "prerequisites_names": [
+                {
+                  "name": "Shrinkspace Depot",
+                  "key": "tech_fe_silo_1"
+                }
+              ],
+              "weight_modifiers": [],
+              "potential": [],
+              "children": [],
+              "is_event": false
+            }
+          ],
+          "is_event": false
+        },
+        {
           "key": "tech_lasers_1",
           "area": "physics",
           "base_factor": 1.0,
@@ -2026,6 +2084,64 @@
           "is_event": false
         },
         {
+          "key": "tech_fe_singularity_1",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 20.0,
+          "category": "อนุภาค",
+          "cost": 50000,
+          "description": "Capturing the entire energy output from this singularity is an engineering marvel.",
+          "feature_unlocks": [
+            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Class-3 Singularity"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "name": "Class-3 Singularity",
+          "prerequisites": [],
+          "tier": 5,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี ไครซิสเลเวล 2",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   จำนวนประชากร มากกว่า 50"
+          ],
+          "potential": [],
+          "children": [
+            {
+              "key": "tech_fe_singularity_2",
+              "area": "physics",
+              "base_factor": 1.0,
+              "base_weight": 20.0,
+              "category": "อนุภาค",
+              "cost": 50000,
+              "description": "This singularity\u0027s power output challenges the laws of physics, yet the containment fields hold with unwavering stability.",
+              "feature_unlocks": [
+                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Class-4 Singularity"
+              ],
+              "is_dangerous": false,
+              "is_rare": true,
+              "is_start_tech": false,
+              "name": "Class-4 Singularity",
+              "prerequisites": [
+                "tech_fe_singularity_1"
+              ],
+              "tier": 5,
+              "prerequisites_names": [
+                {
+                  "name": "Class-3 Singularity",
+                  "key": "tech_fe_singularity_1"
+                }
+              ],
+              "weight_modifiers": [],
+              "potential": [],
+              "children": [],
+              "is_event": false
+            }
+          ],
+          "is_event": false
+        },
+        {
           "key": "tech_pd_tracking_1",
           "area": "physics",
           "base_factor": 1.0,
@@ -2348,7 +2464,7 @@
                   "base_weight": 90.0,
                   "category": "การคำนวณ",
                   "cost": 3000,
-                  "description": "By giving control of the colony ship to an Artificial Intelligence, the crew and colonists can be suspended in a deep sleep.",
+                  "description": "By giving control of the colony ship to an Artificial Intelligence, the crew and colonists can be placed in suspended animation.",
                   "feature_unlocks": [
                     "ความเร็วในการพัฒนาอาณานิคม +50%"
                   ],
@@ -2439,7 +2555,7 @@
                   ],
                   "weight_modifiers": [],
                   "potential": [
-                    "หนึ่งอย่างต้องเป็นจริง\n    •   ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน \n    •   มีพลเมือง: เครื่องจักรรับใช้"
+                    "จักรวรรดิใช้ทรัพยากรประเภทสินค้าอุปโภคบริโภค"
                   ],
                   "children": [
                     {
@@ -2479,15 +2595,13 @@
                       ],
                       "weight_modifiers": [],
                       "potential": [
-                        "หนึ่งอย่างต้องเป็นจริง\n    •   ไม่ มีจริยธรรม เป็นหนึ่งเดียวกัน \n    •   มีพลเมือง: เครื่องจักรรับใช้"
+                        "จักรวรรดิใช้ทรัพยากรประเภทสินค้าอุปโภคบริโภค"
                       ],
                       "children": [],
-                      "is_event": false,
-                      "is_gestalt": false
+                      "is_event": false
                     }
                   ],
-                  "is_event": false,
-                  "is_gestalt": false
+                  "is_event": false
                 },
                 {
                   "key": "tech_self_aware_logic",
@@ -2736,7 +2850,7 @@
                     "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: การคำนวณ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์"
                   ],
                   "potential": [
-                    "ไม่ มีระบอบการปกครอง สติปัญญาจักรกล "
+                    "หนึ่งอย่างต้องเป็นจริง\n    •   ไม่ มีระบอบการปกครอง สติปัญญาจักรกล \n    •   มีพลเมือง: เครื่องดัดแปลงประชากร"
                   ],
                   "children": [],
                   "is_event": false,
@@ -3244,6 +3358,64 @@
           "is_event": false
         },
         {
+          "key": "tech_fe_lab_1",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 20.0,
+          "category": "การคำนวณ",
+          "cost": 50000,
+          "description": "This nexus boasts state-of-the-art equipment and an unprecedented staff capacity, ushering in an era where quantum theories are not just explored but harnessed for groundbreaking innovation.",
+          "feature_unlocks": [
+            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Quantum Innovation Nexus"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "name": "Quantum Innovation Nexus",
+          "prerequisites": [],
+          "tier": 5,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี ไครซิสเลเวล 5",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   จำนวนประชากร มากกว่า 50"
+          ],
+          "potential": [],
+          "children": [
+            {
+              "key": "tech_fe_lab_2",
+              "area": "physics",
+              "base_factor": 1.0,
+              "base_weight": 20.0,
+              "category": "การคำนวณ",
+              "cost": 50000,
+              "description": "This building is the apex of scientific advancement and proves this is an era of boundless innovation.",
+              "feature_unlocks": [
+                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Transcendental Innovation Department"
+              ],
+              "is_dangerous": false,
+              "is_rare": true,
+              "is_start_tech": false,
+              "name": "Transcendental Innovation Department",
+              "prerequisites": [
+                "tech_fe_lab_1"
+              ],
+              "tier": 5,
+              "prerequisites_names": [
+                {
+                  "name": "Quantum Innovation Nexus",
+                  "key": "tech_fe_lab_1"
+                }
+              ],
+              "weight_modifiers": [],
+              "potential": [],
+              "children": [],
+              "is_event": false
+            }
+          ],
+          "is_event": false
+        },
+        {
           "key": "tech_mine_volatile_motes",
           "area": "physics",
           "base_factor": 1.0,
@@ -3263,7 +3435,7 @@
           "tier": 2,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Dust Caverns\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Dust Desert\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Industrial Sector\u003cbr/\u003e    •   มีดาวเคราะห์ใดๆที่อยู่ภายในพรมแดน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £volatile_motes£ +1\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £volatile_motes£ +2\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £volatile_motes£ +3\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £volatile_motes£ +4\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £volatile_motes£ +5"
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร ถ้ำฝุ่นแร่ระเหย\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร ทะเลทรายฝุ่นแร่ระเหย\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Industrial Sector\u003cbr/\u003e    •   มีดาวเคราะห์ใดๆที่อยู่ภายในพรมแดน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £volatile_motes£ +1\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £volatile_motes£ +2\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £volatile_motes£ +3\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £volatile_motes£ +4\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £volatile_motes£ +5"
           ],
           "potential": [],
           "children": [],
@@ -3317,7 +3489,7 @@
           "tier": 2,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Dust Caverns\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Dust Desert\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Industrial Sector\u003cbr/\u003e    •   มีดาวเคราะห์ใดๆที่อยู่ภายในพรมแดน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £volatile_motes£ +1\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £volatile_motes£ +2\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £volatile_motes£ +3\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £volatile_motes£ +4\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £volatile_motes£ +5"
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร ถ้ำฝุ่นแร่ระเหย\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร ทะเลทรายฝุ่นแร่ระเหย\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Industrial Sector\u003cbr/\u003e    •   มีดาวเคราะห์ใดๆที่อยู่ภายในพรมแดน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £volatile_motes£ +1\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £volatile_motes£ +2\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £volatile_motes£ +3\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £volatile_motes£ +4\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £volatile_motes£ +5"
           ],
           "potential": [],
           "children": [],
@@ -3344,7 +3516,7 @@
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจริยธรรม ชอบสงคราม \u003cbr/\u003e    •   มีจริยธรรม ชอบสงครามอย่างมาก ",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ II\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ III",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ประกายแห่งความอัจฉริยะ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ประกายแห่งความอัจฉริยะ II",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : เครื่องเหวี่ยงกองยานควอนตัม\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : เครื่องเหวี่ยงกองยานควอนตัม\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : เครื่องเหวี่ยงกองยานควอนตัม\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : เครื่องเหวี่ยงกองยานควอนตัม\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : เครื่องเหวี่ยงกองยานควอนตัม\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : เครื่องเหวี่ยงกองยานควอนตัม (พังเสียหาย)\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : เครื่องเหวี่ยงกองยานควอนตัม (พังเสียหาย)",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : เครื่องเหวี่ยงกองยานควอนตัม อาร์เรย์เดี่ยว\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : เครื่องเหวี่ยงกองยานควอนตัม อาร์เรย์คู่\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : เครื่องเหวี่ยงกองยานควอนตัม\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : เครื่องเหวี่ยงกองยานควอนตัม\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : เครื่องเหวี่ยงกองยานควอนตัม อาร์เรย์คู่\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : เครื่องเหวี่ยงกองยานควอนตัม (พังเสียหาย)\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : เครื่องเหวี่ยงกองยานควอนตัม (พังเสียหาย)",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีการยกระดับ สิ่งมหัศจรรย์แห่งกาแล็กติก (สกิลพิเศษ)\u003cbr/\u003e    •   มีการยกระดับ สิ่งมหัศจรรย์แห่งกาแล็กติก (สกิลพิเศษ)",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e6.0\u003c/b\u003e) มีการยกระดับ สถาปนิก (สกิลพิเศษ)",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ เข้าใจความว่างเปล่าในอวกาศ (สกิลพิเศษ)",
@@ -3352,7 +3524,7 @@
           ],
           "potential": [
             "มี DLC Overlord ",
-            "หนึ่งอย่างต้องเป็นจริง\n    •   มีเทคโนโลยี: วิศวกรรมขนาดมหึมา\n    •   มีข้อมูลเชิงลึกเครื่องเหวี่ยงกองยานควอนตัม (country flag)\n    •   ทั้งหมดต้องเป็นจริง\n\t    •   มีจุดเริ่มต้น หนังสติ๊กสู่ดวงดาว\n\t    •   หนึ่งอย่างต้องเป็นจริง\n\t\t    •   มีสิ่งก่อสร้างขนาดมหึมา : เครื่องเหวี่ยงกองยานควอนตัม\n\t\t    •   มีสิ่งก่อสร้างขนาดมหึมา : เครื่องเหวี่ยงกองยานควอนตัม"
+            "หนึ่งอย่างต้องเป็นจริง\n    •   มีเทคโนโลยี: วิศวกรรมขนาดมหึมา\n    •   มีข้อมูลเชิงลึกเครื่องเหวี่ยงกองยานควอนตัม (country flag)\n    •   มีจุดเริ่มต้น หนังสติ๊กสู่ดวงดาว"
           ],
           "children": [],
           "is_event": false
@@ -3444,6 +3616,182 @@
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   มีการปรับเปลี่ยน ข้อมูลเชิงลึกผู้ดูแลพิพิธภัณฑ์"
           ],
           "potential": [],
+          "children": [],
+          "is_event": false
+        },
+        {
+          "key": "tech_dyson_swarm",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 35.0,
+          "category": "การคำนวณ",
+          "cost": 6000,
+          "description": "An array of interlinked satellites, the Dyson Swarm is designed to improve the output of stellar deposits.",
+          "feature_unlocks": [
+            "Dyson Swarm Capacity +3"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "name": "Dyson Swarm",
+          "prerequisites": [],
+          "tier": 2,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: การคำนวณ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ประกายแห่งความอัจฉริยะ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ประกายแห่งความอัจฉริยะ II\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ II\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ III",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : Dyson Swarm: Array\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : Dyson Swarm: Constellation\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : Dyson Swarm",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์:\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: Dyson Swarm"
+          ],
+          "potential": [
+            "มี DLC The Machine Age "
+          ],
+          "children": [],
+          "is_event": false
+        },
+        {
+          "key": "tech_cosmogenesis_thesis",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 25.0,
+          "category": "การคำนวณ",
+          "cost": 75000,
+          "description": "By making further alterations to reality\u0027s rules, we can better monitor its reactions. At this scale, the effects are still difficult to predict, and could affect the entire galaxy.",
+          "feature_unlocks": [],
+          "is_dangerous": true,
+          "is_rare": false,
+          "is_start_tech": false,
+          "name": "Applied Infinity Thesis",
+          "prerequisites": [],
+          "tier": 4,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี ไครซิสเลเวล 4",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e5.0\u003c/b\u003e) มีเทคโนโลยี: Theoretical Infinity Thesis"
+          ],
+          "potential": [
+            "มี DLC The Machine Age ",
+            "มีการยกระดับ Cosmogenesis (สกิลพิเศษ)"
+          ],
+          "children": [],
+          "is_event": false
+        },
+        {
+          "key": "tech_lathe_overclocker",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 30.0,
+          "category": "การคำนวณ",
+          "cost": 30000,
+          "description": "The Lathe has been designed to preserve its installed Neural Chips, keeping them productive for as long as possible. The overclocker can override these commands, resulting in a higher and faster output, but it comes with an increased failure rate.",
+          "feature_unlocks": [
+            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Synaptic Overclocker"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "name": "Synaptic Overclocker",
+          "prerequisites": [],
+          "tier": 5,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   มีการยกระดับ Cosmogenesis (สกิลพิเศษ)",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   จำนวนประชากร มากกว่าหรือเท่ากับ 50",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   จำนวนประชากร มากกว่าหรือเท่ากับ 100"
+          ],
+          "potential": [
+            "มี DLC The Machine Age ",
+            "มีการยกระดับ Cosmogenesis (สกิลพิเศษ)",
+            "มีเทคโนโลยี: Scalable Reservoir Computing"
+          ],
+          "children": [],
+          "is_event": false
+        },
+        {
+          "key": "tech_lathe_validator",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 30.0,
+          "category": "การคำนวณ",
+          "cost": 30000,
+          "description": "While the primary purpose of the validator\u0027s specialized functions is to help formulate infinity theses, it can also be applied to more general aspects of computing.",
+          "feature_unlocks": [
+            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Synaptic Validator"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "name": "Synaptic Validator",
+          "prerequisites": [],
+          "tier": 5,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   มีการยกระดับ Cosmogenesis (สกิลพิเศษ)",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   จำนวนประชากร มากกว่าหรือเท่ากับ 50",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   จำนวนประชากร มากกว่าหรือเท่ากับ 100"
+          ],
+          "potential": [
+            "มี DLC The Machine Age ",
+            "มีการยกระดับ Cosmogenesis (สกิลพิเศษ)",
+            "มีเทคโนโลยี: Scalable Reservoir Computing"
+          ],
+          "children": [],
+          "is_event": false
+        },
+        {
+          "key": "tech_lathe_resonator",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 30.0,
+          "category": "การคำนวณ",
+          "cost": 30000,
+          "description": "Resonators harness and redirect the cognitive potential of stray thoughts and autonomic systems, leading every single chip to increase the efficiency of its closest processing neighbors.",
+          "feature_unlocks": [
+            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Synaptic Resonator"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "name": "Synaptic Resonator",
+          "prerequisites": [],
+          "tier": 5,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   มีการยกระดับ Cosmogenesis (สกิลพิเศษ)",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   จำนวนประชากร มากกว่าหรือเท่ากับ 50",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   จำนวนประชากร มากกว่าหรือเท่ากับ 100"
+          ],
+          "potential": [
+            "มี DLC The Machine Age ",
+            "มีการยกระดับ Cosmogenesis (สกิลพิเศษ)",
+            "มีเทคโนโลยี: Scalable Reservoir Computing"
+          ],
+          "children": [],
+          "is_event": false
+        },
+        {
+          "key": "tech_synth_queen_knowledge",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 30.0,
+          "category": "การคำนวณ",
+          "cost": 32000,
+          "description": "This compendium, a gift from Cetana, is a tapestry of profound insights, elegantly composed and dense with meaning. It offers more than knowledge; it challenges and reshapes our understanding of technology, society, and the fabric of consciousness itself.",
+          "feature_unlocks": [
+            "ความเร็วในการวิจัย +20%"
+          ],
+          "is_dangerous": false,
+          "is_rare": true,
+          "is_start_tech": false,
+          "name": "Cetana\u0027s Thought",
+          "prerequisites": [],
+          "tier": 5,
+          "prerequisites_names": [],
+          "weight_modifiers": [],
+          "potential": [
+            "มี DLC The Machine Age ",
+            "synth_queen_knowledge (country flag)"
+          ],
           "children": [],
           "is_event": false
         },
