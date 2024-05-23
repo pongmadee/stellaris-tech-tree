@@ -1269,9 +1269,9 @@
                           "description": "To complete construction projects of truly staggering scales we must first achieve a fundamental understanding of both the engineering and resource storage requirements for such megastructures.",
                           "feature_unlocks": [
                             "ความจุในการจัดเก็บทรัพยากร +20000",
-                            "Arc Furnace Capacity +2",
-                            "Dyson Swarm Capacity +2",
-                            "\u003cb\u003eฟีเจอร์ : \u003c/b\u003eการฟื้นฟูโครงสร้างสิ่งก่อสร้างขนาดมหึมา"
+                            "ความจุ ฝูงไดสัน +2",
+                            "\u003cb\u003eฟีเจอร์ : \u003c/b\u003eการฟื้นฟูโครงสร้างสิ่งก่อสร้างขนาดมหึมา",
+                            "ความจุ เตาหลอมอาร์ก +2"
                           ],
                           "is_dangerous": false,
                           "is_rare": true,
@@ -2319,19 +2319,19 @@
           "cost": 50000,
           "description": "This mining plant can find minerals anywhere in this planet\u0027s mantle using quantum tunneling technology to bore through solid materials without physical contact.",
           "feature_unlocks": [
-            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Quantum Drilling Plant"
+            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: โรงงานขุดเจาะควอนตัม"
           ],
           "is_dangerous": false,
           "is_rare": true,
           "is_start_tech": false,
-          "name": "Quantum Drilling Plant",
+          "name": "โรงงานขุดเจาะควอนตัม",
           "prerequisites": [],
           "tier": 5,
           "prerequisites_names": [],
           "weight_modifiers": [
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี ไครซิสเลเวล 2",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   จำนวนประชากร มากกว่า 50"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น เครื่องกลึงไซแน็ปติก\u003cbr/\u003e    •   จำนวนประชากร มากกว่า 50"
           ],
           "potential": [],
           "children": [
@@ -2344,19 +2344,19 @@
               "cost": 50000,
               "description": "This mining hub can extract minerals anywhere down to the planet\u0027s outer core using quantum tunneling technology to bore through solid or liquid materials without physical contact.",
               "feature_unlocks": [
-                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Quantum Drilling Hub"
+                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ศูนย์กลางการขุดเจาะควอนตัม"
               ],
               "is_dangerous": false,
               "is_rare": true,
               "is_start_tech": false,
-              "name": "Quantum Drilling Hub",
+              "name": "ศูนย์กลางการขุดเจาะควอนตัม",
               "prerequisites": [
                 "tech_fe_mine_1"
               ],
               "tier": 5,
               "prerequisites_names": [
                 {
-                  "name": "Quantum Drilling Plant",
+                  "name": "โรงงานขุดเจาะควอนตัม",
                   "key": "tech_fe_mine_1"
                 }
               ],
@@ -2377,19 +2377,19 @@
           "cost": 50000,
           "description": "This fabricator\u0027s technology achieves flawless conversion from energy to matter.",
           "feature_unlocks": [
-            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Dimensional Replicator"
+            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: เครื่องจำลองมิติ"
           ],
           "is_dangerous": false,
           "is_rare": true,
           "is_start_tech": false,
-          "name": "Dimensional Replicator",
+          "name": "เครื่องจำลองมิติ",
           "prerequisites": [],
           "tier": 5,
           "prerequisites_names": [],
           "weight_modifiers": [
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี ไครซิสเลเวล 4",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   จำนวนประชากร มากกว่า 50"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น เครื่องกลึงไซแน็ปติก\u003cbr/\u003e    •   จำนวนประชากร มากกว่า 50"
           ],
           "potential": [],
           "children": [
@@ -2402,19 +2402,19 @@
               "cost": 50000,
               "description": "This advanced fabricator seamlessly tunnels into the fabric of dimensional space, extracting valuable resources.",
               "feature_unlocks": [
-                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Dimensional Fabricator"
+                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: เครื่องสร้างมิติ"
               ],
               "is_dangerous": false,
               "is_rare": true,
               "is_start_tech": false,
-              "name": "Dimensional Fabricator",
+              "name": "เครื่องสร้างมิติ",
               "prerequisites": [
                 "tech_fe_fabricator_1"
               ],
               "tier": 5,
               "prerequisites_names": [
                 {
-                  "name": "Dimensional Replicator",
+                  "name": "เครื่องจำลองมิติ",
                   "key": "tech_fe_fabricator_1"
                 }
               ],
@@ -3981,7 +3981,7 @@
                           "cost": 8000,
                           "description": "Improved production practices allow for greater alterations to robots without compromising core functionality.",
                           "feature_unlocks": [
-                            "Mechanical Modification Points +3"
+                            "แต้มปรับเปลี่ยนจักรกล (เครื่องจักร) +3"
                           ],
                           "is_dangerous": false,
                           "is_rare": false,
@@ -4019,7 +4019,7 @@
                               "cost": 16000,
                               "description": "Improved production practices allow for fundamental changes to robots without compromising core functionality.",
                               "feature_unlocks": [
-                                "Mechanical Modification Points +1"
+                                "แต้มปรับเปลี่ยนจักรกล (เครื่องจักร) +1"
                               ],
                               "is_dangerous": false,
                               "is_rare": true,
@@ -4066,7 +4066,7 @@
                           "cost": 16000,
                           "description": "Advanced templates allow us to drastically increase the assembly of new robots.",
                           "feature_unlocks": [
-                            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ศูนย์ประกอบหุ่นยนต์ซับซ้อน"
+                            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ศูนย์ประกอบหุ่นยนต์ครบวงจร"
                           ],
                           "is_dangerous": false,
                           "is_rare": true,
@@ -5073,19 +5073,19 @@
           "cost": 50000,
           "description": "This forge\u0027s production speed is limited only by the quantity of resources loaded into it.",
           "feature_unlocks": [
-            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Hyper-Forge"
+            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: เครื่องหลอมไฮเปอร์"
           ],
           "is_dangerous": false,
           "is_rare": true,
           "is_start_tech": false,
-          "name": "Hyper-Forge",
+          "name": "เครื่องหลอมไฮเปอร์",
           "prerequisites": [],
           "tier": 5,
           "prerequisites_names": [],
           "weight_modifiers": [
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี ไครซิสเลเวล 5",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   จำนวนประชากร มากกว่า 50"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น เครื่องกลึงไซแน็ปติก\u003cbr/\u003e    •   จำนวนประชากร มากกว่า 50"
           ],
           "potential": [],
           "children": [
@@ -5098,19 +5098,19 @@
               "cost": 50000,
               "description": "The expansive nano-replicator bays in this forge transform raw materials into advanced alloys with marvelous efficiency.",
               "feature_unlocks": [
-                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Auto-Forge"
+                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: เครื่องหลอมอัตโนมัติ"
               ],
               "is_dangerous": false,
               "is_rare": true,
               "is_start_tech": false,
-              "name": "Auto-Forge",
+              "name": "เครื่องหลอมอัตโนมัติ",
               "prerequisites": [
                 "tech_fe_forge_1"
               ],
               "tier": 5,
               "prerequisites_names": [
                 {
-                  "name": "Hyper-Forge",
+                  "name": "เครื่องหลอมไฮเปอร์",
                   "key": "tech_fe_forge_1"
                 }
               ],
@@ -5131,12 +5131,12 @@
           "cost": 50000,
           "description": "An avant-garde assembly complex manned by expert Roboticists, this facility transcends conventional bounds, meticulously realizing the forefront of robotic innovation.",
           "feature_unlocks": [
-            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Robot Manufacturing Nexus"
+            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ศูนย์ผลิตหุ่นยนต์"
           ],
           "is_dangerous": false,
           "is_rare": true,
           "is_start_tech": false,
-          "name": "Robot Manufacturing Nexus",
+          "name": "ศูนย์ผลิตหุ่นยนต์",
           "prerequisites": [],
           "tier": 5,
           "prerequisites_names": [],
@@ -5144,7 +5144,7 @@
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี ไครซิสเลเวล 4",
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) มีระบอบการปกครอง จิตสำนึกร่วม ",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   จำนวนประชากร มากกว่า 50"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น เครื่องกลึงไซแน็ปติก\u003cbr/\u003e    •   จำนวนประชากร มากกว่า 50"
           ],
           "potential": [],
           "children": [
@@ -5157,19 +5157,19 @@
               "cost": 50000,
               "description": "A marvel in engineering, this facility\u0027s quantic assembly line uses entanglement converters to craft machine parts down to the most minute detail. Not a single atom is misplaced.",
               "feature_unlocks": [
-                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Robot Quantum Production Hub"
+                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ศูนย์ผลิตหุ่นยนต์ควอนตัม"
               ],
               "is_dangerous": false,
               "is_rare": true,
               "is_start_tech": false,
-              "name": "Robot Quantum Production Hub",
+              "name": "ศูนย์ผลิตหุ่นยนต์ควอนตัม",
               "prerequisites": [
                 "tech_fe_assembly_1"
               ],
               "tier": 5,
               "prerequisites_names": [
                 {
-                  "name": "Robot Manufacturing Nexus",
+                  "name": "ศูนย์ผลิตหุ่นยนต์",
                   "key": "tech_fe_assembly_1"
                 }
               ],
@@ -5190,19 +5190,19 @@
           "cost": 50000,
           "description": "This center anticipates and fulfills material desires using an advanced procurement algorithm, delivering satisfaction before the populace realizes their wants.",
           "feature_unlocks": [
-            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Affluence Emporium"
+            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ห้างสรรพสินค้าแห่งความมั่งคั่ง"
           ],
           "is_dangerous": false,
           "is_rare": true,
           "is_start_tech": false,
-          "name": "Affluence Emporium",
+          "name": "ห้างสรรพสินค้าแห่งความมั่งคั่ง",
           "prerequisites": [],
           "tier": 5,
           "prerequisites_names": [],
           "weight_modifiers": [
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี ไครซิสเลเวล 5",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   จำนวนประชากร มากกว่า 50"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น เครื่องกลึงไซแน็ปติก\u003cbr/\u003e    •   จำนวนประชากร มากกว่า 50"
           ],
           "potential": [],
           "children": [
@@ -5215,19 +5215,19 @@
               "cost": 50000,
               "description": "This center effortlessly materializes the most outlandish desires at a moment\u0027s notice.",
               "feature_unlocks": [
-                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Affluence Center"
+                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ศูนย์การค้าแห่งความมั่งคั่ง"
               ],
               "is_dangerous": false,
               "is_rare": true,
               "is_start_tech": false,
-              "name": "Affluence Center",
+              "name": "ศูนย์การค้าแห่งความมั่งคั่ง",
               "prerequisites": [
                 "tech_fe_affluence_1"
               ],
               "tier": 5,
               "prerequisites_names": [
                 {
-                  "name": "Affluence Emporium",
+                  "name": "ห้างสรรพสินค้าแห่งความมั่งคั่ง",
                   "key": "tech_fe_affluence_1"
                 }
               ],
@@ -5395,22 +5395,22 @@
           "base_weight": 35.0,
           "category": "วัสดุ",
           "cost": 6000,
-          "description": "Utilizing the raw power of a molten planet, the Arc Furnace unlocks otherwise inaccessible minerals and improves system-wide mining operations.",
+          "description": "ด้วยการใช้พลังดิบของดาวเคราะห์หลอมเหลว เตาหลอมอาร์ก ปลดล็อกแร่ที่ไม่สามารถเข้าถึงได้และปรับปรุงการขุดเจาะทั่วทั้งระบบดาว",
           "feature_unlocks": [
-            "Arc Furnace Capacity +3"
+            "ความจุ เตาหลอมอาร์ก +3"
           ],
           "is_dangerous": false,
           "is_rare": true,
           "is_start_tech": false,
-          "name": "Arc Furnace",
+          "name": "เตาหลอมอาร์ก",
           "prerequisites": [],
           "tier": 2,
           "prerequisites_names": [],
           "weight_modifiers": [
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: เชี่ยวชาญ: วัสดุ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ประกายแห่งความอัจฉริยะ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ประกายแห่งความอัจฉริยะ II\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ II\u003cbr/\u003e    •   มีคุณลักษณะของผู้นำในสภา: ตั้งใจจดจ่อ III",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : Arc Furnace: Equatorial Band\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : Arc Furnace: Borehole Pumps\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : Arc Furnace: Mohole Extractors\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : Arc Furnace",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : เตาหลอมอาร์ก: แถบเส้นศูนย์สูตร\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : เตาหลอมอาร์ก: ปั๊มหลุมเจาะ\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : เตาหลอมอาร์ก: เครื่องขุดเจาะโมโฮล\u003cbr/\u003e    •   มีสิ่งก่อสร้างขนาดมหึมา : เตาหลอมอาร์ก",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์:\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: Arc Furnace"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) สหพันธ์:\u003cbr/\u003e    •   มี แรงบันดาลใจทางวิทยาศาสตร์ (ความสามารถพิเศษสหพันธ์)\u003cbr/\u003e    •   มีสมาชิกที่\u003cbr/\u003e\t    •   มีเทคโนโลยี: เตาหลอมอาร์ก"
           ],
           "potential": [
             "มี DLC The Machine Age "
@@ -5478,7 +5478,7 @@
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": false,
-          "name": "Identity Fusion",
+          "name": "การหลอมรวมตัวตน",
           "prerequisites": [],
           "tier": 4,
           "prerequisites_names": [],
@@ -5502,7 +5502,7 @@
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": false,
-          "name": "Identity Initialization",
+          "name": "การเริ่มกระบวนการสร้างตัวตน",
           "prerequisites": [],
           "tier": 4,
           "prerequisites_names": [],

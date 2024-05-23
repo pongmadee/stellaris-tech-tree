@@ -670,11 +670,11 @@
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มี วัฒนธรรมความยิ่งใหญ่ ",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีวัตถุโบราณ Javorian Pox Sample",
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) เป็นจักรวรรดิ: เครื่องจักรที่มีบุคลิกลักษณะเฉพาะตัว(ปัจเจกจักรกล)",
-            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) มีจุดเริ่มต้น Synthetic Fertility",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) ทั้งหมดต้องเป็นจริง\u003cbr/\u003e    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t    •   เป็นจักรวรรดิ: เครื่องจักรที่มีบุคลิกลักษณะเฉพาะตัว(ปัจเจกจักรกล)\u003cbr/\u003e\t    •   มีจุดเริ่มต้น Synthetic Fertility\u003cbr/\u003e    •   มีเผ่าพันธุ์ที่เราเป็นเจ้าของ:\u003cbr/\u003e\t    •   เป็นเผ่าพันธุ์สิ่งมีชีวิต"
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) มีจุดเริ่มต้น กำเนิดประชากรสังเคราะห์",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) ทั้งหมดต้องเป็นจริง\u003cbr/\u003e    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t    •   เป็นจักรวรรดิ: เครื่องจักรที่มีบุคลิกลักษณะเฉพาะตัว(ปัจเจกจักรกล)\u003cbr/\u003e\t    •   มีจุดเริ่มต้น กำเนิดประชากรสังเคราะห์\u003cbr/\u003e    •   มีเผ่าพันธุ์ที่เราเป็นเจ้าของ:\u003cbr/\u003e\t    •   เป็นเผ่าพันธุ์สิ่งมีชีวิต"
           ],
           "potential": [
-            "หนึ่งอย่างต้องเป็นจริง\n    •   ไม่ มีระบอบการปกครอง สติปัญญาจักรกล \n    •   มีพลเมือง: เครื่องดัดแปลงประชากร\n    •   มีพลเมือง: เครื่องจักรรับใช้\n    •   มีพลเมือง: Genesis Architects"
+            "หนึ่งอย่างต้องเป็นจริง\n    •   ไม่ มีระบอบการปกครอง สติปัญญาจักรกล \n    •   มีพลเมือง: เครื่องดัดแปลงประชากร\n    •   มีพลเมือง: เครื่องจักรรับใช้\n    •   มีพลเมือง: สถาปนิกต้นกำเนิด"
           ],
           "children": [
             {
@@ -707,7 +707,7 @@
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มี วัฒนธรรมความยิ่งใหญ่ ",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีวัตถุโบราณ Javorian Pox Sample",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) เป็นจักรวรรดิ: เครื่องจักรที่มีบุคลิกลักษณะเฉพาะตัว(ปัจเจกจักรกล)",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) มีจุดเริ่มต้น Synthetic Fertility",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) มีจุดเริ่มต้น กำเนิดประชากรสังเคราะห์",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) ทั้งหมดต้องเป็นจริง\u003cbr/\u003e    •   เป็นจักรวรรดิ: เครื่องจักรที่มีบุคลิกลักษณะเฉพาะตัว(ปัจเจกจักรกล)\u003cbr/\u003e    •   มีเผ่าพันธุ์ที่เราเป็นเจ้าของ:\u003cbr/\u003e\t    •   เป็นเผ่าพันธุ์สิ่งมีชีวิต"
               ],
               "potential": [
@@ -1013,7 +1013,7 @@
                   ],
                   "potential": [
                     "หนึ่งอย่างต้องเป็นจริง\n    •   ทั้งหมดต้องเป็นเท็จ\n\t    •   มีระบอบการปกครอง สติปัญญาจักรกล \n\t    •   เป็นจักรวรรดิ: เครื่องจักรที่มีบุคลิกลักษณะเฉพาะตัว(ปัจเจกจักรกล)\n    •   มีพลเมือง: เครื่องดัดแปลงประชากร\n    •   มีพลเมือง: เครื่องจักรรับใช้",
-                    "ทั้งหมดต้องเป็นเท็จ\n    •   มีพลเมือง: Natural Design\n    •   มีพลเมือง: Innate Design"
+                    "ทั้งหมดต้องเป็นเท็จ\n    •   มีพลเมือง: การออกแบบของธรรมชาติดีที่สุด\n    •   มีพลเมือง: การออกแบบโดยธรรมชาติ"
                   ],
                   "children": [],
                   "is_event": false,
@@ -1179,14 +1179,14 @@
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีจริยธรรม ชอบต่างดาวอย่างมาก ",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีวัตถุโบราณ Javorian Pox Sample",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) เป็นจักรวรรดิ: เครื่องจักรที่มีบุคลิกลักษณะเฉพาะตัว(ปัจเจกจักรกล)",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) มีจุดเริ่มต้น Synthetic Fertility",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) มีจุดเริ่มต้น กำเนิดประชากรสังเคราะห์",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) ทั้งหมดต้องเป็นจริง\u003cbr/\u003e    •   เป็นจักรวรรดิ: เครื่องจักรที่มีบุคลิกลักษณะเฉพาะตัว(ปัจเจกจักรกล)\u003cbr/\u003e    •   มีเผ่าพันธุ์ที่เราเป็นเจ้าของ:\u003cbr/\u003e\t    •   เป็นเผ่าพันธุ์สิ่งมีชีวิต",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e5.0\u003c/b\u003e) เป็นจักรวรรดิ: ที่ได้รับการแนะนำสั่งสอน",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   ได้คนพบสิ่งมีชีวิตก่อนมีสติปัญญา (Pre-sapient) (country flag)\u003cbr/\u003e    •   มีดาวเคราะห์ใดๆที่อยู่ภายในพรมแดน\u003cbr/\u003e\t    •   มีประชากรที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t\t    •   ประชากรไม่เป็นสิ่งมีชีวิตมีสติปัญญา(เซเปียนส์)"
               ],
               "potential": [
                 "ทั้งหมดต้องเป็นเท็จ\n    •   มีพลเมือง: ผู้ชำระล้างที่บ้าคลั่ง\n    •   เป็นจักรวรรดิที่มีคุณสมบัติพลเมือง: การออกแบบของธรรมชาติดีที่สุด",
-                "หนึ่งอย่างต้องเป็นจริง\n    •   ไม่ มีระบอบการปกครอง สติปัญญาจักรกล \n    •   มีพลเมือง: เครื่องดัดแปลงประชากร\n    •   มีพลเมือง: เครื่องจักรรับใช้\n    •   มีพลเมือง: Genesis Architects"
+                "หนึ่งอย่างต้องเป็นจริง\n    •   ไม่ มีระบอบการปกครอง สติปัญญาจักรกล \n    •   มีพลเมือง: เครื่องดัดแปลงประชากร\n    •   มีพลเมือง: เครื่องจักรรับใช้\n    •   มีพลเมือง: สถาปนิกต้นกำเนิด"
               ],
               "children": [
                 {
@@ -1264,7 +1264,7 @@
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มี วัฒนธรรมความยิ่งใหญ่ ",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีวัตถุโบราณ Javorian Pox Sample",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) เป็นจักรวรรดิ: เครื่องจักรที่มีบุคลิกลักษณะเฉพาะตัว(ปัจเจกจักรกล)",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) มีจุดเริ่มต้น Synthetic Fertility",
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) มีจุดเริ่มต้น กำเนิดประชากรสังเคราะห์",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) ทั้งหมดต้องเป็นจริง\u003cbr/\u003e    •   เป็นจักรวรรดิ: เครื่องจักรที่มีบุคลิกลักษณะเฉพาะตัว(ปัจเจกจักรกล)\u003cbr/\u003e    •   มีเผ่าพันธุ์ที่เราเป็นเจ้าของ:\u003cbr/\u003e\t    •   เป็นเผ่าพันธุ์สิ่งมีชีวิต"
               ],
               "potential": [
@@ -1328,12 +1328,12 @@
           "cost": 50000,
           "description": "Molecular-Revitalization Institutes delve deep into cellular intricacies to amplify the effectiveness of medical treatments, significantly improving the quality and longevity of the populations\u0027 health.",
           "feature_unlocks": [
-            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Molecular-Revitalization Institute"
+            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: สถาบันฟื้นฟูโมเลกุล"
           ],
           "is_dangerous": false,
           "is_rare": true,
           "is_start_tech": false,
-          "name": "Molecular-Revitalization Institute",
+          "name": "สถาบันฟื้นฟูโมเลกุล",
           "prerequisites": [],
           "tier": 5,
           "prerequisites_names": [],
@@ -1341,7 +1341,7 @@
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี ไครซิสเลเวล 4",
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) มีระบอบการปกครอง สติปัญญาจักรกล ",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   จำนวนประชากร มากกว่า 50"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น เครื่องกลึงไซแน็ปติก\u003cbr/\u003e    •   จำนวนประชากร มากกว่า 50"
           ],
           "potential": [],
           "children": [
@@ -1354,19 +1354,19 @@
               "cost": 50000,
               "description": "The Bioregeneration Institute, at the pinnacle of medical technology, pioneers groundbreaking bio-regenerative therapies, continuously redefining the boundaries of life extension.",
               "feature_unlocks": [
-                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Bioregeneration Institute"
+                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: สถาบันฟื้นฟูทางชีวภาพ"
               ],
               "is_dangerous": false,
               "is_rare": true,
               "is_start_tech": false,
-              "name": "Bioregeneration Institute",
+              "name": "สถาบันฟื้นฟูทางชีวภาพ",
               "prerequisites": [
                 "tech_fe_clinic_1"
               ],
               "tier": 5,
               "prerequisites_names": [
                 {
-                  "name": "Molecular-Revitalization Institute",
+                  "name": "สถาบันฟื้นฟูโมเลกุล",
                   "key": "tech_fe_clinic_1"
                 }
               ],
@@ -1387,19 +1387,19 @@
           "cost": 50000,
           "description": "Replication technology swiftly conjures up novel flavors on command.",
           "feature_unlocks": [
-            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Nourishment Complex"
+            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: อาหารบำรุงคอมเพล็กซ์"
           ],
           "is_dangerous": false,
           "is_rare": true,
           "is_start_tech": false,
-          "name": "Nourishment Complex",
+          "name": "อาหารบำรุงคอมเพล็กซ์",
           "prerequisites": [],
           "tier": 5,
           "prerequisites_names": [],
           "weight_modifiers": [
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี ไครซิสเลเวล 2",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   จำนวนประชากร มากกว่า 50"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น เครื่องกลึงไซแน็ปติก\u003cbr/\u003e    •   จำนวนประชากร มากกว่า 50"
           ],
           "potential": [],
           "children": [
@@ -1412,19 +1412,19 @@
               "cost": 50000,
               "description": "Every conceivable flavor can be replicated within these walls.",
               "feature_unlocks": [
-                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Nourishment Center"
+                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ศูนย์อาหารบำรุง"
               ],
               "is_dangerous": false,
               "is_rare": true,
               "is_start_tech": false,
-              "name": "Nourishment Center",
+              "name": "ศูนย์อาหารบำรุง",
               "prerequisites": [
                 "tech_fe_nourishment_1"
               ],
               "tier": 5,
               "prerequisites_names": [
                 {
-                  "name": "Nourishment Complex",
+                  "name": "อาหารบำรุงคอมเพล็กซ์",
                   "key": "tech_fe_nourishment_1"
                 }
               ],
@@ -3554,14 +3554,14 @@
           "is_dangerous": false,
           "is_rare": true,
           "is_start_tech": false,
-          "name": "Fractal Administration Processes",
+          "name": "กระบวนการบริหารจัดการแฟร็กทัล",
           "prerequisites": [],
           "tier": 5,
           "prerequisites_names": [],
           "weight_modifiers": [
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี ไครซิสเลเวล 3",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   จำนวนประชากร มากกว่า 50"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น เครื่องกลึงไซแน็ปติก\u003cbr/\u003e    •   จำนวนประชากร มากกว่า 50"
           ],
           "potential": [],
           "children": [
@@ -3582,14 +3582,14 @@
               "is_dangerous": false,
               "is_rare": true,
               "is_start_tech": false,
-              "name": "Quantic Administration Processes",
+              "name": "กระบวนการบริหารเชิงปริมาณ",
               "prerequisites": [
                 "tech_fe_administration_1"
               ],
               "tier": 5,
               "prerequisites_names": [
                 {
-                  "name": "Fractal Administration Processes",
+                  "name": "กระบวนการบริหารจัดการแฟร็กทัล",
                   "key": "tech_fe_administration_1"
                 }
               ],
@@ -3610,12 +3610,12 @@
           "cost": 50000,
           "description": "These immense entertainment sectors are at the forefront of recreation and leisure. Brainwave readers allow for instantaneous and personalized virtual getaways.",
           "feature_unlocks": [
-            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Virtual Bliss Plaza"
+            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Bliss Plaza เสมือนจริง"
           ],
           "is_dangerous": false,
           "is_rare": true,
           "is_start_tech": false,
-          "name": "Virtual Bliss Plaza",
+          "name": "Bliss Plaza เสมือนจริง",
           "prerequisites": [],
           "tier": 5,
           "prerequisites_names": [],
@@ -3623,7 +3623,7 @@
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี ไครซิสเลเวล 4",
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) มีจริยธรรม เป็นหนึ่งเดียวกัน ",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   จำนวนประชากร มากกว่า 50"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น เครื่องกลึงไซแน็ปติก\u003cbr/\u003e    •   จำนวนประชากร มากกว่า 50"
           ],
           "potential": [],
           "children": [
@@ -3648,7 +3648,7 @@
               "tier": 5,
               "prerequisites_names": [
                 {
-                  "name": "Virtual Bliss Plaza",
+                  "name": "Bliss Plaza เสมือนจริง",
                   "key": "tech_fe_entertainment_1"
                 }
               ],
@@ -3669,19 +3669,19 @@
           "cost": 50000,
           "description": "This massive judicial complex seamlessly intertwines courts and law enforcement.",
           "feature_unlocks": [
-            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Justice Complex"
+            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ศูนย์ยุติธรรมครบวงจร"
           ],
           "is_dangerous": false,
           "is_rare": true,
           "is_start_tech": false,
-          "name": "Justice Complex",
+          "name": "ศูนย์ยุติธรรมครบวงจร",
           "prerequisites": [],
           "tier": 5,
           "prerequisites_names": [],
           "weight_modifiers": [
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี ไครซิสเลเวล 1",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   จำนวนประชากร มากกว่า 50"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น เครื่องกลึงไซแน็ปติก\u003cbr/\u003e    •   จำนวนประชากร มากกว่า 50"
           ],
           "potential": [],
           "children": [
@@ -3694,19 +3694,19 @@
               "cost": 50000,
               "description": "The zenith of legal institutions, this colossal edifice is a monument to justice, harboring courts, holding facilities, and correctional facilities that will redeem even the most hardened criminals.",
               "feature_unlocks": [
-                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Ziggurat of Justice"
+                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ซิกกุรัตแห่งความยุติธรรม"
               ],
               "is_dangerous": false,
               "is_rare": true,
               "is_start_tech": false,
-              "name": "Ziggurat of Justice",
+              "name": "ซิกกุรัตแห่งความยุติธรรม",
               "prerequisites": [
                 "tech_fe_security_1"
               ],
               "tier": 5,
               "prerequisites_names": [
                 {
-                  "name": "Justice Complex",
+                  "name": "ศูนย์ยุติธรรมครบวงจร",
                   "key": "tech_fe_security_1"
                 }
               ],
@@ -3727,12 +3727,12 @@
           "cost": 50000,
           "description": "Dominating the skyline, these towering spires cast shadows across the bustling trade districts below.",
           "feature_unlocks": [
-            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Galactic Commerce Hub"
+            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ฮับการค้ากาแล็กติก"
           ],
           "is_dangerous": false,
           "is_rare": true,
           "is_start_tech": false,
-          "name": "Galactic Commerce Hub",
+          "name": "ฮับการค้ากาแล็กติก",
           "prerequisites": [],
           "tier": 5,
           "prerequisites_names": [],
@@ -3740,7 +3740,7 @@
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี ไครซิสเลเวล 3",
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) มีจริยธรรม เป็นหนึ่งเดียวกัน ",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   จำนวนประชากร มากกว่า 50"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น เครื่องกลึงไซแน็ปติก\u003cbr/\u003e    •   จำนวนประชากร มากกว่า 50"
           ],
           "potential": [],
           "children": [
@@ -3753,19 +3753,19 @@
               "cost": 50000,
               "description": "Reigning supreme in the galactic economy, the colossal spires of this trade district can be seen from orbit.",
               "feature_unlocks": [
-                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Interstellar Commerce Nexus"
+                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ศูนย์รวมการค้าระหว่างดวงดาว"
               ],
               "is_dangerous": false,
               "is_rare": true,
               "is_start_tech": false,
-              "name": "Interstellar Commerce Nexus",
+              "name": "ศูนย์รวมการค้าระหว่างดวงดาว",
               "prerequisites": [
                 "tech_fe_market_1"
               ],
               "tier": 5,
               "prerequisites_names": [
                 {
-                  "name": "Galactic Commerce Hub",
+                  "name": "ฮับการค้ากาแล็กติก",
                   "key": "tech_fe_market_1"
                 }
               ],
@@ -3786,19 +3786,19 @@
           "cost": 50000,
           "description": "This floating city, propelled by state-of-the-art anti-gravity technology, provides an idyllic haven for its inhabitants.",
           "feature_unlocks": [
-            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Sky Dome"
+            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: สกายโดม"
           ],
           "is_dangerous": false,
           "is_rare": true,
           "is_start_tech": false,
-          "name": "Sky Dome",
+          "name": "สกายโดม",
           "prerequisites": [],
           "tier": 5,
           "prerequisites_names": [],
           "weight_modifiers": [
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี ไครซิสเลเวล 1",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   จำนวนประชากร มากกว่า 50"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น เครื่องกลึงไซแน็ปติก\u003cbr/\u003e    •   จำนวนประชากร มากกว่า 50"
           ],
           "potential": [],
           "children": [
@@ -3811,19 +3811,19 @@
               "cost": 50000,
               "description": "Suspended by gravimetric nullification, these domes transcend physical limitations, while advanced life support systems seamlessly cater to inhabitants\u0027 needs.",
               "feature_unlocks": [
-                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Empyrean Dome"
+                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: เอมไพเรียนโดม"
               ],
               "is_dangerous": false,
               "is_rare": true,
               "is_start_tech": false,
-              "name": "Empyrean Dome",
+              "name": "เอมไพเรียนโดม",
               "prerequisites": [
                 "tech_fe_dome_1"
               ],
               "tier": 5,
               "prerequisites_names": [
                 {
-                  "name": "Sky Dome",
+                  "name": "สกายโดม",
                   "key": "tech_fe_dome_1"
                 }
               ],
@@ -4560,19 +4560,19 @@
           "cost": 50000,
           "description": "This colossal planetary defense complex has numerous armories and layers of shielding. Only a highly specialized siege force could breach its defenses.",
           "feature_unlocks": [
-            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Aspis Bastion"
+            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ป้อมปราการแอสพิส"
           ],
           "is_dangerous": false,
           "is_rare": true,
           "is_start_tech": false,
-          "name": "Aspis Bastion",
+          "name": "ป้อมปราการแอสพิส",
           "prerequisites": [],
           "tier": 5,
           "prerequisites_names": [],
           "weight_modifiers": [
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มี ไครซิสเลเวล 3",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) มีการยกระดับ อำนาจวาสนาทางเทคโนโลยี (สกิลพิเศษ)",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   จำนวนประชากร มากกว่า 50"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น เครื่องกลึงไซแน็ปติก\u003cbr/\u003e    •   จำนวนประชากร มากกว่า 50"
           ],
           "potential": [],
           "children": [
@@ -4585,19 +4585,19 @@
               "cost": 50000,
               "description": "This monumental planetary defense complex protects with countless armories and shielding; the planet\u0027s mountains will crumble before its defenses.",
               "feature_unlocks": [
-                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Aegis Complex"
+                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: เอจิส คอมเพล็กซ์"
               ],
               "is_dangerous": false,
               "is_rare": true,
               "is_start_tech": false,
-              "name": "Aegis Complex",
+              "name": "เอจิส คอมเพล็กซ์",
               "prerequisites": [
                 "tech_fe_fortress_1"
               ],
               "tier": 5,
               "prerequisites_names": [
                 {
-                  "name": "Aspis Bastion",
+                  "name": "ป้อมปราการแอสพิส",
                   "key": "tech_fe_fortress_1"
                 }
               ],
@@ -5057,7 +5057,7 @@
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) มีพลเมือง: ฝูงเขมือบ",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มี วัฒนธรรมการขยายอาณาเขต ",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มีคุณลักษณะ: อยู่ใต้น้ำ",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มีคุณลักษณะ: Waterproof",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มีคุณลักษณะ: กันน้ำ",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) มีจุดเริ่มต้น เมล็ดพันธุ์แห่งชีวิต"
               ],
               "potential": [],
@@ -5940,24 +5940,24 @@
           "cost": 30000,
           "description": "The organic components of the network are especially vulnerable to energetic fluctuations, which can cause rapid axonal degeneration. The Preserver strives to reduce these fluctuations to protect the Synaptic Lathe\u0027s frailer parts.",
           "feature_unlocks": [
-            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Synaptic Preserver"
+            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: เครื่องป้องกันอันตรายกับระบบประสาท"
           ],
           "is_dangerous": false,
           "is_rare": true,
           "is_start_tech": false,
-          "name": "Synaptic Preserver",
+          "name": "เครื่องป้องกันอันตรายกับระบบประสาท",
           "prerequisites": [],
           "tier": 5,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   มีการยกระดับ Cosmogenesis (สกิลพิเศษ)",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   จำนวนประชากร มากกว่าหรือเท่ากับ 50",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   จำนวนประชากร มากกว่าหรือเท่ากับ 100"
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   เป็น เครื่องกลึงไซแน็ปติก\u003cbr/\u003e    •   มีการยกระดับ คอสโมเจเนซิส (สกิลพิเศษ)",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น เครื่องกลึงไซแน็ปติก\u003cbr/\u003e    •   จำนวนประชากร มากกว่าหรือเท่ากับ 50",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น เครื่องกลึงไซแน็ปติก\u003cbr/\u003e    •   จำนวนประชากร มากกว่าหรือเท่ากับ 100"
           ],
           "potential": [
             "มี DLC The Machine Age ",
-            "มีการยกระดับ Cosmogenesis (สกิลพิเศษ)",
-            "มีเทคโนโลยี: Scalable Reservoir Computing"
+            "มีการยกระดับ คอสโมเจเนซิส (สกิลพิเศษ)",
+            "มีเทคโนโลยี: การคำนวณแบบสะสมที่สามารถปรับขนาดได้"
           ],
           "children": [],
           "is_event": false
@@ -5971,24 +5971,24 @@
           "cost": 30000,
           "description": "Dedicated facilities organize the maintenance of the Lathe\u0027s critical components, allowing us to support more chips and a healthier network environment.",
           "feature_unlocks": [
-            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Synaptic Sustainer"
+            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: เครื่องค้ำจุนระบบประสาท"
           ],
           "is_dangerous": false,
           "is_rare": true,
           "is_start_tech": false,
-          "name": "Synaptic Sustainer",
+          "name": "เครื่องค้ำจุนระบบประสาท",
           "prerequisites": [],
           "tier": 5,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   มีการยกระดับ Cosmogenesis (สกิลพิเศษ)",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   จำนวนประชากร มากกว่าหรือเท่ากับ 50",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   จำนวนประชากร มากกว่าหรือเท่ากับ 100"
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   เป็น เครื่องกลึงไซแน็ปติก\u003cbr/\u003e    •   มีการยกระดับ คอสโมเจเนซิส (สกิลพิเศษ)",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น เครื่องกลึงไซแน็ปติก\u003cbr/\u003e    •   จำนวนประชากร มากกว่าหรือเท่ากับ 50",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น เครื่องกลึงไซแน็ปติก\u003cbr/\u003e    •   จำนวนประชากร มากกว่าหรือเท่ากับ 100"
           ],
           "potential": [
             "มี DLC The Machine Age ",
-            "มีการยกระดับ Cosmogenesis (สกิลพิเศษ)",
-            "มีเทคโนโลยี: Scalable Reservoir Computing"
+            "มีการยกระดับ คอสโมเจเนซิส (สกิลพิเศษ)",
+            "มีเทคโนโลยี: การคำนวณแบบสะสมที่สามารถปรับขนาดได้"
           ],
           "children": [],
           "is_event": false
@@ -6193,24 +6193,24 @@
           "cost": 30000,
           "description": "Calculating hyperspatial supply chains is complex. Rerouting some processing power to the task will help even the largest fleet to delve deeper into enemy territory.",
           "feature_unlocks": [
-            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Synaptic Cogitator"
+            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: เครื่องคิดไตร่ตรองระบบประสาท"
           ],
           "is_dangerous": false,
           "is_rare": true,
           "is_start_tech": false,
-          "name": "Synaptic Cogitator",
+          "name": "เครื่องคิดไตร่ตรองระบบประสาท",
           "prerequisites": [],
           "tier": 5,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   มีการยกระดับ Cosmogenesis (สกิลพิเศษ)",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   จำนวนประชากร มากกว่าหรือเท่ากับ 50",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น Synaptic Lathe\u003cbr/\u003e    •   จำนวนประชากร มากกว่าหรือเท่ากับ 100"
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   เป็น เครื่องกลึงไซแน็ปติก\u003cbr/\u003e    •   มีการยกระดับ คอสโมเจเนซิส (สกิลพิเศษ)",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น เครื่องกลึงไซแน็ปติก\u003cbr/\u003e    •   จำนวนประชากร มากกว่าหรือเท่ากับ 50",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e    •   เป็น เครื่องกลึงไซแน็ปติก\u003cbr/\u003e    •   จำนวนประชากร มากกว่าหรือเท่ากับ 100"
           ],
           "potential": [
             "มี DLC The Machine Age ",
-            "มีการยกระดับ Cosmogenesis (สกิลพิเศษ)",
-            "มีเทคโนโลยี: Scalable Reservoir Computing"
+            "มีการยกระดับ คอสโมเจเนซิส (สกิลพิเศษ)",
+            "มีเทคโนโลยี: การคำนวณแบบสะสมที่สามารถปรับขนาดได้"
           ],
           "children": [],
           "is_event": false

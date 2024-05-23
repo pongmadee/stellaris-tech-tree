@@ -237,7 +237,7 @@
     "weight_modifiers": [],
     "potential": [
       "มี DLC Nemesis",
-      "มีการยกระดับ Galactic Nemesis (สกิลพิเศษ)",
+      "มีการยกระดับ กาแล็กติกเนเมซิส (สกิลพิเศษ)",
       "สามารถสร้างเครื่องกินดวงดาวได้ (country flag)"
     ],
     "children": [],
@@ -281,7 +281,7 @@
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
-    "name": "Paradox Titan",
+    "name": "ไททัน Paradox",
     "prerequisites": [],
     "tier": 5,
     "prerequisites_names": [],
@@ -304,7 +304,7 @@
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
-    "name": "Enigma Battlecruiser",
+    "name": "ยานรบลาดตระเวน Enigma",
     "prerequisites": [],
     "tier": 5,
     "prerequisites_names": [],
@@ -327,14 +327,14 @@
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
-    "name": "Exponential Learning Theory",
+    "name": "ทฤษฎีการเรียนรู้แบบก้าวกระโดด",
     "prerequisites": [],
     "tier": 5,
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
       "มี DLC The Machine Age ",
-      "มีการยกระดับ Cosmogenesis (สกิลพิเศษ)"
+      "มีการยกระดับ คอสโมเจเนซิส (สกิลพิเศษ)"
     ],
     "children": [],
     "is_event": true
@@ -351,14 +351,14 @@
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
-    "name": "Gravitic Brush",
+    "name": "ศึกษาแรงโน้มถ่วงและกาลอวกาศ",
     "prerequisites": [],
     "tier": 5,
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
       "มี DLC The Machine Age ",
-      "มีการยกระดับ Cosmogenesis (สกิลพิเศษ)"
+      "มีการยกระดับ คอสโมเจเนซิส (สกิลพิเศษ)"
     ],
     "children": [],
     "is_event": true
@@ -375,14 +375,14 @@
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
-    "name": "Theoretical Infinity Thesis",
+    "name": "ทฤษฎีอนันต์",
     "prerequisites": [],
     "tier": 5,
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
       "มี DLC The Machine Age ",
-      "มีการยกระดับ Cosmogenesis (สกิลพิเศษ)"
+      "มีการยกระดับ คอสโมเจเนซิส (สกิลพิเศษ)"
     ],
     "children": [],
     "is_event": true
@@ -399,14 +399,14 @@
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
-    "name": "The Rules of Reality",
+    "name": "กฎแห่งความเป็นจริง",
     "prerequisites": [],
     "tier": 5,
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
       "มี DLC The Machine Age ",
-      "มีการยกระดับ Cosmogenesis (สกิลพิเศษ)"
+      "มีการยกระดับ คอสโมเจเนซิส (สกิลพิเศษ)"
     ],
     "children": [],
     "is_event": true
@@ -423,14 +423,14 @@
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
-    "name": "Nascent Universes",
+    "name": "จักรวาลที่เพิ่งเกิด",
     "prerequisites": [],
     "tier": 5,
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
       "มี DLC The Machine Age ",
-      "มีการยกระดับ Cosmogenesis (สกิลพิเศษ)"
+      "มีการยกระดับ คอสโมเจเนซิส (สกิลพิเศษ)"
     ],
     "children": [],
     "is_event": true
@@ -447,7 +447,7 @@
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
-    "name": "Riddle Escort",
+    "name": "ยานคุ้มกัน Riddle",
     "prerequisites": [],
     "tier": 5,
     "prerequisites_names": [],
@@ -470,14 +470,14 @@
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
-    "name": "Scalable Reservoir Computing",
+    "name": "การคำนวณแบบสะสมที่สามารถปรับขนาดได้",
     "prerequisites": [],
     "tier": 5,
     "prerequisites_names": [],
     "weight_modifiers": [],
     "potential": [
       "มี DLC The Machine Age ",
-      "มีการยกระดับ Cosmogenesis (สกิลพิเศษ)"
+      "มีการยกระดับ คอสโมเจเนซิส (สกิลพิเศษ)"
     ],
     "children": [],
     "is_event": true
@@ -813,7 +813,7 @@
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
-    "name": "Identity Copies",
+    "name": "การทำสำเนาตัวตน",
     "prerequisites": [],
     "tier": 4,
     "prerequisites_names": [],
@@ -836,7 +836,7 @@
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
-    "name": "Leviathan Tech Genesis",
+    "name": "เทคโนโลยีการกำเนิดลิไวธาน",
     "prerequisites": [],
     "tier": 5,
     "prerequisites_names": [],
@@ -1028,12 +1028,12 @@
     "cost": 48000,
     "description": "Cetana\u0027s advanced nanite systems will tirelessly repair and refresh our ships at a rate far beyond our current capabilities.",
     "feature_unlocks": [
-      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Cetana\u0027s Nanites Repair System"
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ระบบซ่อมแซมนาไนต์ของ Cetana"
     ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
-    "name": "Cetana\u0027s Nanites",
+    "name": "นาไนต์ของ Cetana",
     "prerequisites": [],
     "tier": 5,
     "prerequisites_names": [],
