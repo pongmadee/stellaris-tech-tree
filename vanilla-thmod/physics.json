@@ -3424,8 +3424,7 @@
           "cost": 4000,
           "description": "Volatile Motes are fickle particles that are dangerous to work with. In order to safely harvest them without setting off a chain-reaction of explosions, energy fields must be used to stabilize the motes.",
           "feature_unlocks": [
-            "\u003cb\u003eเผยทรัพยากร\u003c/b\u003e: ผงแร่ระเหย",
-            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ที่ดักการเก็บเศษผงธุลี"
+            "\u003cb\u003eเผยทรัพยากร\u003c/b\u003e: ผงแร่ระเหย"
           ],
           "is_dangerous": false,
           "is_rare": false,

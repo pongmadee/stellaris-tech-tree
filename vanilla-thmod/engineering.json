@@ -4567,8 +4567,7 @@
               "cost": 4000,
               "description": "Pockets of Exotic Gas are rare and often inaccessible by conventional means. Such deposits can only be reached by using special extractor technology.",
               "feature_unlocks": [
-                "\u003cb\u003eเผยทรัพยากร\u003c/b\u003e: ก๊าซแปลกประหลาด",
-                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: บ่อสกัดก๊าซ"
+                "\u003cb\u003eเผยทรัพยากร\u003c/b\u003e: ก๊าซแปลกประหลาด"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -4600,7 +4599,6 @@
               "cost": 4000,
               "description": "Mining these crystals without damaging or even destroying them is an extremely delicate process. It requires advanced equipment capable of pinpoint precision.",
               "feature_unlocks": [
-                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: เหมืองผลึกคริสตัล",
                 "\u003cb\u003eเผยทรัพยากร\u003c/b\u003e: ผลึกหายาก"
               ],
               "is_dangerous": false,
@@ -4651,7 +4649,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มีดาวเคราะห์ใดๆที่อยู่ภายในพรมแดน\u003cbr/\u003e    •   มีแหล่งทรัพยากร Living Metal discovered\u003cbr/\u003e"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ไม่ มีดาวเคราะห์ใดๆที่อยู่ภายในพรมแดน\u003cbr/\u003e    •   มีแหล่งทรัพยากร £sr_living_metal£ +1"
               ],
               "potential": [],
               "children": [],
@@ -4810,6 +4808,369 @@
                   "is_event": false
                 }
               ],
+              "is_event": false
+            }
+          ],
+          "is_event": false
+        },
+        {
+          "key": "tech_industrial_storm_protection",
+          "area": "engineering",
+          "base_factor": 1.0,
+          "base_weight": 100.0,
+          "category": "อุตสาหกรรม",
+          "cost": 0,
+          "description": "This nexus of weather communication mitigates the harm done by cosmic weather disasters. Production will suffer less from a passing galactic tempest.",
+          "feature_unlocks": [
+            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Storm Relief Center",
+            "แสดงเฉพาะ \u003cfont color\u003d\"yellow\"\u003eCustom Tooltip\u003c/font\u003e:  ใช่",
+            "Cosmic Storm Protection Tech Level +1"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "name": "การลดผลกระทบของพายุที่มีต่อดาวเคราะห์",
+          "prerequisites": [],
+          "tier": 1,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) จำนวนพายุคอสมิกที่พบเจอ น้อยกว่า 1",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจุดเริ่มต้น Storm Chasers\u003cbr/\u003e    •   มีพลเมืองที่เกี่ยวกับพายุ"
+          ],
+          "potential": [
+            "มี DLC Cosmic Storms "
+          ],
+          "children": [
+            {
+              "key": "tech_storm_prediction_1",
+              "area": "physics",
+              "base_factor": 1.0,
+              "base_weight": 90.0,
+              "category": "การคำนวณ",
+              "cost": 0,
+              "description": "Through the use of scientific weather models, we can track the movement and formation of impending Cosmic Storms.",
+              "feature_unlocks": [
+                "\u003cfont color\u003d\"yellow\"\u003eCustom Tooltip\u003c/font\u003e:  ",
+                "Cosmic Storm Location Intel +1",
+                "Cosmic Storm Movement Intel +1"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "name": "แบบจำลองสภาพอากาศคอสมิก",
+              "prerequisites": [
+                "tech_industrial_storm_protection"
+              ],
+              "tier": 1,
+              "prerequisites_names": [
+                {
+                  "name": "การลดผลกระทบของพายุที่มีต่อดาวเคราะห์",
+                  "key": "tech_industrial_storm_protection"
+                }
+              ],
+              "weight_modifiers": [
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) จำนวนพายุคอสมิกที่พบเจอ น้อยกว่า 1",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจุดเริ่มต้น Storm Chasers\u003cbr/\u003e    •   มีพลเมืองที่เกี่ยวกับพายุ"
+              ],
+              "potential": [
+                "มี DLC Cosmic Storms "
+              ],
+              "children": [
+                {
+                  "key": "tech_ship_storm_weapons_1",
+                  "area": "engineering",
+                  "base_factor": 1.0,
+                  "base_weight": 100.0,
+                  "category": "ยานอวกาศ",
+                  "cost": 0,
+                  "description": "A new approach to alloy use in military applications significantly reduces the ability of cosmic storms to interfere with energy weaponry and explosive payloads.",
+                  "feature_unlocks": [
+                    "\u003cfont color\u003d\"yellow\"\u003eCustom Tooltip\u003c/font\u003e:  "
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "name": "การเสริมความแข็งแกร่งของที่เก็บอาวุธ",
+                  "prerequisites": [
+                    "tech_storm_prediction_1"
+                  ],
+                  "tier": 1,
+                  "prerequisites_names": [
+                    {
+                      "name": "แบบจำลองสภาพอากาศคอสมิก",
+                      "key": "tech_storm_prediction_1"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) จำนวนพายุคอสมิกที่พบเจอ น้อยกว่า 1",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจุดเริ่มต้น Storm Chasers\u003cbr/\u003e    •   มีพลเมืองที่เกี่ยวกับพายุ"
+                  ],
+                  "potential": [
+                    "มี DLC Cosmic Storms "
+                  ],
+                  "children": [
+                    {
+                      "key": "tech_ship_storm_weapons_2",
+                      "area": "engineering",
+                      "base_factor": 1.0,
+                      "base_weight": 70.0,
+                      "category": "ยานอวกาศ",
+                      "cost": 0,
+                      "description": "This novel approach to ship architecture will significantly reduce the negative effects cosmic storms have on our weapon systems.",
+                      "feature_unlocks": [
+                        "\u003cfont color\u003d\"yellow\"\u003eCustom Tooltip\u003c/font\u003e:  "
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "name": "สถาปัตยกรรม Tempest Cage",
+                      "prerequisites": [
+                        "tech_ship_storm_weapons_1"
+                      ],
+                      "tier": 2,
+                      "prerequisites_names": [
+                        {
+                          "name": "การเสริมความแข็งแกร่งของที่เก็บอาวุธ",
+                          "key": "tech_ship_storm_weapons_1"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) จำนวนพายุคอสมิกที่พบเจอ น้อยกว่า 3",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจุดเริ่มต้น Storm Chasers\u003cbr/\u003e    •   มีพลเมืองที่เกี่ยวกับพายุ"
+                      ],
+                      "potential": [
+                        "มี DLC Cosmic Storms "
+                      ],
+                      "children": [],
+                      "is_event": false
+                    }
+                  ],
+                  "is_event": false
+                },
+                {
+                  "key": "tech_storm_prediction_2",
+                  "area": "physics",
+                  "base_factor": 1.0,
+                  "base_weight": 50.0,
+                  "category": "การคำนวณ",
+                  "cost": 0,
+                  "description": "By applying probability currents to our scientific weather models, our ability to track the movement and formation of impending Cosmic Storms is greatly increased. ",
+                  "feature_unlocks": [
+                    "\u003cfont color\u003d\"yellow\"\u003eCustom Tooltip\u003c/font\u003e:  ",
+                    "Cosmic Storm Location Intel +2",
+                    "Cosmic Storm Movement Intel +2"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": true,
+                  "is_start_tech": false,
+                  "name": "ความน่าจะเป็นปัจจุบัน",
+                  "prerequisites": [
+                    "tech_storm_prediction_1"
+                  ],
+                  "tier": 3,
+                  "prerequisites_names": [
+                    {
+                      "name": "แบบจำลองสภาพอากาศคอสมิก",
+                      "key": "tech_storm_prediction_1"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) จำนวนพายุคอสมิกที่พบเจอ น้อยกว่า 3",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจุดเริ่มต้น Storm Chasers\u003cbr/\u003e    •   มีพลเมืองที่เกี่ยวกับพายุ"
+                  ],
+                  "potential": [
+                    "มี DLC Cosmic Storms "
+                  ],
+                  "children": [],
+                  "is_event": false
+                },
+                {
+                  "key": "tech_ship_hull_storm_breaker_1",
+                  "area": "engineering",
+                  "base_factor": 1.0,
+                  "base_weight": 100.0,
+                  "category": "วัสดุ",
+                  "cost": 0,
+                  "description": "These dampening field generators offer much needed protection to ships traversing cosmic storms.",
+                  "feature_unlocks": [
+                    "Negative Effects from Cosmic Storms on Ship Defenses: -50%",
+                    "\u003cfont color\u003d\"yellow\"\u003eCustom Tooltip\u003c/font\u003e:  "
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "name": "เครื่องลดแรงสั่นสะเทือนจากพายุคอสมิก",
+                  "prerequisites": [
+                    "tech_storm_prediction_1"
+                  ],
+                  "tier": 1,
+                  "prerequisites_names": [
+                    {
+                      "name": "แบบจำลองสภาพอากาศคอสมิก",
+                      "key": "tech_storm_prediction_1"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) จำนวนพายุคอสมิกที่พบเจอ น้อยกว่า 1",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจุดเริ่มต้น Storm Chasers\u003cbr/\u003e    •   มีพลเมืองที่เกี่ยวกับพายุ"
+                  ],
+                  "potential": [
+                    "มี DLC Cosmic Storms "
+                  ],
+                  "children": [
+                    {
+                      "key": "tech_ship_hull_storm_breaker_2",
+                      "area": "engineering",
+                      "base_factor": 1.0,
+                      "base_weight": 75.0,
+                      "category": "วัสดุ",
+                      "cost": 0,
+                      "description": "This special coating charges the ship\u0027s exterior with a storm dampening field, leading to more efficient protection against storms.",
+                      "feature_unlocks": [
+                        "Negative Effects from Cosmic Storms on Ship Defenses: -50%",
+                        "\u003cfont color\u003d\"yellow\"\u003eCustom Tooltip\u003c/font\u003e:  "
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "name": "สารเคลือบป้องกันพายุคอสมิก",
+                      "prerequisites": [
+                        "tech_ship_hull_storm_breaker_1"
+                      ],
+                      "tier": 2,
+                      "prerequisites_names": [
+                        {
+                          "name": "เครื่องลดแรงสั่นสะเทือนจากพายุคอสมิก",
+                          "key": "tech_ship_hull_storm_breaker_1"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) จำนวนพายุคอสมิกที่พบเจอ น้อยกว่า 3",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจุดเริ่มต้น Storm Chasers\u003cbr/\u003e    •   มีพลเมืองที่เกี่ยวกับพายุ"
+                      ],
+                      "potential": [
+                        "มี DLC Cosmic Storms "
+                      ],
+                      "children": [],
+                      "is_event": false
+                    }
+                  ],
+                  "is_event": false
+                }
+              ],
+              "is_event": false
+            },
+            {
+              "key": "tech_storm_manipulation",
+              "area": "physics",
+              "base_factor": 1.0,
+              "base_weight": 75.0,
+              "category": "การควบคุมสนามพลัง",
+              "cost": 0,
+              "description": "By harnessing the principles behind storm negation technologies, we can begin to manipulate the astrometeorological nature of the galaxy to serve our own needs.",
+              "feature_unlocks": [
+                "\u003cb\u003eประกาศคำสั่ง\u003c/b\u003e: Storm Repulsion Field",
+                "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: Storm Attraction Array",
+                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Storm Attraction Center",
+                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Storm Repulsion Center",
+                "\u003cb\u003eประกาศคำสั่ง\u003c/b\u003e: Storm Attraction Field",
+                "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: Storm Repulsion Array"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "name": "การจัดการพายุ",
+              "prerequisites": [
+                "tech_industrial_storm_protection"
+              ],
+              "tier": 2,
+              "prerequisites_names": [
+                {
+                  "name": "การลดผลกระทบของพายุที่มีต่อดาวเคราะห์",
+                  "key": "tech_industrial_storm_protection"
+                }
+              ],
+              "weight_modifiers": [
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจุดเริ่มต้น Storm Chasers\u003cbr/\u003e    •   จำนวนพายุคอสมิกที่พบเจอ น้อยกว่า 3"
+              ],
+              "potential": [
+                "มี DLC Cosmic Storms "
+              ],
+              "children": [
+                {
+                  "key": "tech_advanced_storm_manipulation",
+                  "area": "physics",
+                  "base_factor": 1.0,
+                  "base_weight": 65.0,
+                  "category": "การควบคุมสนามพลัง",
+                  "cost": 0,
+                  "description": "Continued study into astrometeorology grants us the power to more precisely bend and manipulate Cosmic Storms to our own needs.",
+                  "feature_unlocks": [
+                    "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Advanced Storm Attraction Center",
+                    "\u003cb\u003eฟีเจอร์ : \u003c/b\u003eSustain Cosmic Storms",
+                    "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Advanced Storm Repulsion Center"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": true,
+                  "is_start_tech": false,
+                  "name": "การจัดการพายุขั้นสูง",
+                  "prerequisites": [
+                    "tech_storm_manipulation"
+                  ],
+                  "tier": 3,
+                  "prerequisites_names": [
+                    {
+                      "name": "การจัดการพายุ",
+                      "key": "tech_storm_manipulation"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) จำนวนพายุคอสมิกที่พบเจอ น้อยกว่า 5"
+                  ],
+                  "potential": [
+                    "มี DLC Cosmic Storms "
+                  ],
+                  "children": [],
+                  "is_event": false
+                }
+              ],
+              "is_event": false
+            },
+            {
+              "key": "tech_advanced_industrial_storm_protection",
+              "area": "engineering",
+              "base_factor": 1.0,
+              "base_weight": 85.0,
+              "category": "อุตสาหกรรม",
+              "cost": 0,
+              "description": "By consolidating local weather control systems, planetary weather patterns can be manipulated to significantly reduce most of the cosmic storms\u0027 harmful effects on production.",
+              "feature_unlocks": [
+                "\u003cb\u003eประกาศคำสั่ง\u003c/b\u003e: Hunker Down Protocols",
+                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Storm Nullifier",
+                "Cosmic Storm Protection Tech Level +1"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "name": "การลบล้างผลกระทบของพายุที่มีต่อดาวเคราะห์",
+              "prerequisites": [
+                "tech_industrial_storm_protection"
+              ],
+              "tier": 2,
+              "prerequisites_names": [
+                {
+                  "name": "การลดผลกระทบของพายุที่มีต่อดาวเคราะห์",
+                  "key": "tech_industrial_storm_protection"
+                }
+              ],
+              "weight_modifiers": [
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) จำนวนพายุคอสมิกที่พบเจอ น้อยกว่า 4",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจุดเริ่มต้น Storm Chasers\u003cbr/\u003e    •   มีพลเมืองที่เกี่ยวกับพายุ"
+              ],
+              "potential": [
+                "มี DLC Cosmic Storms "
+              ],
+              "children": [],
               "is_event": false
             }
           ],
