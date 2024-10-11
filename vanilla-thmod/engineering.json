@@ -4822,9 +4822,9 @@
           "cost": 0,
           "description": "This nexus of weather communication mitigates the harm done by cosmic weather disasters. Production will suffer less from a passing galactic tempest.",
           "feature_unlocks": [
-            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Storm Relief Center",
             "แสดงเฉพาะ \u003cfont color\u003d\"yellow\"\u003eCustom Tooltip\u003c/font\u003e:  ใช่",
-            "Cosmic Storm Protection Tech Level +1"
+            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ศูนย์บรรเทาผลกระทบของพายุ",
+            "ระดับเลเวลของเทคโนโลยีป้องกันพายุคอสมิก +1"
           ],
           "is_dangerous": false,
           "is_rare": false,
@@ -4835,7 +4835,7 @@
           "prerequisites_names": [],
           "weight_modifiers": [
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) จำนวนพายุคอสมิกที่พบเจอ น้อยกว่า 1",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจุดเริ่มต้น Storm Chasers\u003cbr/\u003e    •   มีพลเมืองที่เกี่ยวกับพายุ"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจุดเริ่มต้น นักไล่ล่าพายุ\u003cbr/\u003e    •   มีพลเมืองที่เกี่ยวกับพายุ"
           ],
           "potential": [
             "มี DLC Cosmic Storms "
@@ -4850,9 +4850,9 @@
               "cost": 0,
               "description": "Through the use of scientific weather models, we can track the movement and formation of impending Cosmic Storms.",
               "feature_unlocks": [
+                "ข้อมูลตำแหน่งที่ตั้งพายุคอสมิก +1",
                 "\u003cfont color\u003d\"yellow\"\u003eCustom Tooltip\u003c/font\u003e:  ",
-                "Cosmic Storm Location Intel +1",
-                "Cosmic Storm Movement Intel +1"
+                "ข้อมูลความเคลื่อนไหวพายุคอสมิก +1"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -4870,7 +4870,7 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) จำนวนพายุคอสมิกที่พบเจอ น้อยกว่า 1",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจุดเริ่มต้น Storm Chasers\u003cbr/\u003e    •   มีพลเมืองที่เกี่ยวกับพายุ"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจุดเริ่มต้น นักไล่ล่าพายุ\u003cbr/\u003e    •   มีพลเมืองที่เกี่ยวกับพายุ"
               ],
               "potential": [
                 "มี DLC Cosmic Storms "
@@ -4903,7 +4903,7 @@
                   ],
                   "weight_modifiers": [
                     "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) จำนวนพายุคอสมิกที่พบเจอ น้อยกว่า 1",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจุดเริ่มต้น Storm Chasers\u003cbr/\u003e    •   มีพลเมืองที่เกี่ยวกับพายุ"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจุดเริ่มต้น นักไล่ล่าพายุ\u003cbr/\u003e    •   มีพลเมืองที่เกี่ยวกับพายุ"
                   ],
                   "potential": [
                     "มี DLC Cosmic Storms "
@@ -4936,7 +4936,7 @@
                       ],
                       "weight_modifiers": [
                         "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) จำนวนพายุคอสมิกที่พบเจอ น้อยกว่า 3",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจุดเริ่มต้น Storm Chasers\u003cbr/\u003e    •   มีพลเมืองที่เกี่ยวกับพายุ"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจุดเริ่มต้น นักไล่ล่าพายุ\u003cbr/\u003e    •   มีพลเมืองที่เกี่ยวกับพายุ"
                       ],
                       "potential": [
                         "มี DLC Cosmic Storms "
@@ -4956,9 +4956,9 @@
                   "cost": 0,
                   "description": "By applying probability currents to our scientific weather models, our ability to track the movement and formation of impending Cosmic Storms is greatly increased. ",
                   "feature_unlocks": [
+                    "ข้อมูลตำแหน่งที่ตั้งพายุคอสมิก +2",
                     "\u003cfont color\u003d\"yellow\"\u003eCustom Tooltip\u003c/font\u003e:  ",
-                    "Cosmic Storm Location Intel +2",
-                    "Cosmic Storm Movement Intel +2"
+                    "ข้อมูลความเคลื่อนไหวพายุคอสมิก +2"
                   ],
                   "is_dangerous": false,
                   "is_rare": true,
@@ -4976,7 +4976,7 @@
                   ],
                   "weight_modifiers": [
                     "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) จำนวนพายุคอสมิกที่พบเจอ น้อยกว่า 3",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจุดเริ่มต้น Storm Chasers\u003cbr/\u003e    •   มีพลเมืองที่เกี่ยวกับพายุ"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจุดเริ่มต้น นักไล่ล่าพายุ\u003cbr/\u003e    •   มีพลเมืองที่เกี่ยวกับพายุ"
                   ],
                   "potential": [
                     "มี DLC Cosmic Storms "
@@ -4993,7 +4993,7 @@
                   "cost": 0,
                   "description": "These dampening field generators offer much needed protection to ships traversing cosmic storms.",
                   "feature_unlocks": [
-                    "Negative Effects from Cosmic Storms on Ship Defenses: -50%",
+                    "ผลกระทบเชิงลบจากพายุคอสมิกต่อการป้องกันของยาน: -50%",
                     "\u003cfont color\u003d\"yellow\"\u003eCustom Tooltip\u003c/font\u003e:  "
                   ],
                   "is_dangerous": false,
@@ -5012,7 +5012,7 @@
                   ],
                   "weight_modifiers": [
                     "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) จำนวนพายุคอสมิกที่พบเจอ น้อยกว่า 1",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจุดเริ่มต้น Storm Chasers\u003cbr/\u003e    •   มีพลเมืองที่เกี่ยวกับพายุ"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจุดเริ่มต้น นักไล่ล่าพายุ\u003cbr/\u003e    •   มีพลเมืองที่เกี่ยวกับพายุ"
                   ],
                   "potential": [
                     "มี DLC Cosmic Storms "
@@ -5027,7 +5027,7 @@
                       "cost": 0,
                       "description": "This special coating charges the ship\u0027s exterior with a storm dampening field, leading to more efficient protection against storms.",
                       "feature_unlocks": [
-                        "Negative Effects from Cosmic Storms on Ship Defenses: -50%",
+                        "ผลกระทบเชิงลบจากพายุคอสมิกต่อการป้องกันของยาน: -50%",
                         "\u003cfont color\u003d\"yellow\"\u003eCustom Tooltip\u003c/font\u003e:  "
                       ],
                       "is_dangerous": false,
@@ -5046,7 +5046,7 @@
                       ],
                       "weight_modifiers": [
                         "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) จำนวนพายุคอสมิกที่พบเจอ น้อยกว่า 3",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจุดเริ่มต้น Storm Chasers\u003cbr/\u003e    •   มีพลเมืองที่เกี่ยวกับพายุ"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจุดเริ่มต้น นักไล่ล่าพายุ\u003cbr/\u003e    •   มีพลเมืองที่เกี่ยวกับพายุ"
                       ],
                       "potential": [
                         "มี DLC Cosmic Storms "
@@ -5069,12 +5069,12 @@
               "cost": 0,
               "description": "By harnessing the principles behind storm negation technologies, we can begin to manipulate the astrometeorological nature of the galaxy to serve our own needs.",
               "feature_unlocks": [
-                "\u003cb\u003eประกาศคำสั่ง\u003c/b\u003e: Storm Repulsion Field",
-                "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: Storm Attraction Array",
-                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Storm Attraction Center",
-                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Storm Repulsion Center",
-                "\u003cb\u003eประกาศคำสั่ง\u003c/b\u003e: Storm Attraction Field",
-                "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: Storm Repulsion Array"
+                "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: แผงผลักดันพายุ",
+                "\u003cb\u003eประกาศคำสั่ง\u003c/b\u003e: ผลักดันพายุ",
+                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ศูนย์ดึงดูดพายุ",
+                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ศูนย์ผลักดันพายุ",
+                "\u003cb\u003eสิ่งก่อสร้างบนฐานอวกาศ\u003c/b\u003e: แผงดึงดูดพายุ",
+                "\u003cb\u003eประกาศคำสั่ง\u003c/b\u003e: ดึงดูดพายุ"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -5091,7 +5091,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจุดเริ่มต้น Storm Chasers\u003cbr/\u003e    •   จำนวนพายุคอสมิกที่พบเจอ น้อยกว่า 3"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจุดเริ่มต้น นักไล่ล่าพายุ\u003cbr/\u003e    •   จำนวนพายุคอสมิกที่พบเจอ น้อยกว่า 3"
               ],
               "potential": [
                 "มี DLC Cosmic Storms "
@@ -5106,7 +5106,7 @@
                   "cost": 0,
                   "description": "Continued study into astrometeorology grants us the power to more precisely bend and manipulate Cosmic Storms to our own needs.",
                   "feature_unlocks": [
-                    "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Advanced Storm Attraction Center",
+                    "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ศูนย์การดึงดูดพายุขั้นสูง",
                     "\u003cb\u003eฟีเจอร์ : \u003c/b\u003eSustain Cosmic Storms",
                     "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Advanced Storm Repulsion Center"
                   ],
@@ -5147,7 +5147,7 @@
               "feature_unlocks": [
                 "\u003cb\u003eประกาศคำสั่ง\u003c/b\u003e: Hunker Down Protocols",
                 "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Storm Nullifier",
-                "Cosmic Storm Protection Tech Level +1"
+                "ระดับเลเวลของเทคโนโลยีป้องกันพายุคอสมิก +1"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -5165,7 +5165,7 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) จำนวนพายุคอสมิกที่พบเจอ น้อยกว่า 4",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจุดเริ่มต้น Storm Chasers\u003cbr/\u003e    •   มีพลเมืองที่เกี่ยวกับพายุ"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e    •   มีจุดเริ่มต้น นักไล่ล่าพายุ\u003cbr/\u003e    •   มีพลเมืองที่เกี่ยวกับพายุ"
               ],
               "potential": [
                 "มี DLC Cosmic Storms "
