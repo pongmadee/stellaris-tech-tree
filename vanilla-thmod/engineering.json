@@ -4823,8 +4823,8 @@
           "description": "This nexus of weather communication mitigates the harm done by cosmic weather disasters. Production will suffer less from a passing galactic tempest.",
           "feature_unlocks": [
             "แสดงเฉพาะ \u003cfont color\u003d\"yellow\"\u003eCustom Tooltip\u003c/font\u003e:  ใช่",
-            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ศูนย์บรรเทาผลกระทบของพายุ",
-            "ระดับเลเวลของเทคโนโลยีป้องกันพายุคอสมิก +1"
+            "ระดับเลเวลของเทคโนโลยีป้องกันพายุคอสมิก +1",
+            "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ศูนย์บรรเทาผลกระทบพายุ"
           ],
           "is_dangerous": false,
           "is_rare": false,
@@ -5107,8 +5107,8 @@
                   "description": "Continued study into astrometeorology grants us the power to more precisely bend and manipulate Cosmic Storms to our own needs.",
                   "feature_unlocks": [
                     "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ศูนย์การดึงดูดพายุขั้นสูง",
-                    "\u003cb\u003eฟีเจอร์ : \u003c/b\u003eSustain Cosmic Storms",
-                    "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Advanced Storm Repulsion Center"
+                    "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ศูนย์ผลักดันพายุขั้นสูง",
+                    "\u003cb\u003eฟีเจอร์ : \u003c/b\u003eการรักษาและค้ำจุนพายุคอสมิก"
                   ],
                   "is_dangerous": false,
                   "is_rare": true,
@@ -5145,9 +5145,9 @@
               "cost": 0,
               "description": "By consolidating local weather control systems, planetary weather patterns can be manipulated to significantly reduce most of the cosmic storms\u0027 harmful effects on production.",
               "feature_unlocks": [
-                "\u003cb\u003eประกาศคำสั่ง\u003c/b\u003e: Hunker Down Protocols",
-                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Storm Nullifier",
-                "ระดับเลเวลของเทคโนโลยีป้องกันพายุคอสมิก +1"
+                "\u003cb\u003eประกาศคำสั่ง\u003c/b\u003e: วิธีเตรียมตัวรับมือพายุ",
+                "ระดับเลเวลของเทคโนโลยีป้องกันพายุคอสมิก +1",
+                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ศูนย์ลดผลกระทบพายุขั้นสูง"
               ],
               "is_dangerous": false,
               "is_rare": false,
