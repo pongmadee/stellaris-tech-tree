@@ -58,6 +58,7 @@
               "feature_unlocks": [
                 "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ยานลูกขั้นพื้นฐาน",
                 "\u003cb\u003eโมดูลในฐานอวกาศ\u003c/b\u003e: โรงเก็บเครื่องบินป้องกันดาวเคราะห์",
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Enhanced Flagella",
                 "\u003cb\u003eโมดูลในฐานอวกาศ\u003c/b\u003e: โรงเก็บเครื่องบิน"
               ],
               "is_dangerous": false,
@@ -86,6 +87,7 @@
                   "cost": 6000,
                   "description": "The next generation of strike craft, featuring improved avionics, better handling characteristics and more powerful armaments.",
                   "feature_unlocks": [
+                    "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Cyber Flagella",
                     "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ยานลูกแบบปรับปรุง"
                   ],
                   "is_dangerous": false,
@@ -114,7 +116,8 @@
                       "cost": 12000,
                       "description": "A further refinement in strike craft design, these advanced strike craft are a pilot\u0027s dream. Their performance far exceeds that of previous models.",
                       "feature_unlocks": [
-                        "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ยานลูกขั้นสูง"
+                        "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ยานลูกขั้นสูง",
+                        "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Super Flagella"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -453,7 +456,8 @@
                     "มี DLC Overlord "
                   ],
                   "children": [],
-                  "is_event": false
+                  "is_event": false,
+                  "is_dlc": true
                 },
                 {
                   "key": "tech_starbase_4",
@@ -651,13 +655,16 @@
                             "หนึ่งอย่างต้องเป็นจริง\n    •   เป็นจักรวรรดิ: ผู้อยู่อาศัยในอวกาศ\n    •   มี DLC Utopia"
                           ],
                           "children": [],
-                          "is_event": false
+                          "is_event": false,
+                          "is_dlc": true
                         }
                       ],
-                      "is_event": false
+                      "is_event": false,
+                      "is_dlc": true
                     }
                   ],
-                  "is_event": false
+                  "is_event": false,
+                  "is_dlc": true
                 }
               ],
               "is_event": false
@@ -1104,7 +1111,8 @@
                                     "มีโครงการโคลอสซัส (country flag)"
                                   ],
                                   "children": [],
-                                  "is_event": false
+                                  "is_event": false,
+                                  "is_dlc": true
                                 },
                                 {
                                   "key": "tech_pk_neutron",
@@ -1142,7 +1150,8 @@
                                     "ทั้งหมดต้องเป็นเท็จ\n    •   มีจริยธรรม รักสงบ \n    •   มีจริยธรรม รักสงบอย่างมาก "
                                   ],
                                   "children": [],
-                                  "is_event": false
+                                  "is_event": false,
+                                  "is_dlc": true
                                 },
                                 {
                                   "key": "tech_pk_godray",
@@ -1179,7 +1188,8 @@
                                     "หนึ่งอย่างต้องเป็นจริง\n    •   ทั้งหมดต้องเป็นจริง\n\t    •   ไม่ มี DLC Utopia\n\t    •   มีเทคโนโลยี: โทรจิต\n    •   ทั้งหมดต้องเป็นจริง\n\t    •   มี DLC Utopia\n\t    •   หนึ่งอย่างต้องเป็นจริง\n\t\t    •   มีการยกระดับ จิตอยู่เหนือสรรพสิ่ง (สกิลพิเศษ)\n\t\t    •   มีจุดเริ่มต้น อาจารย์แห่งดินแดนพลังจิตบริสุทธิ์"
                                   ],
                                   "children": [],
-                                  "is_event": false
+                                  "is_event": false,
+                                  "is_dlc": true
                                 },
                                 {
                                   "key": "tech_pk_cracker",
@@ -1215,7 +1225,8 @@
                                     "ทั้งหมดต้องเป็นเท็จ\n    •   มีจริยธรรม รักสงบ \n    •   มีจริยธรรม รักสงบอย่างมาก "
                                   ],
                                   "children": [],
-                                  "is_event": false
+                                  "is_event": false,
+                                  "is_dlc": true
                                 },
                                 {
                                   "key": "tech_pk_nanobots",
@@ -1251,13 +1262,16 @@
                                     "มีพลเมือง: เครื่องดัดแปลงประชากร"
                                   ],
                                   "children": [],
-                                  "is_event": false
+                                  "is_event": false,
+                                  "is_dlc": true
                                 }
                               ],
-                              "is_event": false
+                              "is_event": false,
+                              "is_dlc": true
                             }
                           ],
-                          "is_event": false
+                          "is_event": false,
+                          "is_dlc": true
                         },
                         {
                           "key": "tech_mega_engineering",
@@ -1353,7 +1367,8 @@
                                 "มี DLC Utopia"
                               ],
                               "children": [],
-                              "is_event": false
+                              "is_event": false,
+                              "is_dlc": true
                             },
                             {
                               "key": "tech_sentry_array",
@@ -1389,7 +1404,8 @@
                                 "มี DLC Utopia"
                               ],
                               "children": [],
-                              "is_event": false
+                              "is_event": false,
+                              "is_dlc": true
                             },
                             {
                               "key": "tech_interstellar_assembly",
@@ -1426,7 +1442,8 @@
                                 "มี DLC Megacorp"
                               ],
                               "children": [],
-                              "is_event": false
+                              "is_event": false,
+                              "is_dlc": true
                             },
                             {
                               "key": "tech_mega_art",
@@ -1464,7 +1481,8 @@
                                 "มี DLC Megacorp"
                               ],
                               "children": [],
-                              "is_event": false
+                              "is_event": false,
+                              "is_dlc": true
                             },
                             {
                               "key": "tech_strategic_coordination",
@@ -1502,7 +1520,8 @@
                                 "มี DLC Megacorp"
                               ],
                               "children": [],
-                              "is_event": false
+                              "is_event": false,
+                              "is_dlc": true
                             },
                             {
                               "key": "tech_mega_shipyard",
@@ -1540,7 +1559,8 @@
                                 "มี DLC Federations"
                               ],
                               "children": [],
-                              "is_event": false
+                              "is_event": false,
+                              "is_dlc": true
                             }
                           ],
                           "is_event": false
@@ -1616,7 +1636,8 @@
                             "มี DLC Federations"
                           ],
                           "children": [],
-                          "is_event": false
+                          "is_event": false,
+                          "is_dlc": true
                         }
                       ],
                       "is_event": false
@@ -1844,6 +1865,7 @@
                 "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: คอมพิวเตอร์ต่อสู้ฉลาด",
                 "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ตอร์ปิโดอวกาศ",
                 "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: สติปัญญายานอัตโนมัติ",
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Bio-Torpedoes",
                 "\u003cb\u003eโมดูลในฐานอวกาศ\u003c/b\u003e: ป้อมยิงตอร์ปิโด",
                 "\u003cb\u003eขนาดยาน\u003c/b\u003e: ยานฟริเกต",
                 "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: คอมพิวเตอร์ต่อสู้",
@@ -1880,6 +1902,7 @@
                   "cost": 10000,
                   "description": "Upgraded space torpedoes encased in armor, to better withstand enemy point-defense fire. The armor fragments into shards that cause additional damage when the torpedo detonates.",
                   "feature_unlocks": [
+                    "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Carapace Bio-Torpedoes",
                     "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ตอร์ปิโดหุ้มเกราะ"
                   ],
                   "is_dangerous": false,
@@ -1911,6 +1934,7 @@
                       "cost": 20000,
                       "description": "Advanced torpedoes with very powerful warheads. They have a sleeker design, faster engines and upgraded shield modulators for slipping through energy screens.",
                       "feature_unlocks": [
+                        "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Devastator Bio-Torpedoes",
                         "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ตอร์ปิโดทำลายล้าง"
                       ],
                       "is_dangerous": false,
@@ -1987,7 +2011,8 @@
           "cost": 2000,
           "description": "Reinforced nanocomposite hull plating can provide an extra layer of protection that could be the difference between life and death in a combat situation.",
           "feature_unlocks": [
-            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เกราะวัสดุผสมระดับนาโน"
+            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เกราะวัสดุผสมระดับนาโน",
+            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Nanocomposite Carapace"
           ],
           "is_dangerous": false,
           "is_rare": false,
@@ -2008,7 +2033,8 @@
               "cost": 2500,
               "description": "A combination of different metals and ceramics that result in a strong armor without sacrificing flexibility.",
               "feature_unlocks": [
-                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เกราะโลหะเซราโม"
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เกราะโลหะเซราโม",
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Ceramo Chitin Carapace"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -2071,7 +2097,8 @@
                       "cost": 6000,
                       "description": "Incorporating a crystal lattice in our ship\u0027s defenses provides some resistance to weapons that normally cut through armor.",
                       "feature_unlocks": [
-                        "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เกราะปฏิกิริยาสะท้อน"
+                        "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เกราะปฏิกิริยาสะท้อน",
+                        "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Reactive Scales"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -2104,6 +2131,7 @@
                           "cost": 48000,
                           "description": "Threads of living metal react to incoming fire, rearranging itself to better resist penetrating weapons fire.",
                           "feature_unlocks": [
+                            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Living Reactive Scales",
                             "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เกราะปฏิกิริยาสะท้อนแบบใช้โลหะมีชีวิต"
                           ],
                           "is_dangerous": false,
@@ -2185,7 +2213,8 @@
                   "cost": 5000,
                   "description": "Plasteel is an elastic material that combines many of the qualities of plastics and metal. It is relatively cheap to produce and can be used to augment ship armor.",
                   "feature_unlocks": [
-                    "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เกราะ Plasteel"
+                    "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เกราะ Plasteel",
+                    "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Plasteel Carapace"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -2215,6 +2244,7 @@
                       "cost": 10000,
                       "description": "This strong yet flexible material is capable of withstanding severe punishment. It serves well as ship armor.",
                       "feature_unlocks": [
+                        "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Durasteel Carapace",
                         "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เกราะ Durasteel"
                       ],
                       "is_dangerous": false,
@@ -2245,6 +2275,7 @@
                           "cost": 20000,
                           "description": "This incredibly dense and strong material can resist firepower that would turn armor made of any other alloys into slag.",
                           "feature_unlocks": [
+                            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Neutronium Carapace",
                             "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เกราะนิวโตรเนียม"
                           ],
                           "is_dangerous": false,
@@ -2435,7 +2466,8 @@
           "cost": 0,
           "description": "Gun batteries that fire shrapnel rounds at close range. They are particularly lethal to enemy strike craft, but can also defend against missiles.",
           "feature_unlocks": [
-            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ป้อมปืน"
+            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ป้อมปืน",
+            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Barb Batteries"
           ],
           "is_dangerous": false,
           "is_rare": false,
@@ -2456,6 +2488,7 @@
               "cost": 6000,
               "description": "Upgraded flak batteries with new, more powerful shrapnel rounds.",
               "feature_unlocks": [
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Barb Cannons",
                 "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ปืนครก"
               ],
               "is_dangerous": false,
@@ -2487,6 +2520,7 @@
                   "cost": 16000,
                   "description": "Predictive tracking algorithms and even more powerful rounds make these batteries incredibly lethal to enemy strike craft.",
                   "feature_unlocks": [
+                    "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Barb Artillery",
                     "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ปืนใหญ่"
                   ],
                   "is_dangerous": false,
@@ -2547,7 +2581,8 @@
               "cost": 2500,
               "description": "These powerful thrusters provide additional combat speed but consume a great deal of power.",
               "feature_unlocks": [
-                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: อาฟเตอร์เบิร์นเนอร์"
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: อาฟเตอร์เบิร์นเนอร์",
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Maneuvering Tentacles"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -2578,7 +2613,8 @@
                   "cost": 10000,
                   "description": "This improved version of the standard afterburners provide an even greater boost to a ship\u0027s combat speed.",
                   "feature_unlocks": [
-                    "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: อาฟเตอร์เบิร์นเนอร์ขั้นสูง"
+                    "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: อาฟเตอร์เบิร์นเนอร์ขั้นสูง",
+                    "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Enhanced Maneuvering Tentacles"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -2750,7 +2786,8 @@
           "cost": 0,
           "description": "Space-to-space missiles equipped with high-yield nuclear warheads. Although based on old pre-space technology, these crude fire-and-forget weapons can be surprisingly effective at range.",
           "feature_unlocks": [
-            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: มิสไซล์นิวเคลียร์"
+            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: มิสไซล์นิวเคลียร์",
+            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Miasma Launcher"
           ],
           "is_dangerous": false,
           "is_rare": false,
@@ -2771,6 +2808,7 @@
               "cost": 2500,
               "description": "These updated space-to-space missiles have more powerful fusion warheads and improved flight performance.",
               "feature_unlocks": [
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Volatile Miasma Launcher",
                 "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: มิสไซล์ฟิวชัน"
               ],
               "is_dangerous": false,
@@ -2807,7 +2845,8 @@
                   "cost": 4000,
                   "description": "Advanced missiles equipped with very powerful antimatter warheads. A new and improved guidance system gives them a better chance of finding their targets.",
                   "feature_unlocks": [
-                    "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: มิสไซล์ปฏิสสาร"
+                    "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: มิสไซล์ปฏิสสาร",
+                    "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Antimatter Launcher"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -2838,7 +2877,9 @@
                       "cost": 8000,
                       "description": "The latest version of space-to-space missile, this upgraded variant has an immensely powerful warhead that draws its energy from a zero point vacuum.",
                       "feature_unlocks": [
-                        "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: มิสไซล์ควอนตัม"
+                        "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Quantum Launcher",
+                        "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: มิสไซล์ควอนตัม",
+                        "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Marauder Launcher"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -2968,7 +3009,8 @@
                   "cost": 5000,
                   "description": "These smaller missiles are launched in volleys and have been specifically designed to overwhelm enemy point-defense systems.",
                   "feature_unlocks": [
-                    "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ฝูงมิสไซล์"
+                    "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ฝูงมิสไซล์",
+                    "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Spore Launcher"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -2999,6 +3041,7 @@
                       "cost": 20000,
                       "description": "New miniaturization techniques will allow us to equip swarmer missiles with more powerful warheads and improved flight performance.",
                       "feature_unlocks": [
+                        "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Barbed Spore Launcher",
                         "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: มิสไซล์ลมกรด"
                       ],
                       "is_dangerous": false,
@@ -3041,6 +3084,7 @@
           "cost": 0,
           "description": "These electromagnetic projectile launchers use magnets to accelerate armor-piercing rounds towards targets at high speeds.",
           "feature_unlocks": [
+            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Shard Accelerator",
             "\u003cb\u003eโมดูลในฐานอวกาศ\u003c/b\u003e: ปืนป้องกันดาวเคราะห์",
             "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เครื่องยิงด้วยแม่เหล็กไฟฟ้า",
             "\u003cb\u003eโมดูลในฐานอวกาศ\u003c/b\u003e: ป้อมปืน"
@@ -3064,7 +3108,8 @@
               "cost": 2500,
               "description": "Coilguns are more powerful versions of the early mass drivers, using electromagnetic coils to rapidly accelerate projectiles towards targets.",
               "feature_unlocks": [
-                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ปืนแม่เหล็กไฟฟ้า"
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ปืนแม่เหล็กไฟฟ้า",
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Bio-Coil Shard Accelerator"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -3095,7 +3140,8 @@
                   "cost": 4000,
                   "description": "The latest in electromagnetic accelerators, railguns use twin parallel rails to fire projectiles at incredible speeds.",
                   "feature_unlocks": [
-                    "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ปืนแม่เหล็กไฟฟ้ารางคู่"
+                    "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ปืนแม่เหล็กไฟฟ้ารางคู่",
+                    "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Shard Rail Accelerator"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -3126,6 +3172,7 @@
                       "cost": 8000,
                       "description": "A new version of the venerable railgun, with sturdier rails and an enhanced power supply. These weapons are even more powerful and accurate than their predecessors.",
                       "feature_unlocks": [
+                        "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Advanced Shard Rail Accelerator",
                         "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ปืนแม่เหล็กไฟฟ้ารางคู่ขั้นสูง"
                       ],
                       "is_dangerous": false,
@@ -3157,7 +3204,8 @@
                           "cost": 12000,
                           "description": "Very long-range artillery capable of hurling powerful rounds over extreme distances with a large degree of accuracy.",
                           "feature_unlocks": [
-                            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ป้อมปืนพลังงานจลน์"
+                            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ป้อมปืนพลังงานจลน์",
+                            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Chitin Battery"
                           ],
                           "is_dangerous": false,
                           "is_rare": false,
@@ -3188,7 +3236,8 @@
                               "cost": 20000,
                               "description": "An even more powerful long-range, ship-based artillery cannon, equipped with a new barrel and an upgraded fire control computer.",
                               "feature_unlocks": [
-                                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ปืนใหญ่พลังงานจลน์"
+                                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ปืนใหญ่พลังงานจลน์",
+                                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Chitin Artillery"
                               ],
                               "is_dangerous": false,
                               "is_rare": false,
@@ -3229,7 +3278,8 @@
                           "cost": 20000,
                           "description": "An enormous mass accelerator cannon that can only be placed in a spinal mount and fires monstrously powerful rounds over vast distances.",
                           "feature_unlocks": [
-                            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ปืนใหญ่"
+                            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ปืนใหญ่",
+                            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Mega Bombard"
                           ],
                           "is_dangerous": false,
                           "is_rare": false,
@@ -3265,6 +3315,7 @@
                               "cost": 24000,
                               "description": "An even more powerful mass accelerator cannon that can rip through even the toughest shields.",
                               "feature_unlocks": [
+                                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Giga Bombard",
                                 "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ปืนใหญ่"
                               ],
                               "is_dangerous": false,
@@ -3306,7 +3357,8 @@
                           "cost": 16000,
                           "description": "This updated version of the old coilgun design is even more destructive than the latest railgun designs. It is capable of launching projectiles with incredible accuracy and speed.",
                           "feature_unlocks": [
-                            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ปืนใหญ่เกาส์"
+                            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ปืนใหญ่เกาส์",
+                            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Shard Gauss Accelerator"
                           ],
                           "is_dangerous": false,
                           "is_rare": false,
@@ -3405,6 +3457,7 @@
                   "cost": 5000,
                   "description": "Large-caliber ballistic weapons that fire cased explosive shells. The main advantage of these cannons is their high rate of fire.",
                   "feature_unlocks": [
+                    "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Thorn Cannon",
                     "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ปืนใหญ่อัตโนมัติ"
                   ],
                   "is_dangerous": false,
@@ -3437,7 +3490,8 @@
                       "cost": 8000,
                       "description": "These upgraded rotary autocannons feature improved tracking and fire control systems. This allows them to maintain an even higher rate of fire.",
                       "feature_unlocks": [
-                        "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ปืนใหญ่"
+                        "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ปืนใหญ่",
+                        "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Ripper Thorn Cannon"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -3468,6 +3522,7 @@
                           "cost": 16000,
                           "description": "Advanced rotary autocannons capable of spewing a cloud of high-explosive shells at a target.",
                           "feature_unlocks": [
+                            "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Acidstorm Thorn Cannon",
                             "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ปืนใหญ่"
                           ],
                           "is_dangerous": false,
@@ -4617,7 +4672,8 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.0\u003c/b\u003e)",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร ถ้ำคริสตัลลีน\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร ป่าคริสตัล\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร ปะการังคริสตัล\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Industrial Sector\u003cbr/\u003e    •   มีดาวเคราะห์ใดๆที่อยู่ภายในพรมแดน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +1\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +2\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +3\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +4\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +5"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) ทั้งหมดต้องเป็นเท็จ\u003cbr/\u003e    •   มีดาวเคราะห์ที่เป็นเจ้าของบางส่วน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร ถ้ำคริสตัลลีน\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร ป่าคริสตัล\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร ปะการังคริสตัล\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร Industrial Sector\u003cbr/\u003e    •   มีดาวเคราะห์ใดๆที่อยู่ภายในพรมแดน\u003cbr/\u003e\t    •   หนึ่งอย่างต้องเป็นจริง\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +1\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +2\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +3\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +4\u003cbr/\u003e\t\t    •   มีแหล่งทรัพยากร £rare_crystals£ +5",
+                "(+\u003cb style\u003d\u0027color:lime\u0027\u003e1.0\u003c/b\u003e) tech_mine_rare_crystals_culling_boost (country flag)"
               ],
               "potential": [],
               "children": [],
@@ -4942,10 +4998,12 @@
                         "มี DLC Cosmic Storms "
                       ],
                       "children": [],
-                      "is_event": false
+                      "is_event": false,
+                      "is_dlc": true
                     }
                   ],
-                  "is_event": false
+                  "is_event": false,
+                  "is_dlc": true
                 },
                 {
                   "key": "tech_storm_prediction_2",
@@ -4982,7 +5040,8 @@
                     "มี DLC Cosmic Storms "
                   ],
                   "children": [],
-                  "is_event": false
+                  "is_event": false,
+                  "is_dlc": true
                 },
                 {
                   "key": "tech_ship_hull_storm_breaker_1",
@@ -5052,13 +5111,16 @@
                         "มี DLC Cosmic Storms "
                       ],
                       "children": [],
-                      "is_event": false
+                      "is_event": false,
+                      "is_dlc": true
                     }
                   ],
-                  "is_event": false
+                  "is_event": false,
+                  "is_dlc": true
                 }
               ],
-              "is_event": false
+              "is_event": false,
+              "is_dlc": true
             },
             {
               "key": "tech_storm_manipulation",
@@ -5131,10 +5193,12 @@
                     "มี DLC Cosmic Storms "
                   ],
                   "children": [],
-                  "is_event": false
+                  "is_event": false,
+                  "is_dlc": true
                 }
               ],
-              "is_event": false
+              "is_event": false,
+              "is_dlc": true
             },
             {
               "key": "tech_advanced_industrial_storm_protection",
@@ -5171,10 +5235,12 @@
                 "มี DLC Cosmic Storms "
               ],
               "children": [],
-              "is_event": false
+              "is_event": false,
+              "is_dlc": true
             }
           ],
-          "is_event": false
+          "is_event": false,
+          "is_dlc": true
         },
         {
           "key": "tech_assembly_pattern",
@@ -5777,7 +5843,8 @@
             "มี DLC The Machine Age "
           ],
           "children": [],
-          "is_event": false
+          "is_event": false,
+          "is_dlc": true
         },
         {
           "key": "tech_nanite_transmutation",
@@ -5804,7 +5871,8 @@
             "มี DLC Distant Stars Story Pack"
           ],
           "children": [],
-          "is_event": false
+          "is_event": false,
+          "is_dlc": true
         },
         {
           "key": "tech_mechanized_mining",
@@ -5849,7 +5917,8 @@
             "advanced_identity_creation (country flag)"
           ],
           "children": [],
-          "is_event": false
+          "is_event": false,
+          "is_dlc": true
         },
         {
           "key": "tech_identity_initialization",
@@ -5873,7 +5942,8 @@
             "advanced_identity_creation (country flag)"
           ],
           "children": [],
-          "is_event": false
+          "is_event": false,
+          "is_dlc": true
         }
       ],
       "is_event": false

@@ -8,7 +8,8 @@
     "cost": 2500,
     "description": "By harnessing the entropic nature of the Null Void, this beam can actually destroy energy.",
     "feature_unlocks": [
-      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ลำแสงหักล้างโล่พลังงาน"
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ลำแสงหักล้างโล่พลังงาน",
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Null Void Siphon"
     ],
     "is_dangerous": false,
     "is_rare": true,
@@ -163,7 +164,8 @@
       "มี DLC First Contact "
     ],
     "children": [],
-    "is_event": true
+    "is_event": true,
+    "is_dlc": true
   },
   {
     "key": "tech_amoeba_strike_craft_1",
@@ -172,14 +174,15 @@
     "base_weight": 0.0,
     "category": "ชีววิทยา",
     "cost": 6000,
-    "description": "By breeding Space Amoebas in captivity, we can program their symbiotic flagella to act as organic strike craft for our navy.",
+    "description": "By altering the breeding process of Space Amoebas, we can program their symbiotic flagella to act as organic strike craft for our navy.",
     "feature_unlocks": [
-      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: อะมีบาเคลื่อนที่"
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: อะมีบาเคลื่อนที่",
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Flagella Swarmers"
     ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
-    "name": "โครงการเพาะพันธุ์อะมีบา",
+    "name": "การใช้แฟลกเจลลาหรือแส้เป็นอาวุธ",
     "prerequisites": [],
     "tier": 2,
     "prerequisites_names": [],
@@ -187,6 +190,32 @@
     "potential": [],
     "children": [],
     "is_event": true
+  },
+  {
+    "key": "tech_asteroidal_carapace",
+    "area": "engineering",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "วัสดุ",
+    "cost": 0,
+    "description": "The shell of a Cutholoid is not mineral alone, but reinforced with strong biological fibers. We can synthesize this process using advanced metallurgic techniques.",
+    "feature_unlocks": [
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: กระดองหรือเปลือกดาวเคราะห์น้อย"
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "name": "กระดองหรือเปลือกดาวเคราะห์น้อย",
+    "prerequisites": [],
+    "tier": 3,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "มี DLC Grand Archive "
+    ],
+    "children": [],
+    "is_event": true,
+    "is_dlc": true
   },
   {
     "key": "tech_atmospheric_orbital_mechanics",
@@ -214,7 +243,34 @@
       "มี DLC First Contact "
     ],
     "children": [],
-    "is_event": true
+    "is_event": true,
+    "is_dlc": true
+  },
+  {
+    "key": "tech_boarding_cables",
+    "area": "engineering",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "ระบบขับดัน",
+    "cost": 8000,
+    "description": "Repurposed small-caliber artillery that fire piercing hooks attached to resilient carbon fiber cables, perfect for immobilizing and boarding enemy ships.",
+    "feature_unlocks": [
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: สายเคเบิลยึดตรึงเครื่อง"
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "name": "สายเคเบิลยึดตรึงเครื่อง",
+    "prerequisites": [],
+    "tier": 1,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "มี DLC Grand Archive "
+    ],
+    "children": [],
+    "is_event": true,
+    "is_dlc": true
   },
   {
     "key": "tech_btc_1",
@@ -240,6 +296,41 @@
       "มีการยกระดับ กาแล็กติกเนเมซิส (สกิลพิเศษ)",
       "สามารถสร้างเครื่องกินดวงดาวได้ (country flag)"
     ],
+    "children": [],
+    "is_event": true,
+    "is_dlc": true
+  },
+  {
+    "key": "tech_combat_computers_bio_integration",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "การคำนวณ",
+    "cost": 4000,
+    "description": "We can develop specialized neurochips to influence the behavior of space fauna involved in wide scale fleet combat.",
+    "feature_unlocks": [
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Autonomous Neurochips",
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Precognitive Interface",
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Advanced Neurochips",
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Neurochips",
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Sapient Neurochips"
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "name": "คอมพิวเตอร์ต่อสู้ชีวภาพ",
+    "prerequisites": [
+      "tech_controlled_mutations"
+    ],
+    "tier": 2,
+    "prerequisites_names": [
+      {
+        "name": "ควบคุมการกลายพันธุ์",
+        "key": "tech_controlled_mutations"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [],
     "children": [],
     "is_event": true
   },
@@ -267,7 +358,44 @@
       "มี DLC First Contact "
     ],
     "children": [],
-    "is_event": true
+    "is_event": true,
+    "is_dlc": true
+  },
+  {
+    "key": "tech_containment_vessel",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "การควบคุมสนามพลัง",
+    "cost": 8000,
+    "description": "Gravity Snares capture double the amount of Space Fauna.",
+    "feature_unlocks": [
+      "โอกาสจับสัตว์อวกาศ +10%",
+      "จำนวนการจับสัตว์อวกาศ +1"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "วิธีการบรรจุจัดเก็บของผู้ดูแลพิพิธภัณฑ์",
+    "prerequisites": [
+      "tech_gravity_wells"
+    ],
+    "tier": 3,
+    "prerequisites_names": [
+      {
+        "name": "กับดักแรงโน้มถ่วง",
+        "key": "tech_gravity_wells"
+      }
+    ],
+    "weight_modifiers": [
+      "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.5\u003c/b\u003e) มีคุณลักษณะของผู้นำในสภา: ผู้ดูแลพิพิธภัณฑ์\u003cbr/\u003e        (*ถ้าไม่มีพลเมือง นิยมนักวิชาการ {factor-\u003d1.25})"
+    ],
+    "potential": [
+      "มี DLC Grand Archive "
+    ],
+    "children": [],
+    "is_event": true,
+    "is_dlc": true
   },
   {
     "key": "tech_cosmogenesis_FE_titan",
@@ -290,7 +418,8 @@
       "มี DLC The Machine Age "
     ],
     "children": [],
-    "is_event": true
+    "is_event": true,
+    "is_dlc": true
   },
   {
     "key": "tech_cosmogenesis_battlecruiser",
@@ -313,7 +442,8 @@
       "มี DLC The Machine Age "
     ],
     "children": [],
-    "is_event": true
+    "is_event": true,
+    "is_dlc": true
   },
   {
     "key": "tech_cosmogenesis_crisis_1",
@@ -337,7 +467,8 @@
       "มีการยกระดับ คอสโมเจเนซิส (สกิลพิเศษ)"
     ],
     "children": [],
-    "is_event": true
+    "is_event": true,
+    "is_dlc": true
   },
   {
     "key": "tech_cosmogenesis_crisis_2",
@@ -361,7 +492,8 @@
       "มีการยกระดับ คอสโมเจเนซิส (สกิลพิเศษ)"
     ],
     "children": [],
-    "is_event": true
+    "is_event": true,
+    "is_dlc": true
   },
   {
     "key": "tech_cosmogenesis_crisis_3",
@@ -385,7 +517,8 @@
       "มีการยกระดับ คอสโมเจเนซิส (สกิลพิเศษ)"
     ],
     "children": [],
-    "is_event": true
+    "is_event": true,
+    "is_dlc": true
   },
   {
     "key": "tech_cosmogenesis_crisis_4",
@@ -409,7 +542,8 @@
       "มีการยกระดับ คอสโมเจเนซิส (สกิลพิเศษ)"
     ],
     "children": [],
-    "is_event": true
+    "is_event": true,
+    "is_dlc": true
   },
   {
     "key": "tech_cosmogenesis_crisis_5",
@@ -433,7 +567,8 @@
       "มีการยกระดับ คอสโมเจเนซิส (สกิลพิเศษ)"
     ],
     "children": [],
-    "is_event": true
+    "is_event": true,
+    "is_dlc": true
   },
   {
     "key": "tech_cosmogenesis_escort",
@@ -456,7 +591,8 @@
       "มี DLC The Machine Age "
     ],
     "children": [],
-    "is_event": true
+    "is_event": true,
+    "is_dlc": true
   },
   {
     "key": "tech_cosmogenesis_world",
@@ -480,7 +616,8 @@
       "มีการยกระดับ คอสโมเจเนซิส (สกิลพิเศษ)"
     ],
     "children": [],
-    "is_event": true
+    "is_event": true,
+    "is_dlc": true
   },
   {
     "key": "tech_covenant_composer",
@@ -491,6 +628,7 @@
     "cost": 50000,
     "description": "We have discovered how to let psionic energy flow through our ships. Armed with this knowledge, we can now imbue our vessels with the powers of our patron.",
     "feature_unlocks": [
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Blessing of the Composer",
       "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เครื่องหมายของผู้สร้าง"
     ],
     "is_dangerous": false,
@@ -521,7 +659,8 @@
     "cost": 50000,
     "description": "We have discovered how to let psionic energy flow through our ships. Armed with this knowledge, we can now imbue our vessels with the powers of our patron.",
     "feature_unlocks": [
-      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เครื่องหมายของผู้ทำลาย"
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เครื่องหมายของผู้ทำลาย",
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Blessing of the Eater"
     ],
     "is_dangerous": false,
     "is_rare": true,
@@ -551,6 +690,7 @@
     "cost": 50000,
     "description": "We have discovered how to let psionic energy flow through our ships. Armed with this knowledge, we can now imbue our vessels with the powers of our patron.",
     "feature_unlocks": [
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Blessing of the Instrument",
       "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เครื่องหมายของผู้บรรเลงดนตรี"
     ],
     "is_dangerous": false,
@@ -581,7 +721,8 @@
     "cost": 50000,
     "description": "We have discovered how to let psionic energy flow through our ships. Armed with this knowledge, we can now imbue our vessels with the powers of our patron.",
     "feature_unlocks": [
-      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เครื่องหมายของผู้กระซิบ"
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เครื่องหมายของผู้กระซิบ",
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Blessing of the Whisperers"
     ],
     "is_dangerous": false,
     "is_rare": true,
@@ -613,7 +754,8 @@
     "feature_unlocks": [
       "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ชุบด้วยคริสตัลแบบผสม ใหญ่",
       "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ชุบด้วยคริสตัลแบบผสม เล็ก",
-      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ชุบด้วยคริสตัลแบบผสม กลาง"
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ชุบด้วยคริสตัลแบบผสม กลาง",
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Crystal Infused Innards"
     ],
     "is_dangerous": false,
     "is_rare": false,
@@ -640,6 +782,7 @@
     "feature_unlocks": [
       "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ชุบด้วยคริสตัลหลอม เล็ก",
       "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ชุบด้วยคริสตัลหลอม ใหญ่",
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Crystal Forged Innards",
       "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ชุบด้วยคริสตัลหลอม กลาง"
     ],
     "is_dangerous": false,
@@ -663,6 +806,7 @@
     "cost": 50000,
     "description": "The Ether Drake\u0027s scales are made up of multiple layers of unique mineral nanostructures. Unorthodox manufacturing techniques allow us to closely emulate these self-repairing structures.",
     "feature_unlocks": [
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Draconic Carapace",
       "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เกราะเกล็ดมังกร"
     ],
     "is_dangerous": false,
@@ -705,7 +849,8 @@
       "มี DLC Utopia"
     ],
     "children": [],
-    "is_event": true
+    "is_event": true,
+    "is_dlc": true
   },
   {
     "key": "tech_enigmatic_decoder",
@@ -716,7 +861,8 @@
     "cost": 50000,
     "description": "While producing average results in standard tests, the accuracy of Enigmatic Decoder\u0027s prediction algorithms seemingly increases as the target\u0027s flight path grows more erratic.",
     "feature_unlocks": [
-      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ตัวถอดรหัสลึกลับซับซ้อน"
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ตัวถอดรหัสลึกลับซับซ้อน",
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Enigmatic Decoder Chip"
     ],
     "is_dangerous": false,
     "is_rare": true,
@@ -739,6 +885,7 @@
     "cost": 50000,
     "description": "The Enigmatic Encoder scrambles flight path data according to some indeterminable design before feeding it back to fleet command.",
     "feature_unlocks": [
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Enigmatic Encoder Chip",
       "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ตัวเข้ารหัสลึกลับซับซ้อน"
     ],
     "is_dangerous": false,
@@ -762,7 +909,8 @@
     "cost": 48000,
     "description": "Applying 5th-dimensional energy manipulation principles on lower dimensional planes allows for the creation of powerful energy weapons.",
     "feature_unlocks": [
-      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เครื่องสลายสสาร"
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เครื่องสลายสสาร",
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Bio-Disintegrator"
     ],
     "is_dangerous": false,
     "is_rare": true,
@@ -802,6 +950,39 @@
     "is_event": true
   },
   {
+    "key": "tech_hyper_drive_bio_integration",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "อนุภาค",
+    "cost": 4000,
+    "description": "Traveling across hyperlanes can be hazardous for spaceborne life, but we are able to enhance their capabilities.",
+    "feature_unlocks": [
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Slipstream-Sensible Vision",
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Imprinted Breach Point Memories",
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Hyperdimensional Inner-Ear",
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Psychically Enhanced Bio-Drive"
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "name": "ระบบขับเคลื่อนไฮเปอร์ไดรฟ์ชีวภาพ",
+    "prerequisites": [
+      "tech_controlled_mutations"
+    ],
+    "tier": 2,
+    "prerequisites_names": [
+      {
+        "name": "ควบคุมการกลายพันธุ์",
+        "key": "tech_controlled_mutations"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
     "key": "tech_identity_copy",
     "area": "engineering",
     "base_factor": 1.0,
@@ -822,7 +1003,8 @@
       "มี DLC The Machine Age "
     ],
     "children": [],
-    "is_event": true
+    "is_event": true,
+    "is_dlc": true
   },
   {
     "key": "tech_leviathan_techgenesis",
@@ -845,7 +1027,8 @@
       "มี DLC The Machine Age "
     ],
     "children": [],
-    "is_event": true
+    "is_event": true,
+    "is_dlc": true
   },
   {
     "key": "tech_lgate_activation",
@@ -895,7 +1078,8 @@
       "มี DLC First Contact "
     ],
     "children": [],
-    "is_event": true
+    "is_event": true,
+    "is_dlc": true
   },
   {
     "key": "tech_matter_decompressor",
@@ -925,7 +1109,8 @@
       "มี DLC Megacorp"
     ],
     "children": [],
-    "is_event": true
+    "is_event": true,
+    "is_dlc": true
   },
   {
     "key": "tech_mining_drone_weapon_1",
@@ -936,7 +1121,8 @@
     "cost": 5000,
     "description": "Using intense-focus lenses in combination with an oscillating firing frequency help create lasers strong enough to mine asteroids, or shoot down hostiles.",
     "feature_unlocks": [
-      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เลเซอร์ตัด"
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เลเซอร์ตัด",
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Sharp-Eye Laser"
     ],
     "is_dangerous": false,
     "is_rare": false,
@@ -959,6 +1145,7 @@
     "cost": 48000,
     "description": "Highly advanced autocannons capable of ejecting shells that explode into a cloud of nanites at the target, overwhelming shields and chewing through hull sections.",
     "feature_unlocks": [
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Nanite-Infused Thorn Cannon",
       "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ปืนใหญ่อัตโนมัตินาไนต์"
     ],
     "is_dangerous": false,
@@ -982,6 +1169,7 @@
     "cost": 48000,
     "description": "Improving upon previous designs by launching canisters of nanites capable of eating away at strike craft, these flak batteries are the bane of any fighter pilot.",
     "feature_unlocks": [
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Nanite-Infused Barb Artillery",
       "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ป้อมปืนนาไนต์"
     ],
     "is_dangerous": false,
@@ -1042,7 +1230,8 @@
       "มี DLC The Machine Age "
     ],
     "children": [],
-    "is_event": true
+    "is_event": true,
+    "is_dlc": true
   },
   {
     "key": "tech_neuroregeneration",
@@ -1092,7 +1281,8 @@
       "มี DLC First Contact "
     ],
     "children": [],
-    "is_event": true
+    "is_event": true,
+    "is_dlc": true
   },
   {
     "key": "tech_orbital_trash_dispersal",
@@ -1103,6 +1293,7 @@
     "cost": 8000,
     "description": "This orbital bombardment management system spams a planet with millions of minute, high-velocity projectiles, overwhelming planetside defensive grids with trash data. Ships equipped with this component will cause more damage during orbital bombardment.",
     "feature_unlocks": [
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Orbital Shed Disperser",
       "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เครื่องกระจายข้อมูลขยะที่วงโคจรดาว"
     ],
     "is_dangerous": false,
@@ -1141,7 +1332,8 @@
       "มี DLC First Contact "
     ],
     "children": [],
-    "is_event": true
+    "is_event": true,
+    "is_dlc": true
   },
   {
     "key": "tech_predatory_tactics",
@@ -1166,7 +1358,8 @@
       "มี DLC First Contact "
     ],
     "children": [],
-    "is_event": true
+    "is_event": true,
+    "is_dlc": true
   },
   {
     "key": "tech_prescient_data_modeling",
@@ -1200,6 +1393,7 @@
     "cost": 8000,
     "description": "These barriers are generated out of pure psychic energy by a cadre of psionic specialists. They will be able to stop some incoming fire, like our Energy deflector systems, but without the prohibitive power consumption.",
     "feature_unlocks": [
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Null Void Epidermis",
       "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: บาเรียพลังจิต"
     ],
     "is_dangerous": false,
@@ -1230,7 +1424,8 @@
     "cost": 48000,
     "description": "These extremely powerful shields are generated out of pure psychic energy by a cadre of psionic specialists. Their powers are further augmented by large arrays of psi emitters.",
     "feature_unlocks": [
-      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: โล่พลังจิต"
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: โล่พลังจิต",
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Psionic Skin"
     ],
     "is_dangerous": false,
     "is_rare": true,
@@ -1297,7 +1492,8 @@
       "มี DLC Astral Planes "
     ],
     "children": [],
-    "is_event": true
+    "is_event": true,
+    "is_dlc": true
   },
   {
     "key": "tech_ring_world",
@@ -1327,7 +1523,8 @@
       "มี DLC Utopia"
     ],
     "children": [],
-    "is_event": true
+    "is_event": true,
+    "is_dlc": true
   },
   {
     "key": "tech_satisfying_insults",
@@ -1353,7 +1550,8 @@
       "มี DLC First Contact "
     ],
     "children": [],
-    "is_event": true
+    "is_event": true,
+    "is_dlc": true
   },
   {
     "key": "tech_scourge_missile_1",
@@ -1364,6 +1562,7 @@
     "cost": 48000,
     "description": "By analyzing the biological weaponry employed by the Swarm we can create self-propelled projectiles weapons spreading the very same horrific destruction.",
     "feature_unlocks": [
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Scourge Missile",
       "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: มิสไซล์ Scourge ขนาดใหญ่"
     ],
     "is_dangerous": false,
@@ -1401,7 +1600,8 @@
       "มี DLC Ancient Relics Story Pack"
     ],
     "children": [],
-    "is_event": true
+    "is_event": true,
+    "is_dlc": true
   },
   {
     "key": "tech_secrets_cybrex",
@@ -1426,7 +1626,8 @@
       "มี DLC Ancient Relics Story Pack"
     ],
     "children": [],
-    "is_event": true
+    "is_event": true,
+    "is_dlc": true
   },
   {
     "key": "tech_secrets_irassian",
@@ -1451,7 +1652,8 @@
       "มี DLC Ancient Relics Story Pack"
     ],
     "children": [],
-    "is_event": true
+    "is_event": true,
+    "is_dlc": true
   },
   {
     "key": "tech_secrets_league",
@@ -1476,7 +1678,8 @@
       "มี DLC Ancient Relics Story Pack"
     ],
     "children": [],
-    "is_event": true
+    "is_event": true,
+    "is_dlc": true
   },
   {
     "key": "tech_secrets_vultaum",
@@ -1501,7 +1704,8 @@
       "มี DLC Ancient Relics Story Pack"
     ],
     "children": [],
-    "is_event": true
+    "is_event": true,
+    "is_dlc": true
   },
   {
     "key": "tech_secrets_yuht",
@@ -1526,7 +1730,8 @@
       "มี DLC Ancient Relics Story Pack"
     ],
     "children": [],
-    "is_event": true
+    "is_event": true,
+    "is_dlc": true
   },
   {
     "key": "tech_secrets_zroni",
@@ -1551,6 +1756,39 @@
       "มี DLC Ancient Relics Story Pack"
     ],
     "children": [],
+    "is_event": true,
+    "is_dlc": true
+  },
+  {
+    "key": "tech_sensors_bio_integration",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "การคำนวณ",
+    "cost": 4000,
+    "description": "The diverse sensory organs of spaceborne life can be enhanced by our developed technologies with minimal harm to the organism.",
+    "feature_unlocks": [
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Tachyon-Receiving Sensory Organs",
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Gravity-Attuned Sensory Organs",
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Subspace-Monitoring Sensory Organs"
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "name": "เซ็นเซอร์ชีวภาพ",
+    "prerequisites": [
+      "tech_controlled_mutations"
+    ],
+    "tier": 2,
+    "prerequisites_names": [
+      {
+        "name": "ควบคุมการกลายพันธุ์",
+        "key": "tech_controlled_mutations"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
     "is_event": true
   },
   {
@@ -1562,7 +1800,8 @@
     "cost": 6000,
     "description": "Void Clouds use the electrical charges generated by the dense gases that make up most of their core to release bolts of burning plasma. Using the same gas composition together with a specialized conduit allows for powerful lightning weaponry.",
     "feature_unlocks": [
-      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: สายฟ้า"
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: สายฟ้า",
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Lightning Breath"
     ],
     "is_dangerous": false,
     "is_rare": true,
@@ -1585,7 +1824,8 @@
     "cost": 3000,
     "description": "Adapting the Tiyanki method of siphoning energy from gaseous matter, it is possible to construct weapons draining energy from enemy ships.",
     "feature_unlocks": [
-      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: พลังไซฟอน"
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: พลังไซฟอน",
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Energy Siphon"
     ],
     "is_dangerous": false,
     "is_rare": false,
@@ -1608,6 +1848,7 @@
     "cost": 24000,
     "description": "Learning from the design expertise of Skrand and his people, these superior strike craft are capable of prolonged engagement and highly adaptive tactics.",
     "feature_unlocks": [
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Warmaster Flagella",
       "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ยานรบ Skravird"
     ],
     "is_dangerous": false,
@@ -1622,7 +1863,8 @@
       "มี DLC Galactic Paragons "
     ],
     "children": [],
-    "is_event": true
+    "is_event": true,
+    "is_dlc": true
   },
   {
     "key": "tech_subspace_drive",
@@ -1648,7 +1890,8 @@
       "มี DLC First Contact "
     ],
     "children": [],
-    "is_event": true
+    "is_event": true,
+    "is_dlc": true
   },
   {
     "key": "tech_supreme_alloy",
@@ -1674,7 +1917,8 @@
       "มี DLC First Contact "
     ],
     "children": [],
-    "is_event": true
+    "is_event": true,
+    "is_dlc": true
   },
   {
     "key": "tech_swarm_strike_craft_1",
@@ -1685,7 +1929,8 @@
     "cost": 48000,
     "description": "Collecting specimens from defeated Prethoryn enables us to clone and genetically program a war-brood of our own.",
     "feature_unlocks": [
-      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ฝูงจู่โจม"
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ฝูงจู่โจม",
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Scourge Swarmers"
     ],
     "is_dangerous": false,
     "is_rare": true,
@@ -1723,6 +1968,35 @@
       "มี DLC First Contact "
     ],
     "children": [],
+    "is_event": true,
+    "is_dlc": true
+  },
+  {
+    "key": "tech_thrusters_bio_integration",
+    "area": "engineering",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "ระบบขับดัน",
+    "cost": 4000,
+    "description": "Artificial thrusters can be integrated into spaceborne organisms with appropriate considerations for energy supply and connections to neural motor centers.",
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "name": "ตัวผลักดันชีวภาพ",
+    "prerequisites": [
+      "tech_controlled_mutations"
+    ],
+    "tier": 2,
+    "prerequisites_names": [
+      {
+        "name": "ควบคุมการกลายพันธุ์",
+        "key": "tech_controlled_mutations"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
     "is_event": true
   },
   {
@@ -1750,6 +2024,207 @@
       "มี DLC First Contact "
     ],
     "children": [],
+    "is_event": true,
+    "is_dlc": true
+  },
+  {
+    "key": "tech_unique_mutation_crystalline_entity",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "ชีววิทยา",
+    "cost": 8000,
+    "description": "Redundant thought centers allow for a Crystalline Entity to split itself in two as a final gambit to protect its clutch against a particularly dangerous foe.",
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "name": "แกนกลางฟิสไซล์",
+    "prerequisites": [
+      "tech_controlled_mutations_2"
+    ],
+    "tier": 3,
+    "prerequisites_names": [
+      {
+        "name": "ควบคุมการกลายพันธุ์ขั้นสูง",
+        "key": "tech_controlled_mutations_2"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_unique_mutation_cutholoid",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "ชีววิทยา",
+    "cost": 8000,
+    "description": "The powerful digestive system of a Cutholoid can be repurposed to fire kinetic projectiles at extremely high velocity.",
+    "feature_unlocks": [
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: กระเพาะหรืออวัยวะพ่นน้ำแรงดันสูง"
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "name": "กระเพาะหรืออวัยวะพ่นน้ำแรงดันสูง",
+    "prerequisites": [
+      "tech_controlled_mutations_2"
+    ],
+    "tier": 3,
+    "prerequisites_names": [
+      {
+        "name": "ควบคุมการกลายพันธุ์ขั้นสูง",
+        "key": "tech_controlled_mutations_2"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_unique_mutation_restorative_enzymes",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "ชีววิทยา",
+    "cost": 16000,
+    "description": "On death, the Tiyanki Matriarch produces an assortment of protective chemicals in a final attempt to preserve the lives of her remaining kin.",
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "name": "เอนไซม์ฟื้นฟู",
+    "prerequisites": [
+      "tech_controlled_mutations_2"
+    ],
+    "tier": 4,
+    "prerequisites_names": [
+      {
+        "name": "ควบคุมการกลายพันธุ์ขั้นสูง",
+        "key": "tech_controlled_mutations_2"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_unique_mutation_space_amoeba",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "ชีววิทยา",
+    "cost": 8000,
+    "description": "Modified Flagella spawn that siphon nutrients and materials from their prey in order to support the regeneration of their host Amoeba.",
+    "feature_unlocks": [
+      "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: อวัยวะสำหรับรักษาตนเองโดยดูดวัสดุสารจากเหยื่อ"
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "name": "อวัยวะสำหรับรักษาตนเองโดยดูดวัสดุสารจากเหยื่อ",
+    "prerequisites": [
+      "tech_controlled_mutations_2"
+    ],
+    "tier": 3,
+    "prerequisites_names": [
+      {
+        "name": "ควบคุมการกลายพันธุ์ขั้นสูง",
+        "key": "tech_controlled_mutations_2"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_unique_mutation_starborne_biology",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "ชีววิทยา",
+    "cost": 16000,
+    "description": "Lifeforms infused with the genetic material of Voidspawn no longer need to feed, they simply absorb energy from starlight.",
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "name": "วิทยาศาสตร์เกี่ยวกับชีวิตที่อาศัยอยู่ในอวกาศ",
+    "prerequisites": [
+      "tech_controlled_mutations_2"
+    ],
+    "tier": 4,
+    "prerequisites_names": [
+      {
+        "name": "ควบคุมการกลายพันธุ์ขั้นสูง",
+        "key": "tech_controlled_mutations_2"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_unique_mutation_tiyanki",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "ชีววิทยา",
+    "cost": 8000,
+    "description": "The somber song of the Tiyanki inspires its fellow creatures, hardening their resolve in combat.",
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "name": "เสียงประสานของฝูงสัตว์",
+    "prerequisites": [
+      "tech_controlled_mutations_2"
+    ],
+    "tier": 3,
+    "prerequisites_names": [
+      {
+        "name": "ควบคุมการกลายพันธุ์ขั้นสูง",
+        "key": "tech_controlled_mutations_2"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_unique_mutation_voidworm",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "ชีววิทยา",
+    "cost": 8000,
+    "description": "Cysts filled with reproductive fluid allow for each Voidworm in a fertile Troika to independently produce spawn when bombarding an inhabited planet.",
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "name": "ถุงน้ำก่อโรค-ติดเชื้อ",
+    "prerequisites": [
+      "tech_controlled_mutations_2"
+    ],
+    "tier": 3,
+    "prerequisites_names": [
+      {
+        "name": "ควบคุมการกลายพันธุ์ขั้นสูง",
+        "key": "tech_controlled_mutations_2"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
     "is_event": true
   },
   {
@@ -1775,7 +2250,35 @@
       "มี DLC First Contact "
     ],
     "children": [],
-    "is_event": true
+    "is_event": true,
+    "is_dlc": true
+  },
+  {
+    "key": "tech_voidworm_immunity",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "ชีววิทยา",
+    "cost": 8000,
+    "description": "We can develop a cure for Voidworm parasitic infection. All of our colonies would be rendered immune to their current strain of spore bombardment.",
+    "feature_unlocks": [
+      "อาณานิคมปลอดภัยจากการถูกโจมตี(ทิ้งระเบิด)ของ Voidworm ได้\u003cbr/\u003e\u0026nbsp;    •   \u0026nbsp;Damage to Voidworms: +$@vaccine_damage_vs_country_type_voidworms_mult|0%$",
+      "Damage to Voidworms +0.15"
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "name": "วิธีรักษาโรคติดเชื้อปรสิต Voidworm",
+    "prerequisites": [],
+    "tier": 3,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "มี DLC Grand Archive "
+    ],
+    "children": [],
+    "is_event": true,
+    "is_dlc": true
   },
   {
     "key": "tech_xeno_aesthetics",
@@ -1801,7 +2304,8 @@
       "มี DLC First Contact "
     ],
     "children": [],
-    "is_event": true
+    "is_event": true,
+    "is_dlc": true
   },
   {
     "key": "tech_xeno_linguistics",
@@ -1835,6 +2339,7 @@
     ],
     "children": [],
     "is_event": true,
-    "is_gestalt": false
+    "is_gestalt": false,
+    "is_dlc": true
   }
 ]

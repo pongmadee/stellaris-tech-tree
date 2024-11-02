@@ -205,7 +205,8 @@
                           ],
                           "children": [],
                           "is_event": false,
-                          "is_gestalt": false
+                          "is_gestalt": false,
+                          "is_dlc": true
                         }
                       ],
                       "is_event": false,
@@ -1738,9 +1739,14 @@
               "cost": 3000,
               "description": "Physical reminders of how far we have come both instill a reverence for past achievements and bolster ambitions for the future.",
               "feature_unlocks": [
+                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Advanced Sanctuary",
+                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Symbiosis Expanse",
                 "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: สถานที่เชื่อมโยงจัดการธุรกิจ",
+                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Primal Stadium",
+                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Hunting Expanse",
                 "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: สถานที่ที่เป็นมรดก",
                 "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: เสาหลักแห่งการดับสูญ",
+                "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Wildlife Expanse",
                 "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ศูนย์จำลองลอกเลียน"
               ],
               "is_dangerous": false,
@@ -1771,9 +1777,14 @@
                   "cost": 8000,
                   "description": "Not all research into faster-than-light communication channels produces useful results, but some outcomes may find new purpose in bringing our people together.",
                   "feature_unlocks": [
+                    "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Primal Colosseum",
                     "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: สภาอภิปราย",
                     "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: ศูนย์จำลองลอกเลียนซับซ้อน",
+                    "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Sanctuary Nexus",
+                    "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Symbiosis Nexus",
+                    "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Hunting Nexus",
                     "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: อนุสรณ์สถานกาแล็กติก",
+                    "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: Wildlife Nexus",
                     "\u003cb\u003eสิ่งปลูกสร้าง\u003c/b\u003e: สภาการประสานกำลังกัน"
                   ],
                   "is_dangerous": false,
@@ -5428,7 +5439,8 @@
                 "มี DLC Ancient Relics Story Pack"
               ],
               "children": [],
-              "is_event": false
+              "is_event": false,
+              "is_dlc": true
             },
             {
               "key": "tech_archaeo_mass_drivers",
@@ -5440,6 +5452,7 @@
               "description": "These cannons of gargantuan size deliver relatively slow but devastating projectiles, and can fire pretty much anything, from scrap metal, to asteroid chunks.",
               "feature_unlocks": [
                 "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ป้อมปืนใหญ่โบราณ ใหญ่",
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Ancient Macro Shard Batteries",
                 "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ป้อมปืนใหญ่โบราณ เล็ก",
                 "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ป้อมปืนใหญ่โบราณ กลาง"
               ],
@@ -5466,7 +5479,8 @@
                 "มี DLC Ancient Relics Story Pack"
               ],
               "children": [],
-              "is_event": false
+              "is_event": false,
+              "is_dlc": true
             },
             {
               "key": "tech_archaeo_lasers",
@@ -5479,6 +5493,7 @@
               "feature_unlocks": [
                 "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เลเซอร์กัดกร่อนเนื้อโลหะโบราณ ใหญ่",
                 "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เลเซอร์กัดกร่อนเนื้อโลหะโบราณ เล็ก",
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Ancient Collapser Beam",
                 "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เลเซอร์กัดกร่อนเนื้อโลหะโบราณ กลาง"
               ],
               "is_dangerous": false,
@@ -5504,7 +5519,8 @@
                 "มี DLC Ancient Relics Story Pack"
               ],
               "children": [],
-              "is_event": false
+              "is_event": false,
+              "is_dlc": true
             },
             {
               "key": "tech_archaeo_point_defence",
@@ -5515,7 +5531,8 @@
               "cost": 12000,
               "description": "When it comes to tracking and shooting down missiles, these antique batteries are the best of the best, making use of a predictive algorithm written in long forgotten code to weave a fiery defensive web.",
               "feature_unlocks": [
-                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ปืนป้องกันมิสไซล์โบราณ"
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ปืนป้องกันมิสไซล์โบราณ",
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Ancient Web Slinger"
               ],
               "is_dangerous": false,
               "is_rare": true,
@@ -5540,7 +5557,8 @@
                 "มี DLC Ancient Relics Story Pack"
               ],
               "children": [],
-              "is_event": false
+              "is_event": false,
+              "is_dlc": true
             },
             {
               "key": "tech_archaeo_missiles",
@@ -5551,7 +5569,8 @@
               "cost": 12000,
               "description": "Particle charges, once stabilized thanks to ancient technology, allow us to create swarms of tiny missiles that still carry a respectable payload, and should be able to overwhelm most point-defense systems.",
               "feature_unlocks": [
-                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เครื่องยิงมิสไซล์นาโนโบราณ"
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เครื่องยิงมิสไซล์นาโนโบราณ",
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Ancient Nano-Talon Cloud Launcher"
               ],
               "is_dangerous": false,
               "is_rare": true,
@@ -5576,7 +5595,8 @@
                 "มี DLC Ancient Relics Story Pack"
               ],
               "children": [],
-              "is_event": false
+              "is_event": false,
+              "is_dlc": true
             },
             {
               "key": "tech_archaeoarmor",
@@ -5589,7 +5609,8 @@
               "feature_unlocks": [
                 "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เกราะพัลส์โบราณ กลาง",
                 "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เกราะพัลส์โบราณ ใหญ่",
-                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เกราะพัลส์โบราณ เล็ก"
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: เกราะพัลส์โบราณ เล็ก",
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Ancient Energised Carapace"
               ],
               "is_dangerous": false,
               "is_rare": true,
@@ -5614,7 +5635,8 @@
                 "มี DLC Ancient Relics Story Pack"
               ],
               "children": [],
-              "is_event": false
+              "is_event": false,
+              "is_dlc": true
             },
             {
               "key": "tech_archaeo_rampart",
@@ -5650,7 +5672,8 @@
                 "มี DLC Ancient Relics Story Pack"
               ],
               "children": [],
-              "is_event": false
+              "is_event": false,
+              "is_dlc": true
             },
             {
               "key": "tech_archaeo_overcharger",
@@ -5686,7 +5709,8 @@
                 "มี DLC Ancient Relics Story Pack"
               ],
               "children": [],
-              "is_event": false
+              "is_event": false,
+              "is_dlc": true
             },
             {
               "key": "tech_archaeo_mass_accelerator",
@@ -5697,6 +5721,7 @@
               "cost": 12000,
               "description": "This cannon fires a barrage of ancient miniscule ionized spheres that charge upon contact with most force fields, giving them high levels of shield penetration. Any theory that these spheres could have been used for jewelry purposes were dismissed when a critical incident melted an entire laboratory.",
               "feature_unlocks": [
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Ancient Fragmentor Artillery",
                 "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: ปืนใหญ่เจาะโล่พลังงานโบราณ"
               ],
               "is_dangerous": false,
@@ -5722,7 +5747,8 @@
                 "มี DLC Ancient Relics Story Pack"
               ],
               "children": [],
-              "is_event": false
+              "is_event": false,
+              "is_dlc": true
             },
             {
               "key": "tech_archaeo_strike_crafts",
@@ -5733,7 +5759,8 @@
               "cost": 12000,
               "description": "These high velocity drones have been equipped with antique mining lasers that virtually ignore any plating protecting their target. A tech too good to be wasted on astro mining.",
               "feature_unlocks": [
-                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: โดรนขุดเจาะโบราณ"
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: โดรนขุดเจาะโบราณ",
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Ancient Driller Beasts"
               ],
               "is_dangerous": false,
               "is_rare": true,
@@ -5758,7 +5785,8 @@
                 "มี DLC Ancient Relics Story Pack"
               ],
               "children": [],
-              "is_event": false
+              "is_event": false,
+              "is_dlc": true
             },
             {
               "key": "tech_archaeoshield",
@@ -5771,7 +5799,8 @@
               "feature_unlocks": [
                 "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: สนามพลังหยุดความเสียหายชั่วคราวโบราณ เล็ก",
                 "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: สนามพลังหยุดความเสียหายชั่วคราวโบราณ ใหญ่",
-                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: สนามพลังหยุดความเสียหายชั่วคราวโบราณ กลาง"
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: สนามพลังหยุดความเสียหายชั่วคราวโบราณ กลาง",
+                "\u003cb\u003eชิ้นส่วน\u003c/b\u003e: Ancient Suspension Epidermis"
               ],
               "is_dangerous": false,
               "is_rare": true,
@@ -5796,7 +5825,8 @@
                 "มี DLC Ancient Relics Story Pack"
               ],
               "children": [],
-              "is_event": false
+              "is_event": false,
+              "is_dlc": true
             },
             {
               "key": "tech_archaeo_titan_beam",
@@ -5832,7 +5862,8 @@
                 "มี DLC Ancient Relics Story Pack"
               ],
               "children": [],
-              "is_event": false
+              "is_event": false,
+              "is_dlc": true
             },
             {
               "key": "tech_archaeo_detection_scrambler",
@@ -5868,10 +5899,12 @@
                 "มี DLC Ancient Relics Story Pack"
               ],
               "children": [],
-              "is_event": false
+              "is_event": false,
+              "is_dlc": true
             }
           ],
-          "is_event": false
+          "is_event": false,
+          "is_dlc": true
         },
         {
           "key": "tech_critter_feeder",
@@ -5960,7 +5993,8 @@
             "มีเทคโนโลยี: การคำนวณแบบสะสมที่สามารถปรับขนาดได้"
           ],
           "children": [],
-          "is_event": false
+          "is_event": false,
+          "is_dlc": true
         },
         {
           "key": "tech_lathe_life_support",
@@ -5991,7 +6025,8 @@
             "มีเทคโนโลยี: การคำนวณแบบสะสมที่สามารถปรับขนาดได้"
           ],
           "children": [],
-          "is_event": false
+          "is_event": false,
+          "is_dlc": true
         },
         {
           "key": "tech_plantoid_transgenesis",
@@ -6079,6 +6114,31 @@
           "potential": [],
           "children": [],
           "is_event": false
+        },
+        {
+          "key": "tech_galactic_archivism",
+          "area": "society",
+          "base_factor": 1.0,
+          "base_weight": 85.0,
+          "category": "การปกครอง",
+          "cost": 4000,
+          "description": "The history of our galaxy warrants proper preservation in order to learn from those who came before us. An archive on the grandest scale would fit such a purpose.",
+          "feature_unlocks": [],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "name": "จดหมายเหตุกาแล็กติก",
+          "prerequisites": [],
+          "tier": 2,
+          "prerequisites_names": [],
+          "weight_modifiers": [],
+          "potential": [
+            "มี DLC Grand Archive ",
+            "หนึ่งอย่างต้องเป็นจริง\n    •   จำนวนตัวอย่างที่ได้มา มากกว่า 0\n    •   is_galactic_curators_empire\u003dyes\n    •   เป็นจักรวรรดิ: ควบคุมสัตว์ร้าย"
+          ],
+          "children": [],
+          "is_event": false,
+          "is_dlc": true
         },
         {
           "key": "tech_xeno_tourism_agency",
@@ -6213,7 +6273,8 @@
             "มีเทคโนโลยี: การคำนวณแบบสะสมที่สามารถปรับขนาดได้"
           ],
           "children": [],
-          "is_event": false
+          "is_event": false,
+          "is_dlc": true
         },
         {
           "key": "tech_archeology_lab_ancrel",
@@ -6242,7 +6303,8 @@
             "มี DLC Ancient Relics Story Pack"
           ],
           "children": [],
-          "is_event": false
+          "is_event": false,
+          "is_dlc": true
         },
         {
           "key": "tech_arcane_deciphering",
@@ -6300,7 +6362,8 @@
             "มี DLC Ancient Relics Story Pack"
           ],
           "children": [],
-          "is_event": false
+          "is_event": false,
+          "is_dlc": true
         }
       ],
       "is_event": false
